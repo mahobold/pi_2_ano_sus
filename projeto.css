@@ -23,28 +23,4 @@ input{
 .postos2{
     font-size: 15px;
 }
-nav{
-    margin-top: 10px;
-}
-.logo{
-   margin-top: 10px;
-    margin-left: 150px;
-}
-.container-fluid{
-    background-color: #054f77;
-}
-
-.offcanvas-body{
-    background-color: white;
-    color: #054f77;
-}
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color:#054f77;
-    margin-left: 15px;
-    font-family: 'Anton', sans-serif;
-}
-.offcanvas-header {
-    color:white;
-}
 
