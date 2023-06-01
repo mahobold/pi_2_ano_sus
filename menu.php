@@ -1,6 +1,9 @@
 
-<div class="logo">
-  <img class="logo"src="logot.png" width="300px">
+<div class="logo1">
+  <img class="logo1"src="logot.png" width="300px">
+</div>
+<div class="logo2">
+  <img class="logo2"src="brasil.png" width="320px" >
 </div>
 <nav class="navbar navbar-dark ">
   <div class="container-fluid">

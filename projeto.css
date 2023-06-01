@@ -26,10 +26,15 @@ input{
 nav{
     margin-top: 10px;
 }
-.logo{
+.logo1{
    margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 60px;
 }
+.logo2{
+    margin-top: -50px;
+     margin-left: 550px;
+     
+ }
 .container-fluid{
     background-color: #054f77;
 }
