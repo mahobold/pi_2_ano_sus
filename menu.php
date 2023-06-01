@@ -1,9 +1,9 @@
 
 <div class="logo1">
-  <img class="logo1"src="logot.png" width="300px">
+  <img class="logo1"src="img/logot.png" width="300px">
 </div>
 <div class="logo2">
-  <img class="logo2"src="brasil.png" width="320px" >
+  <img class="logo2" src="img/brasill.png" width="300px" >
 </div>
 <nav class="navbar navbar-dark ">
   <div class="container-fluid">
