@@ -44,7 +44,7 @@
                         <label>Crie uma senha: </label>
                         <input type="text" name="senha"/><br/><br/>
                         </div>
-                        <input type="submit" class="btn btn-success" value="Entrar">
+                        <a class="btn btn-success" href="login.php" role="button">entrar</a>
                         <input type="reset" class="btn btn-danger" value="Limpar">
                         </div>
                     </form>
