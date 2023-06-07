@@ -31,12 +31,13 @@ nav{
     margin-left: 60px;
 }
 .logo2{
-    margin-top: -55px;
-     margin-left: 550px;
+    margin-top: -60px;
+     margin-left: 750px;
      
  }
 .container-fluid{
     background-color: #054f77;
+    height: 50px;
 }
 
 .offcanvas-body{
