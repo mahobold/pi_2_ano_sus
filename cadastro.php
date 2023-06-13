@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="cadas_login.css">
   <title>Tela de Cadastro</title>
 </head>
 <body>
