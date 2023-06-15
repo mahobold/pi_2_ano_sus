@@ -44,11 +44,12 @@
       </button>
     </div>
   </body>
-  <a class="navegar"></a>
-  <a class="navegar"></a>
-  <a class="navegar"></a>
-  <a class="navegar"></a>
-  <a class="navegar"></a>
+  <h1>ACESSE:</h1>
+  <a class="navegar" href="">Unidades próximas</a>
+  <a class="navegar" href="">Médicos</a>
+  <a class="navegar" href="">Farmácia</a>
+  <a class="navegar" href="">Info doenças</a>
+  <a class="navegar" href="">Minha conta</a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
 </html>
