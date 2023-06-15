@@ -15,6 +15,7 @@
     include("menu.php");
     ?>
 
+<!--
 <div class="medi-container">
     <h2>Cadastro</h2>
     <form action="cadastro_medicamento.php" method="post">
@@ -27,7 +28,9 @@
     </form>
     <p><a href="farmacia.php">Faça login</a></p>
   </div>
+-->
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 </html>

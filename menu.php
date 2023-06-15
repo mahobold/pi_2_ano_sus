@@ -1,11 +1,10 @@
 
 <div class="logo1">
-  <img class="logo1"src="img/logot.png" width="350px">
+  <img src="img/logot.png" >  <!-- Atenção no estilo imagens -->
+  <img src="img/brasill.png">
 </div>
 
-<div class="logo2">
-  <img class="logo2" src="img/brasill.png" width="350px" >
-</div>
+
 
 <nav class="navbar navbar-dark ">
   <div class="container-fluid">    
