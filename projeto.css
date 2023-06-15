@@ -128,4 +128,14 @@ nav{
     margin-bottom: 30px;
     margin-top: 10px;
   }
+  .bi-person-check{
+    color: aliceblue;
+  }
+  .bi-person{
+    color: aliceblue;
+  }
+  svg{
+    width: 30px;
+    height: 30px;
+  }
  
