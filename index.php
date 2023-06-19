@@ -15,7 +15,7 @@
 
 <body>
   <?php
-  include("menu.php");
+  //include("menu.php");
   ?>
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
