@@ -75,7 +75,7 @@
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\luiz_passos.jpg" class="card-img-top">
+            <img src="imagens\luiz_passos3.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Luiz Passos</h5>
             </div>
@@ -113,7 +113,7 @@
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\Alex_Gonçalves.jpg" class="card-img-top">
+            <img src="imagens\Alex_Gonçalves3.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Alex Gonçalves</h5>
             </div>
@@ -206,7 +206,7 @@
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\elisa2_pereira.jpg" class="card-img-top">
+            <img src="imagens\elisa2_pereira3.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Elisa Pereira</h5>
             </div>
