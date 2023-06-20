@@ -26,12 +26,18 @@ input{
 nav{
     margin-top: 10px;
 }
-.logo{
+.logo1{
    margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 60px;
 }
+.logo2{
+    margin-top: -60px;
+     margin-left: 750px;
+     
+ }
 .container-fluid{
     background-color: #054f77;
+    height: 50px;
 }
 
 .offcanvas-body{
@@ -48,3 +54,6 @@ nav{
     color:white;
 }
 
+#logot{
+    width:250px;
+}
