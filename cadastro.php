@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="starnunes.css">
+    <link rel="stylesheet" href="cadas_login.css">
   <title>Tela de Cadastro</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
       <input type="password" name="senha" placeholder="Senha" required>
       <input type="submit" value="Cadastrar">
     </form>
-    <p>É funcionario? <a href="login.php">Faça login</a></p>
+    <p><a href="login.php">Faça login</a></p>
   </div>
 </body>
 </html>
