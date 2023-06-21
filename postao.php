@@ -71,13 +71,13 @@
     <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="https://medicinasa.com.br/wp-content/uploads/2021/08/Vinicius-Destefani_Sanar.jpg" class="card-img-top" alt="...">
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2022/01/03162044/medico-bolsonaro-Dr-Anto%CC%82nio-Luiz-de-Vasconcellos-Macedo..3.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Medico plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-            </svg> Dr. Alex Gonçalves.
+            </svg> Dr. Macedo.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -268,7 +268,7 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="https://i.pinimg.com/originals/27/a6/df/27a6df0e3291c615bdb4763e0188347e.jpg" class="card-img-top" alt="...">
+        <img src="https://img.imageboss.me/revista-cdn/cdn/45336/b69692cc5a859c3ce4d18dd6d1532017761a1049.jpg?1686935689" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">ortopedista plantão do dia.</h5>
           <p class="card-text">
@@ -445,7 +445,7 @@
      
       <!-- ################################ Card Posto Jacutinga ##################################################  -->    
       <div class="card" style="width: 18rem;">
-        <img src="https://png.pngtree.com/png-clipart/20190117/ourlarge/pngtree-white-hospital-big-green-tree-cartoon-illustration-hand-drawn-medical-illustration-png-image_412745.jpg" class="card-img-top" alt="...">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFpxmej_GAU4adS27QDio_yWVeCTZivWzc3ygrKchJbO4FaAyBAR1PC4IbkX9u6hZBv6U&usqp=CAU" alt="...">
         <div class="card-body">
           <h5 class="card-title">Posto Centro de saúde.</h5>
           <p class="card-text">
