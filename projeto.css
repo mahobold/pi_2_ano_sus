@@ -1,28 +1,29 @@
-.azulmarinho{
-    color: #054f77;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+azulmarinho{
+  color: #054f77;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 input{
-    width: 100%;
+  width: 100%;
 }
 #carouselExampleSlidesOnly{
-    width: 300px;
-    margin-left: 600px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    
+  width: 300px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
 }
 .postos{
-    text-align: center;
-    margin-bottom: 30px;
-    
+  text-align: center;
+  margin-bottom: 30px;
+  
 }
 .postos2{
-    font-size: 15px;
+  font-size: 15px;
 }
+<<<<<<< HEAD
 
 /* Ana coloquei um espaçamento entre os meus card Ass. Luiz da Massa FM */
 
@@ -31,3 +32,51 @@ input{
 }
 
 /* Fim dos códigos Luiz FM */
+=======
+nav{
+  margin-top: 10px;
+}
+.logo1{
+ margin-top: 10px;
+  margin-left: 60px;
+}
+.logo2{
+  margin-top: -60px;
+   margin-left: 750px;
+   
+}
+.container-fluid{
+  background-color: #054f77;
+  height: 50px;
+}
+
+.offcanvas-body{
+  background-color: white;
+  color: #054f77;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color:#054f77;
+  margin-left: 15px;
+  font-family: 'Anton', sans-serif;
+}
+.offcanvas-header {
+  color:white;
+}
+
+#logot{
+  width:250px;
+}
+.bi-person-check{
+  color: aliceblue;
+}
+.bi-person{
+  color: aliceblue;
+}
+svg{
+  width: 30px;
+  height: 30px;
+}
+
+
+>>>>>>> main
