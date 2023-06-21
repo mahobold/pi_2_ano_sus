@@ -55,7 +55,7 @@
   <br>
   <a class="navegar" href="">Minha conta</a>
 
-
+<!---- ###################################################################################################################################################################### -->
   <div class="faixaazul"></div> <!---- Colocar altura e cor azul -->
   <i id="insta" class="bi bi-instagram"></i> <!---- Colocar cor (color) bi-instagram (alinhe o icone com ela tbm) -->
     <h3 class="insta">@sus.brasil</h3> <!---- Colocar font-size e cor com essa class (alinhe o texto com ela tb) -->
