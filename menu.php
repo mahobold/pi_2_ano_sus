@@ -55,11 +55,15 @@
             <a class="nav-link active" aria-current="page" href="#">Info doenças</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?php               if (isset ($_SESSION)){
-                echo $logado;
+            <a class="nav-link active" aria-current="page" 
+            href='<?php               
+               if (isset ($_SESSION)){
+                  echo $logado;
               } else {
-                echo $nlogado;
-              } ?>">Minha conta</a>
+                  echo $nlogado;
+              } 
+              ?>'>Minha conta
+            </a>
           </li>
           <li class="nav-item">
             <?php  
