@@ -67,8 +67,63 @@ svg{
   width: 30px;
   height: 30px;
 }
+.index-container h1{
+ background-color: #054f77;
+ color: white;
+ text-align: center;
+ 
+}
+
 
 .med-container h1 {
  color: #054f77;
  text-align: center;
+}
+
+
+.faixaazul{
+  background-color: #054f77;
+  height: 20px;
+}
+.bi-instagram{
+  color: #054f77;
+  margin-top: -70px;
+  margin-left: 850px;
+}
+.insta{
+  color: #054f77;
+  margin-top: 50px;
+  margin-left: 900px;
+  font-size: 25px;
+}
+.space{
+  margin-bottom: 5px;
+}
+.bi-facebook{
+  color: #054f77;
+  margin-top: -70px;
+  margin-left: 850px;
+}
+.face{
+  color: #054f77;
+  margin-top: 50px;
+  margin-left: 900px;
+  font-size: 25px;
+}
+.bi-telephone-fill{
+  color: #054f77;
+  margin-top: -70px;
+  margin-left: 850px;
+}
+.teste3{
+  color: #054f77;
+  margin-top: 50px;
+  margin-left: 900px;
+  font-size: 25px;
+}
+
+.navegar{
+  font-size: 20px;
+  color: #054f77;
+  margin-left: 900px;
 }
