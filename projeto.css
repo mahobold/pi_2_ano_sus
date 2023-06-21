@@ -68,4 +68,7 @@ svg{
   height: 30px;
 }
 
-
+.med-container h1 {
+ color: #054f77;
+ text-align: center;
+}

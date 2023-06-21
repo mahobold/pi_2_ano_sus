@@ -7,10 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página profissões</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="projeto.css">
+  
+  
   <?php
   include("fonte.php");
   ?>
-  <link rel="stylesheet" href="projeto.css">
+  
 </head>
 
 <body>
@@ -26,6 +29,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
   <div class="container">
+  <div class="med-container">
+
     <h1>Plantão do dia</h1>
     <div class="row slider">
       <div class="col-md-12">
