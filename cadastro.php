@@ -1,3 +1,7 @@
+<?php
+  
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -15,26 +19,46 @@
       <input type="text" name="endereco" placeholder="Endereço" required>
       <input type="text" name="email" placeholder="Email" required>
       <input type="password" name="senha" placeholder="Senha" required>
-      <input type="submit" value="Cadastrar">
+      <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+  
   <script>
+    function validateFields() {
+      var inputs = document.querySelectorAll('input[type="text"], input[type="password"]');
+      var controle = false;
+
+      for (var i = 0; i < inputs.length; i++) {
+        if (inputs[i].value.trim() !== '') {
+          controle = true;
+          break;
+        }
+      }
+
+      if (controle) {
+        showAlert();
+        return false; // Impede o envio do formulário
+      } else {
+        controle = false;
+        inputs = false;
+        return true; // Permite o envio do formulário
+      }
+    }
+
     function showAlert() {
       Swal.fire({
         text: 'Sucesso ao cadastrar.',
         icon: 'success',
         title: 'Sucesso',
-      }).then((result) => { /*o método then() após exibir o alerta para capturar o resultado do usuário.  */
-        if (result.isConfirmed) { /* Se o usuário confirmar o alerta, ou seja, clicar no botão "OK", o código window.location.href = "login.php"; será executado, redirecionando para a página login.php. */
+      }).then((result) => {
+        if (result.isConfirmed) {
           window.location.href = "login.php";
         }
       });
     }
-    showAlert(); /*  a função showAlert() é chamada automaticamente quando a página é carregada. */
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
 </body>
-
 </html>
