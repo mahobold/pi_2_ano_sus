@@ -19,14 +19,14 @@
       <input type="text" name="endereco" placeholder="Endereço" required>
       <input type="text" name="email" placeholder="Email" required>
       <input type="password" name="senha" placeholder="Senha" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="submit" value="Cadastrar" onclick="return validador()">
 
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
   
   <script>
-    function validateFields() {
+    function validador() {
       var inputs = document.querySelectorAll('input[type="text"], input[type="password"]');
       var controle = false;
 

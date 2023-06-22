@@ -1,14 +1,3 @@
-
-<div class="logo1">
-  
- 
-</div>
-
-
-
-
-
-
 <nav class="py-2 bg-body-tertiary border-bottom">
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto">
