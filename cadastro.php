@@ -13,25 +13,45 @@
       <input type="text" name="endereco" placeholder="Endereço" required>
       <input type="email" name="email" placeholder="Email" required>
       <input type="password" name="senha" placeholder="Senha" required>
-      <input type="submit" value="Cadastrar">
+      <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
-        <script>
-            function alert(){
-                    Swal.fire(
-                        {
-                            text: 'Sucesso ao cadastrar.',
-                            icon: 'success',
-                            title: 'Sucesso',
-                           
-                        }
-)
-                    }
-                    alert("Você será redirecionado");
-                           
+  
+  <script>
+    function validateFields() {
+      var inputs = document.querySelectorAll('input[type="text"], input[type="password"]');
+      var controle = false;
 
-        </script>
+      for (var i = 0; i < inputs.length; i++) {
+        if (inputs[i].value.trim() !== '') {
+          controle = true;
+          break;
+        }
+      }
+
+      if (controle) {
+        showAlert();
+        return false; // Impede o envio do formulário
+      } else {
+        controle = false;
+        inputs = false;
+        return true; // Permite o envio do formulário
+      }
+    }
+
+    function showAlert() {
+      Swal.fire({
+        text: 'Sucesso ao cadastrar.',
+        icon: 'success',
+        title: 'Sucesso',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "login.php";
+        }
+      });
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>
