@@ -20,7 +20,10 @@
       <input type="text" name="email" placeholder="Email" required>
       <input type="password" name="senha" placeholder="Senha" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
+<<<<<<< HEAD
 
+=======
+>>>>>>> Le_Fernanda
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
