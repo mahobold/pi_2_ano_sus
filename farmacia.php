@@ -27,7 +27,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
+
+
+
   <div class="container">
+    <h1 class="far">Medicamentos</h1>
     <div class="row slider">
       <div class="col-md-12">
         <div class="details">
@@ -99,6 +103,7 @@
   </div>
 
   <div class="container">
+   
     <div class="row slider">
       <div class="col-md-12">
         <div class="details">
@@ -106,9 +111,10 @@
             <img src="img_farmacia/maleato.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Maleato 5mg</h5>
-            </div>
+           
           </div>
           <h6 class="d">Disponível</h6>
+        </div>
         </div>
       </div>
       <div class="col-md-12">

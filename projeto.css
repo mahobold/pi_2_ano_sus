@@ -68,22 +68,18 @@ svg{
   height: 30px;
 }
 .index-container h1{
- background-color: #054f77;
- color: white;
- text-align: center;
- 
-}
-
-
-.med-container h1 {
  color: #054f77;
  text-align: center;
+ margin-top: 30px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
 }
 
 
 .faixaazul{
   background-color: #054f77;
   height: 20px;
+  margin-top: 30px;
 }
 .bi-instagram{
   color: #054f77;
@@ -95,10 +91,9 @@ svg{
   margin-top: 50px;
   margin-left: 900px;
   font-size: 25px;
+  font-family: 'Times New Roman', Times, serif ;
 }
-.space{
-  margin-bottom: 5px;
-}
+
 .bi-facebook{
   color: #054f77;
   margin-top: -70px;
@@ -109,6 +104,7 @@ svg{
   margin-top: 50px;
   margin-left: 900px;
   font-size: 25px;
+  font-family: 'Times New Roman', Times, serif ;
 }
 .bi-telephone-fill{
   color: #054f77;
@@ -120,10 +116,52 @@ svg{
   margin-top: 50px;
   margin-left: 900px;
   font-size: 25px;
+  font-family: 'Times New Roman', Times, serif ;
 }
 
 .navegar{
+  font-size:25px;
+  color: #054f77;
+  margin-left: 870px;
+  font-family: fantasy;
+}
+.navegar:hover{
+  color: #377ea5;
+}
+
+.med-container h1 {
+  color: #054f77;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+ }
+
+ .med-container:hover{
+  color: #377ea5;
+ }
+ .imgg{
+  height: 190px;
+ }
+ .med:hover{
+  color: #54a1cb;
+ }
+ .med{
   font-size: 20px;
   color: #054f77;
-  margin-left: 900px;
+ }
+
+
+ .i{
+  color: red;
+ }
+ .d{
+  color: rgb(29, 182, 29);
+}
+.far{
+  margin-left: 450px;
+  color: #054f77;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
