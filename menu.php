@@ -1,31 +1,27 @@
 <nav class="py-2 bg-body-tertiary border-bottom">
-    <div class="container d-flex flex-wrap">
-      <ul class="nav me-auto">
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About</a></li>
-      </ul>
-      <ul class="nav">
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Login</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Sign up</a></li>
-      </ul>
-    </div>
-  </nav>
-  <header class="py-3 mb-4 border-bottom">
-    <div class="container d-flex flex-wrap justify-content-center">
-      <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4">Double header</span>
-        <img src="img/logot.png" >
-      </a>
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-        <img src="img/brasill.png">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-      </form>
-    </div>
-  </header>
+  <div class="container d-flex flex-wrap">
+    <ul class="nav me-auto">
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About</a></li>
+    </ul>
+    <ul class="nav">
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Login</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Sign up</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="imagens">
+    <img src="img/logot.png">
+    <img src="img/brasill.png">
+  </div>
+</div>
+
+
+
 
 
 
@@ -33,7 +29,7 @@
 
 <nav class="navbar navbar-dark ">
   <div class="container-fluid">    
-      <?php  
+      <?php
       /*
         $logado = '<a href="#"><i class="bi bi-person-check"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
         <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
@@ -82,8 +78,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" 
-            href='<?php 
-            /*              
+            href='<?php
+                  /*              
                if (isset ($_SESSION)){
                   echo $logado;
               } else {
@@ -91,11 +87,11 @@
               } 
 
               */
-              ?>'>Minha conta
+                  ?>'>Minha conta
             </a>
           </li>
           <li class="nav-item">
-            <?php  
+            <?php
             /*
               $logado = '<a href="#"><i class="bi bi-person-check"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
               <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
