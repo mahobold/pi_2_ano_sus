@@ -1,36 +1,39 @@
 /* Começa Estilo Menu */
-.logo1{
-    margin-top: 10px;
-    margin-left: 60px;
-    height: 35%;
-    display:flex; /* Dúvida */
- }
-
- .logo1 img{
-   width: 50%;
-   margin-right: 20px;
- }
-
- .logo2 img{
-    width: 50%;
- }
-
-.logo2{
-    margin-top: -60px;
-     margin-left: 750px;
-     height: 35%;   
+.container1 {
+  display: flex;
+  justify-content: space-between;
 }
+
+.image-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  max-height: 100%;
+  max-width: 100%;
+  height: 150px; /* Altura padrão para resoluções maiores */
+  margin-top: 20px;
+}
+
+/* Media query para ajustar a altura das imagens em resoluções menores ou iguais a 768px */
+@media screen and (max-width: 768px) {
+  .image-wrapper img {
+    height: auto; /* Altura automática para resoluções menores ou iguais a 768px */
+    margin-top: 10px; /* Espaçamento menor para resoluções menores ou iguais a 768px */
+    margin-left: 30px;
+  }
+}
+
+
  
  /* Fim Estilo Menu */
 
 
 
-azulmarinho{
-  color: #054f77;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
+
 
 input{
   width: 100%;
