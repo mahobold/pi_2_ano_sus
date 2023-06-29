@@ -26,14 +26,16 @@
     margin-left: 30px;
   }
 }
-
-
- 
  /* Fim Estilo Menu */
 
 
 
-
+azulmarinho{
+  color: #054f77;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 
 input{
   width: 100%;
@@ -53,7 +55,7 @@ input{
 .postos2{
   font-size: 15px;
 }
-<<<<<<< HEAD
+
 
 /* Ana coloquei um espaçamento entre os meus card Ass. Luiz da Massa FM */
 
@@ -62,7 +64,7 @@ input{
 }
 
 /* Fim dos códigos Luiz FM */
-=======
+
 nav{
   margin-top: 10px;
 }
@@ -114,7 +116,7 @@ svg{
 }
 
 
-<<<<<<< HEAD
+
 .faixaazul{
   background-color: #054f77;
   height: 20px;
@@ -204,3 +206,7 @@ svg{
   margin-bottom: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+
+ 
