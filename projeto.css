@@ -1,3 +1,30 @@
+/* Começa Estilo Menu */
+.logo1{
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 35%;
+    display:flex; /* Dúvida */
+ }
+
+ .logo1 img{
+   width: 50%;
+   margin-right: 20px;
+ }
+
+ .logo2 img{
+    width: 50%;
+ }
+
+.logo2{
+    margin-top: -60px;
+     margin-left: 750px;
+     height: 35%;   
+}
+ 
+ /* Fim Estilo Menu */
+
+
+
 azulmarinho{
   color: #054f77;
   text-align: center;
@@ -23,18 +50,26 @@ input{
 .postos2{
   font-size: 15px;
 }
+<<<<<<< HEAD
+
+/* Ana coloquei um espaçamento entre os meus card Ass. Luiz da Massa FM */
+
+.card{
+    margin: 20px;
+}
+
+/* Fim dos códigos Luiz FM */
+=======
 nav{
   margin-top: 10px;
 }
-.logo1{
- margin-top: 10px;
-  margin-left: 60px;
-}
-.logo2{
-  margin-top: -60px;
-   margin-left: 750px;
-   
-}
+
+
+
+
+
+
+
 .container-fluid{
   background-color: #054f77;
   height: 50px;
@@ -76,6 +111,7 @@ svg{
 }
 
 
+<<<<<<< HEAD
 .faixaazul{
   background-color: #054f77;
   height: 20px;
@@ -165,3 +201,6 @@ svg{
   margin-bottom: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+=======
+>>>>>>> main
+>>>>>>> main
