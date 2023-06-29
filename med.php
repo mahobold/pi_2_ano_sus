@@ -1,3 +1,10 @@
+<?php
+    if(!isset($_SESSION)) {
+    session_start();
+}  
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página profissões</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<<<<<<< HEAD
   <link rel="stylesheet" href="projeto.css">
   
   
@@ -14,19 +22,18 @@
   include("fonte.php");
   ?>
   
+=======
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> <!-- Atenção -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">  
+  <link rel="stylesheet" href="projeto.css">
+>>>>>>> main
 </head>
 
 <body>
-  <?php
-  include("menu.php");
-  ?>
-
-  <br>
-  <br>
-  <br>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<?php
+include("menu.php");
+?>
 
   <div class="container">
   <div class="med-container">
