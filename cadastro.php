@@ -50,15 +50,8 @@ die ($mysqli->error);
       <input type="text" name="endereco" placeholder="Endereço" required>
       <input type="text" name="email" placeholder="Email" required>
       <input type="password" name="senha" placeholder="Senha" required>
-<<<<<<< HEAD
-      <input type="submit" value="Cadastrar" >
-      <!--
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
--->
-=======
       <input type="submit" value="Cadastrar" onclick="return validador()">
 
->>>>>>> main
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
