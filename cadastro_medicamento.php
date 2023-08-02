@@ -9,7 +9,7 @@
         $disponibilidade = $_POST['disponibilidade'];
         /*-------------------------------*/
 
-        $mysqli -> query("INSERT INTO pi_sus (nome, miligramagem, imagem, disponibilidade) values ('$nome', '$miligramagem', '$imagem', '$disponibilidade')") or
+        $mysqli -> query("INSERT INTO medicamentos (nome, miligramagem, imagem, disponibilidade) values ('$nome', '$miligramagem', '$imagem', '$disponibilidade')") or
     die ($mysqli->error);
     }
 ?>
@@ -24,12 +24,13 @@
             <link rel="stylesheet" href="projeto.css">
             <title>Cadastro Medicamento</title>
         </head>
+
+
+
+<body>
+
+            <form action="cadastro_medicamento.php" method="post">
         <body>
-
-            <?php
-                include ("menu.php");
-            ?>
-
             <form action="cadastro.php" method="post">
                 <label>Nome do medicamento: </label>
                 <input type="text" name="nome"/><br/><br/>
@@ -47,5 +48,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>
 
+<!--
+<div class="medi-container">
+    <h2>Cadastro</h2>
+    <form action="cadastro_medicamento.php" method="post">
+      <input type="text" name="nome" placeholder="Nome Completo" required>
+      <input type="text" name="telefone" placeholder="Telefone" required>
+      <input type="text" name="endereco" placeholder="Endereço" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <input type="submit" value="Cadastrar">
+    </form>
+    <p><a href="farmacia.php">Faça login</a></p>
+  </div>
+-->
+</body>
 
-        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</html>
