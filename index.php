@@ -43,14 +43,18 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+   
+  <h1 id="acesse">Acesse:</h1>
 
-  <h1>Acesse:</h1>
+  <div class="info">
   <a href="info_doenças.php">Info doenças</a>
   <br>
   <a href="farmacia.php">Farmácia</a>
   <br>
   <a href="postao.php">Unidades Próximas</a>
   <br>
+  </div>
+
   <div class="faixaazul"></div>
   <h3 class="insta">@sus_brasil</h3>
   <i class="bi bi-instagram"></i>

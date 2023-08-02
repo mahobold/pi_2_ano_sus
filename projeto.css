@@ -50,6 +50,8 @@ input{
 .postos{
   text-align: center;
   margin-bottom: 30px;
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 .postos2{
@@ -115,7 +117,7 @@ svg{
 .bi-instagram{
   color: #054f77;
   margin-top: -70px;
-  margin-left: 850px;
+  margin-left: 430px;
 }
 .insta{
   color: #054f77;
@@ -128,7 +130,7 @@ svg{
 .bi-envelope{
   color: #054f77;
   margin-top: -70px;
-  margin-left: 850px;
+  margin-left: 430px;
 }
 .email{
   color: #054f77;
@@ -140,7 +142,7 @@ svg{
 .bi-telephone{
   color: #054f77;
   margin-top: -70px;
-  margin-left: 850px;
+  margin-left: 430px;
 }
 .telefone{
   color: #054f77;
@@ -196,7 +198,16 @@ svg{
   margin-bottom: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+#acesse{
+  text-align: center;
+  color: #054f77;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info{
+  text-align: center;
+  font-size: 20px;
+  
+}
 
 
  

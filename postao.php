@@ -15,7 +15,7 @@
   include("menu.php");
   ?>
 
-  <div class="postod">
+  <div class="postos">
     <h1>Postos de saúde</h1>
   </div>
   <div class="container">
