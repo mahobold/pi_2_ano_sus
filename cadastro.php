@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+<?php
+  include ("conexao.php");
+
+  if(isset($_POST['nome'])){
+
+    //var_dump($_POST['nome']);
+
+    /*-------------------------------*/
+    $nome = $_POST['nome'];
+    $telefone = $_POST['telefone'];
+    $endereco = $_POST['endereco'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    /*-------------------------------*/
+
+    $mysqli -> query("INSERT INTO cadastro_pessoas (nome, telefone, endereco, email , senha) values ('$nome', '$telefone', '$endereco', '$email' , '$senha')") or
+die ($mysqli->error);
+
+  }
+?>
+=======
+>>>>>>> main
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -56,6 +79,7 @@
     }
 
     function showAlert() {
+      /* Professor arrumar
       Swal.fire({
         text: 'Sucesso ao cadastrar.',
         icon: 'success',
@@ -65,6 +89,7 @@
           window.location.href = "login.php";
         }
       });
+      */
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>

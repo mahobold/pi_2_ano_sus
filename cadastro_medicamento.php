@@ -9,7 +9,7 @@
         $disponibilidade = $_POST['disponibilidade'];
         /*-------------------------------*/
 
-        $mysqli -> query("INSERT INTO pi_sus (nome, miligramagem, imagem, disponibilidade) values ('$nome', '$miligramagem', '$imagem', '$disponibilidade')") or
+        $mysqli -> query("INSERT INTO medicamentos (nome, miligramagem, imagem, disponibilidade) values ('$nome', '$miligramagem', '$imagem', '$disponibilidade')") or
     die ($mysqli->error);
     }
 ?>
@@ -24,6 +24,12 @@
             <link rel="stylesheet" href="projeto.css">
             <title>Cadastro Medicamento</title>
         </head>
+
+
+
+<body>
+
+            <form action="cadastro_medicamento.php" method="post">
         <body>
             <form action="cadastro.php" method="post">
                 <label>Nome do medicamento: </label>
