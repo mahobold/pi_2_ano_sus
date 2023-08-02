@@ -60,7 +60,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="hiv2.avif" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/h" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Usar preservativos nas relações sexuais.</b></p>
@@ -69,7 +69,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="hiv3.jpg" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/hiv3.jpg" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> <b> Ter cuidado no uso de materiais cortantes</b></p>
