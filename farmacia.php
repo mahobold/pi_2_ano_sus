@@ -11,9 +11,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
   <link rel="stylesheet" href="projeto.css">
  
- <?php
-  include("fonte.php");
-  ?>
   
   <title>Farmácia</title>
 </head>
@@ -24,9 +21,6 @@
   <?php
   include("menu.php");
   ?>
-
-
-  
 
 
 

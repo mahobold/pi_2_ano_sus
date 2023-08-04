@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
+<head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +11,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
-
-<head>
-
-  <title>Document</title>
-</head>
-
+  <title>Info Doenças</title>
+  </head>
 <body>
 
-
+ 
   <div class="container text-center">
 
     <div class="row row-cols-2">
@@ -470,7 +467,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="cancer1.avif" width="200" height="180"class="card-img-top" alt="...">
+        <img src="NOVA IMAGEM" width="200" height="180"class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text"><b>Não fume</b></p>
@@ -479,7 +476,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="diabetes1.jpg" width="200" height="180"class="card-img-top" alt="...">
+        <img src="img/diabetes1.jpg" width="200" height="180"class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text"> <b> Manter o peso normal</b></p>
@@ -488,7 +485,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="diabetes2.avif" width="200" height="180" class="card-img-top" alt="...">
+        <img src="NOVA IMAGEM" width="200" height="180" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text"><b>Controlar a pressão arterial</b></p>
@@ -497,7 +494,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="diabetes3.jpg" width="200" height="180" class="card-img-top" alt="...">
+        <img src="img/diabetes3.jpg" width="200" height="180" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text"><b>evitar medicamentos que potencialmente possam agredir o pâncreas</b></p>
@@ -506,7 +503,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="diabetes4.avif"  width="200" height="180"class="card-img-top" alt="...">
+        <img src="NOVA IMAGEM"  width="200" height="180"class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text"><b>Tenha boas noites de sono</b></p>
@@ -546,7 +543,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="hipertensao1.jpg" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/hipertensao1.jpg" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Não abusar do sal (utilize outros temperos que ressaltam o sabor dos alimentos);</b></p>
@@ -555,7 +552,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="hipertensao5.avif" width="200" height="180"class="card-img-top" alt="...">
+      <img src="NOVA IMAGEM" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> <b> Mantenha exames em dia.</b></p>
@@ -564,7 +561,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="hipertensao2.jpg" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/hipertensao2.jpg" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Evitar alimentos gordurosos;</b></p>
@@ -573,7 +570,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="hipertensao3.avif" width="200" height="180" class="card-img-top" alt="...">
+      <img src="NOVA IMAGEM" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Praticar atividade física regularmente;</b></p>
@@ -582,7 +579,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="hipertensao4.jfif"  width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/hipertensao4.jfif"  width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Elimine o estresse.</b></p>
@@ -619,7 +616,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="asma1.avif" width="200" height="180"class="card-img-top" alt="...">
+      <img src="NOVA IMAGEM" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Mantenha o ambiente limpo.</b></p>
@@ -628,7 +625,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="asma2.webp" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/asma2.webp" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> <b> Evite acúmulo de sujeira ou poeira.</b></p>
@@ -637,7 +634,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="asma3.jpg" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/asma3.jpg" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Evite cheiros fortes.</b></p>
@@ -646,7 +643,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="asma4.webp" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/asma4.webp" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Tome a vacina da gripe.</b></p>
@@ -655,7 +652,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="asma5.avif"  width="200" height="180"class="card-img-top" alt="...">
+      <img src="NOVA IMAGEM"  width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Se agasalhe, principalmente na época de frio.</b></p>
@@ -693,7 +690,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="alzheimer1.png" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/alzheimer1.png" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Manter a mente ativa</b></p>
@@ -702,7 +699,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="alzheimer2.avif" width="200" height="180"class="card-img-top" alt="...">
+      <img src="NOVA IMAGEM" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> <b>Boa vida social</b></p>
@@ -711,7 +708,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="alzheimer3.jpg" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/alzheimer3.jpg" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Bons hábitos alimentares e atividade física regular</b></p>
@@ -720,7 +717,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="alzheimer4.jpeg" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/alzheimer4.jpeg" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b> Controle colesterol e diabetes</b></p>
@@ -729,7 +726,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="alzheimer5.avif"  width="200" height="180"class="card-img-top" alt="...">
+      <img src="NOVA IMAGEM"  width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Durma bem e em quantidade suficiente</b></p>
@@ -766,7 +763,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="avc1.png" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/avc1.png" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b> Não fazer uso de drogas ilícitas</b></p>
@@ -775,7 +772,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="avc2.jpg" width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/avc2.jpg" width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> <b>Não consumir álcool</b></p>
@@ -784,7 +781,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="avc3.png" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/avc3.png" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Não fumar</b></p>
@@ -793,7 +790,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="avc4.png" width="200" height="180" class="card-img-top" alt="...">
+      <img src="img/avc4.png" width="200" height="180" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b> Manter alimentação saudável</b></p>
@@ -802,7 +799,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="avc5.jpg"  width="200" height="180"class="card-img-top" alt="...">
+      <img src="img/avc5.jpg"  width="200" height="180"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Manter a pressão sob controle</b></p>

@@ -34,67 +34,67 @@ include("menu.php");
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico1.jpg" class="card-img-top">
+            <img src="img/medico1.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Thayane Jukosky</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Currículo de administração azul masculino.pdf">Ver formação</a>
+          <a class="med" href="pdf\Currículo de administração azul masculino.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico2.jpg" class="card-img-top">
+            <img src="img\medico2.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Victor Araújo</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculo2.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculo2.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico3.jpg" class="card-img-top">
+            <img src="img\medico3.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Isadora Bertotti</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculo3.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculo3.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico4.jpg" class="card-img-top">
+            <img src="img\medico4.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Esveraldo Camargo</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculo4.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculo4.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\luiz_passos3.jpg" class="card-img-top">
+            <img src="img\luiz_passos3.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Luiz Passos</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Luiz_passos.pdf">Ver formação</a>
+          <a class="med" href="pdf\Luiz_passos.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico6.jpg" class="card-img-top">
+            <img src="img\medico6.jpg" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Joaquim Sppadrizani</h5>
+              <h5 class="card-title">Joaquim Spadrizani</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculo6.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculo6.pdf">Ver formação</a>
         </div>
       </div>
     </div>
@@ -107,67 +107,67 @@ include("menu.php");
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico7.jpg" class="card-img-top">
+            <img src="img\medico7.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Carlos Vicente</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculo7.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculo7.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\Alex_Gonçalves3.jpg" class="imgg">
+            <img src="img\Alex_Gonçalves3.jpg" class="imgg">
             <div class="card-body">
               <h5 class="card-title">Alex Gonçalves</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Alex_gONÇALVES.pdf">Ver formação</a>
+          <a class="med" href="pdf\Alex_gONÇALVES.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico9.jpg" class="imgg">
+            <img src="img\medico9.jpg" class="imgg">
             <div class="card-body">
               <h5 class="card-title">Erick Jaquicn</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculoerick.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculoerick.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico10.jpg" class="card-img-top">
+            <img src="img\medico10.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Elisandra Bertotti</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculoelisandra.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculoelisandra.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico11.jpg" class="card-img-top">
+            <img src="img\medico11.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Sabrina Ferreira</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculosabrina2.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculosabrina2.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\Maria_Araújo.jpg" class="card-img-top">
+            <img src="img\Maria_Araújo.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Maria Araújo</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Maria_Araújo.pdf">Ver formação</a>
+          <a class="med" href="pdf\Maria_Araújo.pdf">Ver formação</a>
         </div>
       </div>
     </div>
@@ -181,67 +181,67 @@ include("menu.php");
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico13.jpg" class="card-img-top">
+            <img src="img\medico13.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Carla Vicente</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculocarlavicente.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculocarlavicente.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico14.jpg" class="imgg">
+            <img src="img\medico14.jpg" class="imgg">
             <div class="card-body">
               <h5 class="card-title">Alessandra Souza</h5>
             </div>
           </div>
-          <a class="med" href="imagens\curriculoalessandra.pdf">Ver formação</a>
+          <a class="med" href="pdf\curriculoalessandra.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico15.jpg" class="imgg">
+            <img src="img\medico15.jpg" class="imgg">
             <div class="card-body">
               <h5 class="card-title">Isadora Wagatsuma</h5>
             </div>
           </div>
-          <a class="med" href="imagens\isadoraW.pdf">Ver formação</a>
+          <a class="med" href="pdf\isadoraW.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\elisa2_pereira3.jpg" class="card-img-top">
+            <img src="img\elisa2_pereira3.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Elisa Pereira</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Elisa_pereira.jpg.pdf">Ver formação</a>
+          <a class="med" href="pdf\Elisa_pereira.jpg.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico17.jpg" class="card-img-top">
+            <img src="img\medico17.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Angela Ferreira</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Angela_Ferreira.pdf">Ver formação</a>
+          <a class="med" href="pdf\Angela_Ferreira.pdf">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="imagens\medico18.jpg" class="card-img-top">
+            <img src="img\medico18.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Fernando Couto</h5>
             </div>
           </div>
-          <a class="med" href="imagens\Fernando_Couto.pdf">Ver formação</a>
+          <a class="med" href="pdf\Fernando_Couto.pdf">Ver formação</a>
         </div>
       </div>
     </div>
