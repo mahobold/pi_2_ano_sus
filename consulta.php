@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="projeto.css">
     <title>Consultas</title>
 </head>
 <body>
@@ -18,17 +19,17 @@
   <div class="row align-items-start">
     <div class="col">
      <a href="neurologista.php">    <button type="button" class="btn btn-secondary">Neurologista</button> </a> 
-     <img src="imagens\simbolo2(neuro).jpg" alt="">
+     <img src="img\simbolo2(neuro).jpg" alt="">
     </div>
 
     <div class="col">
       <a href="cardiologista.php">   <button type="button" class="btn btn-secondary">Cardiologista</button> </a>
-      <img src="imagens\simbolo7(coração).jpg" alt="">
+      <img src="img\simbolo7(coração).jpg" alt="">
     </div>
 
     <div class="col">
      <a href="">   <button type="button" class="btn btn-secondary">Oftamologista</button> </a>
-     <img src="imagens\simbolo4(olhos).jpg" alt="">
+     <img src="img\simbolo4(olhos).jpg" alt="">
     </div>
   </div>
 </div>
@@ -41,17 +42,17 @@
   <div class="row align-items-start">
     <div class="col">
      <a href="">  <button type="button" class="btn btn-secondary">Dentista</button> </a>
-     <img src="imagens\simbolo6(dente).jpg" alt="">
+     <img src="img\simbolo6(dente).jpg" alt="">
     </div>
 
     <div class="col">
       <a  href="cadastro.php"> <button type="button" class="btn btn-secondary">Ginecologista</button> </a>
-      <img src="imagens\simbolo12(ppk).jpg" alt="">
+      <img src="img\simbolo12(ppk).jpg" alt="">
     </div>
 
     <div class="col">
      <a href="">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
-     <img src="imagens\simbolos1.jpg" alt="">
+     <img src="img\simbolos1.jpg" alt="">
     </div>
   </div>
 </div>
@@ -64,32 +65,25 @@
   <div class="row align-items-start">
     <div class="col">
      <a href="">  <button type="button" class="btn btn-secondary">Nefrologista</button> </a>
-     <img src="imagens\simbolo10(rim).jpg" alt="">
+     <img src="img\simbolo10(rim).jpg" alt="">
     </div>
 
     <div class="col">
       <a  href="cadastro.php"> <button type="button" class="btn btn-secondary">Otorrinolaringologista</button> </a>
-      <img src="imagens\simbolo5(nariz).jpg" alt="">
+      <img src="img\simbolo5(nariz).jpg" alt="">
     </div>
 
     <div class="col">
      <a href="">    <button type="button" class="btn btn-secondary">Pneumologista</button> </a>
-     <img src="imagens\simbolo8(pulmão).jpg" alt="">
+     <img src="img\simbolo8(pulmão).jpg" alt="">
     </div>
   </div>
 </div>
 
-
-
-
-
-
-
-
-
 <br>
 <br>
 <br>
+
 <center>
 <button type="button" class="btn btn-primary btn-lg">Presencial</button>
 <button type="button" class="btn btn-primary btn-lg">Teleconsulta</button>
