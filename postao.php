@@ -71,7 +71,7 @@
     <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="imagens/Alex_Gonçalves3.jpg" class="card-img-top" alt="...">
+        <img src="img/Alex_Gonçalves3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Medico plantão do dia.</h5>
           <p class="card-text">
@@ -392,13 +392,13 @@
       
       <!-- ################################ Card Pediatra plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="imagens/medico6.jpg" class="card-img-top" alt="...">
+        <img src="img/medico6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pediatra plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-            </svg> Dr. Joaquim Sppadrizani.
+            </svg> Dr. Joaquim Spadrizani.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -419,7 +419,7 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="imagens/Maria_Araújo.jpg" class="card-img-top" alt="...">
+        <img src="img/Maria_Araújo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ortopedista plantão do dia.</h5>
           <p class="card-text">

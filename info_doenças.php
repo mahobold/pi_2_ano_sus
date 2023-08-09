@@ -57,11 +57,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-<<<<<<< HEAD
-      <img src="img/h" width="200" height="180"class="card-img-top" alt="...">
-=======
       <img src="NOVA IMAGEM" width="200" height="180"class="card-img-top" alt="...">
->>>>>>> main
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"><b>Usar preservativos nas relações sexuais.</b></p>
