@@ -1,3 +1,11 @@
+
+
+
+
+
+<!-- COLOCAR AS NOTICIAS E O VIDEO SOBRE A GRIPE -->
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -50,7 +58,10 @@
   <br>
   <a href="postao.php">Unidades Próximas</a>
   <br>
+  <a href="med.php">Médicos</a>
+  <br>
   </div>
+  
   <?php
     include ("rodape.php")
   ?>

@@ -31,7 +31,7 @@
 
 
 azulmarinho{
-  color: #054f77;
+  color: #132f5f;
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -54,7 +54,7 @@ input{
 
 
 .container-fluid{
-  background-color: #054f77;
+  background-color: #132f5f;
   height: 50px;
 }
 
@@ -66,7 +66,7 @@ input{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color:#054f77;
   margin-left: 15px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .offcanvas-header {
   color:white;
@@ -96,8 +96,9 @@ svg{
 
 
 .faixaazul{
-  background-color: #050777;
+  background-color: #132f5f;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 .bi-instagram{
   color: #ffffff;
@@ -106,7 +107,7 @@ svg{
 }
 .insta{
   color: #ffffff;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 900px;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif ;
@@ -177,7 +178,7 @@ svg{
   color: rgb(29, 182, 29);
 }
 .far{
-  margin-left: 450px;
+  margin-left: 515px;
   color: #054f77;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -190,7 +191,7 @@ svg{
 }
 .info{
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   
 }
 
@@ -242,4 +243,8 @@ nav{
 .row{
   margin-left: 90px;
 }
+.details{
+  margin-left: 110px;
+}
+
  
