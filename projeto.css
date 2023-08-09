@@ -47,18 +47,6 @@ input{
   margin-top: 50px;
   
 }
-.postos{
-  text-align: center;
-  margin-bottom: 30px;
-  
-}
-.postos2{
-  font-size: 15px;
-}
-nav{
-  margin-top: 10px;
-}
-
 
 
 
@@ -108,17 +96,16 @@ svg{
 
 
 .faixaazul{
-  background-color: #054f77;
-  height: 20px;
+  background-color: #050777;
   margin-top: 30px;
 }
 .bi-instagram{
-  color: #054f77;
+  color: #ffffff;
   margin-top: -70px;
-  margin-left: 850px;
+  margin-left: 430px;
 }
 .insta{
-  color: #054f77;
+  color: #ffffff;
   margin-top: 50px;
   margin-left: 900px;
   font-size: 25px;
@@ -126,24 +113,24 @@ svg{
 }
 
 .bi-envelope{
-  color: #054f77;
+  color: #ffffff;
   margin-top: -70px;
-  margin-left: 850px;
+  margin-left: 430px;
 }
 .email{
-  color: #054f77;
+  color: #ffffff;
   margin-top: 50px;
   margin-left: 900px;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif ;
 }
 .bi-telephone{
-  color: #054f77;
+  color: #ffffff;
   margin-top: -70px;
-  margin-left: 850px;
+  margin-left: 430px;
 }
 .telefone{
-  color: #054f77;
+  color: #ffffff;
   margin-top: 50px;
   margin-left: 900px;
   font-size: 25px;
@@ -163,7 +150,7 @@ svg{
 .med-container h1 {
   color: #054f77;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 50px;
   margin-top: 50px;
  }
@@ -194,9 +181,65 @@ svg{
   color: #054f77;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#acesse{
+  text-align: center;
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info{
+  text-align: center;
+  font-size: 20px;
+  
 }
 
+#postos{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  font-size: 50px;
+  
+}
+.postos2{
+  font-size: 15px;
+}
+nav{
+  margin-top: 10px;
+}
 
-
+.titulo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.saude{
+  color: #03549a;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.img{
+  margin-left: 190px;
+}
+.hr{
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#img{
+  width: 850px;
+  margin-left: 190px;
+}
+.table{
+  margin-left: 90px;
+}
+.row{
+  margin-left: 90px;
+}
  
