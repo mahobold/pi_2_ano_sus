@@ -1,34 +1,59 @@
 <?php
-  
+  include ("conexao.php");
+
+  if(isset($_POST['nome'])){
+
+    //var_dump($_POST['nome']);
+
+    /*-------------------------------*/
+    $nome = $_POST['nome'];
+    $telefone = $_POST['telefone'];
+    $endereco = $_POST['endereco'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    /*-------------------------------*/
+
+    $mysqli -> query("INSERT INTO cadastro_pessoas (nome, telefone, endereco, email , senha) values ('$nome', '$telefone', '$endereco', '$email' , '$senha')") or
+die ($mysqli->error);
+
+  }
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <link rel="stylesheet" href="cadas_login.css">
-  <title>Tela de Cadastro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cadas_login.css">
+    <title>Cadastro</title>
 </head>
 
 <body>
+    <?php
+    // include("menu.php");
+    ?>
+
   <div class="signup-container">
     <h2>Cadastro</h2>
     <form action="cadastro.php" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="telefone" placeholder="Telefone" required>
       <input type="text" name="endereco" placeholder="Endereço" required>
-      <input type="text" name="cpf" placeholder="CPF" required>
       <input type="text" name="email" placeholder="Email" required>
-      <input type="text" name="numerodocartaosus" placeholder="Número do cartão Sus" required>
       <input type="password" name="senha" placeholder="Senha" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="submit" value="Cadastrar" onclick="return validador()">
 
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
   
   <script>
-    function validateFields() {
+    function validador() {
       var inputs = document.querySelectorAll('input[type="text"], input[type="password"]');
       var controle = false;
 
@@ -50,6 +75,7 @@
     }
 
     function showAlert() {
+      /* Professor arrumar
       Swal.fire({
         text: 'Sucesso ao cadastrar.',
         icon: 'success',
@@ -59,8 +85,14 @@
           window.location.href = "login.php";
         }
       });
+      */
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+
+>>>>>>> main

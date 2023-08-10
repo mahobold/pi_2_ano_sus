@@ -23,13 +23,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/um.jpg" class="d-block w-100" alt="...">
+        <img src="img/um.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="img/dois.jpg" class="d-block w-100" alt="...">
+        <img src="img/dois.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="img/tress.jpg" class="d-block w-100" alt="...">
+        <img src="img/tress.jpg" class="d-block w-100">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -43,17 +43,54 @@
   </div>
    
 
-<h1>Notícias</h1>
 
-<div class="card text-bg-dark">
-  <img src="img/alzheimer3.jpg" class="card-img">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+  <div class="card-group">
+  <div class="card">
+    <img src="img/turvo4.jpg" class="card-img-top">
+    <div class="card-body">
+    <p class="card-text">SECRETARIA DA SAÚDE</p>
+      <a id="título_card" href="https://www.saude.pr.gov.br/Noticia/Com-apoio-de-Estado-municipio-de-Turvo-promove-acoes-sobre-saude-do-homem" class="card-title">Com apoio de Estado, município de Turvo promove ações sobre a saúde do homem</a>
+      <p class="card-text"><small class="text-body-secondary">08/08/2023 - 12:22</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/londrina.jpg" class="card-img-top">
+    <div class="card-body">
+    <p class="card-text">SECRETARIA DA SAÚDE</p>
+      <a id="título_card" href="https://www.saude.pr.gov.br/Noticia/Estado-libera-R-379-milhoes-para-implementacao-da-maternidade-do-HU-de-Londrina" class="card_title">Estado libera R$ 3,79 milhões para implementação da maternidade do HU de Londrina</a>
+      <p class="card-text"><small class="text-body-secondary">03/08/2023 - 14:28</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/orgaos4.jpg" class="card-img-top">
+    <div class="card-body">
+     <p class="card-text">SECRETARIA DA SAÚDE</p>
+     <a id="título_card" href="https://www.saude.pr.gov.br/Noticia/Saude-capacita-profissionais-sobre-doacao-de-orgaos-e-tecidos-para-transplante" class="card_title">Saúde capacita profissionais sobre doação de órgãos e tecidos para transplante</a>
+      <p class="card-text"><small class="text-body-secondary">03/08/2023 - 11:47</small></p>
+    </div>
   </div>
 </div>
 
+
+
+
+
+
+  <div class="container">
+  <div class="card text-center">
+  <div class="card-header">
+    Google Maps
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Localize-se</h5>
+    <p class="card-text">Descobra qual a localização do posto de saúde mais próximo de você.</p>
+    <a href="https://www.google.com/maps/search/posto+de+sa%C3%BAde+mais+pr%C3%B3ximo/@-25.4181597,-49.2575947,13z/data=!3m1!4b1?entry=ttu" class="btn btn-primary">Descubra Já!</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    tenha um bom dia.
+  </div>
+</div>
+</div>
 
 
 
