@@ -17,7 +17,9 @@
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="telefone" placeholder="Telefone" required>
       <input type="text" name="endereco" placeholder="Endereço" required>
+      <input type="text" name="cpf" placeholder="CPF" required>
       <input type="text" name="email" placeholder="Email" required>
+      <input type="text" name="numerodocartaosus" placeholder="Número do cartão Sus" required>
       <input type="password" name="senha" placeholder="Senha" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
