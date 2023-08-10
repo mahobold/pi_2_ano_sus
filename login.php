@@ -44,6 +44,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 */
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -57,10 +59,10 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         <h2>Login</h2>
         <form action="login.php" method="post">
             <input type="text" name="username" placeholder="Nome de Usuário" required>
-            <input type="password" name="password" placeholder="Senha" required>
+            <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">
         </form>
-        <p><a href="cadastro.php">Faça cadastro</a></p>
+        <p><a href="cadastroo.php">Faça cadastro</a></p>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
