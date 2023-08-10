@@ -6,14 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"><!-- Atenção -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
   <link rel="stylesheet" href="projeto.css">
  
- <?php
-  include("fonte.php");
-  ?>
   
   <title>Farmácia</title>
 </head>
@@ -26,9 +22,10 @@
   ?>
 
 
-  
+
 
   <div class="container">
+    <h1 class="far">Medicamentos</h1>
     <div class="row slider">
       <div class="col-md-12">
         <div class="details">
@@ -100,6 +97,7 @@
   </div>
 
   <div class="container">
+   
     <div class="row slider">
       <div class="col-md-12">
         <div class="details">
@@ -107,9 +105,10 @@
             <img src="img_farmacia/maleato.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Maleato 5mg</h5>
-            </div>
+           
           </div>
           <h6 class="d">Disponível</h6>
+        </div>
         </div>
       </div>
       <div class="col-md-12">

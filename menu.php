@@ -38,6 +38,7 @@
     </button>
     <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
+      <img class="b" src="img/logot.png" alt="Logo" width="155" class="d-inline-block">
          <div class="container">
     
   </div>
@@ -52,18 +53,16 @@
             <a class="nav-link active" aria-current="page" href="postao.php">Unidades próximas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Médicos</a>
+            <a class="nav-link active" aria-current="page" href="med.php">Médicos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Farmácia</a>
+            <a class="nav-link active" aria-current="page" href="farmacia.php">Farmácia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Info doenças</a>
+            <a class="nav-link active" aria-current="page" href="info_doenças.php">Info doenças</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" 
-            href='#'>Minha conta
-            </a>
+            <a class="nav-link active" aria-current="page" href='minhaCONTA.php'>Minha conta</a>
           </li>
         </ul>
       </div>

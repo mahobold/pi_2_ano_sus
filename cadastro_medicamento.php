@@ -9,7 +9,7 @@
         $disponibilidade = $_POST['disponibilidade'];
         /*-------------------------------*/
 
-        $mysqli -> query("INSERT INTO pi_sus (nome, miligramagem, imagem, disponibilidade) values ('$nome', '$miligramagem', '$imagem', '$disponibilidade')") or
+        $mysqli -> query("INSERT INTO medicamentos (nome, miligramagem, imagem, disponibilidade) values ('$nome', '$miligramagem', '$imagem', '$disponibilidade')") or
     die ($mysqli->error);
     }
 ?>
@@ -24,18 +24,13 @@
             <link rel="stylesheet" href="projeto.css">
             <title>Cadastro Medicamento</title>
         </head>
-        <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="projeto.css">
-    <title>Cadastro Medicamento</title>
-</head>
+
+
 <body>
 
+            <form action="cadastro_medicamento.php" method="post">
+        <body>
             <form action="cadastro.php" method="post">
                 <label>Nome do medicamento: </label>
                 <input type="text" name="nome"/><br/><br/>

@@ -10,18 +10,16 @@
 </head>
 
 <body>
-
-  <?php
+<?php
   include("menu.php");
   ?>
+    <h1 id="postos">Postos de saúde</h1>
 
-  <div class="postos">
-    <h1>Postos de saúde</h1>
-  </div>
   <div class="container">
-    <h2>POSTO DE SAUDE DE JACUTINGA</h2>
-    <img src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
-    <h3> Horarios de Atendimento</h3>
+    <h2 class="saude">POSTO DE SAUDE DE JACUTINGA</h2>
+    <img class="img"src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
+    
+    <h3 class="hr"> Horarios de Atendimento</h3>
     <table class="table">
       <thead>
         <tr>
@@ -73,7 +71,7 @@
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
         <img src="imagens/Alex_Gonçalves3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Medico plantão do dia.</h5>
+          <h5 class="titulo">Medico plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
@@ -166,8 +164,10 @@
     <!-- adsnflndf -->
     <div class="container">
 
-      <h2>Posto de saude UBS Monte Castelo</h2>
-      <img src="https://cdn.tnonline.com.br/img/Artigo-Destaque/510000/Artigo-Destaque_00511386_00.jpg?xid=327763" class="img-fluid" alt="">
+      <h2 class="saude">POSTO DE SAUDE UBS MONTE CASTELO</h2>
+      <img class="img" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/510000/Artigo-Destaque_00511386_00.jpg?xid=327763" class="img-fluid" alt="">
+      
+      <h3 class="hr"> Horarios de Atendimento</h3>
       <table class="table">
         <thead>
           <tr>
@@ -317,8 +317,10 @@
 
 
     <div class="container">
-      <h2>Centro de saúde</h2>
-      <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IPORQbiQjWg4Z9UdBo7dxg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=134.83238&pitch=0&thumbfov=100" class="img-fluid" alt="">
+      <h2 class="saude">CENTRO DE SAÚDE</h2>
+      <img id="img" src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IPORQbiQjWg4Z9UdBo7dxg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=134.83238&pitch=0&thumbfov=100" class="img-fluid" alt="">
+      
+      <h3 class="hr"> Horarios de Atendimento</h3>
       <table class="table">
         <thead>
           <tr>
@@ -362,7 +364,6 @@
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
-        </tbody>
       </table>
 
       <div class="row">
