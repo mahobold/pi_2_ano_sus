@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="projeto.css">
   <title>Página - Principal</title>
@@ -41,6 +42,21 @@
     </button>
   </div>
    
+
+<h1>Notícias</h1>
+
+<div class="card text-bg-dark">
+  <img src="img/alzheimer3.jpg" class="card-img">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+  </div>
+</div>
+
+
+
+
   <h1 id="acesse">Acesse:</h1>
 
   <div class="info">
