@@ -50,7 +50,9 @@
     </button>
   </div>
    
+<div class="index">
 <h1>Notícias</h1>
+</div>
 
   <div class="card-group">
   <div class="card">
@@ -79,26 +81,25 @@
   </div>
 </div>
 
+<div class="index">
 <h1>Assista!</h1>
+</div>
 
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GXwl3NqVnMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/EYHpSWm1A1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/uAB627iLydA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+       
+<div class="youtube">
+<a href="https://youtube.com/@MinSaudeBR">Conheça o canal Ministério da Saúde no YouTube, clique aqui!</a>
+</div>
 
-      <br> 
-
-<a id="youtube" href="https://youtube.com/@MinSaudeBR">Conheça o canal Ministério da Saúde no YouTube, clique aqui!</a>
-
-<br>
-
+<div class="index">
 <h1>Unidades Próximas</h1>
-
-
-
-
-
+</div>
 
   <div class="container">
   <div class="card text-center">
@@ -111,7 +112,10 @@
     <a href="https://www.google.com/maps/search/posto+de+sa%C3%BAde+mais+pr%C3%B3ximo/@-25.4181597,-49.2575947,13z/data=!3m1!4b1?entry=ttu" class="btn btn-primary">Descubra Já!</a>
   </div>
   <div class="card-footer text-body-secondary">
+    <div id="card">
     tenha um bom dia.
+    </div>
+    
   </div>
 </div>
 </div>
