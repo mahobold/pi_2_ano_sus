@@ -42,14 +42,14 @@
     </button>
   </div>
    
-
+<h1>Notícias</h1>
 
   <div class="card-group">
   <div class="card">
     <img src="img/turvo4.jpg" class="card-img-top">
     <div class="card-body">
     <p class="card-text">SECRETARIA DA SAÚDE</p>
-      <a id="título_card" href="https://www.saude.pr.gov.br/Noticia/Com-apoio-de-Estado-municipio-de-Turvo-promove-acoes-sobre-saude-do-homem" class="card-title">Com apoio de Estado, município de Turvo promove ações sobre a saúde do homem</a>
+      <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Com-apoio-de-Estado-municipio-de-Turvo-promove-acoes-sobre-saude-do-homem" class="card-title">Com apoio de Estado, município de Turvo promove ações sobre a saúde do homem</a>
       <p class="card-text"><small class="text-body-secondary">08/08/2023 - 12:22</small></p>
     </div>
   </div>
@@ -57,7 +57,7 @@
     <img src="img/londrina.jpg" class="card-img-top">
     <div class="card-body">
     <p class="card-text">SECRETARIA DA SAÚDE</p>
-      <a id="título_card" href="https://www.saude.pr.gov.br/Noticia/Estado-libera-R-379-milhoes-para-implementacao-da-maternidade-do-HU-de-Londrina" class="card_title">Estado libera R$ 3,79 milhões para implementação da maternidade do HU de Londrina</a>
+      <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Estado-libera-R-379-milhoes-para-implementacao-da-maternidade-do-HU-de-Londrina" class="card_title">Estado libera R$ 3,79 milhões para implementação da maternidade do HU de Londrina</a>
       <p class="card-text"><small class="text-body-secondary">03/08/2023 - 14:28</small></p>
     </div>
   </div>
@@ -65,11 +65,27 @@
     <img src="img/orgaos4.jpg" class="card-img-top">
     <div class="card-body">
      <p class="card-text">SECRETARIA DA SAÚDE</p>
-     <a id="título_card" href="https://www.saude.pr.gov.br/Noticia/Saude-capacita-profissionais-sobre-doacao-de-orgaos-e-tecidos-para-transplante" class="card_title">Saúde capacita profissionais sobre doação de órgãos e tecidos para transplante</a>
+     <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Saude-capacita-profissionais-sobre-doacao-de-orgaos-e-tecidos-para-transplante" class="card_title">Saúde capacita profissionais sobre doação de órgãos e tecidos para transplante</a>
       <p class="card-text"><small class="text-body-secondary">03/08/2023 - 11:47</small></p>
     </div>
   </div>
 </div>
+
+<h1>Assista!</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GXwl3NqVnMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EYHpSWm1A1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uAB627iLydA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <br> 
+
+<a id="youtube" href="https://youtube.com/@MinSaudeBR">Conheça o canal Ministério da Saúde no YouTube, clique aqui!</a>
+
+<br>
+
+<h1>Unidades Próximas</h1>
 
 
 
