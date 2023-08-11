@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
   include ("conexao.php");
 
@@ -19,12 +18,9 @@ die ($mysqli->error);
 
   }
 ?>
-=======
->>>>>>> main
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -94,5 +90,9 @@ die ($mysqli->error);
   </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
 </body>
+<<<<<<< HEAD
+</html>
+=======
 </html>
 
+>>>>>>> main
