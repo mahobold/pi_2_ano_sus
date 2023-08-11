@@ -16,7 +16,6 @@
         values ('$nome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$username', '$senha')")
         or die($mysqli->error);
 
-        var_dump( $mysqli);
     }
 
 
