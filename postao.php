@@ -1,12 +1,26 @@
+
+
+
+
+
+
+
+
+      <!-- ARRUMAR SUAS IMAGENS, COLOCALAS DENTRO DA PASTA IMG -->
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="projeto.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luiz dela</title>
+  <title>Postos</title>
 </head>
 
 <body>
@@ -52,13 +66,13 @@
           <td>13:00 às 17:00</td>
         </tr>
         <tr>
-          <th scope="row">3</th>
+          <th scope="row">4</th>
           <td>quinta-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
         <tr>
-          <th scope="row">3</th>
+          <th scope="row">5</th>
           <td>Sexta-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
@@ -69,7 +83,7 @@
     <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="imagens/Alex_Gonçalves3.jpg" class="card-img-top" alt="...">
+        <img src="img/Alex_Gonçalves3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="titulo">Medico plantão do dia.</h5>
           <p class="card-text">
@@ -80,14 +94,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua ###.
+            </svg> Rua Aurora.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 9999-9999
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/Alex_gONÇALVES.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div> <!-- FIM Card Medico plantão do dia -->
       
@@ -104,14 +118,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua ###.
+            </svg> Rua corinthians.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 9999-9999
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/curriculo3.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
@@ -131,14 +145,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua ###.
+            </svg> Rua Grêmio.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(22) 2 2222-2222
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
@@ -153,6 +167,11 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 3472-7113
+          </p>
+          <p class="card-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg> Rua Fluminense.
           </p>
           <a href="https://goo.gl/maps/ctjNLhTUHtY3PDTK7" class="btn btn-primary">Endereço aqui.</a>
         </div>
@@ -200,13 +219,13 @@
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">4</th>
             <td>quinta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">5</th>
             <td>Sexta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
@@ -228,14 +247,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua ###.
+            </svg> Rua Flamengo.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 9999-9999
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/curriculo7.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div> <!-- FIM Card Medico plantão do dia -->
       
@@ -252,14 +271,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua bla bla.
+            </svg> Rua Palmeiras.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 9999-9999
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/Currículo de administração azul masculino.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
@@ -268,10 +287,10 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="imagens/medico4.jpg" class="card-img-top" alt="...">
+        <img src="img/esveraldo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ortopedista plantão do dia.</h5>
-          <p class="card-text">
+           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
             </svg> Dr. Esveraldo Camargo.
@@ -279,14 +298,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua Planalto.
+            </svg> Rua Santos.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(22) 2 2222-2222
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/curriculo4.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
@@ -353,13 +372,13 @@
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">4</th>
             <td>quinta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">5</th>
             <td>Sexta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
@@ -369,7 +388,7 @@
       <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="imagens/luiz_passos3.jpg" class="card-img-top" alt="...">
+        <img src="img/luiz_passos3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Medico plantão do dia.</h5>
           <p class="card-text">
@@ -380,38 +399,38 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua bla bla.
+            </svg> Rua America-mg.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 9999-9999
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/Luiz_passos.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div> <!-- FIM Card Medico plantão do dia -->
       
       <!-- ################################ Card Pediatra plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="imagens/medico6.jpg" class="card-img-top" alt="...">
+        <img src="img/medico6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pediatra plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-            </svg> Dr. Joaquim Sppadrizani.
+            </svg> Dr. Joaquim Spadrizani.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua bla bla.
+            </svg> Rua Coritiba.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 9 9999-9999
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/curriculo6.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
@@ -420,7 +439,7 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="imagens/Maria_Araújo.jpg" class="card-img-top" alt="...">
+        <img src="img/Maria_Araújo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ortopedista plantão do dia.</h5>
           <p class="card-text">
@@ -431,14 +450,14 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg> Rua Planalto.
+            </svg> Rua Botafogo.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(22) 2 2222-2222
           </p>
-          <a href="#" class="btn btn-primary">***********</a>
+          <a href="pdf/Maria_Araújo.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
@@ -454,6 +473,11 @@
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>(43) 93472-1788
           </p>
+          <p class="card-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>Rua São Paulo.
+          </p>
           <a href="https://goo.gl/maps/HzV7zsftdxPyaEX28" class="btn btn-primary">Endereço Aqui.</a>
         </div>
       </div>
@@ -461,6 +485,10 @@
 
     </div>  <!-- FIM do ROW -->
     </div>
+
+    <?php
+  include("rodape.php");
+  ?>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
