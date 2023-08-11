@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="projeto.css">
     <title>Neurologista</title>
 </head>
+<body>
 <?php
     include("menu.php");
     ?>
-<body>
-
-<div class="consultar">
-<h1> Agende sua consulta com o neurologista aqui: </h1>
-</div>
-
-<div class="card text-bg-dark">
+    
+    <div class="consultar">
+   <h1> Agende sua consulta com o neurologista aqui: </h1>
+   </div>
+ 
+ 
+ <div class="card text-bg-dark">
   <img src="img\medico5.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title">Card title</h5>
@@ -38,7 +39,7 @@
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
-    
+ 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

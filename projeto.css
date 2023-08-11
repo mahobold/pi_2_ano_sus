@@ -577,6 +577,7 @@ nav{
 .card-footer{
   background-color: #132f5f;
   color: white;
+  margin-bottom: 10px;
 }
 #card{
   color: #ffffff;
@@ -584,6 +585,6 @@ nav{
 .card-header{
   background-color: #132f5f;
   color: #ffffff;
+  border-radius: 40px;
 }
-
 
