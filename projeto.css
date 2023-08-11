@@ -329,7 +329,7 @@ nav{
 }
 .text-bg-dark{
   width: 750px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 150px;
   margin-bottom: 200px;
   
@@ -493,6 +493,53 @@ nav{
 }
 
 .otorrino-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.dentista-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 600px;
+  margin-left: 1000px;
+  margin-top: -700px;
+  margin-bottom: 150px;
+}
+
+.dentista-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.dentista-container input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.dentista-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dentista-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.dentista-container p {
   text-align: center;
   margin-top: 10px;
 }
