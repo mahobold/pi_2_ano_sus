@@ -98,7 +98,7 @@ svg{
 .faixaazul{
   background-color: #132f5f;
   margin-top: 30px;
-  margin-bottom: 10px;
+  padding: 2px;
 }
 .bi-instagram{
   color: #ffffff;
@@ -246,5 +246,302 @@ nav{
 .details{
   margin-left: 110px;
 }
+.espaco{
+  margin-top:80px;
+}
+.especialidade{
+  color: #054f77;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#botao{
+  background-color: #054f77;
+  margin-bottom: 20px;
+}
+#botao2{
+  background-color: #054f77;
+  margin-bottom: 10px;
+}
+.col{
+  margin-bottom: 10px;
+}
 
- 
+
+/*aaa*/
+
+.neuro-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 600px;
+  margin-left: 1000px;
+  margin-top: -700px;
+  margin-bottom: 150px;
+}
+
+.neuro-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.neuro-container input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.neuro-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.neuro-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.neuro-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.consultar{
+  color: #054f77;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.neu{
+  width: 700px;
+  margin-left: 500px;
+}
+.text-bg-dark{
+  width: 750px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+  
+
+}
+.card-img-overlay{
+  margin-top: 300px;
+  
+}
+.add{
+  color: #054f77;
+}
+
+
+
+
+.nefro-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 600px;
+  margin-left: 1000px;
+  margin-top: -650px;
+  margin-bottom: 150px;
+}
+
+.nefro-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.nefro-container input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.nefro-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.nefro-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.nefro-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.consultar{
+  color: #054f77;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.oftalmo-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 600px;
+  margin-left: 1000px;
+  margin-top: -600px;
+  margin-bottom: 150px;
+}
+
+.oftalmo-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.oftalmo-container input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.oftalmo-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.oftalmo-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.oftalmo-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+.otorrino-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 600px;
+  margin-left: 1000px;
+  margin-top: -650px;
+  margin-bottom: 150px;
+}
+
+.otorrino-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.otorrino-container input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.otorrino-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.otorrino-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.otorrino-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.dentista-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 600px;
+  margin-left: 1000px;
+  margin-top: -700px;
+  margin-bottom: 150px;
+}
+
+.dentista-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.dentista-container input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.dentista-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dentista-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.dentista-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+

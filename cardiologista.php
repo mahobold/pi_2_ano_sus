@@ -11,38 +11,33 @@
 <?php
     include("menu.php");
     ?>
+    <div class="consultar">
     <h1> Agende sua consulta com o cardiologista aqui:</h1>
-    <br>
-    <br>
-    <img src="img\luiz_passos.jpg" alt="">
-<br>
-<br>
-<br>
-<h2>Questionário base</h2>
-  <form action="" method="post">
-        <label>Nome completo:</label>
-        <input type="text" name="bt_nome" /><br /><br />
-        <label>Idade:</label>
-        <input type="text" name="bt_idade" /><br /><br />
-        <label>Teve fadiga?</label>
-        <input type="text" name="bt_oculos" /><br /><br />
-        <label>Teve Dores no peito? </label>
-        <input type="text" name="bt_dor_de_cabeca" /><br /><br />
-        <label>Fez exame?</label>
-        <input type="text" name="bt_dor_ocular" /><br /><br />
-        <input type="submit" class="btn btn-success" value="Enviar">
-        <input type="reset" class="btn btn-danger" value="Limpar">
-        </div>
+    </div>
+   
+    
+
+    <div class="card text-bg-dark">
+  <img src="img\luiz_passos.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+  </div>
+</div>
+
+    <div class="neuro-container">
+    <h2 class="add">Questionário base</h2>
+    <form action="" method="post">
+      <input type="text" name="nome" placeholder="Nome Completo" required>
+      <input type="text" name="idade" placeholder="Idade" required>
+      <input type="text" name="tontura" placeholder="Teve fadiga?" required>
+      <input type="text" name="cabeca" placeholder="Teve Dores no peito?" required>
+      <input type="text" name="desmaio" placeholder="Fez exame?" required>
+      <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    </form>
-
-
-
-
-
-
-
-
+    <p><a href="consulta.php">Voltar</a></p>
+  </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
