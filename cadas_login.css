@@ -148,3 +148,51 @@ body {
     text-align: center;
     margin-top: 10px;
   }
+
+   /*aaaaaa
+
+  .neuro-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 80px;
+    width: 300px;
+  }
+  
+  .neuro-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .neuro-container input[type="text"],
+  .neuro-container input[type="email"],
+  .neuro-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .neuro-container input[type="submit"] {
+    width: 100%;
+    background-color: #054f77;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .neuro-container input[type="submit"]:hover {
+    background-color: #3668b8;
+  }
+  
+  .neuro-container p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  */

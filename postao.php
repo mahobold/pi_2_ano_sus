@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+      <!-- ARRUMAR SUAS IMAGENS, COLOCALAS DENTRO DA PASTA IMG -->
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -398,13 +411,13 @@
       
       <!-- ################################ Card Pediatra plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="img/esveraldo.jpg" class="card-img-top" alt="...">
+        <img src="img/medico6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pediatra plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-            </svg> Dr. Joaquim Sppadrizani.
+            </svg> Dr. Joaquim Spadrizani.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -471,6 +484,10 @@
 
     </div>  <!-- FIM do ROW -->
     </div>
+
+    <?php
+  include("rodape.php");
+  ?>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

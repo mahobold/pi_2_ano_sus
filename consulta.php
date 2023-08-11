@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,8 +85,8 @@
 <br>
 
 <center>
-<button type="button" class="btn btn-primary btn-lg">Presencial</button>
-<button type="button" class="btn btn-primary btn-lg">Teleconsulta</button>
+<button type="button" id="botao" class="btn btn-primary btn-lg">Presencial</button>
+<button type="button" id="botao2" class="btn btn-primary btn-lg">Teleconsulta</button>
 </center>
 
 </body>
