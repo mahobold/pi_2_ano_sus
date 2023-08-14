@@ -28,7 +28,7 @@
     </div>
 
     <div class="col">
-     <a href="">   <button type="button" class="btn btn-secondary">Oftamologista</button> </a>
+     <a href="oftamologista.php">   <button type="button" class="btn btn-secondary">Oftamologista</button> </a>
      <img src="img\simbolo4(olhos).jpg" alt="">
     </div>
   </div>
@@ -41,17 +41,17 @@
 <div class="container text-center">
   <div class="row align-items-start">
     <div class="col">
-     <a href="">  <button type="button" class="btn btn-secondary">Dentista</button> </a>
+     <a href="dentista.php">  <button type="button" class="btn btn-secondary">Dentista</button> </a>
      <img src="img\simbolo6(dente).jpg" alt="">
     </div>
 
     <div class="col">
-      <a  href="cadastro.php"> <button type="button" class="btn btn-secondary">Ginecologista</button> </a>
+      <a  href="ginecologista.php"> <button type="button" class="btn btn-secondary">Ginecologista</button> </a>
       <img src="img\simbolo12(ppk).jpg" alt="">
     </div>
 
     <div class="col">
-     <a href="">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
+     <a href="clínico_geral.php">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
      <img src="img\simbolos1.jpg" alt="">
     </div>
   </div>
@@ -64,17 +64,17 @@
 <div class="container text-center">
   <div class="row align-items-start">
     <div class="col">
-     <a href="">  <button type="button" class="btn btn-secondary">Nefrologista</button> </a>
+     <a href="nefrologista.php">  <button type="button" class="btn btn-secondary">Nefrologista</button> </a>
      <img src="img\simbolo10(rim).jpg" alt="">
     </div>
 
     <div class="col">
-      <a  href="cadastro.php"> <button type="button" class="btn btn-secondary">Otorrinolaringologista</button> </a>
+      <a  href="otorrinolaringologista.php"> <button type="button" class="btn btn-secondary">Otorrinolaringologista</button> </a>
       <img src="img\simbolo5(nariz).jpg" alt="">
     </div>
 
     <div class="col">
-     <a href="">    <button type="button" class="btn btn-secondary">Pneumologista</button> </a>
+     <a href="pneumologista.php">    <button type="button" class="btn btn-secondary">Pneumologista</button> </a>
      <img src="img\simbolo8(pulmão).jpg" alt="">
     </div>
   </div>
