@@ -28,6 +28,9 @@
   <title>Tela de Cadastro</title>
 </head>
 
+
+
+
 <body>
   <div class="signup-container">
     <h2>Cadastro</h2>

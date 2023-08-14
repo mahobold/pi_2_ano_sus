@@ -48,7 +48,7 @@
   </div>
 
   <div class="container">
-    <h1 class="marcela">Sintomas:</h1>
+    <h1 class="marcela1">Sintomas:</h1>
     <li class="marcela3"><b>Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas.</b> </li>
   <li class="marcela3"><b>Febre, aparecimento de gânglios</b></li>
   <li class="marcela3"><b>crescimento do baço e do fígado</b></li>
@@ -58,7 +58,7 @@
   <li class="marcela3"><b>pneumonia</b></li>
   <li class="marcela3"><b>quadros de herpes simples (boca)</b></li>
 
-     <h2 class="marcela">Como previnir</h2>
+     <h2 class="marcelaa">Como previnir</h2>
 
 <div class="row row-cols-1 row-cols-md-3 g-3">
   <div class="col">
@@ -138,7 +138,7 @@
 </div>
 
     <div class="container">
-   <h1 class="marcela">Sintomas:</h1>
+   <h1 class="marcela1">Sintomas:</h1>
     <li class="marcela3"><b>Febre</b> </li>
   <li class="marcela3"><b>Mal estar e Dores no corpo</b></li>
   <li class="marcela3"><b>Falta de ar</b></li>
@@ -148,7 +148,7 @@
   <li class="marcela3"><b>Cansaço</b></li>
   <li class="marcela3"><b>Dor de cabeça</b></li>
 
-<h2 class="marcela">Como previnir</h2>
+<h2 class="marcelaa">Como previnir</h2>
 <div class="container">
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -227,7 +227,7 @@
     </div>
   </div>
   <div class="container">
-    <h1 class="marcela">Sintomas:</h1>
+    <h1 class="marcela1">Sintomas:</h1>
   <li class="marcela3"><b>Febre alta > 38.5ºC.</b></li>
   <li class="marcela3"><b>Dores musculares intensas.</b></li>
   <li class="marcela3"><b>Dor ao movimentar os olhos.</b></li>
@@ -237,7 +237,7 @@
   <li class="marcela3"><b>Manchas vermelhas no corpo.</b></li>
 
 
-<h2 class="marcela">Como previnir</h2>
+<h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -305,7 +305,7 @@
     </div>
   </div>
   <div class="container">
-    <h1 class="marcela">Sintomas:</h1>
+    <h1 class="marcela1">Sintomas:</h1>
   <li class="marcela3"><b>Febre alta > 38.5ºC.</b></li>
   <li class="marcela3"><b>Dores musculares intensas.</b></li>
   <li class="marcela3"><b>Dor ao movimentar os olhos.</b></li>
@@ -314,7 +314,7 @@
   <li class="marcela3"><b>Dor de cabeça.</b></li>
   <li class="marcela3"><b>Manchas vermelhas no corpo.</b></li>
 
-  <h2 class="marcela">Como previnir</h2>
+  <h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -380,7 +380,7 @@
   
      </div>
  </div> 
- <h1 class="marcela">Sintomas:</h1>
+ <h1 class="marcela1">Sintomas:</h1>
 <li class="marcela3" ><b> Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</b></li>
 <li class="marcela3"><b>Cansaço inexplicável e perda de energia.</b> </li> 
 <li class="marcela3"><b> Hematomas frequentes.</b></li>
@@ -393,7 +393,7 @@
  <li class="marcela3"><b> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor.</b> </li>   
 
 
- <h2 class="marcela">Como previnir</h2>
+ <h2 class="marcelaa">Como previnir</h2>
  <div class="row row-cols-1 row-cols-md-3 g-4">
    <div class="col">
      <div class="card">
@@ -458,7 +458,7 @@
    </div>
 </div>
 
-<h1 class="marcela">Sintomas</h1>
+<h1 class="marcela1">Sintomas</h1>
   <li class="marcela3"><b>Fome frequente;</b></li>
  <li class="marcela3"><b>Sede constante ;</li>
  <li class="marcela3"><b>Vontade de urinar diversas vezes ao dia ;</b></li>  
@@ -470,7 +470,7 @@
   
  <div class="row">
 
-  <h2 class="marcela">Como previnir</h2>
+  <h2 class="marcelaa">Como previnir</h2>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
@@ -536,7 +536,7 @@
 
 
 <div class="container">
-<h1 class="marcela">Sintomas </h1>
+<h1 class="marcela1">Sintomas </h1>
 <li class="marcela3"><b> dores de cabeça;</b></li>
 <li class="marcela3"><b>alterações visuais;</b> </li>
 <li class="marcela3"> <b>zumbido no ouvido;</b></li>
@@ -546,7 +546,7 @@
 <li class="marcela3">Ânsia e vômitos,entre outros;</li>
 
 
-<h2 class="marcela">Como previnir</h2>
+<h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -609,7 +609,7 @@
   </div>
 </div>
 
-<h1 class="marcela">Sintomas </h1>
+<h1 class="marcela1">Sintomas </h1>
 <li class="marcela3"><b> tosse, especialmente durante a noite ou após a realização de algum esforço físico;</b></li>
 <li class="marcela3"><b>dificuldade para respirar;</b></li>
 <li class="marcela3"><b>dores pelo tórax e pelas costas;</b></li>
@@ -618,7 +618,7 @@
 
 
 
-<h2 class="marcela">Como previnir</h2>
+<h2 class="marcelaa">Como previnir</h2>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -682,7 +682,7 @@
   </div>
 </div>
 <div class="container">
-<h1 class="marcela">Sintomas </h1>
+<h1 class="marcela1">Sintomas </h1>
 <li class="marcela3"><b>problemas com memorização; </b></li>
 <li class="marcela3"><b>esquecimento de palavras;</b></li>
 <li class="marcela3"><b>esquecer como fazer tarefas do dia a dia;</b></li>
@@ -693,7 +693,7 @@
 <li class="marcela3"><b>alterações no padrão de apetite e/ou sono, entre outros.</b></li>
   
 
-<h2 class="marcela">Como previnir</h2>
+<h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -758,7 +758,7 @@
 </div>
 
 <div class="container">
-<h1 class="marcela">Sintomas </h1>
+<h1 class="marcela1">Sintomas </h1>
 <li class="marcela3"><b>perda súbita de habilidades, como a fala ou o ato de caminhar;</b></li>
 <li class="marcela3"><b> que pode ser em um só lado ou em ambos;</b></li>
 <li class="marcela3"><b>inquietação;</b></li>
@@ -766,7 +766,7 @@
 <li class="marcela3"><b>formigamento nos membros, entre outros.</b></li>
 
 
-<h2 class="marcela">Como previnir</h2>
+<h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
