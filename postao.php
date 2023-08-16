@@ -18,7 +18,7 @@
     <h1 id="postos">Postos de saúde</h1>
 
   <div class="container">
-    <h2 class="saude">POSTO DE SAUDE DE JACUTINGA</h2>
+    <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
     <img class="img"src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
     
     <h3 class="hr"> Horarios de Atendimento</h3>
