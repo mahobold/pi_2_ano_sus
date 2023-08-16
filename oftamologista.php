@@ -4,12 +4,12 @@
     if (isset($_POST['nome'])) {
         $nome = $_POST['nome'];
         $idade = $_POST['idade'];
-        $fadiga = $_POST['oculos'];
-        $peito = $_POST['peito'];
-        $exame = $_POST['exame'];
+        $oculos = $_POST['oculos'];
+        $cabeca = $_POST['cabeca'];
+        $ocular = $_POST['ocular'];
 
-        $mysqli->query("INSERT INTO cardio (nome, idade, fadiga, peito, exame)
-        values ('$nome', '$idade', '$fadiga', '$peito', '$exame')")
+        $mysqli->query("INSERT INTO oftal (nome, idade, oculos, cabeca, ocular)
+        values ('$nome', '$idade', '$oculos', '$cabeca', '$ocular')")
         or die($mysqli->error);
 
     }
@@ -55,7 +55,7 @@
       <input type="text" name="oculos" placeholder="Usa óculos?" required>
       <input type="text" name="cabeca" placeholder="Teve dores de cabeça?" required>
       <input type="text" name="ocular" placeholder="Teve dores oculares?" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>

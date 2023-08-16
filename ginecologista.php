@@ -1,3 +1,21 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $preventivo = $_POST['preventivo'];
+        $diu = $_POST['diu'];
+        $ativa = $_POST['ativa'];
+
+        $mysqli->query("INSERT INTO ginecol (nome, idade, preventivo, diu, ativa)
+        values ('$nome', '$idade', '$preventivo', '$diu', '$ativa')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,10 +49,10 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Qual foi a última vez que fez preventivo?" required>
-      <input type="text" name="cabeca" placeholder="Usa DIU?" required>
-      <input type="text" name="desmaio" placeholder="Já possui vida sexual ativa?" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="text" name="preventivo" placeholder="Qual foi a última vez que fez preventivo?" required>
+      <input type="text" name="diu" placeholder="Usa DIU?" required>
+      <input type="text" name="ativa" placeholder="Já possui vida sexual ativa?" required>
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>

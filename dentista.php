@@ -1,3 +1,21 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $ida = $_POST['ida'];
+        $motivo = $_POST['motivo'];
+        $aparelho = $_POST['aparelho'];
+
+        $mysqli->query("INSERT INTO dentista (nome, idade, ida, motivo, aparelho)
+        values ('$nome', '$idade', '$ida', '$motivo', '$aparelho')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -33,10 +51,10 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Quando foi a última ida ao dentista?" required>
-      <input type="text" name="cabeca" placeholder="Veio por motivo estético ou de saúde?" required>
-      <input type="text" name="desmaio" placeholder="Já usou aparelho?" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="text" name="ida" placeholder="Quando foi a última ida ao dentista?" required>
+      <input type="text" name="motivo" placeholder="Veio por motivo estético ou de saúde?" required>
+      <input type="text" name="aparelho" placeholder="Já usou aparelho?" required>
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
