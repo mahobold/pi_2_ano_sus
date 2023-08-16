@@ -1,3 +1,22 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $fadiga = $_POST['oculos'];
+        $peito = $_POST['peito'];
+        $exame = $_POST['exame'];
+
+        $mysqli->query("INSERT INTO cardio (nome, idade, fadiga, peito, exame)
+        values ('$nome', '$idade', '$fadiga', '$peito', '$exame')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -33,9 +52,9 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Usa óculos?" required>
+      <input type="text" name="oculos" placeholder="Usa óculos?" required>
       <input type="text" name="cabeca" placeholder="Teve dores de cabeça?" required>
-      <input type="text" name="desmaio" placeholder="Teve dores oculares?" required>
+      <input type="text" name="ocular" placeholder="Teve dores oculares?" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>

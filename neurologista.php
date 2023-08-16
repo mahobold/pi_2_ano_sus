@@ -1,3 +1,21 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $tontura = $_POST['tontura'];
+        $cabeca = $_POST['cabeca'];
+        $desmaio = $_POST['desmaio'];
+
+        $mysqli->query("INSERT INTO neuro (nome, idade, tontura, cabeca, desmaio)
+        values ('$nome', '$idade', '$tontura', '$cabeca', '$desmaio')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -18,7 +36,7 @@
 </div>
 
 <div class="card text-bg-dark">
-  <img src="img\andre_consultas.jpg" class="card-img" alt="...">
+  <img src="img/medico5mm.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
@@ -34,7 +52,7 @@
       <input type="text" name="tontura" placeholder="Teve tontura?" required>
       <input type="text" name="cabeca" placeholder="Possui dores de cabeça frequente?" required>
       <input type="text" name="desmaio" placeholder="Tem espamos ou desmaios?" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
