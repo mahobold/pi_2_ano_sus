@@ -40,7 +40,7 @@
   
   
   <div class="card text-bg-dark">
-  <img src="img\isadora_bertotti_consultas.jpg" class="card-img" alt="...">
+  <img src="img/medico3lef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>

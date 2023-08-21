@@ -34,11 +34,8 @@
     <div class="consultar">
   <h1>  Agende sua consulta com o dentista aqui: </h1>
   </div>
-
-    <img src="img\" alt="">
-    
     <div class="card text-bg-dark">
-  <img src="img\Maria_Araújo_consultas.jpg" class="card-img" alt="...">
+  <img src="img/Maria_Araújolef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>

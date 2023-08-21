@@ -37,7 +37,7 @@
     
 
     <div class="card text-bg-dark">
-  <img src="img\luiz_passos.jpg" class="card-img" alt="...">
+  <img src="img/luiz_passoslef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
