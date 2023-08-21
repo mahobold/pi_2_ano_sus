@@ -13,6 +13,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/logo2.png">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <link rel="stylesheet" href="projeto.css">
 <title>Info Doenças</title>
@@ -48,6 +49,7 @@
   </div>
 
   <div class="container">
+<<<<<<< HEAD
     <h1 class="marcela1">Sintomas:</h1>
     <li class="marcela3"><b>Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas.</b> </li>
   <li class="marcela3"><b>Febre, aparecimento de gânglios</b></li>
@@ -57,6 +59,17 @@
   <li class="marcela3"><b>sinusite</b></li>
   <li class="marcela3"><b>pneumonia</b></li>
   <li class="marcela3"><b>quadros de herpes simples (boca)</b></li>
+=======
+    <h1 class="marcela">Sintomas:</h1>
+    <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas. </p>
+  <p class="marcela3">Febre, aparecimento de gânglios</p>
+  <p class="marcela3">crescimento do baço e do fígado</p>
+  <p class="marcela3">Alterações elétricas do coração e/ou inflamação das meninges nos casos graves</p>
+  <p class="marcela3">Quadros de diarreia frequentes</b></p>
+  <p class="marcela3">Sinusite</p>
+  <p class="marcela3">Pneumonia</p>
+  <p class="marcela3">Quadros de herpes simples (boca)</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
      <h2 class="marcelaa">Como previnir</h2>
 
@@ -127,7 +140,7 @@
       <H4 class="marcela2">É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2. 
         Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
          O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.<br><br>
-         <b>Transmissão:</b>
+         Transmissão:
          Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
       </H4>
     </div>
@@ -138,6 +151,7 @@
 </div>
 
     <div class="container">
+<<<<<<< HEAD
    <h1 class="marcela1">Sintomas:</h1>
     <li class="marcela3"><b>Febre</b> </li>
   <li class="marcela3"><b>Mal estar e Dores no corpo</b></li>
@@ -147,6 +161,17 @@
   <li class="marcela3"><b>Diarreia</b></li>
   <li class="marcela3"><b>Cansaço</b></li>
   <li class="marcela3"><b>Dor de cabeça</b></li>
+=======
+   <h1 class="marcela">Sintomas:</h1>
+    <p class="marcela3">Febre </p>
+  <p class="marcela3">Mal estar e Dores no corpo</p>
+  <p class="marcela3">Falta de ar</p>
+  <pclass="marcela3">Dor de garganta</p>
+  <p class="marcela3">Coriza ou nariz entupido</p>
+  <p class="marcela3">Diarreia</p>
+  <p class="marcela3">Cansaço</p>
+  <p class="marcela3">Dor de cabeça</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 <h2 class="marcelaa">Como previnir</h2>
 <div class="container">
@@ -227,6 +252,7 @@
     </div>
   </div>
   <div class="container">
+<<<<<<< HEAD
     <h1 class="marcela1">Sintomas:</h1>
   <li class="marcela3"><b>Febre alta > 38.5ºC.</b></li>
   <li class="marcela3"><b>Dores musculares intensas.</b></li>
@@ -235,6 +261,16 @@
   <li class="marcela3"><b>Falta de apetite.</b></li>
   <li class="marcela3"><b>Dor de cabeça.</b></li>
   <li class="marcela3"><b>Manchas vermelhas no corpo.</b></li>
+=======
+    <h1 class="marcela">Sintomas:</h1>
+  <p class="marcela3">Febre alta > 38.5ºC.</p>
+  <p class="marcela3">Dores musculares intensas.</p>
+  <p class="marcela3">Dor ao movimentar os olhos.</p>
+  <p class="marcela3">Mal estar.</p>
+  <p class="marcela3">Falta de apetite.</p>
+  <p class="marcela3">Dor de cabeça.</p>
+  <p class="marcela3">Manchas vermelhas no corpo.</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>
@@ -305,6 +341,7 @@
     </div>
   </div>
   <div class="container">
+<<<<<<< HEAD
     <h1 class="marcela1">Sintomas:</h1>
   <li class="marcela3"><b>Febre alta > 38.5ºC.</b></li>
   <li class="marcela3"><b>Dores musculares intensas.</b></li>
@@ -313,6 +350,16 @@
   <li class="marcela3"><b>Falta de apetite.</b></li>
   <li class="marcela3"><b>Dor de cabeça.</b></li>
   <li class="marcela3"><b>Manchas vermelhas no corpo.</b></li>
+=======
+    <h1 class="marcela">Sintomas:</h1>
+  <p class="marcela3">Febre alta > 38.5ºC.</p>
+  <p class="marcela3">Dores musculares intensas.</p>
+  <p class="marcela3">Dor ao movimentar os olhos.</p>
+  <p class="marcela3">Mal estar.</p>
+  <p class="marcela3">Falta de apetite.</p>
+  <p class="marcela3">Dor de cabeça.</p>
+  <p class="marcela3">Manchas vermelhas no corpo.</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
   <h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -380,6 +427,7 @@
   
      </div>
  </div> 
+<<<<<<< HEAD
  <h1 class="marcela1">Sintomas:</h1>
 <li class="marcela3" ><b> Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</b></li>
 <li class="marcela3"><b>Cansaço inexplicável e perda de energia.</b> </li> 
@@ -391,6 +439,19 @@
  <li class="marcela3"> <b>Alterações na visão ou mudanças repentinas de comportamento.</b></li>
  <li class="marcela3"><b>Perda de apetite ou perda de peso não planejada.</b> </li>
  <li class="marcela3"><b> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor.</b> </li>   
+=======
+ <h1 class="marcela">Sintomas:</h1>
+<p class="marcela3" > Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</p>
+<p class="marcela3">Cansaço inexplicável e perda de energia.</p> 
+<p class="marcela3"> Hematomas frequentes.</p>
+<p class="marcela3"> Sangramento anormal. </p>
+ <p class="marcela3">Dor continua  </p>
+<p class="marcela3"> Febre ou sintomas inespecíficos que não melhoram.</p>
+ <p class="marcela3"> Dores de cabeça frequentes, muitas vezes com vômitos.</p>
+ <p class="marcela3"> Alterações na visão ou mudanças repentinas de comportamento.</p>
+ <p class="marcela3">Perda de apetite ou perda de peso não planejada. </p>
+ <p class="marcela3"> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor. </p>   
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
  <h2 class="marcelaa">Como previnir</h2>
@@ -449,15 +510,16 @@
  <h1 class="marcela"> Diabetes </h1> 
  <hr class="oie4">
   <h4 class="marcela2">Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade e/ou falta de insulina exercer adequadamente os seus efeitos, caracterizando altas taxa de açúcar no sangue ( hiperglicemia) de forma permanente. <br><br>
-  <b> Tipos de Diabetes:</b> <br><br>
-  <b> Diabetes tipo 1:</b> é menos comum e surge desde o nascimento, sendo considerada uma doença autoimune, já que o próprio organismo ataca as células do pâncreas responsáveis por produzir a insulina. Assim, a insulina não é produzida, a glicose não é transportada para as células e acaba se acumulando no sangue; <br><br>
-    <b>Diabetes tipo 2:</b> é o tipo mais comum (Mellitus) e acontece devido a uma resistência à insulina que surge ao longo da vida, normalmente devido a maus hábitos alimentares. Essa resistência diminui a ação da insulina no corpo e faz com que a glicose acabe se acumulando no corpo; <br> <br>
-    <b>Diabetes gestacional:</b> é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina; <br><br>
-   <b>Pré-diabetes:</b> acontece quando o nível de açúcar no sangue está aumentado, mas ainda não é o suficiente para fazer o diagnóstico de diabetes. </h4>
+   Tipos de Diabetes: <br><br>
+   Diabetes tipo 1: é menos comum e surge desde o nascimento, sendo considerada uma doença autoimune, já que o próprio organismo ataca as células do pâncreas responsáveis por produzir a insulina. Assim, a insulina não é produzida, a glicose não é transportada para as células e acaba se acumulando no sangue; <br><br>
+   Diabetes tipo 2: é o tipo mais comum (Mellitus) e acontece devido a uma resistência à insulina que surge ao longo da vida, normalmente devido a maus hábitos alimentares. Essa resistência diminui a ação da insulina no corpo e faz com que a glicose acabe se acumulando no corpo; <br> <br>
+    Diabetes gestacional:é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina; <br><br>
+   Pré-diabetes: acontece quando o nível de açúcar no sangue está aumentado, mas ainda não é o suficiente para fazer o diagnóstico de diabetes. </h4>
   </div>
    </div>
 </div>
 
+<<<<<<< HEAD
 <h1 class="marcela1">Sintomas</h1>
   <li class="marcela3"><b>Fome frequente;</b></li>
  <li class="marcela3"><b>Sede constante ;</li>
@@ -467,6 +529,17 @@
  <li class="marcela3"><b>Fadiga;.</b></li>
  <li class="marcela3"><b> Mudanças de humor ;</b></li>
  <li class="marcela3"><b>Náusea e Vômito</b> </li>
+=======
+<h1 class="marcela">Sintomas</h1>
+  <p class="marcela3">Fome frequente;</p>
+ <p class="marcela3">Sede constante ;</p>
+ <p class="marcela3">Vontade de urinar diversas vezes ao dia ;</p>  
+ <p class="marcela3"> Perda de peso; </p>
+ <p class="marcela3">Fraqueza ;</p>
+ <p class="marcela3">Fadiga;.</b></p>
+ <p class="marcela3"> Mudanças de humor ;</b></p>
+ <p class="marcela3">Náusea e Vômito </p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
   
  <div class="row">
 
@@ -536,6 +609,7 @@
 
 
 <div class="container">
+<<<<<<< HEAD
 <h1 class="marcela1">Sintomas </h1>
 <li class="marcela3"><b> dores de cabeça;</b></li>
 <li class="marcela3"><b>alterações visuais;</b> </li>
@@ -544,6 +618,16 @@
 <li class="marcela3"><b>Fraqueza ;</b></li>
 <li class="marcela3"><b> Dores no peito ;</b></li>
 <li class="marcela3">Ânsia e vômitos,entre outros;</li>
+=======
+<h1 class="marcela">Sintomas </h1>
+<p class="marcela3"> Dores de cabeça;</p>
+<p class="marcela3">Alterações visuais; </p>
+<p class="marcela3">Zumbido no ouvido;</b></p>
+<p class="marcela3">Tontura ; </p>
+<p class="marcela3">Fraqueza ;</p>
+<p class="marcela3"> Dores no peito ;</p>
+<p class="marcela3">Ânsia e vômitos,entre outros;</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>
@@ -609,12 +693,12 @@
   </div>
 </div>
 
-<h1 class="marcela1">Sintomas </h1>
-<li class="marcela3"><b> tosse, especialmente durante a noite ou após a realização de algum esforço físico;</b></li>
-<li class="marcela3"><b>dificuldade para respirar;</b></li>
-<li class="marcela3"><b>dores pelo tórax e pelas costas;</b></li>
-<li class="marcela3"><b>Cansaço;</b></li>
-<li class="marcela3"><b>chiado, entre outros.</b></li>
+<h1 class="marcela">Sintomas </h1>
+<p class="marcela3"> tosse, especialmente durante a noite ou após a realização de algum esforço físico;</p>
+<p class="marcela3">dificuldade para respirar;</p>
+<p class="marcela3">dores pelo tórax e pelas costas;</p>
+<p class="marcela3">Cansaço;</p>
+<p class="marcela3">chiado, entre outros.</p>
 
 
 
@@ -682,6 +766,7 @@
   </div>
 </div>
 <div class="container">
+<<<<<<< HEAD
 <h1 class="marcela1">Sintomas </h1>
 <li class="marcela3">problemas com memorização;</li>
 <li class="marcela3"><b>esquecimento de palavras;</b></li>
@@ -691,6 +776,17 @@
 <li class="marcela3"><b>perda de interesse por tarefas que antes eram apaixonantes;</b></li>
 <li class="marcela3"><b>contrações musculares involuntárias;</b></li>
 <li class="marcela3"><b>alterações no padrão de apetite e/ou sono, entre outros.</b></li>
+=======
+<h1 class="marcela">Sintomas </h1>
+<p class="marcela3">problemas com memorização; </p>
+<p class="marcela3">esquecimento de palavras;</p>
+<p class="marcela3">esquecer como fazer tarefas do dia a dia;</p>
+<p class="marcela3">agitação e inquietação;</p>
+<p class="marcela3">mudanças de humor;</p>
+<p class="marcela3">perda de interesse por tarefas que antes eram apaixonantes;</p>
+<p class="marcela3">contrações musculares involuntárias;</p>
+<p class="marcela3">alterações no padrão de apetite e/ou sono, entre outros.</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
   
 
 <h2 class="marcelaa">Como previnir</h2>
@@ -758,12 +854,21 @@
 </div>
 
 <div class="container">
+<<<<<<< HEAD
 <h1 class="marcela1">Sintomas </h1>
 <li class="marcela3">perda súbita de habilidades, como a fala ou o ato de caminhar</li>
 <li class="marcela3"> que pode ser em um só lado ou em ambos;</li>
 <li class="marcela3">inquietação;</li>
 <li class="marcela3">perda da visão;</li>
 <li class="marcela3">formigamento nos membros, entre outros.</li>
+=======
+<h1 class="marcela">Sintomas </h1>
+<p class="marcela3">perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
+<p class="marcela3"> que pode ser em um só lado ou em ambos;</p>
+<p class="marcela3">inquietação;</p>
+<p class="marcela3">perda da visão; </p>
+<p class="marcela3">formigamento nos membros, entre outros.</p>
+>>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>

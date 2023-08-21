@@ -1,11 +1,3 @@
-
-
-
-
-
-<!-- COLOCAR AS NOTICIAS E O VIDEO SOBRE A GRIPE -->
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
