@@ -683,7 +683,7 @@
 </div>
 <div class="container">
 <h1 class="marcela1">Sintomas </h1>
-<li class="marcela3"><b>problemas com memorização; </b></li>
+<li class="marcela3">problemas com memorização;</li>
 <li class="marcela3"><b>esquecimento de palavras;</b></li>
 <li class="marcela3"><b>esquecer como fazer tarefas do dia a dia;</b></li>
 <li class="marcela3"> <b>agitação e inquietação;</b></li>
@@ -759,11 +759,11 @@
 
 <div class="container">
 <h1 class="marcela1">Sintomas </h1>
-<li class="marcela3"><b>perda súbita de habilidades, como a fala ou o ato de caminhar;</b></li>
-<li class="marcela3"><b> que pode ser em um só lado ou em ambos;</b></li>
-<li class="marcela3"><b>inquietação;</b></li>
-<li class="marcela3"><b>perda da visão; </b></li>
-<li class="marcela3"><b>formigamento nos membros, entre outros.</b></li>
+<li class="marcela3">perda súbita de habilidades, como a fala ou o ato de caminhar</li>
+<li class="marcela3"> que pode ser em um só lado ou em ambos;</li>
+<li class="marcela3">inquietação;</li>
+<li class="marcela3">perda da visão;</li>
+<li class="marcela3">formigamento nos membros, entre outros.</li>
 
 
 <h2 class="marcelaa">Como previnir</h2>

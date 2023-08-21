@@ -675,6 +675,58 @@ nav{
 .medi{
   color: #054f77;
 }
-cadasmed{
+.cadasmed{
   font-size: 20px;
+}
+
+
+.conta-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 60px;
+  width: 450px;
+  margin-left: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.conta-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.conta-container input[type="text"],
+.conta-container input[type="email"],
+.conta-container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.conta-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.conta-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.conta-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+.minhas{
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
