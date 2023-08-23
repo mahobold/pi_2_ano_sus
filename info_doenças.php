@@ -35,8 +35,8 @@
           Síndrome da Imunodeficiência Adquirida), ataca o sistema imunológico, responsável por defender o organismo de
           doenças. Aids é a Síndrome da Imunodeficiência Humana, transmitida pelo vírus HIV, caracterizada pelo
           enfraquecimento do sistema de defesa do corpo e pelo aparecimento de doenças oportunistas.
-          <br><br>
-          <b>Transmissão:</b>
+          
+          Transmissão:
           O vírus HIV é transmitido por meio de relações sexuais (vaginal, anal ou oral) desprotegidas (sem camisinha)
           com pessoa soropositiva, ou seja, que já tem o vírus HIV, pelo compartilhamento de objetos perfuro cortantes
           contaminados, como agulhas, alicates, etc., de mãe soropositiva, sem tratamento, para o filho durante a
@@ -50,14 +50,14 @@
 
   <div class="container">
     <h1 class="marcela">Sintomas:</h1>
-    <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas. </p>
-  <p class="marcela3">Febre, aparecimento de gânglios</p>
-  <p class="marcela3">crescimento do baço e do fígado</p>
-  <p class="marcela3">Alterações elétricas do coração e/ou inflamação das meninges nos casos graves</p>
-  <p class="marcela3">Quadros de diarreia frequentes</b></p>
-  <p class="marcela3">Sinusite</p>
-  <p class="marcela3">Pneumonia</p>
-  <p class="marcela3">Quadros de herpes simples (boca)</p>
+    <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
+  <p class="marcela3">Febre, aparecimento de gânglios;</p>
+  <p class="marcela3">crescimento do baço e do fígado;</p>
+  <p class="marcela3">Alterações elétricas do coração e/ou inflamação das meninges nos casos graves;</p>
+  <p class="marcela3">Quadros de diarreia frequentes;</p>
+  <p class="marcela3">Sinusite;</p>
+  <p class="marcela3">Pneumonia;</p>
+  <p class="marcela3">Quadros de herpes simples (boca).</p>
 
      <h2 class="marcela">Como previnir</h2>
 
@@ -67,7 +67,7 @@
       <img src="img/hivv2.jpg" width="200" height="300"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <p class="card-text">Usar preservativos nas relações sexuais.</p>
+        <p class="card-text">Usar preservativos nas relações sexuais</p>
       </div>
     </div>
   </div>
@@ -127,7 +127,7 @@
 
       <H4 class="marcela2">É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2. 
         Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
-         O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.<br><br>
+         O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.
          Transmissão:
          Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
       </H4>
@@ -140,14 +140,14 @@
 
     <div class="container">
    <h1 class="marcela">Sintomas:</h1>
-    <p class="marcela3">Febre </p>
-  <p class="marcela3">Mal estar e Dores no corpo</p>
-  <p class="marcela3">Falta de ar</p>
-  <pclass="marcela3">Dor de garganta</p>
-  <p class="marcela3">Coriza ou nariz entupido</p>
-  <p class="marcela3">Diarreia</p>
-  <p class="marcela3">Cansaço</p>
-  <p class="marcela3">Dor de cabeça</p>
+    <p class="marcela3">Febre ;</p>
+  <p class="marcela3">Mal estar e Dores no corpo;</p>
+  <p class="marcela3">Falta de ar;</p>
+  <p class="marcela3">Dor de garganta;</p>
+  <p class="marcela3">Coriza ou nariz entupido;</p>
+  <p class="marcela3">Diarreia;</p>
+  <p class="marcela3">Cansaço;</p>
+  <p class="marcela3">Dor de cabeça;</p>
 
 <h2 class="marcela">Como previnir</h2>
 <div class="container">
@@ -219,7 +219,7 @@
         <H4 class="marcela2">A dengue é uma doença febril aguda, sistêmica e dinâmica, variando desde casos assintomáticos a quadros graves, inclusive óbitos. Nos casos sintomáticos pode apresentar três fases clínicas: febril, crítica e de recuperação.<br>
 
           A primeira manifestação é a febre, geralmente acima de 38ºC, de início súbito e duração de 02 a 07 dias, associada à cefaléia, cansaço, mialgia, artralgia, dor retro-orbitária ou exantema. Com o declínio da febre (entre o 3º e 7º dia do início dos sintomas), grande parte dos pacientes recupera-se gradativamente. No entanto, alguns podem evoluir para a fase
-          crítica da doença, iniciando com sinais de alarme.<br>
+          crítica da doença, iniciando com sinais de alarme.
           
           A dengue pode evoluir para remissão dos sintomas, ou pode agravar-se, exigindo constante reavaliação e observação, para que as intervenções sejam oportunas e os óbitos não ocorram.
       </div>
@@ -229,12 +229,12 @@
   </div>
   <div class="container">
     <h1 class="marcela">Sintomas:</h1>
-  <p class="marcela3">Febre alta > 38.5ºC.</p>
-  <p class="marcela3">Dores musculares intensas.</p>
-  <p class="marcela3">Dor ao movimentar os olhos.</p>
-  <p class="marcela3">Mal estar.</p>
-  <p class="marcela3">Falta de apetite.</p>
-  <p class="marcela3">Dor de cabeça.</p>
+  <p class="marcela3">Febre alta > 38.5ºC;</p>
+  <p class="marcela3">Dores musculares intensas;</p>
+  <p class="marcela3">Dor ao movimentar os olhos;</p>
+  <p class="marcela3">Mal estar;</p>
+  <p class="marcela3">Falta de apetite;</p>
+  <p class="marcela3">Dor de cabeça;</p>
   <p class="marcela3">Manchas vermelhas no corpo.</p>
 
 
@@ -307,13 +307,12 @@
   </div>
   <div class="container">
     <h1 class="marcela">Sintomas:</h1>
-  <p class="marcela3">Febre alta > 38.5ºC.</p>
-  <p class="marcela3">Dores musculares intensas.</p>
-  <p class="marcela3">Dor ao movimentar os olhos.</p>
-  <p class="marcela3">Mal estar.</p>
-  <p class="marcela3">Falta de apetite.</p>
+  <p class="marcela3">Dor de garganta.</p>
+  <p class="marcela3">Tosse.</p>
+  <p class="marcela3">Dor no corpo.</p>
   <p class="marcela3">Dor de cabeça.</p>
-  <p class="marcela3">Manchas vermelhas no corpo.</p>
+  <p class="marcela3">Febre.</p>
+ 
 
   <h2 class="marcela">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -449,11 +448,11 @@
     <div class="col">
  <h1 class="marcela"> Diabetes </h1> 
  <hr class="oie4">
-  <h4 class="marcela2">Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade e/ou falta de insulina exercer adequadamente os seus efeitos, caracterizando altas taxa de açúcar no sangue ( hiperglicemia) de forma permanente. <br><br>
-   Tipos de Diabetes: <br><br>
-   Diabetes tipo 1: é menos comum e surge desde o nascimento, sendo considerada uma doença autoimune, já que o próprio organismo ataca as células do pâncreas responsáveis por produzir a insulina. Assim, a insulina não é produzida, a glicose não é transportada para as células e acaba se acumulando no sangue; <br><br>
-   Diabetes tipo 2: é o tipo mais comum (Mellitus) e acontece devido a uma resistência à insulina que surge ao longo da vida, normalmente devido a maus hábitos alimentares. Essa resistência diminui a ação da insulina no corpo e faz com que a glicose acabe se acumulando no corpo; <br> <br>
-    Diabetes gestacional:é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina; <br><br>
+  <h4 class="marcela2">Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade e/ou falta de insulina exercer adequadamente os seus efeitos, caracterizando altas taxa de açúcar no sangue ( hiperglicemia) de forma permanente. 
+   Tipos de Diabetes:
+   Diabetes tipo 1: é menos comum e surge desde o nascimento, sendo considerada uma doença autoimune, já que o próprio organismo ataca as células do pâncreas responsáveis por produzir a insulina. Assim, a insulina não é produzida, a glicose não é transportada para as células e acaba se acumulando no sangue; 
+   Diabetes tipo 2: é o tipo mais comum (Mellitus) e acontece devido a uma resistência à insulina que surge ao longo da vida, normalmente devido a maus hábitos alimentares. Essa resistência diminui a ação da insulina no corpo e faz com que a glicose acabe se acumulando no corpo; 
+    Diabetes gestacional:é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina; 
    Pré-diabetes: acontece quando o nível de açúcar no sangue está aumentado, mas ainda não é o suficiente para fazer o diagnóstico de diabetes. </h4>
   </div>
    </div>
@@ -465,9 +464,9 @@
  <p class="marcela3">Vontade de urinar diversas vezes ao dia ;</p>  
  <p class="marcela3"> Perda de peso; </p>
  <p class="marcela3">Fraqueza ;</p>
- <p class="marcela3">Fadiga;.</b></p>
+ <p class="marcela3">Fadiga;</p>
  <p class="marcela3"> Mudanças de humor ;</b></p>
- <p class="marcela3">Náusea e Vômito </p>
+ <p class="marcela3">Náusea e Vômito. </p>
   
  <div class="row">
 
@@ -540,11 +539,11 @@
 <h1 class="marcela">Sintomas </h1>
 <p class="marcela3"> Dores de cabeça;</p>
 <p class="marcela3">Alterações visuais; </p>
-<p class="marcela3">Zumbido no ouvido;</b></p>
+<p class="marcela3">Zumbido no ouvido;</p>
 <p class="marcela3">Tontura ; </p>
 <p class="marcela3">Fraqueza ;</p>
 <p class="marcela3"> Dores no peito ;</p>
-<p class="marcela3">Ânsia e vômitos,entre outros;</p>
+<p class="marcela3">Ânsia e vômitos,entre outros.</p>
 
 
 <h2 class="marcela">Como previnir</h2>
@@ -737,7 +736,7 @@
       <img src="img/alzheimerr2.png"  width="200" height="300"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <p class="card-text"Durma bem e em quantidade suficiente></p>
+        <p class="card-text" >Durma bem e em quantidade suficiente></p>
       </div>
     </div>
   </div>
