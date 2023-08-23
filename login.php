@@ -1,47 +1,38 @@
-
-<?php 
-/* Erroooo*
-include('conexao.php');
-
-if(isset($_POST['email']) || isset($_POST['senha'])) {
-
-    if(strlen($_POST['email']) == 0){
-    echo("Preencha seu email");
-
-    }elseif(strlen($_POST['senha']) == 0){
-        echo("Preencha sua senha");
-    }else{
-        $email = $mysqli->real_escape_string($_POST['email']);
-        $senha = $mysqli->real_escape_string($_POST['senha']);
-
-        $sql_code = "SELECT * FROM cadastro WHERE email = '$email' AND senha = '$senha'";
-        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL" . $mysqli->error);
-
-        $quantidade = $sql_query->num_rows;
-
-        if($quantidade == 1){
-
-            $usuario = $sql_query->fetch_assoc();
-
-            if(!isset($_SESSION)){
-                session_start();
-            }
-
-            $_SESSION['id_login'] = $usuario['id_login'];
-            $_SESSION['nome'] = $usuario['nome'];
-            $_SESSION['username'] = $usuario['username'];
-            $_SESSION['email'] = $usuario['email'];
-            $_SESSION['senha'] = $usuario['senha'];
-
-
-            header("Location: index.php");   
-
-        }else{
-            echo "Falha ao logar!Email ou senha incorretos";
+<?php
+    include("conexao.php");
+    session_start();
+    
+    if (isset($_POST['cpf'])) {
+        $login = $_POST['cpf'];
+        $senha = $_POST['senha'];
+    
+        // Usando prepared statements para evitar SQL Injection
+        $stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE cpf = ? LIMIT 1");
+        $stmt->bind_param("s", $login);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $usuario = $result->fetch_assoc();
+       
+        
+        // Verificar se o usuário existe
+         if (!$usuario) {
+            echo "<script>alert('login ou senha incorreto!!');</script>";
+            header("Location: login.php");
+            exit();
+        }
+   
+        
+    
+        // Verificar a senha
+        if (password_verify($senha, $usuario['senha'])) {
+            $_SESSION['login_nome'] = $usuario['id_login'];
+            //var_dump( $usuario);
+            header("Location: minhaCONTA.php");
+           exit();
+        } else {
+            echo "Usuário não autenticado";
         }
     }
-}
-*/
 ?>
 
 
@@ -58,7 +49,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="login.php" method="post">
+        <form action="" method="post">
             <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">

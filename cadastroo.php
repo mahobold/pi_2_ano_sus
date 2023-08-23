@@ -9,10 +9,10 @@
         $datanasc = $_POST['datanasc'];
         $email = $_POST['email'];
         $numerocartaosus = $_POST['numerocartaosus'];
-        $senha = $_POST['senha'];
+        $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
 
-        $mysqli->query("INSERT INTO pessoas (nome, telefone, endereco, cpf, datanasc, email, numerocartaosus, username, senha)
-        values ('$nome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$username', '$senha')")
+        $mysqli->query("INSERT INTO pessoas (nome, telefone, endereco, cpf, datanasc, email, numerocartaosus, senha)
+        values ('$nome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha')")
         or die($mysqli->error);
 
     }

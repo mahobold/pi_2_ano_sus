@@ -1,4 +1,9 @@
+<?php
+    include("conexao.php");
+    
+    require("revisao/autenticacao.php");
 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
