@@ -1,4 +1,22 @@
+<?php
+    include("conexao.php");
+    
+    require("autenticacao.php");
 
+    /* teste do professor */
+
+        $id = $_SESSION['login_nome'];
+
+        $stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE id_pessoa = ? LIMIT 1");
+        $stmt->bind_param("s", $id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $usuario = $result->fetch_assoc();
+
+
+    /* fim teste do professor */
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,23 +31,17 @@
 <?php
     include("menu.php");
   ?>
-
-<div class="conta-container">
-  <div class="minhas">
-    <h2>Minhas informações</h2>
-    </div>
-    <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="telefone" placeholder="Telefone" required>
-      <input type="text" name="endereco" placeholder="Endereço" required>
-      <input type="text" name="cpf" placeholder="CPF" required>
-      <input type="text" name="email" placeholder="Email" required>
-      <input type="text" name="numerocartaosus" placeholder="Número do cartão Sus" required>
-     
-
-    </form>
-    <p><a href="consulta.php">Marcar consulta</a></p>
-  </div>
+        <h1>Olá ...</h1>
+        <h1>Minhas informações:</h1>
+        <h2>Nome: <?php echo $usuario["nome"]; ?></h2>
+        <h2>Telefone:</h2>
+        <h2>Endereço:</h2>
+        <h2>CPF:</h2>
+        <h2>Email:</h2>
+        <h2>Número do Cartão Sus:</h2>
+        <h1><a href="consulta.php">Marque sua Consulta</a></h1>
+        <p><a href="sair.php">Sair</a></p>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
