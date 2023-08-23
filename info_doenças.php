@@ -609,16 +609,6 @@
 
 
 <div class="container">
-<<<<<<< HEAD
-<h1 class="marcela1">Sintomas </h1>
-<li class="marcela3"><b> dores de cabeça;</b></li>
-<li class="marcela3"><b>alterações visuais;</b> </li>
-<li class="marcela3"> <b>zumbido no ouvido;</b></li>
-<li class="marcela3"><b> Tontura ; </b></li>
-<li class="marcela3"><b>Fraqueza ;</b></li>
-<li class="marcela3"><b> Dores no peito ;</b></li>
-<li class="marcela3">Ânsia e vômitos,entre outros;</li>
-=======
 <h1 class="marcela">Sintomas </h1>
 <p class="marcela3"> Dores de cabeça;</p>
 <p class="marcela3">Alterações visuais; </p>
@@ -627,7 +617,6 @@
 <p class="marcela3">Fraqueza ;</p>
 <p class="marcela3"> Dores no peito ;</p>
 <p class="marcela3">Ânsia e vômitos,entre outros;</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>
