@@ -12,20 +12,24 @@
         $stmt->execute();
         $result = $stmt->get_result();
         $usuario = $result->fetch_assoc();
+
+        //var_dump($usuario);
        
         
         // Verificar se o usuário existe
+        /*
          if (!$usuario) {
             echo "<script>alert('login ou senha incorreto!!');</script>";
             header("Location: login.php");
             exit();
         }
+        */
    
         
     
         // Verificar a senha
         if (password_verify($senha, $usuario['senha'])) {
-            $_SESSION['login_nome'] = $usuario['id_login'];
+            $_SESSION['login_nome'] = $usuario['id_pessoa'];
             //var_dump( $usuario);
             header("Location: minhaconta.php");
            exit();
@@ -53,9 +57,9 @@
             <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">
-            <input type="submit" href="index.php" value="Voltar">
         </form>
         <p><a href="cadastroo.php">Faça cadastro</a></p>
+        <p><a href="index.php">Voltar</a></p>
     </div>
 
   
