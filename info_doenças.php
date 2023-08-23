@@ -49,17 +49,6 @@
   </div>
 
   <div class="container">
-<<<<<<< HEAD
-    <h1 class="marcela1">Sintomas:</h1>
-    <li class="marcela3"><b>Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas.</b> </li>
-  <li class="marcela3"><b>Febre, aparecimento de gânglios</b></li>
-  <li class="marcela3"><b>crescimento do baço e do fígado</b></li>
-  <li class="marcela3"><b>alterações elétricas do coração e/ou inflamação das meninges nos casos graves</b></li>
-  <li class="marcela3"><b>quadros de diarreia frequentes</b></li>
-  <li class="marcela3"><b>sinusite</b></li>
-  <li class="marcela3"><b>pneumonia</b></li>
-  <li class="marcela3"><b>quadros de herpes simples (boca)</b></li>
-=======
     <h1 class="marcela">Sintomas:</h1>
     <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas. </p>
   <p class="marcela3">Febre, aparecimento de gânglios</p>
@@ -69,7 +58,6 @@
   <p class="marcela3">Sinusite</p>
   <p class="marcela3">Pneumonia</p>
   <p class="marcela3">Quadros de herpes simples (boca)</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
      <h2 class="marcelaa">Como previnir</h2>
 
@@ -151,17 +139,6 @@
 </div>
 
     <div class="container">
-<<<<<<< HEAD
-   <h1 class="marcela1">Sintomas:</h1>
-    <li class="marcela3"><b>Febre</b> </li>
-  <li class="marcela3"><b>Mal estar e Dores no corpo</b></li>
-  <li class="marcela3"><b>Falta de ar</b></li>
-  <li class="marcela3"><b>Dor de garganta</b></li>
-  <li class="marcela3"><b>Coriza ou nariz entupido</b></li>
-  <li class="marcela3"><b>Diarreia</b></li>
-  <li class="marcela3"><b>Cansaço</b></li>
-  <li class="marcela3"><b>Dor de cabeça</b></li>
-=======
    <h1 class="marcela">Sintomas:</h1>
     <p class="marcela3">Febre </p>
   <p class="marcela3">Mal estar e Dores no corpo</p>
@@ -171,7 +148,6 @@
   <p class="marcela3">Diarreia</p>
   <p class="marcela3">Cansaço</p>
   <p class="marcela3">Dor de cabeça</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 <h2 class="marcelaa">Como previnir</h2>
 <div class="container">
@@ -252,16 +228,6 @@
     </div>
   </div>
   <div class="container">
-<<<<<<< HEAD
-    <h1 class="marcela1">Sintomas:</h1>
-  <li class="marcela3"><b>Febre alta > 38.5ºC.</b></li>
-  <li class="marcela3"><b>Dores musculares intensas.</b></li>
-  <li class="marcela3"><b>Dor ao movimentar os olhos.</b></li>
-  <li class="marcela3"><b>Mal estar.</b></li>
-  <li class="marcela3"><b>Falta de apetite.</b></li>
-  <li class="marcela3"><b>Dor de cabeça.</b></li>
-  <li class="marcela3"><b>Manchas vermelhas no corpo.</b></li>
-=======
     <h1 class="marcela">Sintomas:</h1>
   <p class="marcela3">Febre alta > 38.5ºC.</p>
   <p class="marcela3">Dores musculares intensas.</p>
@@ -270,7 +236,6 @@
   <p class="marcela3">Falta de apetite.</p>
   <p class="marcela3">Dor de cabeça.</p>
   <p class="marcela3">Manchas vermelhas no corpo.</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>
@@ -341,16 +306,6 @@
     </div>
   </div>
   <div class="container">
-<<<<<<< HEAD
-    <h1 class="marcela1">Sintomas:</h1>
-  <li class="marcela3"><b>Febre alta > 38.5ºC.</b></li>
-  <li class="marcela3"><b>Dores musculares intensas.</b></li>
-  <li class="marcela3"><b>Dor ao movimentar os olhos.</b></li>
-  <li class="marcela3"><b>Mal estar.</b></li>
-  <li class="marcela3"><b>Falta de apetite.</b></li>
-  <li class="marcela3"><b>Dor de cabeça.</b></li>
-  <li class="marcela3"><b>Manchas vermelhas no corpo.</b></li>
-=======
     <h1 class="marcela">Sintomas:</h1>
   <p class="marcela3">Febre alta > 38.5ºC.</p>
   <p class="marcela3">Dores musculares intensas.</p>
@@ -359,7 +314,6 @@
   <p class="marcela3">Falta de apetite.</p>
   <p class="marcela3">Dor de cabeça.</p>
   <p class="marcela3">Manchas vermelhas no corpo.</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
   <h2 class="marcelaa">Como previnir</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -427,19 +381,6 @@
   
      </div>
  </div> 
-<<<<<<< HEAD
- <h1 class="marcela1">Sintomas:</h1>
-<li class="marcela3" ><b> Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</b></li>
-<li class="marcela3"><b>Cansaço inexplicável e perda de energia.</b> </li> 
-<li class="marcela3"><b> Hematomas frequentes.</b></li>
-<li class="marcela3"> <b>Sangramento anormal. </b></li>
- <li class="marcela3"><b>Dor continua</b>  </li>
-<li class="marcela3"><b> Febre ou sintomas inespecíficos que não melhoram.</b></li>
- <li class="marcela3"><b> Dores de cabeça frequentes, muitas vezes com vômitos.</b></li>
- <li class="marcela3"> <b>Alterações na visão ou mudanças repentinas de comportamento.</b></li>
- <li class="marcela3"><b>Perda de apetite ou perda de peso não planejada.</b> </li>
- <li class="marcela3"><b> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor.</b> </li>   
-=======
  <h1 class="marcela">Sintomas:</h1>
 <p class="marcela3" > Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</p>
 <p class="marcela3">Cansaço inexplicável e perda de energia.</p> 
@@ -451,7 +392,6 @@
  <p class="marcela3"> Alterações na visão ou mudanças repentinas de comportamento.</p>
  <p class="marcela3">Perda de apetite ou perda de peso não planejada. </p>
  <p class="marcela3"> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor. </p>   
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
  <h2 class="marcelaa">Como previnir</h2>
@@ -519,17 +459,6 @@
    </div>
 </div>
 
-<<<<<<< HEAD
-<h1 class="marcela1">Sintomas</h1>
-  <li class="marcela3"><b>Fome frequente;</b></li>
- <li class="marcela3"><b>Sede constante ;</li>
- <li class="marcela3"><b>Vontade de urinar diversas vezes ao dia ;</b></li>  
- <li class="marcela3"><b> Perda de peso;</b> </li>
- <li class="marcela3"><b>Fraqueza ;</b></li>
- <li class="marcela3"><b>Fadiga;.</b></li>
- <li class="marcela3"><b> Mudanças de humor ;</b></li>
- <li class="marcela3"><b>Náusea e Vômito</b> </li>
-=======
 <h1 class="marcela">Sintomas</h1>
   <p class="marcela3">Fome frequente;</p>
  <p class="marcela3">Sede constante ;</p>
@@ -539,7 +468,6 @@
  <p class="marcela3">Fadiga;.</b></p>
  <p class="marcela3"> Mudanças de humor ;</b></p>
  <p class="marcela3">Náusea e Vômito </p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
   
  <div class="row">
 
@@ -609,16 +537,6 @@
 
 
 <div class="container">
-<<<<<<< HEAD
-<h1 class="marcela1">Sintomas </h1>
-<li class="marcela3"><b> dores de cabeça;</b></li>
-<li class="marcela3"><b>alterações visuais;</b> </li>
-<li class="marcela3"> <b>zumbido no ouvido;</b></li>
-<li class="marcela3"><b> Tontura ; </b></li>
-<li class="marcela3"><b>Fraqueza ;</b></li>
-<li class="marcela3"><b> Dores no peito ;</b></li>
-<li class="marcela3">Ânsia e vômitos,entre outros;</li>
-=======
 <h1 class="marcela">Sintomas </h1>
 <p class="marcela3"> Dores de cabeça;</p>
 <p class="marcela3">Alterações visuais; </p>
@@ -627,7 +545,6 @@
 <p class="marcela3">Fraqueza ;</p>
 <p class="marcela3"> Dores no peito ;</p>
 <p class="marcela3">Ânsia e vômitos,entre outros;</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>
@@ -766,17 +683,6 @@
   </div>
 </div>
 <div class="container">
-<<<<<<< HEAD
-<h1 class="marcela1">Sintomas </h1>
-<li class="marcela3">problemas com memorização;</li>
-<li class="marcela3"><b>esquecimento de palavras;</b></li>
-<li class="marcela3"><b>esquecer como fazer tarefas do dia a dia;</b></li>
-<li class="marcela3"> <b>agitação e inquietação;</b></li>
-<li class="marcela3"><b>mudanças de humor;</b></li>
-<li class="marcela3"><b>perda de interesse por tarefas que antes eram apaixonantes;</b></li>
-<li class="marcela3"><b>contrações musculares involuntárias;</b></li>
-<li class="marcela3"><b>alterações no padrão de apetite e/ou sono, entre outros.</b></li>
-=======
 <h1 class="marcela">Sintomas </h1>
 <p class="marcela3">problemas com memorização; </p>
 <p class="marcela3">esquecimento de palavras;</p>
@@ -786,7 +692,6 @@
 <p class="marcela3">perda de interesse por tarefas que antes eram apaixonantes;</p>
 <p class="marcela3">contrações musculares involuntárias;</p>
 <p class="marcela3">alterações no padrão de apetite e/ou sono, entre outros.</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
   
 
 <h2 class="marcelaa">Como previnir</h2>
@@ -854,21 +759,12 @@
 </div>
 
 <div class="container">
-<<<<<<< HEAD
-<h1 class="marcela1">Sintomas </h1>
-<li class="marcela3">perda súbita de habilidades, como a fala ou o ato de caminhar</li>
-<li class="marcela3"> que pode ser em um só lado ou em ambos;</li>
-<li class="marcela3">inquietação;</li>
-<li class="marcela3">perda da visão;</li>
-<li class="marcela3">formigamento nos membros, entre outros.</li>
-=======
 <h1 class="marcela">Sintomas </h1>
 <p class="marcela3">perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
 <p class="marcela3"> que pode ser em um só lado ou em ambos;</p>
 <p class="marcela3">inquietação;</p>
 <p class="marcela3">perda da visão; </p>
 <p class="marcela3">formigamento nos membros, entre outros.</p>
->>>>>>> 7f20f8eeae4824460105e30d5072aa4c7f118c3a
 
 
 <h2 class="marcelaa">Como previnir</h2>
