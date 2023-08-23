@@ -1,11 +1,4 @@
 <?php
-<<<<<<< HEAD
-include("menu.php");
-?>
-
-
-
-=======
     include("conexao.php");
 
     if (isset($_POST['nome'])) {
@@ -23,21 +16,14 @@ include("menu.php");
 
 
 ?>
->>>>>>> a76ce6018d7f94294f9668b5a22fb1c5a85dddc7
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-<<<<<<< HEAD
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
->>>>>>> b4d7fc29d5f2caf190a024cba5ca0de7c1b3079c
 
   <link rel="stylesheet" href="projeto.css">
   <title>Neurologista</title>
@@ -77,14 +63,6 @@ include("menu.php");
     </div>
 
 
-<<<<<<< HEAD
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-=======
 <div class="card text-bg-dark">
   <img src="img/medico5mm.jpg" class="card-img" alt="...">
   <div class="card-img-overlay">
@@ -108,7 +86,6 @@ include("menu.php");
   </div>
     
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
->>>>>>> a76ce6018d7f94294f9668b5a22fb1c5a85dddc7
 </body>
 
 </html>
