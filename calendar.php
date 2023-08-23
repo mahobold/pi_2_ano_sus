@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- arquivos style -->
-  <link href="./css/style.css" rel="stylesheet">
-  <link href="./css/darkMode.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="darkMode.css" rel="stylesheet">
 
   <title>Calendario</title>
 </head>
@@ -74,8 +74,8 @@
   <div id="modalBackDrop"></div>
 
 
-  <script src="scripts/darkMode.js"></script>
-  <script src="./scripts/main.js"></script>
+  <script src="darkMode.js"></script>
+  <script src="main.js"></script>
   
 </body>
 </html>
