@@ -1,8 +1,27 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $fadiga = $_POST['fadiga'];
+        $peito = $_POST['peito'];
+        $exame = $_POST['exame'];
+
+        $mysqli->query("INSERT INTO cardio (nome, idade, fadiga, peito, exame)
+        values ('$nome', '$idade', '$fadiga', '$peito', '$exame')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="projeto.css">
     <title>Cardiologista</title>
@@ -18,7 +37,7 @@
     
 
     <div class="card text-bg-dark">
-  <img src="img\luiz_passos.jpg" class="card-img" alt="...">
+  <img src="img/luiz_passoslef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
@@ -31,10 +50,10 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Teve fadiga?" required>
-      <input type="text" name="cabeca" placeholder="Teve Dores no peito?" required>
-      <input type="text" name="desmaio" placeholder="Fez exame?" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="text" name="fadiga" placeholder="Teve fadiga?" required>
+      <input type="text" name="peito" placeholder="Teve Dores no peito?" required>
+      <input type="text" name="exame" placeholder="Fez exame?" required>
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>

@@ -1,21 +1,9 @@
-
-
-
-
-
-
-
-
-      <!-- ARRUMAR SUAS IMAGENS, COLOCALAS DENTRO DA PASTA IMG -->
-
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="img/logo2.png">
   <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="projeto.css">
@@ -30,7 +18,7 @@
     <h1 id="postos">Postos de saúde</h1>
 
   <div class="container">
-    <h2 class="saude">POSTO DE SAUDE DE JACUTINGA</h2>
+    <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
     <img class="img"src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
     
     <h3 class="hr"> Horarios de Atendimento</h3>

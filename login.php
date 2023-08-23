@@ -49,6 +49,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+<link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="cadas_login.css">
 
@@ -58,7 +59,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <div class="login-container">
         <h2>Login</h2>
         <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="Nome de Usuário" required>
+            <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">
         </form>
