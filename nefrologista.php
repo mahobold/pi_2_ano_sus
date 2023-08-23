@@ -1,3 +1,21 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $colica = $_POST['colica'];
+        $urina = $_POST['urina'];
+        $agua = $_POST['agua'];
+
+        $mysqli->query("INSERT INTO nefro (nome, idade, colica, urina, agua)
+        values ('$nome', '$idade', '$colica', '$urina', '$agua')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,7 +37,7 @@
    </div>
     
     <div class="card text-bg-dark">
-  <img src="img\erick_consultas.jpg" id="card-img" alt="...">
+  <img src="img/medico9lef.png" id="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
@@ -32,9 +50,9 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Teve cólica renal?" required>
-      <input type="text" name="cabeca" placeholder="Possui dificuldade para urinar ou urinou sangue?" required>
-      <input type="text" name="desmaio" placeholder="Tem o hábito de beber muita água?" required>
+      <input type="text" name="colica" placeholder="Teve cólica renal?" required>
+      <input type="text" name="urina" placeholder="Possui dificuldade para urinar ou urinou sangue?" required>
+      <input type="text" name="agua" placeholder="Tem o hábito de beber muita água?" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
