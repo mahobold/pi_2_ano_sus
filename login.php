@@ -53,6 +53,7 @@
             <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">
+            <input type="submit" href="index.php" value="Voltar">
         </form>
         <p><a href="cadastroo.php">Faça cadastro</a></p>
     </div>
