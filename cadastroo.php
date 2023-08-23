@@ -9,7 +9,6 @@
         $datanasc = $_POST['datanasc'];
         $email = $_POST['email'];
         $numerocartaosus = $_POST['numerocartaosus'];
-        $username = $_POST['username'];
         $senha = $_POST['senha'];
 
         $mysqli->query("INSERT INTO pessoas (nome, telefone, endereco, cpf, datanasc, email, numerocartaosus, username, senha)
@@ -39,7 +38,6 @@
       <input type="text" name="datanasc" placeholder="Data de nascimento" required>
       <input type="text" name="email" placeholder="Email" required>
       <input type="text" name="numerocartaosus" placeholder="Número do cartão Sus" required>
-      <input type="text" name="username" placeholder="Insira um nome de usuário" required>
       <input type="password" name="senha" placeholder="Senha" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
 

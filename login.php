@@ -59,7 +59,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <div class="login-container">
         <h2>Login</h2>
         <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="Nome de Usuário" required>
+            <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">
         </form>
