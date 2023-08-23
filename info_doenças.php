@@ -39,7 +39,6 @@
 
   <div class="container">
     <h1 class="marcela">Sintomas:</h1>
-<<<<<<< HEAD
     <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas. </p>
     <p class="marcela3">Febre, aparecimento de gânglios</p>
     <p class="marcela3">crescimento do baço e do fígado</p>
@@ -48,66 +47,9 @@
     <p class="marcela3">Sinusite</p>
     <p class="marcela3">Pneumonia</p>
     <p class="marcela3">Quadros de herpes simples (boca)</p>
-=======
-    <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
-  <p class="marcela3">Febre, aparecimento de gânglios;</p>
-  <p class="marcela3">crescimento do baço e do fígado;</p>
-  <p class="marcela3">Alterações elétricas do coração e/ou inflamação das meninges nos casos graves;</p>
-  <p class="marcela3">Quadros de diarreia frequentes;</p>
-  <p class="marcela3">Sinusite;</p>
-  <p class="marcela3">Pneumonia;</p>
-  <p class="marcela3">Quadros de herpes simples (boca).</p>
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
 
     <h2 class="marcelaa">Como previnir</h2>
 
-<<<<<<< HEAD
-    <div class="row row-cols-1 row-cols-md-3 g-3">
-      <div class="col">
-        <div class="card h-100">
-          <img src="img/hivv2.jpg" width="200" height="300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">Usar preservativos nas relações sexuais.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/hiv3.jpg" width="160" height="300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text"> Ter cuidado no uso de materiais cortantes</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="img/hivv4.jpg" width="160" height="300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">Evitar o compartilhamento de seringas e agulhas</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="img/hivv3.jpg" width="160" height="300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">Certificar-se que material descartável será usado nas transfusões de sangue </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="img/hiv6.png" width="160" height="300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">Prevenir a transmissão vertical</p>
-          </div>
-        </div>
-=======
 <div class="row row-cols-1 row-cols-md-3 g-3">
   <div class="col">
     <div class="card h-100">
@@ -115,7 +57,6 @@
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Usar preservativos nas relações sexuais</p>
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
       </div>
     </div>
   </div>
@@ -148,18 +89,6 @@
     </div>
   </div>
 
-<<<<<<< HEAD
-  <div class="container">
-    <h1 class="marcela">Sintomas:</h1>
-    <p class="marcela3">Febre </p>
-    <p class="marcela3">Mal estar e Dores no corpo</p>
-    <p class="marcela3">Falta de ar</p>
-    <pclass="marcela3">Dor de garganta</p>
-      <p class="marcela3">Coriza ou nariz entupido</p>
-      <p class="marcela3">Diarreia</p>
-      <p class="marcela3">Cansaço</p>
-      <p class="marcela3">Dor de cabeça</p>
-=======
 
 
 
@@ -197,7 +126,6 @@
   <p class="marcela3">Diarreia;</p>
   <p class="marcela3">Cansaço;</p>
   <p class="marcela3">Dor de cabeça;</p>
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
 
       <h2 class="marcelaa">Como previnir</h2>
       <div class="container">
@@ -726,24 +654,13 @@
       <div class="col">
         <h1 class="marcela"> Alzheimer </h1>
         <hr class="oie4">
-<<<<<<< HEAD
         <h4 class="marcela2"> A doença de Alzheimer é um problema que afeta as habilidades cognitivas, ou seja, aspectos como a fala, a memória e a coordenação. Essa é uma doença degenerativa e que, infelizmente, não tem cura até o presente momento.
         </h4>
-=======
-        <H4 class="marcela2">A dengue é uma doença febril aguda, sistêmica e dinâmica, variando desde casos assintomáticos a quadros graves, inclusive óbitos. Nos casos sintomáticos pode apresentar três fases clínicas: febril, crítica e de recuperação.<br>
-
-          A primeira manifestação é a febre, geralmente acima de 38ºC, de início súbito e duração de 02 a 07 dias, associada à cefaléia, cansaço, mialgia, artralgia, dor retro-orbitária ou exantema. Com o declínio da febre (entre o 3º e 7º dia do início dos sintomas), grande parte dos pacientes recupera-se gradativamente. No entanto, alguns podem evoluir para a fase
-          crítica da doença, iniciando com sinais de alarme.
-          
-          A dengue pode evoluir para remissão dos sintomas, ou pode agravar-se, exigindo constante reavaliação e observação, para que as intervenções sejam oportunas e os óbitos não ocorram.
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
       </div>
 
     </div>
   </div>
   <div class="container">
-<<<<<<< HEAD
-=======
     <h1 class="marcela">Sintomas:</h1>
   <p class="marcela3">Febre alta > 38.5ºC;</p>
   <p class="marcela3">Dores musculares intensas;</p>
@@ -752,7 +669,6 @@
   <p class="marcela3">Falta de apetite;</p>
   <p class="marcela3">Dor de cabeça;</p>
   <p class="marcela3">Manchas vermelhas no corpo.</p>
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
 
 
     <p class="marcela3">Problemas com memorização; </p>
@@ -831,9 +747,6 @@
   </div>
 
   <div class="container">
-<<<<<<< HEAD
-    <h1 class="marcela1">Sintomas </h1>
-=======
     <h1 class="marcela">Sintomas:</h1>
   <p class="marcela3">Dor de garganta.</p>
   <p class="marcela3">Tosse.</p>
@@ -841,7 +754,6 @@
   <p class="marcela3">Dor de cabeça.</p>
   <p class="marcela3">Febre.</p>
  
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
 
     <p class="marcela3">Perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
     <p class="marcela3">Que pode ser em um só lado ou em ambos;</p>
@@ -850,17 +762,6 @@
     <p class="marcela3">Formigamento nos membros, entre outros.</p>
 
 
-<<<<<<< HEAD
-    <h2 class="marcelaa">Como previnir</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="img/avc1.png" width="200" height="300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text"> Não fazer uso de drogas ilícitas</p>
-          </div>
-=======
 
 
 
@@ -974,7 +875,6 @@
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Não fume</p>
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
         </div>
       </div>
       <div class="col">
@@ -1017,8 +917,6 @@
   </div>
 
   </div>
-<<<<<<< HEAD
-=======
   </div>
 
 
@@ -1304,7 +1202,6 @@
 </div>
 
 </div>
->>>>>>> 4356b8e805c2c91cfccc4716fe35f2c44b59704b
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
