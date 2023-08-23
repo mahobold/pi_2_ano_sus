@@ -62,7 +62,7 @@
             <a class="nav-link active" aria-current="page" href="info_doenças.php">Info doenças</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="login.php">Minha conta</a>
+            <a class="nav-link active" aria-current="page" href="minhaconta.php">Minha conta</a>
           </li>
         </ul>
       </div>

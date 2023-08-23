@@ -1,7 +1,7 @@
 <?php
     include("conexao.php");
     
-    require("revisao/autenticacao.php");
+    require("autenticacao.php");
 
 ?>
 <!DOCTYPE html>

@@ -27,7 +27,7 @@
         if (password_verify($senha, $usuario['senha'])) {
             $_SESSION['login_nome'] = $usuario['id_login'];
             //var_dump( $usuario);
-            header("Location: minhaCONTA.php");
+            header("Location: minhaconta.php");
            exit();
         } else {
             echo "Usuário não autenticado";
