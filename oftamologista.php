@@ -1,3 +1,22 @@
+<?php
+    include("conexao.php");
+
+    if (isset($_POST['nome'])) {
+        $nome = $_POST['nome'];
+        $idade = $_POST['idade'];
+        $oculos = $_POST['oculos'];
+        $cabeca = $_POST['cabeca'];
+        $ocular = $_POST['ocular'];
+
+        $mysqli->query("INSERT INTO oftal (nome, idade, oculos, cabeca, ocular)
+        values ('$nome', '$idade', '$oculos', '$cabeca', '$ocular')")
+        or die($mysqli->error);
+
+    }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,7 +40,7 @@
   
   
   <div class="card text-bg-dark">
-  <img src="img\isadora_bertotti_consultas.jpg" class="card-img" alt="...">
+  <img src="img/medico3lef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
@@ -34,10 +53,10 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Usa óculos?" required>
+      <input type="text" name="oculos" placeholder="Usa óculos?" required>
       <input type="text" name="cabeca" placeholder="Teve dores de cabeça?" required>
-      <input type="text" name="desmaio" placeholder="Teve dores oculares?" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="text" name="ocular" placeholder="Teve dores oculares?" required>
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
