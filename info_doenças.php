@@ -2,7 +2,6 @@
 
 
 
-     <!-- ARRUMAR SEUS TEXTOS, DEIXALOS DO JEITO PADRAO DO HTML, ARRUME SUAS IMAGENS DEIXANDO EM JPG OU PNG, E AS COLOQUE DENTRO DA PASTA IMG  -->
 
 
 
@@ -22,16 +21,14 @@
   include("menu.php");
   ?>
  
-  <div class="container text-center">
 
-    <div class="row">
 
-      <div class="col">
+
+<div class="container">
         <h1 class="marcela">HIV</h1>
         <hr class="oie4">
         
-        <H4 class="marcela2">HIV é a sigla em inglês para vírus da imunodeficiência humana. Causador da aids (da sigla em inglês para
-          Síndrome da Imunodeficiência Adquirida), ataca o sistema imunológico, responsável por defender o organismo de
+        <p class="marcela2">HIV é a sigla em inglês para vírus da imunodeficiência humana. Causador da aids (da sigla em inglês para Síndrome da Imunodeficiência Adquirida), ataca o sistema imunológico, responsável por defender o organismo de
           doenças. Aids é a Síndrome da Imunodeficiência Humana, transmitida pelo vírus HIV, caracterizada pelo
           enfraquecimento do sistema de defesa do corpo e pelo aparecimento de doenças oportunistas.
           
@@ -40,14 +37,13 @@
           com pessoa soropositiva, ou seja, que já tem o vírus HIV, pelo compartilhamento de objetos perfuro cortantes
           contaminados, como agulhas, alicates, etc., de mãe soropositiva, sem tratamento, para o filho durante a
           gestação, parto ou amamentação
-        </H4>
-      </div>
+         </p>
+
       
 
-    </div>
-  </div>
+         </div>
 
-  <div class="container">
+  
     <h1 class="marcela">Sintomas:</h1>
     <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
   <p class="marcela3">Febre, aparecimento de gânglios;</p>
@@ -58,12 +54,61 @@
   <p class="marcela3">Pneumonia;</p>
   <p class="marcela3">Quadros de herpes simples (boca).</p>
 
-     <h2 class="marcela">Como previnir</h2>
+     <h1 class="marcela">Como previnir</h1>
+
+
+     <div class="row">
+     <div class="card" style="width: 18rem;">
+  <img src="img/hivv2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Usar preservativos nas relações sexuais</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   
+  </div>
+</div>
+ 
+<div class="card" style="width: 18rem;">
+  <img src="img/hiv3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="img/hivv4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="img/hivv3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="img/hiv6.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+</div>
 
 <div class="row row-cols-1 row-cols-md-3 g-3">
   <div class="col">
     <div class="card h-100">
-      <img src="img/hivv2.jpg" width="200" height="300"class="card-img-top" alt="...">
+      <img src="img/hivv2.jpg" width="100" height="100"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Usar preservativos nas relações sexuais</p>
@@ -306,10 +351,10 @@
   </div>
   <div class="container">
     <h1 class="marcela">Sintomas:</h1>
-  <p class="marcela3">Dor de garganta.</p>
-  <p class="marcela3">Tosse.</p>
-  <p class="marcela3">Dor no corpo.</p>
-  <p class="marcela3">Dor de cabeça.</p>
+  <p class="marcela3">Dor de garganta;</p>
+  <p class="marcela3">Tosse;</p>
+  <p class="marcela3">Dor no corpo;</p>
+  <p class="marcela3">Dor de cabeça;</p>
   <p class="marcela3">Febre.</p>
  
 
@@ -808,7 +853,7 @@
       <img src="img/avc5.jpg"  width="200" height="300"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <p class="card-text">Manter a pressão sob controle</</p>
+        <p class="card-text">Manter a pressão sob controle</p>
       </div>
     </div>
   </div>
