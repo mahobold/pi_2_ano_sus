@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- arquivos style -->
-    <link href="style.css" rel="stylesheet">
-    <link href="darkMode.css" rel="stylesheet">
-    <title>Calendario</title>
-  </head>
-  <body>
-    <!-- dark mode -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <div class="toggle">
       <input id="switch" type="checkbox" name="theme">

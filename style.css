@@ -1,7 +1,7 @@
 html{
 
 
-  --body-color:#FFFCFF ;
+  --body-color:#fffcfc ;
 
   --header-color:#b0cfff;
 
@@ -13,14 +13,14 @@ html{
 
   --hover: #e8faed;
 
-  --current-day:#e8f4fa;
+  --current-day:#ffffff;
 
   --event-color: #b0cfff;
 
   --modal-event: #e8f4fa;
 
 
- --color-day:white;
+ --color-day:rgb(251, 251, 251); /* Mudar o quadrados */
   
 
 }
@@ -41,7 +41,7 @@ button {
   outline: none;
   padding: 5px;
   border-radius: 5px;
-  color: white;
+  color: rgb(4, 253, 79); /* Voltar / Proximo  */
 }
 
 #header {
@@ -134,7 +134,7 @@ button {
   box-shadow: 0px 0px 3px gray;
 }
 #eventTitleInput.error {
-  border: 2px solid red;
+  border: 2px solid rgb(255, 0, 195);
 }
 #cancelButton, #deleteButton {
   background-color: rgb(240, 125, 125);
@@ -156,7 +156,7 @@ button {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(251, 6, 182, 0.8); /* Cor de fundo cadastro */
 }
 
 .day.sunday {
