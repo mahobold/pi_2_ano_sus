@@ -30,7 +30,11 @@
 <body>
 <?php
     include("menu.php");
-  ?>    <input type="file" placeholder="Mudar foto de perfil">
+  ?>    
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" placeholder="Mudar foto de perfil">
+    </form>
+        <div class="ftperfil"></div>
         <h1>Olá <?php echo $usuario["nome"]; ?></h1>
         <h1>Minhas informações:</h1>
         <h2>Nome: <?php echo $usuario["nome"] ;?> <?php echo $usuario["sobrenome"]; ?></h2>
