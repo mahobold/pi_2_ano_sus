@@ -30,15 +30,19 @@
 <body>
 <?php
     include("menu.php");
-  ?>
-        <h1>Olá ...</h1>
+  ?>    
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" placeholder="Mudar foto de perfil">
+    </form>
+        <div class="ftperfil"></div>
+        <h1>Olá <?php echo $usuario["nome"]; ?></h1>
         <h1>Minhas informações:</h1>
-        <h2>Nome: <?php echo $usuario["nome"]; ?></h2>
-        <h2>Telefone:</h2>
-        <h2>Endereço:</h2>
-        <h2>CPF:</h2>
-        <h2>Email:</h2>
-        <h2>Número do Cartão Sus:</h2>
+        <h2>Nome: <?php echo $usuario["nome"] ;?> <?php echo $usuario["sobrenome"]; ?></h2>
+        <h2>Telefone: <?php echo $usuario["telefone"]; ?></h2>
+        <h2>Endereço: <?php echo $usuario["endereco"]; ?></h2>
+        <h2>CPF: <?php echo $usuario["cpf"]; ?></h2>
+        <h2>Email: <?php echo $usuario["email"]; ?></h2>
+        <h2>Número do Cartão Sus: <?php echo $usuario["numerocartaosus"]; ?></h2>
         <h1><a href="consulta.php">Marque sua Consulta</a></h1>
         <p><a href="sair.php">Sair</a></p>
     

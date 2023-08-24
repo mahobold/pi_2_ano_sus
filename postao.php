@@ -71,7 +71,7 @@
     <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="img/Alex_Gonçalves3.jpg" class="card-img-top" alt="...">
+        <img src="img/Alex_Gonçalvesluiz.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="titulo">Medico plantão do dia.</h5>
           <p class="card-text">
@@ -297,7 +297,7 @@
         </div>
 
       </div>
-        <!-- ################################ FIM Card Pediatra plantão do dia ##################################################  --> 
+        <!-- ################################ FIM Card Ortopedista plantão do dia ##################################################  --> 
      
       <!-- ################################ Card Posto M. Castelo ##################################################  -->    
       <div class="card" style="width: 18rem;">
@@ -376,7 +376,7 @@
       <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="img/luiz_passos3.jpg" class="card-img-top" alt="...">
+        <img src="img/luiz_passosluiz.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Medico plantão do dia.</h5>
           <p class="card-text">
