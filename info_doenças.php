@@ -40,23 +40,13 @@
   <div class="container">
     <h1 class="marcela">Sintomas:</h1>
     <p class="marcela3">Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas. </p>
-<<<<<<< HEAD
-  <p class="marcela3">Febre, aparecimento de gânglios</p>
-  <p class="marcela3">crescimento do baço e do fígado</p>
-  <p class="marcela3">Alterações elétricas do coração e/ou inflamação das meninges nos casos graves</p>
-  <p class="marcela3">Quadros de diarreia frequentes</b></p>
-  <p class="marcela3">Sinusite</p>
-  <p class="marcela3">Pneumonia</p>
-  <p class="marcela3">Quadros de herpes simples (boca)</p>
-=======
     <p class="marcela3">Febre, aparecimento de gânglios</p>
-    <p class="marcela3">crescimento do baço e do fígado</p>
+    <p class="marcela3">Crescimento do baço e do fígado</p>
     <p class="marcela3">Alterações elétricas do coração e/ou inflamação das meninges nos casos graves</p>
     <p class="marcela3">Quadros de diarreia frequentes</b></p>
     <p class="marcela3">Sinusite</p>
     <p class="marcela3">Pneumonia</p>
     <p class="marcela3">Quadros de herpes simples (boca)</p>
->>>>>>> main
 
     <h2 class="marcelaa">Como previnir</h2>
 
@@ -79,7 +69,6 @@
 
 
   <div class="container text-center">
-    <br> <br><br> <br>
     <div class="row">
 
       <div class="col">
@@ -106,7 +95,6 @@
 
 
 <div class="container text-center">
-  <br> <br><br> <br>
   <div class="row">
 
     <div class="col">
@@ -128,16 +116,6 @@
 
     <div class="container">
    <h1 class="marcela">Sintomas:</h1>
-<<<<<<< HEAD
-    <p class="marcela3">Febre </p>
-  <p class="marcela3">Mal estar e Dores no corpo</p>
-  <p class="marcela3">Falta de ar</p>
-  <pclass="marcela3">Dor de garganta</p>
-  <p class="marcela3">Coriza ou nariz entupido</p>
-  <p class="marcela3">Diarreia</p>
-  <p class="marcela3">Cansaço</p>
-  <p class="marcela3">Dor de cabeça</p>
-=======
     <p class="marcela3">Febre ;</p>
   <p class="marcela3">Mal estar e Dores no corpo;</p>
   <p class="marcela3">Falta de ar;</p>
@@ -146,7 +124,6 @@
   <p class="marcela3">Diarreia;</p>
   <p class="marcela3">Cansaço;</p>
   <p class="marcela3">Dor de cabeça;</p>
->>>>>>> main
 
       <h2 class="marcelaa">Como previnir</h2>
       <div class="container">
@@ -215,10 +192,10 @@
           <div class="col">
             <h1 class="marcela">Dengue</h1>
             <hr class="oie4">
-            <H4 class="marcela2">A dengue é uma doença febril aguda, sistêmica e dinâmica, variando desde casos assintomáticos a quadros graves, inclusive óbitos. Nos casos sintomáticos pode apresentar três fases clínicas: febril, crítica e de recuperação.<br>
+            <H4 class="marcela2">A dengue é uma doença febril aguda, sistêmica e dinâmica, variando desde casos assintomáticos a quadros graves, inclusive óbitos. Nos casos sintomáticos pode apresentar três fases clínicas: febril, crítica e de recuperação.
 
               A primeira manifestação é a febre, geralmente acima de 38ºC, de início súbito e duração de 02 a 07 dias, associada à cefaléia, cansaço, mialgia, artralgia, dor retro-orbitária ou exantema. Com o declínio da febre (entre o 3º e 7º dia do início dos sintomas), grande parte dos pacientes recupera-se gradativamente. No entanto, alguns podem evoluir para a fase
-              crítica da doença, iniciando com sinais de alarme.<br>
+              crítica da doença, iniciando com sinais de alarme.
 
               A dengue pode evoluir para remissão dos sintomas, ou pode agravar-se, exigindo constante reavaliação e observação, para que as intervenções sejam oportunas e os óbitos não ocorram.
           </div>
@@ -372,7 +349,6 @@
         <div class="row">
           <div class="col">
             <h1 class="marcela"> Câncer</h1>
-            <br>
             <hr class="oie4">
             <h4 class="marcela2">O câncer é uma doença onde acontece um crescimento desordenado (maligno) de células que invadem os tecidos e órgãos, podendo espalhar-se para outras regiões do corpo (metástase), sendo também conhecida como neoplasia maligna. </h4>
             <div class="col-6 col-sm-4"></div>
@@ -448,11 +424,11 @@
           <div class="col">
             <h1 class="marcela"> Diabetes </h1>
             <hr class="oie4">
-            <h4 class="marcela2">Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade e/ou falta de insulina exercer adequadamente os seus efeitos, caracterizando altas taxa de açúcar no sangue ( hiperglicemia) de forma permanente. <br><br>
+            <h4 class="marcela2">Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade e/ou falta de insulina exercer adequadamente os seus efeitos, caracterizando altas taxa de açúcar no sangue ( hiperglicemia) de forma permanente.
               Tipos de Diabetes: <br><br>
               Diabetes tipo 1: é menos comum e surge desde o nascimento, sendo considerada uma doença autoimune, já que o próprio organismo ataca as células do pâncreas responsáveis por produzir a insulina. Assim, a insulina não é produzida, a glicose não é transportada para as células e acaba se acumulando no sangue; <br><br>
-              Diabetes tipo 2: é o tipo mais comum (Mellitus) e acontece devido a uma resistência à insulina que surge ao longo da vida, normalmente devido a maus hábitos alimentares. Essa resistência diminui a ação da insulina no corpo e faz com que a glicose acabe se acumulando no corpo; <br> <br>
-              Diabetes gestacional:é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina; <br><br>
+              Diabetes tipo 2: é o tipo mais comum (Mellitus) e acontece devido a uma resistência à insulina que surge ao longo da vida, normalmente devido a maus hábitos alimentares. Essa resistência diminui a ação da insulina no corpo e faz com que a glicose acabe se acumulando no corpo; 
+              Diabetes gestacional:é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina; 
               Pré-diabetes: acontece quando o nível de açúcar no sangue está aumentado, mas ainda não é o suficiente para fazer o diagnóstico de diabetes. </h4>
           </div>
         </div>
@@ -773,12 +749,8 @@
   <p class="marcela3">Tosse.</p>
   <p class="marcela3">Dor no corpo.</p>
   <p class="marcela3">Dor de cabeça.</p>
-<<<<<<< HEAD
-  <p class="marcela3">Manchas vermelhas no corpo.</p>
-=======
   <p class="marcela3">Febre.</p>
  
->>>>>>> main
 
     <p class="marcela3">Perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
     <p class="marcela3">Que pode ser em um só lado ou em ambos;</p>
@@ -793,8 +765,7 @@
   <div class="container text-center">
   <div class="row">
     <div class="col">
- <h1 class="marcela"> Câncer</h1>  
- <br>   
+ <h1 class="marcela"> Câncer</h1>     
  <hr class="oie4">
 <h4 class="marcela2">O câncer é uma doença onde acontece um crescimento desordenado (maligno) de células que invadem os tecidos e órgãos, podendo espalhar-se para outras regiões do corpo (metástase), sendo também conhecida como neoplasia maligna. </h4> 
   <div class="col-6 col-sm-4"></div>     
@@ -888,11 +859,7 @@
  <p class="marcela3">Fraqueza ;</p>
  <p class="marcela3">Fadiga;</p>
  <p class="marcela3"> Mudanças de humor ;</b></p>
-<<<<<<< HEAD
- <p class="marcela3">Náusea e Vômito </p>
-=======
  <p class="marcela3">Náusea e Vômito. </p>
->>>>>>> main
   
  <div class="row">
 
@@ -957,11 +924,7 @@
 <p class="marcela3">Tontura ; </p>
 <p class="marcela3">Fraqueza ;</p>
 <p class="marcela3"> Dores no peito ;</p>
-<<<<<<< HEAD
-<p class="marcela3">Ânsia e vômitos,entre outros;</p>
-=======
 <p class="marcela3">Ânsia e vômitos,entre outros.</p>
->>>>>>> main
 
 
 <h2 class="marcela">Como previnir</h2>
@@ -1101,16 +1064,6 @@
 </div>
 <div class="container">
 <h1 class="marcela">Sintomas </h1>
-<<<<<<< HEAD
-<p class="marcela3">problemas com memorização; </p>
-<p class="marcela3">esquecimento de palavras;</p>
-<p class="marcela3">esquecer como fazer tarefas do dia a dia;</p>
-<p class="marcela3">agitação e inquietação;</p>
-<p class="marcela3">mudanças de humor;</p>
-<p class="marcela3">perda de interesse por tarefas que antes eram apaixonantes;</p>
-<p class="marcela3">contrações musculares involuntárias;</p>
-<p class="marcela3">alterações no padrão de apetite e/ou sono, entre outros.</p>
-=======
 <p class="marcela3">Problemas com memorização; </p>
 <p class="marcela3">Esquecimento de palavras;</p>
 <p class="marcela3">Esquecer como fazer tarefas do dia a dia;</p>
@@ -1119,7 +1072,6 @@
 <p class="marcela3">Perda de interesse por tarefas que antes eram apaixonantes;</p>
 <p class="marcela3">Contrações musculares involuntárias;</p>
 <p class="marcela3">Alterações no padrão de apetite e/ou sono, entre outros.</p>
->>>>>>> main
   
 
 <h2 class="marcela">Como previnir</h2>
@@ -1188,19 +1140,11 @@
 
 <div class="container">
 <h1 class="marcela">Sintomas </h1>
-<<<<<<< HEAD
-<p class="marcela3">perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
-<p class="marcela3"> que pode ser em um só lado ou em ambos;</p>
-<p class="marcela3">inquietação;</p>
-<p class="marcela3">perda da visão; </p>
-<p class="marcela3">formigamento nos membros, entre outros.</p>
-=======
 <p class="marcela3">Perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
 <p class="marcela3">Que pode ser em um só lado ou em ambos;</p>
 <p class="marcela3">Inquietação;</p>
 <p class="marcela3">Perda da visão; </p>
 <p class="marcela3">Formigamento nos membros, entre outros.</p>
->>>>>>> main
 
 
 <h2 class="marcela">Como previnir</h2>
