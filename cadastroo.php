@@ -3,20 +3,19 @@
 
     if (isset($_POST['nome'])) {
         $nome = $_POST['nome'];
+        $sobrenome = $_POST['sobrenome'];
         $telefone = $_POST['telefone'];
         $endereco = $_POST['endereco'];
         $cpf = $_POST['cpf'];
         $datanasc = $_POST['datanasc'];
         $email = $_POST['email'];
         $numerocartaosus = $_POST['numerocartaosus'];
-        $username = $_POST['username'];
-        $senha = $_POST['senha'];
+        $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
 
-        $mysqli->query("INSERT INTO pessoas (nome, telefone, endereco, cpf, datanasc, email, numerocartaosus, username, senha)
-        values ('$nome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$username', '$senha')")
+        $mysqli->query("INSERT INTO pessoas (nome, sobrenome, telefone, endereco, cpf, datanasc, email, numerocartaosus, senha)
+        values ('$nome', '$sobrenome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha')")
         or die($mysqli->error);
 
-        var_dump( $mysqli);
     }
 
 
@@ -29,18 +28,21 @@
   <title>Tela de Cadastro</title>
 </head>
 
+
+
+
 <body>
   <div class="signup-container">
     <h2>Cadastro</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
+      <input type="text" name="nome" placeholder="Nome" required>
+      <input type="text" name="sobrenome" placeholder="Sobrenome" required>
       <input type="text" name="telefone" placeholder="Telefone" required>
       <input type="text" name="endereco" placeholder="Endereço" required>
       <input type="text" name="cpf" placeholder="CPF" required>
       <input type="text" name="datanasc" placeholder="Data de nascimento" required>
       <input type="text" name="email" placeholder="Email" required>
       <input type="text" name="numerocartaosus" placeholder="Número do cartão Sus" required>
-      <input type="text" name="username" placeholder="Insira um nome de usuário" required>
       <input type="password" name="senha" placeholder="Senha" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
 

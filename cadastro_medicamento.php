@@ -26,42 +26,31 @@
         </head>
 
 
-
-<body>
-
-            <form action="cadastro_medicamento.php" method="post">
         <body>
-            <form action="cadastro.php" method="post">
-                <label>Nome do medicamento: </label>
-                <input type="text" name="nome"/><br/><br/>
-                <label>Miligramagem: </label>
-                <input type="text" name="miligramagem"/><br/><br/>
-                <label>Imagem do Produto: </label>
-                <input type="text" name="imagem"/><br/><br/>
-                <label>Disponibilidade: </label>
-                <input type="text" name="disponibilidade"/><br/><br/>
-                <input type="submit" class="btn btn-success" value="Adicionar">
-                <input type="reset" class="btn btn-danger" value="Limpar">
-                </div>
-            </form>
-        </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</html>
+  <div class="medi-container">
+    <h2 class="medi">Cadastro de Medicamentos</h2>
+    <form action="" method="post">
+      <input type="text" name="nome" placeholder="Nome do medicamento:" required>
+      <input type="text" name="miligramagem" placeholder="Miligramagem:" required>
+      <input type="text" name="imagem" placeholder="Imagem do Produto:" required>
+      <input type="text" name="disponibilidade" placeholder="Disponibilidade:" required>
+      
+      <input type="submit" value="Adicionar" onclick="return validateFields()">
+      <input type="reset" value="Limpar" onclick="return validateFields()">
 
-<!--
-<div class="medi-container">
-    <h2>Cadastro</h2>
-    <form action="cadastro_medicamento.php" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="telefone" placeholder="Telefone" required>
-      <input type="text" name="endereco" placeholder="Endereço" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="senha" placeholder="Senha" required>
-      <input type="submit" value="Cadastrar">
     </form>
-    <p><a href="farmacia.php">Faça login</a></p>
+
+    <div class="cadasmed">
+    <p><a href="farmacia.php">Voltar</a></p>
+    </div>
   </div>
--->
+
+
+
+<?php
+  include("rodape.php");
+  ?>
+
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
