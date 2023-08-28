@@ -62,12 +62,12 @@
   </div>
 
   <div id="deleteEventModal">
-    <h2>Evento</h2>
+    <h2>Cancelar consulta</h2>
 
     <div id="eventText"></div><br>
 
 
-    <button id="deleteButton">Deletar</button>
+    <button id="deleteButton">Cancelar</button>
     <button id="closeButton">Fechar</button>
   </div>
 
