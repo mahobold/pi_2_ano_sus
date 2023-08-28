@@ -31,66 +31,33 @@
 <body>
 <?php
     include("menu.php");
-    ?>
-<body>
+?>
 
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="consultar">
-        <h1> Agende sua consulta com o neurologista aqui: </h1>
-      </div>
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <img src="img\andre_consultas.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="neuro-contaiiner">
-          <h2 class="add">Questionário base</h2>
-          <form action="" method="post">
-            <input type="text" name="nome" placeholder="Nome Completo" required>
-            <input type="text" name="idade" placeholder="Idade" required>
-            <input type="text" name="tontura" placeholder="Teve tontura?" required>
-            <input type="text" name="cabeca" placeholder="Possui dores de cabeça frequente?" required>
-            <input type="text" name="desmaio" placeholder="Tem espamos ou desmaios?" required>
-            <input type="submit" value="Cadastrar">
-          </form>
-          <p><a href="consulta.php">Voltar</a></p>
-        </div>
-      </div>
-    </div>
-
-
+ 
 <div class="card text-bg-dark">
-  <img src="img/medico5mm.jpg" class="card-img" alt="...">
+  <img src="img/medico5mm.jpg" id="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
-    <p class="card-text"><small></small></p>
+    <p class="card-text"></p>
   </div>
 </div>
 
-    <div class="neuro-container">
+    <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
       <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="tontura" placeholder="Teve tontura?" required>
-      <input type="text" name="cabeca" placeholder="Possui dores de cabeça frequente?" required>
-      <input type="text" name="desmaio" placeholder="Tem espamos ou desmaios?" required>
-      <input type="submit" value="Enviar" onclick="return validateFields()">
+      <input type="text" name="colica" placeholder="Teve cólica renal?" required>
+      <input type="text" name="urina" placeholder="Possui dificuldade para urinar ou urinou sangue?" required>
+      <input type="text" name="agua" placeholder="Tem o hábito de beber muita água?" required>
+      <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
- 
+    
+  </body>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
+
 
 </html>
