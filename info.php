@@ -409,7 +409,7 @@
 
   <div class="row">
         <div class="card" style="width: 18rem;">
-        <img src="img/diabetess1.png" class="card-img-top" alt="...">
+        <img src="img/avccc.png" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Não fume.</p>
