@@ -115,14 +115,11 @@
   <h1 id="acesse">Acesse:</h1>
 
   <div class="info">
-  <a href="info_doenças.php">Info doenças</a>
+  <a href="info.php">Info doenças</a>
   <br>
   <a href="farmacia.php">Farmácia</a>
   <br>
   <a href="postao.php">Unidades Próximas</a>
-  <br>
-  <a href="med.php">Médicos</a>
-  <br>
   </div>
   
   <?php
