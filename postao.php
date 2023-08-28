@@ -15,7 +15,7 @@
 <?php
   include("menu.php");
   ?>
-    <h1 id="postos">Postos de saúde</h1>
+    <h1 id="postos">Postos de Saúde</h1>
 
   <div class="container">
     <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
@@ -43,19 +43,19 @@
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>terça-feira</td>
+          <td>Terça-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>quarta-feira</td>
+          <td>Quarta-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
         <tr>
           <th scope="row">4</th>
-          <td>quinta-feira</td>
+          <td>Quinta-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
@@ -71,7 +71,7 @@
     <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="img/Alex_Gonçalvesluiz.png" class="card-img-top" alt="...">
+        <img src="img\Alex_Gonçalvesluiz.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="titulo">Medico plantão do dia.</h5>
           <p class="card-text">
@@ -87,7 +87,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 9999-9999
+            </svg>(43) 3472-2178
           </p>
           <a href="pdf/Alex_gONÇALVES.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -111,7 +111,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 9999-9999
+            </svg>(43) 3472-1720
           </p>
           <a href="pdf/curriculo3.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -138,7 +138,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(22) 2 2222-2222
+            </svg>(43) 3472-8761
           </p>
           <a href="pdf/curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -154,7 +154,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 3472-7113
+            </svg>(43) 3472-7113
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -174,7 +174,7 @@
       <h2 class="saude">POSTO DE SAUDE UBS MONTE CASTELO</h2>
       <img class="img" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/510000/Artigo-Destaque_00511386_00.jpg?xid=327763" class="img-fluid" alt="">
       
-      <h3 class="hr"> Horarios de Atendimento</h3>
+      <h3 class="hr"> Horários de Atendimento</h3>
       <table class="table">
         <thead>
           <tr>
@@ -196,19 +196,19 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>terça-feira</td>
+            <td>Terça-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>quarta-feira</td>
+            <td>Quarta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>quinta-feira</td>
+            <td>Quinta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
@@ -226,7 +226,7 @@
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXW7l1Zbh5hieH7jHF1m3jJ5H8fiO1Rpv3Knq1LfCgLbGBxCLwEEeDIhIpBitq39MeFWA&usqp=CAU" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Medico plantão do dia.</h5>
+          <h5 class="card-title">Médico plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
@@ -240,7 +240,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 9999-9999
+            </svg>(43) 3472-9864
           </p>
           <a href="pdf/curriculo7.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -264,7 +264,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 9999-9999
+            </svg>(43) 3472-7656
           </p>
           <a href="pdf/Currículo de administração azul masculino.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -291,7 +291,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(22) 2 2222-2222
+            </svg>(43) 3472-6789
           </p>
           <a href="pdf/curriculo4.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -327,7 +327,7 @@
       <h2 class="saude">CENTRO DE SAÚDE</h2>
       <img id="img" src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IPORQbiQjWg4Z9UdBo7dxg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=134.83238&pitch=0&thumbfov=100" class="img-fluid" alt="">
       
-      <h3 class="hr"> Horarios de Atendimento</h3>
+      <h3 class="hr"> Horários de Atendimento</h3>
       <table class="table">
         <thead>
           <tr>
@@ -349,19 +349,19 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>terça-feira</td>
+            <td>Terça-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>quarta-feira</td>
+            <td>Quarta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>quinta-feira</td>
+            <td>Quinta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
@@ -376,13 +376,13 @@
       <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="img/luiz_passosluiz.png" class="card-img-top" alt="...">
+        <img src="img\luiz_passosluiz.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Medico plantão do dia.</h5>
+          <h5 class="card-title">Médico plantão do dia.</h5>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-            </svg> Dr. Luiz Passos.
+            </svg> Dr. Luis Passos.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -392,7 +392,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 9999-9999
+            </svg>(43) 3472-1418
           </p>
           <a href="pdf/Luiz_passos.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -406,7 +406,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-            </svg> Dr. Joaquim Spadrizani.
+            </svg> Dr. Joaquim Sppadrizani.
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -416,7 +416,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 9 9999-9999
+            </svg>(43) 3472-8717
           </p>
           <a href="pdf/curriculo6.pdf" class="btn btn-primary">Ver formação</a>
         </div>
@@ -443,13 +443,13 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(22) 2 2222-2222
+            </svg>(43) 3472-9085
           </p>
           <a href="pdf/Maria_Araújo.pdf" class="btn btn-primary">Ver formação</a>
         </div>
 
       </div>
-        <!-- ################################ FIM Card Pediatra plantão do dia ##################################################  --> 
+        <!-- ################################ FIM Card Ortopista plantão do dia ##################################################  --> 
      
       <!-- ################################ Card Posto Jacutinga ##################################################  -->    
       <div class="card" style="width: 18rem;">
@@ -459,7 +459,7 @@
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-            </svg>(43) 93472-1788
+            </svg>(43) 3472-1788
           </p>
           <p class="card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">

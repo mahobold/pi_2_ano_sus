@@ -48,7 +48,7 @@
   </div>
 </div>
 
-    <div class="oftalmo-container">
+    <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
