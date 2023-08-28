@@ -104,9 +104,7 @@
     <a href="https://www.google.com/maps/search/posto+de+sa%C3%BAde+mais+pr%C3%B3ximo/@-25.4181597,-49.2575947,13z/data=!3m1!4b1?entry=ttu" class="btn btn-primary">Descubra Já!</a>
   </div>
   <div class="card-footer text-body-secondary">
-    <div id="card">
-    tenha um bom dia.
-    </div>
+    
     
   </div>
 </div>
