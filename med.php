@@ -79,9 +79,9 @@ include("menu.php");
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="img\luiz_passos3.jpg" class="card-img-top">
+            <img src="img/lu" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Luiz Passos</h5>
+              <h5 class="card-title">Luis Passos</h5>
             </div>
           </div>
           <a class="med" href="pdf\Luiz_passos.pdf">Ver formação</a>
