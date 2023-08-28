@@ -37,15 +37,15 @@
    </div>
     
     <div class="card text-bg-dark">
-  <img src="img/medico9lef.png" id="card-img" alt="...">
+  <img src="img/medico5lef.png" id="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
-    <p class="card-text"><small></small></p>
+    <p class="card-text"></p>
   </div>
 </div>
 
-    <div class="nefro-container">
+    <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
