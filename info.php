@@ -58,7 +58,7 @@
 
 <div class="row">
         <div class="card" style="width: 18rem;">
-        <img src="img/hivv2.jpg" class="card-img-top" alt="...">
+        <img src="img/hivvv.png" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Usar preservativos nas relações sexuais</p>
@@ -208,7 +208,7 @@
 
  <div class="row">
         <div class="card" style="width: 18rem;">
-      <img src="img/denguee1.jpg" class="card-img-top" alt="...">
+      <img src="img/dengueee.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Utilize repelente</p>
@@ -339,7 +339,7 @@
 
  <div class="row">
             <div class="card" style="width: 18rem;">
-        <img src="img/cancerr5.jpg" class="card-img-top" alt="...">
+        <img src="img/avccc.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text">Não fume.</p>
@@ -348,7 +348,7 @@
         </div>
 
         <div class="card" style="width: 18rem;">
-        <img src="img/cancerr2.png" class="card-img-top" alt="...">
+        <img src="img/cancerrr.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text"> Alimentação saudável protege contra o câncer.</p>
@@ -542,7 +542,7 @@
 
         
         <div class="card" style="width: 18rem;">
-        <img src="img/asmaa3.jpg" class="card-img-top" alt="...">
+        <img src="img/asmaaa.png" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evite cheiros fortes.</p>
@@ -669,7 +669,7 @@
 
         
         <div class="card" style="width: 18rem;">
-        <img src="img/avc2.jpg" class="card-img-top" alt="...">
+        <img src="img/avccc.png" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Não fumar.</p>
