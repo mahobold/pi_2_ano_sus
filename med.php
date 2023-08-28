@@ -79,7 +79,7 @@ include("menu.php");
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="img/lu" class="card-img-top">
+            <img src="img/luiz_passosluiz.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Luis Passos</h5>
             </div>
@@ -119,7 +119,7 @@ include("menu.php");
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
-            <img src="img\Alex_Gonçalves3.jpg" class="imgg">
+            <img src="img/Alex_Gonçalvesluiz.png" class="imgg">
             <div class="card-body">
               <h5 class="card-title">Alex Gonçalves</h5>
             </div>
