@@ -19,9 +19,9 @@
 
     //* Para MAria */
 
-    if (isset($_POST['bt_nome'])) {
-        if (isset($_FILES['bt_arquivo'])) {
-            $arquivo = $_FILES['bt_arquivo'];
+    if (isset($_POST['foto'])) {
+        if (isset($_FILES['foto'])) {
+            $camimg = $_FILES['foto'];
             if ($arquivo['size'] > 15000000) {
                 die("Arquivo muito grande!! Max: 15MB");
             }
@@ -29,19 +29,17 @@
                 die("Falha ao enviar arquivo");
             }
         }
-    
+    }
         //var_dump($arquivo);
     
-        $nome = $_POST['bt_nome'];
-    
-        $pasta = "recebidos/";
-        $nome_arquivo = $arquivo['name'];
+        $pasta = "ftperfil/";
+        $nome_arquivo = $arquivo['foto'];
         $novo_nome_arquivo = uniqid();
         $extensao = strtolower(pathinfo($nome_arquivo, PATHINFO_EXTENSION));
     
     
     
-        $caminho = $pasta . $novo_nome_arquivo . "."  . $extensao;
+        $camimg = $pasta . $novo_nome_arquivo . "."  . $extensao;
     
     
         /*
@@ -50,16 +48,11 @@
             }
             */
     
-        $nome = $_POST['bt_nome'];
-        $quantidade = $_POST['bt_quantidade'];
-        $valor = $_POST['bt_valor'];
-        $descricao = $_POST['bt_descricao'];
-    
-        $deucerto = move_uploaded_file($arquivo["tmp_name"], $caminho);
+        $deucerto = move_uploaded_file($arquivo["foto"], $camimg);
     
         if ($deucerto) {
-            $mysqli->query("INSERT INTO cadastro_bebidas (nome_bebida, quantidade, descricao,arquivo_caminho, valor) 
-                    values ('$nome', '$quantidade', '$descricao','$caminho', '$valor')") or die($mysqli->error);
+            $mysqli->query("INSERT INTO pessoas (camimg) 
+                    values ('$camimg')") or die($mysqli->error);
         }
 
         /* FIM Para Maria */
@@ -80,7 +73,8 @@
     include("menu.php");
   ?>    
     <form action="" method="post" enctype="multipart/form-data">
-        <input type="file" placeholder="Mudar foto de perfil">
+        <input type="file">
+        <input type="submit" name="foto" value="Alterar">
     </form>
         <div class="ftperfil"></div>
         <h1>Olá <?php echo $usuario["nome"]; ?></h1>
