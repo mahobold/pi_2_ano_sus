@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -62,12 +62,12 @@
   </div>
 
   <div id="deleteEventModal">
-    <h2>Evento</h2>
+    <h2>Cancelar consulta</h2>
 
     <div id="eventText"></div><br>
 
 
-    <button id="deleteButton">Deletar</button>
+    <button id="deleteButton">Cancelar</button>
     <button id="closeButton">Fechar</button>
   </div>
 

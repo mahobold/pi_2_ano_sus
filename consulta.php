@@ -52,7 +52,7 @@
     </div>
 
     <div class="col">
-     <a href="clínico_geral.php">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
+     <a href="clinico_geral.php">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
      <img src="img\simbolos1.jpg" alt="">
     </div>
   </div>
@@ -83,12 +83,6 @@
 <br>
 <br>
 <br>
-
-<center>
-<button type="button" id="botao" class="btn btn-primary btn-lg">Presencial</button>
-<button type="button" id="botao2" class="btn btn-primary btn-lg">Teleconsulta</button>
-</center>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
