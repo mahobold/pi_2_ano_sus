@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="projeto.css">
     <title>Neurologista</title>
 </head>
+<<<<<<< HEAD
 <?php
     include("menu.php");
     ?>
+=======
+<body>
+<?php
+    include("menu.php");
+    ?>
+<body>
+
+
+>>>>>>> efc371def2fa964b2e1db1eb26b9ffe96c4fb62e
 <body>
 
 <div class="consultar">
@@ -38,7 +48,7 @@
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
-    
+ 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
