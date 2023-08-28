@@ -25,9 +25,9 @@
 
 
 
-        <h1>HIV</h1>
+        <h1 class="doenca">HIV</h1>
     
-        
+        <div class="info">
         <p>HIV é a sigla em inglês para vírus da imunodeficiência humana. Causador da aids (da sigla em inglês para Síndrome da Imunodeficiência Adquirida), ataca o sistema imunológico, responsável por defender o organismo de
           doenças. Aids é a Síndrome da Imunodeficiência Humana, transmitida pelo vírus HIV, caracterizada pelo
           enfraquecimento do sistema de defesa do corpo e pelo aparecimento de doenças oportunistas.
@@ -38,6 +38,7 @@
           contaminados, como agulhas, alicates, etc., de mãe soropositiva, sem tratamento, para o filho durante a
           gestação, parto ou amamentação
          </p>
+         </div>
 
       
 
@@ -105,22 +106,23 @@
 
 
 
-      <h1>COVID-19</h1>
+      <h1 class="doenca">COVID-19</h1>
  
-
+      <div class="info">
       <p>É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2. 
         Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
          O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.
          Transmissão:
          Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
      </p>
+     </div>
     
     
     
 
   
 
-
+    <div class="sintomas">
    <h1 >Sintomas:</h1>
     <p>Febre ;</p>
   <p >Mal estar e Dores no corpo;</p>
@@ -130,8 +132,9 @@
   <p>Diarreia;</p>
   <p >Cansaço;</p>
   <p >Dor de cabeça;</p>
+  </div>
 
-<h1 >Como previnir</h1>
+<h1 class="prevenir">Como previnir</h1>
 
   <div class="row">
         <div class="card" style="width: 18rem;">
@@ -182,7 +185,7 @@
   
 
 
-        <h1>Dengue</h1>
+        <h1 class="doenca">Dengue</h1>
     
         <p>A dengue é uma doença febril aguda, sistêmica e dinâmica, variando desde casos assintomáticos a quadros graves, inclusive óbitos. Nos casos sintomáticos pode apresentar três fases clínicas: febril, crítica e de recuperação.
 
@@ -192,7 +195,7 @@
           A dengue pode evoluir para remissão dos sintomas, ou pode agravar-se, exigindo constante reavaliação e observação, para que as intervenções sejam oportunas e os óbitos não ocorram.
         </p>
      
-
+      <div class="sintomas">
     <h1 >Sintomas:</h1>
   <p>Febre alta > 38.5ºC;</p>
   <p>Dores musculares intensas;</p>
@@ -201,9 +204,10 @@
   <p >Falta de apetite;</p>
   <p>Dor de cabeça;</p>
   <p>Manchas vermelhas no corpo.</p>
+  </div>
 
 
-<h1>Como previnir</h1>
+<h1 class="previnir">Como previnir</h1>
 
 
  <div class="row">
@@ -248,7 +252,7 @@
  
 
 
-        <h1 >Gripe</h1>
+        <h1 class="doenca" >Gripe</h1>
     
         <p>Uma infecção viral comum que pode ser fatal, especialmente em grupos de alto risco.
           A gripe ataca os pulmões, o nariz e a garganta. Crianças pequenas, idosos, gestantes e pessoas com doenças crônicas ou imunidade baixa correm alto risco.
@@ -258,16 +262,16 @@
      
 
    
-        
+    <div class="sintomas">
   <h1 >Sintomas:</h1>
   <p>Dor de garganta;</p>
   <p>Tosse;</p>
   <p>Dor no corpo;</p>
   <p>Dor de cabeça;</p>
   <p>Febre.</p>
- 
+  </div>
 
-  <h1>Como previnir</h1>
+  <h1 class="previnir">Como previnir</h1>
 
   <div class="row">
             <div class="card" style="width: 18rem;">

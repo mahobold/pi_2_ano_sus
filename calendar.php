@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- arquivos style -->
-  <link href="./css/style.css" rel="stylesheet">
-  <link href="./css/darkMode.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="darkMode.css" rel="stylesheet">
 
   <title>Calendario</title>
 </head>
@@ -46,6 +46,7 @@
       <!-- div dinamic -->
       <div id="calendar" ></div>
 
+
    
   </div>
 
@@ -62,20 +63,20 @@
   </div>
 
   <div id="deleteEventModal">
-    <h2>Evento</h2>
+    <h2>Cancelar consulta</h2>
 
     <div id="eventText"></div><br>
 
 
-    <button id="deleteButton">Deletar</button>
+    <button id="deleteButton">Cancelar</button>
     <button id="closeButton">Fechar</button>
   </div>
 
   <div id="modalBackDrop"></div>
 
 
-  <script src="scripts/darkMode.js"></script>
-  <script src="./scripts/main.js"></script>
+  <script src="darkMode.js"></script>
+  <script src="main.js"></script>
   
 </body>
 </html>

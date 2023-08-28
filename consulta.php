@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="projeto.css">
     <title>Consultas</title>
@@ -51,12 +52,11 @@
     </div>
 
     <div class="col">
-     <a href="clínico_geral.php">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
+     <a href="clinico_geral.php">    <button type="button" class="btn btn-secondary">Clínico geral</button> </a>
      <img src="img\simbolos1.jpg" alt="">
     </div>
   </div>
 </div>
-<!------colocar margin botton entre os espaços------>
 <br>
 <br>
 <br>
@@ -83,12 +83,6 @@
 <br>
 <br>
 <br>
-
-<center>
-<button type="button" id="botao" class="btn btn-primary btn-lg">Presencial</button>
-<button type="button" id="botao2" class="btn btn-primary btn-lg">Teleconsulta</button>
-</center>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>

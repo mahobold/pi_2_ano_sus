@@ -260,7 +260,7 @@ nav{
 }
 #botao{
   background-color: #054f77;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #botao2{
   background-color: #054f77;
@@ -273,51 +273,7 @@ nav{
 
 /*aaa*/
 
-.neuro-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -700px;
-  margin-bottom: 150px;
-}
 
-.neuro-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.neuro-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.neuro-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.neuro-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.neuro-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 .consultar{
   color: #054f77;
@@ -327,10 +283,10 @@ nav{
 }
 .neu{
   width: 700px;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 .text-bg-dark{
-  width: 750px;
+  width: 480px;
   margin-top: 50px;
   margin-left: 150px;
   margin-bottom: 200px;
@@ -338,7 +294,7 @@ nav{
 
 }
 .card-img-overlay{
-  margin-top: 300px;
+  margin-top: 200px;
   
 }
 .add{
@@ -348,51 +304,7 @@ nav{
 
 
 
-.nefro-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -650px;
-  margin-bottom: 150px;
-}
 
-.nefro-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.nefro-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.nefro-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.nefro-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.nefro-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 .consultar{
   color: #054f77;
@@ -404,51 +316,6 @@ nav{
 
 
 
-.oftalmo-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -600px;
-  margin-bottom: 150px;
-}
-
-.oftalmo-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.oftalmo-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.oftalmo-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.oftalmo-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.oftalmo-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 
 
@@ -500,51 +367,6 @@ nav{
 }
 
 
-.dentista-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -700px;
-  margin-bottom: 150px;
-}
-
-.dentista-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.dentista-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.dentista-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.dentista-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.dentista-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 
 .index{
@@ -577,6 +399,7 @@ nav{
 .card-footer{
   background-color: #132f5f;
   color: white;
+  margin-bottom: 10px;
 }
 #card{
   color: #ffffff;
@@ -584,6 +407,151 @@ nav{
 .card-header{
   background-color: #132f5f;
   color: #ffffff;
+  border-radius: 40px;
+}
+
+/*aaaa*/
+
+.marcela{
+  color: #054f77;
+  margin-top: 20px;
+}
+.marcela1{
+  color: #132f5f;
+  margin-top: 40px;
+
+}
+.marcela3{
+  font-size: 20px;
+}
+.marcelaa{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-left: 100px;
+  color: #132f5f;
 }
 
 
+
+/*aa*/
+
+
+.medi-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 80px;
+  width: 500px;
+  margin-left: 700px;
+}
+
+.medi-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+.medi-container input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.medi-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.medi-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.medi-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+.medi-container input[type="reset"] {
+  width: 100%;
+  background-color: #132f5f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.medi-container input[type="reset"]:hover {
+  background-color: #3668b8;
+}
+.medi{
+  color: #054f77;
+}
+.cadasmed{
+  font-size: 20px;
+}
+
+
+.conta-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 60px;
+  width: 450px;
+  margin-left: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.conta-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.conta-container input[type="text"],
+.conta-container input[type="email"],
+.conta-container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.conta-container input[type="submit"] {
+  width: 100%;
+  background-color: #054f77;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.conta-container input[type="submit"]:hover {
+  background-color: #3668b8;
+}
+
+.conta-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+.minhas{
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.doencas{
+  text-align: center;
+}
