@@ -1,0 +1,90 @@
+/* Começa Estilo Menu */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 150px;
+    /* Altura padrão para resoluções maiores */
+    margin-top: 20px;
+}
+
+/* Media query para ajustar a altura das imagens em resoluções menores ou iguais a 768px */
+@media screen and (max-width: 768px) {
+    .image-wrapper img {
+        height: auto;
+        /* Altura automática para resoluções menores ou iguais a 768px */
+        margin-top: 10px;
+        /* Espaçamento menor para resoluções menores ou iguais a 768px */
+        margin-left: 30px;
+    }
+}
+
+/* Fim Estilo Menu */
+
+
+/* Estilo menu escondido */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #054f77;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* FIM - Estilo menu escondido */
+
+/* Estilo menu */
+.container-fluid{
+    background-color: #132f5f;
+    height: 50px;
+  }
+
+  svg{
+    width: 30px;
+    height: 30px;
+  }
+
+  .bi-person-check{
+    color: aliceblue;
+  }
+
+  .bi-person{
+    color: aliceblue;
+  }
+
+/* Fim menu */
+
+
+.youtube{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.index{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #132f5f;
+  }
+
+
+
+/* Rodapé */
+
+.faixaazul {
+    background-color: #132f5f;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+/* Fim Rodapé */
