@@ -79,7 +79,7 @@ button {
   height: 100px;
   cursor: pointer;
   box-sizing: border-box;
-  background-color: var(--color-day);
+  background-color:(--color-day);
   margin: 5px;
   box-shadow: 0px 0px 3px var(--box-shadow);
   display: flex;
@@ -158,14 +158,21 @@ button {
   position: absolute;
   background-color: rgba(251, 6, 182, 0.8); /* Cor de fundo cadastro */
 }
-
-.day.sunday {
-  background-color: red;
+.dayy:hover {
+  background-color: rgb(236, 92, 92);
 }
 
-.inactive-day {
-  pointer-events: none; 
-  opacity: 0.6; 
+.dayy{
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--color-day);
+  margin: 5px;
+  box-shadow: 0px 0px 3px var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15%;
 }
-
-

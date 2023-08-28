@@ -34,10 +34,33 @@
 
 
       <!-- div dinamic -->
-      <div id="calendar"></div>
+      <div id="calendar" ></div>
 
 
-    </div>
+   
+  </div>
+
+  <div id="newEventModal">
+    <h2>Agende seu horário</h2>
+
+    <input id="eventTitleInput" placeholder="Nome Completo"/>
+    <input id="eventTitleInput" placeholder="CPF"/>
+    <input id="eventTitleInput" placeholder="Data de nascimento"/>
+
+    <button id="saveButton"> Salvar</button>
+    <button id="cancelButton">Cancelar</button>
+    <button id="resetButton">Limpar</button>
+  </div>
+
+  <div id="deleteEventModal">
+    <h2>Cancelar consulta</h2>
+
+    <div id="eventText"></div><br>
+
+
+    <button id="deleteButton">Cancelar</button>
+    <button id="closeButton">Fechar</button>
+  </div>
 
     <div id="newEventModal">
       <h2>Agende seu horário</h2>
