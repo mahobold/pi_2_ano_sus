@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="css/dieimes.css"> -->
   <link rel="stylesheet" href="css/dieimes.css">
   <!-- <link rel="stylesheet" href="css/projeto.css"> -->
@@ -78,29 +79,43 @@
   </div>
 
 
-  <div class="container">
+  <div class="container text-center">
     <h1>Assista!</h1>
   </div>
 
-  <div class="container">
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/GXwl3NqVnMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-      <iframe src="https://www.youtube.com/embed/EYHpSWm1A1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/GXwl3NqVnMg?si=ua8pxclK-B0VLcFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
 
-      <iframe src="https://www.youtube.com/embed/uAB627iLydA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="col-md-4 mb-4">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/EYHpSWm1A1Q?si=bbtBslg7-RpkGILR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/uAB627iLydA?si=yjbdJW08SnUP0htk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
-    <div class="youtube">
-      <a href="https://youtube.com/@MinSaudeBR">Conheça o canal Ministério da Saúde no YouTube, clique aqui!</a>
+
+    <div class="d-flex justify-content-center mt-3">
+        <a href="https://youtube.com/@MinSaudeBR" class="btn btn-outline-danger btn-lg">Conheça o canal Ministério da Saúde no YouTube</a>
     </div>
-  </div> 
+</div>
+
 
   <div class="container">
     <div class="index">
       <h1>Unidades Próximas</h1>
     </div>
   </div>
- 
 
   <div class="container">
     <div class="card text-center">
@@ -112,32 +127,37 @@
         <p class="card-text">Descobra qual a localização do posto de saúde mais próximo de você.</p>
         <a href="https://www.google.com/maps/search/posto+de+sa%C3%BAde+mais+pr%C3%B3ximo/@-25.4181597,-49.2575947,13z/data=!3m1!4b1?entry=ttu" class="btn btn-primary">Descubra Já!</a>
       </div>
-      <div class="card-footer text-body-secondary">
-
-
-      </div>
     </div>
   </div>
-
-
-      
-  <div class="container">
+  <div class="container text-center">
     <h1 id="acesse">Acesse:</h1>
   </div>
 
-  <div class="container">
-    <div class="info">
-      <a href="info_doenças.php">Info doenças</a>
-      <br>
-      <a href="farmacia.php">Farmácia</a>
-      <br>
-      <a href="postao.php">Unidades Próximas</a>
-      <br>
-      <a href="med.php">Médicos</a>
-      <br>
-    </div>
+
+  <div class="container mt-5">
+      <ul class="list-group text-center custom-list-group">
+          <li class="list-group-item mb-3">
+              <i class="fas fa-notes-medical mr-2"></i>
+              <a href="info_doenças.php">Info doenças</a>
+          </li>
+          <li class="list-group-item mb-3">
+              <i class="fas fa-capsules mr-2"></i>
+              <a href="farmacia.php">Farmácia</a>
+          </li>
+          <li class="list-group-item mb-3">
+              <i class="fas fa-clinic-medical mr-2"></i>
+              <a href="postao.php">Unidades Próximas</a>
+          </li>
+          <li class="list-group-item">
+              <i class="fas fa-user-md mr-2"></i>
+              <a href="med.php">Médicos</a>
+          </li>
+      </ul>
   </div>
-  
+
+
+
+
 
   <?php
   include("rodape.php")
