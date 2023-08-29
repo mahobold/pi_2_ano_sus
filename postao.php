@@ -43,19 +43,19 @@
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>terça-feira</td>
+          <td>Terça-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>quarta-feira</td>
+          <td>Quarta-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
         <tr>
           <th scope="row">4</th>
-          <td>quinta-feira</td>
+          <td>Quinta-feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
@@ -171,7 +171,7 @@
     <!-- adsnflndf -->
     <div class="container">
 
-      <h2 class="saude">POSTO DE SAUDE UBS MONTE CASTELO</h2>
+      <h2 class="saude">POSTO DE SAÚDE UBS MONTE CASTELO</h2>
       <img class="img" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/510000/Artigo-Destaque_00511386_00.jpg?xid=327763" class="img-fluid" alt="">
       
       <h3 class="hr"> Horarios de Atendimento</h3>
@@ -196,19 +196,19 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>terça-feira</td>
+            <td>Terça-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>quarta-feira</td>
+            <td>Quarta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>quinta-feira</td>
+            <td>Quinta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
@@ -349,19 +349,19 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>terça-feira</td>
+            <td>Terça-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>quarta-feira</td>
+            <td>Quarta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>quinta-feira</td>
+            <td>Quinta-feira</td>
             <td>07:30 às 11:30</td>
             <td>13:00 às 17:00</td>
           </tr>
