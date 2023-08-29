@@ -13,6 +13,8 @@
         $result = $stmt->get_result();
         $usuario = $result->fetch_assoc();
 
+       // var_dump($usuario);
+
 
     /* fim teste do professor */
 
@@ -21,7 +23,7 @@
 
     if (isset($_POST['foto'])) {
         if (isset($_FILES['foto'])) {
-            $camimg = $_FILES['foto'];
+            $arquivo = $_FILES['foto'];
             if ($arquivo['size'] > 15000000) {
                 die("Arquivo muito grande!! Max: 15MB");
             }
@@ -29,33 +31,22 @@
                 die("Falha ao enviar arquivo");
             }
         }
-    }
-        //var_dump($arquivo);
-    
+
         $pasta = "ftperfil/";
         $nome_arquivo = $arquivo['foto'];
         $novo_nome_arquivo = uniqid();
         $extensao = strtolower(pathinfo($nome_arquivo, PATHINFO_EXTENSION));
-    
-    
-    
+
         $camimg = $pasta . $novo_nome_arquivo . "."  . $extensao;
-    
-    
-        /*
-            if($extensao != "jpg"){
-                die("Tipo de arquivo não aceito");
-            }
-            */
-    
+
         $deucerto = move_uploaded_file($arquivo["foto"], $camimg);
-    
+
         if ($deucerto) {
             $mysqli->query("INSERT INTO pessoas (camimg) 
                     values ('$camimg')") or die($mysqli->error);
         }
-
-        /* FIM Para Maria */
+    }
+        
 
 ?>
 <!DOCTYPE html>
