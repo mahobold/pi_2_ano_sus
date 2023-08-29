@@ -37,7 +37,7 @@
    </div>
     
     <div class="card text-bg-dark">
-  <img src="img/medico5lef.png" id="card-img" alt="...">
+  <img src="img\medico9lef.png" id="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
