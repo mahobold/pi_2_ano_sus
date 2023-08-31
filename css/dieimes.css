@@ -125,3 +125,24 @@
 }
 
 /* Fim Rodapé */
+
+/* Minha conta */
+
+.profile-container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-title {
+  font-weight: bold;
+}
+
+/* Fim minha conta */

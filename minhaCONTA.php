@@ -68,26 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES["foto"])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/dieimes.css">
 
-    <style>
-        .profile-container {
-            max-width: 800px;
-            margin: auto;
-            padding-top: 50px;
-        }
-
-        .profile-picture {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
-        .info-title {
-            font-weight: bold;
-        }
-    </style>
-
-    <title>Minha Conta</title>
+      <title>Minha Conta</title>
 </head>
 
 <body>
