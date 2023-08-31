@@ -45,7 +45,10 @@
          
 
       <h1 class="Sintomas">
+
     <h1>Sintomas:</h1>
+    <div class="info"></div>
+    
     <p >Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
   <p>Febre, aparecimento de gânglios;</p>
   <p>crescimento do baço e do fígado;</p>
