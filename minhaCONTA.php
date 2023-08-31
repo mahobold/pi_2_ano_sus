@@ -13,7 +13,7 @@
         $result = $stmt->get_result();
         $usuario = $result->fetch_assoc();
 
-
+        var_dump($usuario);
     /* fim teste do professor */
 
 ?>
@@ -33,6 +33,7 @@
   ?>    
     <form action="" method="post" enctype="multipart/form-data">
         <input type="file" placeholder="Mudar foto de perfil">
+        <input type="submit" value="Envie a sua foto">
     </form>
         <div class="ftperfil"></div>
         <h1>Olá <?php echo $usuario["nome"]; ?></h1>
