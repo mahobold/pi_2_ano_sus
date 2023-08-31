@@ -8,17 +8,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<link rel="stylesheet" href="projeto.css">
-<title>Info Doenças</title>
-  </head>
-<body>
+      <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/projeto.css">
+      <title>Info Doenças</title>
+    </head>
+    <body>
 <?php
-  include("menu.php");
+      include("menu.php");
   ?>
  
 
@@ -44,7 +44,7 @@
 
          
 
-  
+      <h1 class="Sintomas">
     <h1>Sintomas:</h1>
     <p >Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
   <p>Febre, aparecimento de gânglios;</p>
