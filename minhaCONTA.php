@@ -1,22 +1,20 @@
 <?php
-    include("conexao.php");
-    
-    require("autenticacao.php");
+include("conexao.php");
 
-    /* teste do professor */
+require("autenticacao.php");
 
-        $id = $_SESSION['login_nome'];
+/* teste do professor */
 
-        $stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE id_pessoa = ? LIMIT 1");
-        $stmt->bind_param("s", $id);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $usuario = $result->fetch_assoc();
+$id = $_SESSION['login_nome'];
 
-       // var_dump($usuario);
+$stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE id_pessoa = ? LIMIT 1");
+$stmt->bind_param("s", $id);
+$stmt->execute();
+$result = $stmt->get_result();
+$usuario = $result->fetch_assoc();
 
-
-    /* fim teste do professor */
+//var_dump($usuario);
+/* fim teste do professor */
 
 
     //* Para MAria */
@@ -48,24 +46,67 @@
     }
         
 
+
+if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES["foto"])) {
+
+    $check = getimagesize($_FILES["foto"]["tmp_name"]);
+    if ($check === false) {
+        echo "O arquivo não é uma imagem.";
+        exit;
+    }
+    $arquivoUpload = $diretorioUpload . basename($_FILES["foto"]["name"]);
+    $extensaoArquivo = strtolower(pathinfo($arquivoUpload, PATHINFO_EXTENSION));
+    $extensoesPermitidas = array('jpeg', 'jpg', 'png', 'gif');
+
+    $extensaoArquivo = strtolower(pathinfo($arquivoUpload, PATHINFO_EXTENSION));
+
+    if (!in_array($extensaoArquivo, $extensoesPermitidas)) {
+        echo "Tipo de arquivo não suportado.";
+        exit;
+    }
+
+
+    $diretorioUpload = $_SERVER['DOCUMENT_ROOT'] . "/imagens/ftperfl/";
+
+    
+   
+
+
+    if (move_uploaded_file($_FILES["foto"]["tmp_name"], $arquivoUpload)) {
+        $stmt = $mysqli->prepare("UPDATE pessoas SET camimg = ? WHERE id_pessoa = ?");
+        $stmt->bind_param("ss", $arquivoUpload, $id);
+        $stmt->execute();
+
+        // Atualize a variável $usuario para refletir a mudança feita
+        $usuario["camimg"] = $arquivoUpload;
+    } else {
+        echo "Ocorreu um erro ao fazer o upload da imagem.";
+    }
+}
+
+
+
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="img/logo2.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="projeto.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Conta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dieimes.css">
+
+      <title>Minha Conta</title>
 </head>
+
 <body>
 <?php
     include("menu.php");
   ?>    
     <form action="" method="post" enctype="multipart/form-data">
-        <input type="file">
-        <input type="submit" name="foto" value="Alterar">
+        <input type="file" placeholder="Mudar foto de perfil">
     </form>
         <div class="ftperfil"></div>
         <h1>Olá <?php echo $usuario["nome"]; ?></h1>
@@ -80,5 +121,5 @@
         <p><a href="sair.php">Sair</a></p>
     
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </html>
