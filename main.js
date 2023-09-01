@@ -86,10 +86,15 @@ function load (){
       dayS.innerText = i - paddinDays
       
 
-      const eventDay = events.find(event=>event.date === dayString)
+      // const eventDay = events.find(event=>event.date === dayString)
+
+      //const dayDate = new Date(year, month, i - paddinDays);
       
-      if(i - paddinDays === day && nav === 0){
-        dayS.id = 'currentDay'
+      dayS.innerText = i - paddinDays;
+
+      const dayDate = new Date(year, month, i - paddinDays);
+      if(dayDate.getDay() === 0) { // 0 é domingo
+          dayS.classList.add('sunday');
       }
    
 

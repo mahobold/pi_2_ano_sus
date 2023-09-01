@@ -6,7 +6,7 @@
 
 <div class="container1">
   <div class="image-wrapper">
-    <img src="img/logot.png" alt="Logotipo">
+    <a href="index.php"><img src="img/logot.png" alt="Logotipo"></a>    
   </div>
   <div class="image-wrapper">
     <img src="img/brasill.png" alt="Bandeira do Brasil">
@@ -59,7 +59,7 @@
             <a class="nav-link active" aria-current="page" href="farmacia.php">Farmácia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="info_doenças.php">Info doenças</a>
+            <a class="nav-link active" aria-current="page" href="info.php">Info doenças</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="minhaconta.php">Minha conta</a>

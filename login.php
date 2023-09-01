@@ -53,7 +53,7 @@
 <body>
  
     <div class="login-container">
-        <h2>Login</h2>
+        <img height="30px" src="img/logo2.png"><h2>Login</h2>
         <form action="" method="post">
             <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
