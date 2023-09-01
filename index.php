@@ -111,10 +111,22 @@
 </div>
 
 
+<<<<<<< HEAD
   <div class="container">
     <div class="index">
       <h1>Unidades Próximas</h1>
     </div>
+=======
+
+  <h1 id="acesse">Acesse:</h1>
+
+  <div class="info">
+  <a href="info.php">Info doenças</a>
+  <br>
+  <a href="farmacia.php">Farmácia</a>
+  <br>
+  <a href="postao.php">Unidades Próximas</a>
+>>>>>>> Matheus
   </div>
 
   <div class="container">

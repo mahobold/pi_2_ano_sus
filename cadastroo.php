@@ -33,7 +33,7 @@
 
 <body>
   <div class="signup-container">
-    <h2>Cadastro</h2>
+  <img height="30px" src="img/logo2.png"><h2>Cadastro</h2>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome" required>
       <input type="text" name="sobrenome" placeholder="Sobrenome" required>
