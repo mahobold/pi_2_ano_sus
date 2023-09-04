@@ -65,6 +65,7 @@
 
         </div>
       </div>
+
    
          
       <div class="card" style="width: 18rem;">
@@ -93,12 +94,8 @@
           <p class="card-text">Prevenir a transmissão vertical.</p>
           </div>
         </div>
-
+        
         </div>
-      </div>
-    </div>
-  
-
 
 
 
@@ -111,18 +108,20 @@
 
       <h1 class="doenca">COVID-19</h1>
 
-        <div class="container">
+      <div class="container">
           <p>É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2.
             Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
             O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.
               Transmissão:
             Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
     </p>
-  </div>
+</div>
+  
+  
 
 
 
-
+    
       <h1 class="sintomas">Sintomas:</h1>
 
         <div class="texto">
@@ -139,7 +138,7 @@
 
       <h1 class="previnir">Como previnir:</h1>
 
-        <div class="container">
+      <div class="container">
         <div class="row">
         <div class="card" style="width: 18rem;">
         <img src="img/covidd2.jpg" class="card-img-top" alt="...">
@@ -150,7 +149,7 @@
         </div>
       </div>
 
-
+       
       <div class="card" style="width: 18rem;">
         <img src="img/covidd1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -178,7 +177,8 @@
           </div>
         </div>
       </div>
-    </div>
+
+      </div>
 
  
 
@@ -658,6 +658,7 @@
   </div>
 
   <h1 class="previnir">Como Previnir:</h1>
+
   <div class="container">
       <div class="row">
       <div class="card" style="width: 18rem;">
