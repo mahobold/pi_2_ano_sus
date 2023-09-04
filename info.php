@@ -55,47 +55,47 @@
 
   <h1 class="previnir">Como previnir:</h1>
 
-        <div class="container">
-            <div class="row">
-            <div class="card" style="width: 18rem;">
-            <img src="img/hivvv.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">Usar preservativos nas relações sexuais</p>
+      <div class="container">
+                <div class="row">
+                <div class="card" style="width: 18rem;">
+                <img src="img/hivvv.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Usar preservativos nas relações sexuais</p>
 
-        </div>
-      </div>
-
-   
-         
-      <div class="card" style="width: 18rem;">
-        <img src="img/hiv3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text">Ter cuidado no uso de materiais cortantes.</p>
-
-        </div>
-      </div>
-
-          
-      <div class="card" style="width: 18rem;">
-        <img src="img/hivv4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text">Evitar o compartilhamento de seringas e agulhas.</p>
-
-        </div>
-      </div>
-         
-      <div class="card" style="width: 18rem;">
-        <img src="img/hiv6.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text">Prevenir a transmissão vertical.</p>
+            </div>
           </div>
-        </div>
-        
-        </div>
+
+      
+            
+          <div class="card" style="width: 18rem;">
+            <img src="img/hiv3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Ter cuidado no uso de materiais cortantes.</p>
+
+            </div>
+          </div>
+
+              
+          <div class="card" style="width: 18rem;">
+            <img src="img/hivv4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Evitar o compartilhamento de seringas e agulhas.</p>
+
+            </div>
+          </div>
+            
+          <div class="card" style="width: 18rem;">
+            <img src="img/hiv6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Prevenir a transmissão vertical.</p>
+              </div>
+            </div>
+</div>
+    </div>
 
 
 
@@ -332,6 +332,7 @@
   </div>
 
       <h1 class="sintomas">Sintomas:</h1>
+
       <div class="texto">
         <p> Os sintomas variam muito ou podem não ocorrer.
         Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</p>
