@@ -178,7 +178,7 @@ svg{
   color: rgb(29, 182, 29);
 }
 .far{
-  margin-left: 515px;
+ 
   color: #054f77;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -381,7 +381,7 @@ nav{
   font-size: 15px;
 }
 .card-title{
-  color: #132f5f;
+  color: black;
 }
 .card-text{
   color: #132f5f;
@@ -398,7 +398,7 @@ nav{
   color: #ffffff;
 }
 .card-header{
-  background-color: #132f5f;
+  background-color: white;
   color: #ffffff;
   border-radius: 40px;
 }
@@ -591,7 +591,14 @@ p{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-/*login*/
-
+.vermelidao{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+}
+.icon{
+ margin-bottom: 5px;
+}
 
