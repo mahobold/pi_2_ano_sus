@@ -275,20 +275,14 @@ nav{
 
 
 
-.consultar{
-  color: #054f77;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
 .neu{
   width: 700px;
   margin-left: 450px;
 }
 .text-bg-dark{
   width: 480px;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: 60px;
+  margin-left: 250px;
   margin-bottom: 200px;
   
 
@@ -311,6 +305,7 @@ nav{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -327,7 +322,7 @@ nav{
   padding: 30px;
   width: 600px;
   margin-left: 1000px;
-  margin-top: -650px;
+  margin-top: -625px;
   margin-bottom: 150px;
 }
 
@@ -381,9 +376,7 @@ nav{
   font-size: 20px;
   text-align: center;
 }
-.video{
-  text-align: center;
-}
+
 .título_card{
   font-size: 15px;
 }
@@ -552,6 +545,50 @@ nav{
   color: #054f77;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.doencas{
+.doenca{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #054f77;
+  margin-bottom: 25px;
+}
+.container{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sintomas{
+  margin-left: 300px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #054f77;
+  margin-bottom: 30px;
+  margin-top: 60px;
+
+}
+p{
+  font-size: 20px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.previnir{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #132f5f;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.ima{
   text-align: center;
 }
+.card-text{
+  color: black;
+  margin-right: 40px;
+}
+.texto{
+  margin-left: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
