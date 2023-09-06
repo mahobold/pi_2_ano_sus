@@ -36,7 +36,7 @@
           O vírus HIV é transmitido por meio de relações sexuais (vaginal, anal ou oral) desprotegidas (sem camisinha)
           com pessoa soropositiva, ou seja, que já tem o vírus HIV, pelo compartilhamento de objetos perfuro cortantes
           contaminados, como agulhas, alicates, etc., de mãe soropositiva, sem tratamento, para o filho durante a
-          gestação, parto ou amamentação
+          gestação, parto ou amamentação.
          </p>
          </div>
 
@@ -326,15 +326,15 @@
 
 
  <h1 >Sintomas:</h1>
-  <p> Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</p>
-  <p>Cansaço inexplicável e perda de energia.</p> 
-  <p> Hematomas frequentes.</p>
-  <p> Sangramento anormal. </p>
-  <p>Dor continua. </p>
-  <p> Febre ou sintomas inespecíficos que não melhoram.</p>
-  <p> Dores de cabeça frequentes, muitas vezes com vômitos.</p>
-  <p> Alterações na visão ou mudanças repentinas de comportamento.</p>
-  <p>Perda de apetite ou perda de peso não planejada. </p>
+  <p> Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária;</p>
+  <p>Cansaço inexplicável e perda de energia;</p> 
+  <p> Hematomas frequentes;</p>
+  <p> Sangramento anormal; </p>
+  <p>Dor continua; </p>
+  <p> Febre ou sintomas inespecíficos que não melhoram;</p>
+  <p> Dores de cabeça frequentes, muitas vezes com vômitos;</p>
+  <p> Alterações na visão ou mudanças repentinas de comportamento;</p>
+  <p>Perda de apetite ou perda de peso não planejada; </p>
   <p> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor. </p>   
 
 
