@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="css/projeto.css">
     <title>Clínico geral</title>
 </head>
 <body>
@@ -54,6 +54,7 @@
       <input type="text" name="febre" placeholder="Teve febre?" required>
       <input type="text" name="vomito" placeholder="Teve vômito?" required>
       <input type="text" name="nausea" placeholder="Teve náuseas?" required>
+      <a href="calendar.php">Escolha o dia</a>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>

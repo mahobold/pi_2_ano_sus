@@ -111,15 +111,12 @@
 </div>
 
 
-<<<<<<< HEAD
-=======
   <div class="container">
     <div class="index">
       <h1>Unidades Próximas</h1>
     </div>
   </div>
 
->>>>>>> Ana
   <div class="container">
     <div class="card text-center">
       <div class="card-header">

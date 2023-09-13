@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="img/logo2.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <link rel="stylesheet" href="style.css">
+  <title>Calendário</title>
+</head>
+<body>
     <div class="toggle">
       <input id="switch" type="checkbox" name="theme">
       <label for="switch">Toggle</label>

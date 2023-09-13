@@ -41,7 +41,7 @@ button {
   outline: none;
   padding: 5px;
   border-radius: 5px;
-  color: rgb(4, 253, 79); /* Voltar / Proximo  */
+  color: rgb(255, 255, 255); /* Voltar / Proximo  */
 }
 
 #header {
