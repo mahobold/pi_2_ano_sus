@@ -365,7 +365,7 @@ nav{
 
 
 .index{
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -602,3 +602,19 @@ p{
  margin-bottom: 5px;
 }
 
+.texto_postao{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* TORNAR RESPONSÍVEL */
+@media screen and (max-width: 600px){
+  #atendimentos{
+    margin-top: 0px;
+    margin-left: -10px;
+  }
+}
+.bloco2 {
+  color: #132f5f;
+  margin-top: 10px;
+  background-color: #132f5f;
+
+}

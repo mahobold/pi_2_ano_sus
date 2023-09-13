@@ -45,7 +45,7 @@
     </button>
   </div>
 
-  <div class="container">
+  <div class="noticia">
     <h1>Notícias</h1>
   </div>
 
@@ -79,7 +79,7 @@
   </div>
 
 
-  <div class="container text-center">
+  <div class="noticia">
     <h1>Assista!</h1>
   </div>
 
@@ -154,7 +154,14 @@
           </li>
       </ul>
   </div>
-
+      <div class="bloco">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
 
 
 

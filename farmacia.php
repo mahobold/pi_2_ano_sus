@@ -172,9 +172,15 @@
 
   <h1 class="vermelidao">Consulte a disponibilidade do Posto de Saúde mais próximo!</h1>
 
-  <?php
-  include("rodape.php");
-  ?>
+  <div class="bloco2">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

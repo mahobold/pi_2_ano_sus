@@ -51,7 +51,15 @@
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
-  
+  <div class="bloco2">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
+
   <!--
   <script>
     function validateFields() {

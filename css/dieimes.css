@@ -70,6 +70,7 @@
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #132f5f;
+    margin-top: 30px;
   }
 
 
@@ -146,3 +147,17 @@
 }
 
 /* Fim minha conta */
+.noticia{
+  color: #132f5f;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.bloco{
+  background-color: #132f5f;
+  margin-top: 10px;
+  color: #132f5f;
+  margin-bottom: -5px;
+}
