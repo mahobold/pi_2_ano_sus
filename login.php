@@ -53,7 +53,9 @@
 <body>
  
     <div class="login-container">
-        <img height="30px" src="img/logo2.png"><h2>Login</h2>
+        <div class="icon">
+        <img  width="35px" src="img/logo2.png"><h2>Login</h2>
+        </div>
         <form action="" method="post">
             <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
             <input type="password" name="senha" placeholder="Senha" required>
@@ -62,6 +64,15 @@
         <p><a href="cadastroo.php">Faça cadastro</a></p>
         <p><a href="index.php">Voltar</a></p>
     </div>
+
+    <div class="bloco2">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
 
   
 </body>
