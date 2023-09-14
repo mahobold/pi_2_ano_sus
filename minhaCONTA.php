@@ -17,6 +17,36 @@ $usuario = $result->fetch_assoc();
 /* fim teste do professor */
 
 
+    //* Para MAria */
+
+    if (isset($_POST['foto'])) {
+        if (isset($_FILES['foto'])) {
+            $arquivo = $_FILES['foto'];
+            if ($arquivo['size'] > 15000000) {
+                die("Arquivo muito grande!! Max: 15MB");
+            }
+            if ($arquivo['error']) {
+                die("Falha ao enviar arquivo");
+            }
+        }
+
+        $pasta = "ftperfil/";
+        $nome_arquivo = $arquivo['foto'];
+        $novo_nome_arquivo = uniqid();
+        $extensao = strtolower(pathinfo($nome_arquivo, PATHINFO_EXTENSION));
+
+        $camimg = $pasta . $novo_nome_arquivo . "."  . $extensao;
+
+        $deucerto = move_uploaded_file($arquivo["foto"], $camimg);
+
+        if ($deucerto) {
+            $mysqli->query("INSERT INTO pessoas (camimg) 
+                    values ('$camimg')") or die($mysqli->error);
+        }
+    }
+        
+
+
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES["foto"])) {
 
     $check = getimagesize($_FILES["foto"]["tmp_name"]);

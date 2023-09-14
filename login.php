@@ -66,12 +66,6 @@
     </div>
 
     <div class="bloco2">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
       </div>
 
   

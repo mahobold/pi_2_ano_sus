@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="img/logo2.png">
-  <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/projeto.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +11,11 @@
 </head>
 
 <body>
+
 <?php
   include("menu.php");
   ?>
+  
     <h1 id="postos">Postos de Saúde</h1>
 
   <div class="container">
@@ -38,7 +39,7 @@
         <tr>
 
           <th scope="row">1</th>
-          <td class="texto_postao">Segunda-Feira</td>
+          <td>Segunda-Feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
@@ -476,12 +477,6 @@
     </div>
 
     <div class="bloco2">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
       </div>
 
 
