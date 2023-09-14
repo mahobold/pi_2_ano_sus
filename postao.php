@@ -6,7 +6,7 @@
   <link rel="icon" href="img/logo2.png">
   <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <link rel="stylesheet" href="projeto.css">
+  <link rel="stylesheet" href="css/projeto.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Postos</title>
 </head>
@@ -19,10 +19,10 @@
 
   <div class="container">
     <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
-    <img class="img"src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
+    <img class="img-fluid" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
     
     <h3 class="hr"> Horarios de Atendimento</h3>
-    <table class="table">
+    <table id="atendimentos" class="table">
       <thead>
         <tr>
           <th scope="col"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
@@ -36,8 +36,9 @@
       </thead>
       <tbody>
         <tr>
+
           <th scope="row">1</th>
-          <td>Segunda-feira</td>
+          <td class="texto_postao">Segunda-Feira</td>
           <td>07:30 às 11:30</td>
           <td>13:00 às 17:00</td>
         </tr>
@@ -171,7 +172,7 @@
     <!-- adsnflndf -->
     <div class="container">
 
-      <h2 class="saude">POSTO DE SAUDE UBS MONTE CASTELO</h2>
+      <h2 class="saude">POSTO DE SAÚDE UBS MONTE CASTELO</h2>
       <img class="img" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/510000/Artigo-Destaque_00511386_00.jpg?xid=327763" class="img-fluid" alt="">
       
       <h3 class="hr"> Horários de Atendimento</h3>
@@ -474,9 +475,15 @@
     </div>  <!-- FIM do ROW -->
     </div>
 
-    <?php
-  include("rodape.php");
-  ?>
+    <div class="bloco2">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

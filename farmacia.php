@@ -98,7 +98,7 @@
   </div>
 
   <div class="container">
-   
+
     <div class="row slider">
       <div class="col-md-12">
         <div class="detail">
@@ -106,10 +106,10 @@
             <img src="img_farmacia/maleato.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Maleato 5mg</h5>
-           
+
+            </div>
           </div>
-        </div>
-        <h6 class="d">Disponível</h6>
+          <h6 class="d">Disponível</h6>
         </div>
       </div>
       <div class="col-md-12">
@@ -169,46 +169,53 @@
       </div>
     </div>
   </div>
- 
-  <?php
-  include("rodape.php");
-  ?>
+
+  <h1 class="vermelidao">Consulte a disponibilidade do Posto de Saúde mais próximo!</h1>
+
+  <div class="bloco2">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script type="text/javascript">
-    
     $('.slider').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 4,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 4,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
   </script>
 
 </body>

@@ -45,7 +45,7 @@
     </button>
   </div>
 
-  <div class="container">
+  <div class="noticia">
     <h1>Notícias</h1>
   </div>
 
@@ -79,7 +79,7 @@
   </div>
 
 
-  <div class="container text-center">
+  <div class="noticia">
     <h1>Assista!</h1>
   </div>
 
@@ -154,14 +154,19 @@
           </li>
       </ul>
   </div>
+      <div class="bloco">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
 
 
 
 
-
-  <?php
-  include("rodape.php")
-  ?>
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 

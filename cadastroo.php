@@ -33,7 +33,9 @@
 
 <body>
   <div class="signup-container">
-    <h2>Cadastro</h2>
+    <div class="iconi">
+  <img height="30px" src="img/logo2.png"><h2>Cadastro</h2>
+  </div>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome" required>
       <input type="text" name="sobrenome" placeholder="Sobrenome" required>
@@ -49,7 +51,15 @@
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
-  
+  <div class="bloco2">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
+
   <!--
   <script>
     function validateFields() {

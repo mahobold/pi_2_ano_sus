@@ -17,6 +17,36 @@ $usuario = $result->fetch_assoc();
 /* fim teste do professor */
 
 
+    //* Para MAria */
+
+    if (isset($_POST['foto'])) {
+        if (isset($_FILES['foto'])) {
+            $arquivo = $_FILES['foto'];
+            if ($arquivo['size'] > 15000000) {
+                die("Arquivo muito grande!! Max: 15MB");
+            }
+            if ($arquivo['error']) {
+                die("Falha ao enviar arquivo");
+            }
+        }
+
+        $pasta = "ftperfil/";
+        $nome_arquivo = $arquivo['foto'];
+        $novo_nome_arquivo = uniqid();
+        $extensao = strtolower(pathinfo($nome_arquivo, PATHINFO_EXTENSION));
+
+        $camimg = $pasta . $novo_nome_arquivo . "."  . $extensao;
+
+        $deucerto = move_uploaded_file($arquivo["foto"], $camimg);
+
+        if ($deucerto) {
+            $mysqli->query("INSERT INTO pessoas (camimg) 
+                    values ('$camimg')") or die($mysqli->error);
+        }
+    }
+        
+
+
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES["foto"])) {
 
     $check = getimagesize($_FILES["foto"]["tmp_name"]);
@@ -113,6 +143,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES["foto"])) {
             <p><a href="sair.php" class="btn btn-danger">Sair</a></p>
         </div>
     </div>
+
+    <div class="bloco">
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
