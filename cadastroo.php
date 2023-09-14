@@ -51,14 +51,6 @@
     </form>
     <p><a href="login.php">Faça login</a></p>
   </div>
-  <div class="bloco2">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-      </div>
 
   <!--
   <script>
@@ -99,5 +91,8 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
 
   -->
+
+ 
+
 </body>
 </html>
