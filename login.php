@@ -46,11 +46,7 @@
 <head>
 <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="css/projetos.css">
-=======
     <link rel="stylesheet" href="cadas_login.css">
->>>>>>> 858bd52e5eb1222119b1618be9647556b9ac962e
 
     <title>Página de Login</title>
 </head>
@@ -70,12 +66,6 @@
     </div>
 
     <div class="bloco2">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
       </div>
 
   

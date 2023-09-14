@@ -225,7 +225,7 @@ nav{
   margin-top: 30px;
 }
 .img{
-  margin-left: 190px;
+  margin-left: 100px;
 }
 .hr{
   color: #054f77;
@@ -567,7 +567,7 @@ nav{
 }
 p{
   font-size: 20px;
-  margin-left: 80px;
+  
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
@@ -602,11 +602,7 @@ p{
  margin-bottom: 5px;
 }
 
-<<<<<<< HEAD
-=======
-.texto_postao{
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 /* TORNAR RESPONSÍVEL */
 @media screen and (max-width: 600px){
   #atendimentos{
@@ -618,6 +614,14 @@ p{
   color: #132f5f;
   margin-top: 10px;
   background-color: #132f5f;
+  height: 300px;
 
 }
->>>>>>> Ana
+
+td{
+  font-size: 20px;
+}
+
+th{
+  font-size: 20px;
+}
