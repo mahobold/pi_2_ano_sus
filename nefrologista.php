@@ -56,6 +56,7 @@
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="teste\Calendario\calendar.php">Agendar consulta</a></p>
   </div>
     
 
