@@ -55,6 +55,7 @@
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="teste\Calendario\calendar.php">Agendar consulta</a></p>
   </div>
 
   <div class="bloco2">
