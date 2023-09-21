@@ -154,18 +154,7 @@
           </li>
       </ul>
   </div>
-      <div class="bloco">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-      </div>
-
-
-
-
+      
       <div class="bloco2">
       </div>
       
