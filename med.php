@@ -40,7 +40,8 @@ include("menu.php");
               <h5 class="card-title">Thayane Jukosky</h5>
             </div>
           </div>
-          <a class="med" href="pdf\thayanejukosky_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\thayanejukosky_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -51,7 +52,8 @@ include("menu.php");
               <h5 class="card-title">Victor Araújo</h5>
             </div>
           </div>
-          <a class="med" href="pdf\victoraraujo_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\victoraraujo_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -62,7 +64,8 @@ include("menu.php");
               <h5 class="card-title">Isadora Bertotti</h5>
             </div>
           </div>
-          <a class="med" href="pdf\isadorabertotti2_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a  href="pdf\isadorabertotti2_curriculo2.pdf" class="btn btn-primary" >Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -73,7 +76,8 @@ include("menu.php");
               <h5 class="card-title">Esveraldo Camargo</h5>
             </div>
           </div>
-          <a class="med" href="pdf\esveraldocamargo_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a  href="pdf\esveraldocamargo_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -84,7 +88,8 @@ include("menu.php");
               <h5 class="card-title">Luis Passos</h5>
             </div>
           </div>
-          <a class="med" href="pdf\luizpassos_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a  href="pdf\luizpassos_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -95,7 +100,8 @@ include("menu.php");
               <h5 class="card-title">Joaquim Spadrizani</h5>
             </div>
           </div>
-          <a class="med" href="pdf\joaquim_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a  href="pdf\joaquim_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
     </div>
@@ -113,7 +119,8 @@ include("menu.php");
               <h5 class="card-title">Carlos Vicente</h5>
             </div>
           </div>
-          <a class="med" href="pdf\carlosvicente_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a  href="pdf\carlosvicente_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -124,7 +131,8 @@ include("menu.php");
               <h5 class="card-title">Alex Gonçalves</h5>
             </div>
           </div>
-          <a class="med" href="pdf\alexgocalves_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a  href="pdf\alexgocalves_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -135,9 +143,10 @@ include("menu.php");
               <h5 class="card-title">Erick Jaquicn</h5>
             </div>
           </div>
-          <a class="med" href="pdf\erick_curriculo2.pdf">Ver formação</a>
+          <a href="pdf\erick_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
+      <br>
       <div class="col-md-12">
         <div class="details">
           <div class="card" style="width: 18rem;">
@@ -146,7 +155,8 @@ include("menu.php");
               <h5 class="card-title">Elisandra Bertotti</h5>
             </div>
           </div>
-          <a class="med" href="pdf\isadorabertotti_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\isadorabertotti_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -157,7 +167,8 @@ include("menu.php");
               <h5 class="card-title">Sabrina Ferreira</h5>
             </div>
           </div>
-          <a class="med" href="pdf\sabrinaferreira_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\sabrinaferreira_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -168,7 +179,8 @@ include("menu.php");
               <h5 class="card-title">Maria Araújo</h5>
             </div>
           </div>
-          <a class="med" href="pdf\mariaaraujo_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\mariaaraujo_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
     </div>
@@ -187,7 +199,8 @@ include("menu.php");
               <h5 class="card-title">Carla Vicente</h5>
             </div>
           </div>
-          <a class="med" href="pdf\carlavicente_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\carlavicente_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -198,7 +211,8 @@ include("menu.php");
               <h5 class="card-title">Alessandra Souza</h5>
             </div>
           </div>
-          <a class="med" href="pdf\alessandrasouza_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\alessandrasouza_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -209,7 +223,8 @@ include("menu.php");
               <h5 class="card-title">Isadora Wagatsuma</h5>
             </div>
           </div>
-          <a class="med" href="pdf\isadorawagtsuma_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\isadorawagtsuma_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -220,7 +235,8 @@ include("menu.php");
               <h5 class="card-title">Elisa Pereira</h5>
             </div>
           </div>
-          <a class="med" href="pdf\curriculo_elisa_pereira.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\curriculo_elisa_pereira.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -231,7 +247,8 @@ include("menu.php");
               <h5 class="card-title">Angela Ferreira</h5>
             </div>
           </div>
-          <a class="med" href="pdf\angelaferreira_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\angelaferreira_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -242,7 +259,8 @@ include("menu.php");
               <h5 class="card-title">Fernando Couto</h5>
             </div>
           </div>
-          <a class="med" href="pdf\fernandocouto_curriculo2.pdf">Ver formação</a>
+          <br>
+          <a href="pdf\fernandocouto_curriculo2.pdf" class="btn btn-primary">Ver formação</a>
         </div>
       </div>
     </div>
