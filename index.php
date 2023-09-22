@@ -142,7 +142,7 @@
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-capsules mr-2"></i>
-              <a href="farmacia.php">Farmácia</a>
+              <a href="farm.php">Farmácia</a>
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-clinic-medical mr-2"></i>
@@ -152,7 +152,7 @@
       </ul>
   </div>
       
-      <div class="bloco2">
+      <div class="bloco3">
       </div>
       
 </body>
