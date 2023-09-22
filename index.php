@@ -148,10 +148,7 @@
               <i class="fas fa-clinic-medical mr-2"></i>
               <a href="postao.php">Unidades Próximas</a>
           </li>
-          <li class="list-group-item">
-              <i class="fas fa-user-md mr-2"></i>
-              <a href="med.php">Médicos</a>
-          </li>
+          
       </ul>
   </div>
       
