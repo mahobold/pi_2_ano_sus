@@ -111,9 +111,9 @@
 </div>
 
 
-  <div class="container">
-    <div class="index">
-      <h1>Unidades Próximas</h1>
+<div class="container">
+  <div class="index">
+  <h1>Unidades Próximas</h1>
     </div>
   </div>
 
