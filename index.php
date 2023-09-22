@@ -111,9 +111,9 @@
 </div>
 
 
-  <div class="container">
-    <div class="index">
-      <h1>Unidades Próximas</h1>
+<div class="container">
+  <div class="index">
+  <h1>Unidades Próximas</h1>
     </div>
   </div>
 
@@ -154,7 +154,7 @@
           </li>
       </ul>
   </div>
-      <div class="bloco">
+<div class="bloco">
         <p>bla</p>
         <p>bla</p>
         <p>bla</p>
