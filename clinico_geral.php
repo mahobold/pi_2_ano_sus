@@ -55,7 +55,6 @@
       <input type="text" name="febre" placeholder="Teve febre?" required>
       <input type="text" name="vomito" placeholder="Teve vômito?" required>
       <input type="text" name="nausea" placeholder="Teve náuseas?" required>
-      <a href="calendar.php">Escolha o dia</a>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
