@@ -57,7 +57,7 @@
       <input type="text" name="nausea" placeholder="Teve náuseas?" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="consultaa.php">Voltar</a></p>
   </div>
 
   <div class="bloco2">

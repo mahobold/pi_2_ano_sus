@@ -655,3 +655,13 @@ th{
   margin-top: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.btvltconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 900px;
+}

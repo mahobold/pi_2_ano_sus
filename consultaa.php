@@ -67,6 +67,7 @@
                 </div>
             </div>
         </div> 
+        <p><a class="btvltconsulta" href="index.php">Voltar</a></p>
         <div class="bloco2">
       </div>
 
