@@ -614,7 +614,7 @@ p{
   color: #132f5f;
   margin-top: 10px;
   background-color: #132f5f;
-  height: 300px;
+  height: 200px;
 
 }
 
@@ -625,3 +625,46 @@ td{
 th{
   font-size: 20px;
 }
+<<<<<<< HEAD
+=======
+
+.iconeconsulta{
+  width: 130px;
+}
+
+.consulta{
+  margin-left: 140px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.btconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.row{
+  margin-bottom: 40px;
+}
+
+.consultatitulo{
+  text-align: center;
+  color: #132f5f;
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btvltconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 900px;
+}
+>>>>>>> Maria

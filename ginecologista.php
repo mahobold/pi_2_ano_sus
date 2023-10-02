@@ -55,7 +55,7 @@
       <input type="text" name="ativa" placeholder="Já possui vida sexual ativa?" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="consultaa.php">Voltar</a></p>
   </div>
 
   <div class="bloco2">

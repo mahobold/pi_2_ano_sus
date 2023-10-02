@@ -56,7 +56,7 @@
       <input type="text" name="audicao" placeholder="Tem boa audição?" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="consultaa.php">Voltar</a></p>
   </div>
   
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

@@ -54,7 +54,7 @@
       <input type="text" name="aparelho" placeholder="Já usou aparelho?" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="consultaa.php">Voltar</a></p>
   </div>
   
   <div class="bloco2">
