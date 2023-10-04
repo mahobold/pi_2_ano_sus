@@ -138,7 +138,7 @@
       <ul class="list-group text-center custom-list-group">
           <li class="list-group-item mb-3">
               <i class="fas fa-notes-medical mr-2"></i>
-              <a href="info_doenças.php">Info doenças</a>
+              <a href="info.php">Info doenças</a>
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-capsules mr-2"></i>
