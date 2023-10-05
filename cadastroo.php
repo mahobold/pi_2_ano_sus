@@ -11,6 +11,7 @@
         $email = $_POST['email'];
         $numerocartaosus = $_POST['numerocartaosus'];
         $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
+        $camimg = "ftperfil/foto_teste.png";
 
         $mysqli->query("INSERT INTO pessoas (nome, sobrenome, telefone, endereco, cpf, datanasc, email, numerocartaosus, senha)
         values ('$nome', '$sobrenome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha')")
