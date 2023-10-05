@@ -9,6 +9,7 @@
         $cpf = $_POST['cpf'];
         $datanasc = $_POST['datanasc'];
         $email = $_POST['email'];
+        $caminho = "Imagens/foto_perfil.jpg";
         $numerocartaosus = $_POST['numerocartaosus'];
         $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
         $camimg = "ftperfil/foto_teste.png";
