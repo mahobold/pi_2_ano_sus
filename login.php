@@ -2,6 +2,8 @@
     include("conexao.php");
     session_start();
     
+    include("menu.php");
+    
     if (isset($_POST['cpf'])) {
         $login = $_POST['cpf'];
         $senha = $_POST['senha'];
