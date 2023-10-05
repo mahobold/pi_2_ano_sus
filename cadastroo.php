@@ -9,13 +9,13 @@
         $cpf = $_POST['cpf'];
         $datanasc = $_POST['datanasc'];
         $email = $_POST['email'];
-        $caminho = "Imagens/foto_perfil.jpg";
+        
         $numerocartaosus = $_POST['numerocartaosus'];
         $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
         $camimg = "ftperfil/foto_teste.png";
 
         $mysqli->query("INSERT INTO pessoas (nome, sobrenome, telefone, endereco, cpf, datanasc, email, numerocartaosus, senha, camimg)
-        values ('$nome', '$sobrenome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha' '$camimg')")
+        values ('$nome', '$sobrenome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha' , '$camimg')")
         or die($mysqli->error);
 
     }
