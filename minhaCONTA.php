@@ -17,7 +17,7 @@ $usuario = $result->fetch_assoc();
 
 
 
-if (isset($_FILES["foto"])) {
+if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
 
     // Verifique se o arquivo é uma imagem
     $check = getimagesize($_FILES["foto"]["tmp_name"]);
@@ -56,10 +56,16 @@ if (isset($_FILES["foto"])) {
         die("Erro ao atualizar o caminho da imagem no banco de dados.");
     }
 
-
-
     // Atualize a variável de sessão para refletir a mudança feita
     $_SESSION["foto_perfil_caminho"] = $caminhoFinal;
+
+    // Redirecione o usuário de volta para a mesma página
+    header("Location: minhaCONTA.php");
+    exit;
+
+
+}else if(isset($_FILES["foto"]) && $_FILES["foto"]["error"] != 0) {
+    die("Erro no upload do arquivo.");
 }
 
 
@@ -104,9 +110,9 @@ if (isset($_FILES["foto"])) {
             <h1 class="mt-3">Olá <?php echo $usuario["nome"]; ?></h1>
         </div>
 
-        <form action="" method="post" enctype="multipart/form-data" class="mb-4">
+        <form action="minhaCONTA.php" method="post" enctype="multipart/form-data" class="mb-4">
             <div class="mb-3">
-                <input type="file" name="foto" class="form-control" placeholder="Mudar foto de perfil">
+                <input type="file" name="foto" class="form-control" placeholder="Mudar foto de perfil" required>
             </div>
             <div class="text-center">
                 <input type="submit" value="Envie a sua foto" class="btn btn-primary">
