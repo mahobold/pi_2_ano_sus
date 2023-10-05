@@ -13,7 +13,7 @@ $stmt->execute();
 $result = $stmt->get_result();
 $usuario = $result->fetch_assoc();
 
-var_dump($usuario);
+
 
 
 
@@ -42,7 +42,7 @@ if (isset($_FILES["foto"])) {
     $novoNomeArquivo = uniqid() . "." . $extensaoArquivo;
     $caminhoFinal = $diretorioUpload . $novoNomeArquivo;
 
-    var_dump($caminhoFinal);
+   
 
     // Tente mover o arquivo temporário para o diretório final
     if (!move_uploaded_file($_FILES["foto"]["tmp_name"], $caminhoFinal)) {
@@ -64,7 +64,7 @@ if (isset($_FILES["foto"])) {
 
 
 
-    
+
 
 ?>
 
@@ -78,7 +78,7 @@ if (isset($_FILES["foto"])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/dieimes.css">
 
-      <title>Minha Conta</title>
+    <title>Minha Conta</title>
 </head>
 
 <body>
@@ -89,14 +89,17 @@ if (isset($_FILES["foto"])) {
             <?php
             $imgPath = isset($usuario["camimg"]) && !empty($usuario["camimg"]) ? $usuario["camimg"] : 'imagens_recebidos/foto_teste.png';
             //echo "Caminho da imagem: " . $imgPath . "<br>";
+
+            //var_dump($imgPath);
+
             if (file_exists($imgPath)) {
                 echo "<img class='profile-picture' src='$imgPath' alt='Foto de perfil'>";
             } else {
                 echo "<img class='profile-picture' src='imagens_recebidos/foto_teste.png' alt='Foto de perfil'>";
                 echo "O arquivo $imgPath não foi encontrado."; // isso é apenas para depuração
             }
-            
-            
+
+
             ?>
             <h1 class="mt-3">Olá <?php echo $usuario["nome"]; ?></h1>
         </div>
@@ -124,13 +127,18 @@ if (isset($_FILES["foto"])) {
         </div>
     </div>
 
-   
 
-   
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+
+
     
 
+
+
 </body>
+
 </html>
