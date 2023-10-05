@@ -13,6 +13,8 @@ $stmt->execute();
 $result = $stmt->get_result();
 $usuario = $result->fetch_assoc();
 
+var_dump($usuario);
+
 
 
 if (isset($_FILES["foto"])) {
