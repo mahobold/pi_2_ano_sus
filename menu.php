@@ -53,9 +53,6 @@
             <a class="nav-link active" aria-current="page" href="postao.php">Unidades próximas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="med.php">Médicos</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="farmacia.php">Farmácia</a>
           </li>
           <li class="nav-item">
