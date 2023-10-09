@@ -128,7 +128,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
         <p><span class="info-title">Número do Cartão Sus:</span> <?php echo $usuario["numerocartaosus"]; ?></p>
 
         <div class="text-center mt-5">
-            <a href="consulta.php" class="btn btn-success mb-2">Marque sua Consulta</a>
+            <a href="consultaa.php" class="btn btn-success mb-2">Marque sua Consulta</a>
             <p><a href="sair.php" class="btn btn-danger">Sair</a></p>
         </div>
     </div>
