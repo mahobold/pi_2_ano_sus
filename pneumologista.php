@@ -15,6 +15,7 @@
     }
 
 
+    
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -55,7 +56,7 @@
       <input type="text" name="fadiga" placeholder="Tem muita fadiga?" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="consultaa.php">Voltar</a></p>
   </div>
 
     
