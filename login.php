@@ -34,7 +34,7 @@
             header("Location: minhaconta.php");
            exit();
         } else {
-            echo "Usuário não autenticado";
+            echo "Login ou senha incorretos";
         }
     }
 ?>
