@@ -142,7 +142,9 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
 
 
     
-
+    <?php
+  include("rodape2.php");
+  ?>
 
 
 </body>
