@@ -58,7 +58,7 @@
       <div class="container">
                 <div class="row">
                 <div class="card" style="width: 18rem;">
-                <img src="img/teste.png" class="card-img-top" alt="...">
+                <img src="img/pre2.png" class="card-img-top" alt="...">
                
                 <div class="card-body">
                 <h5 class="card-title"></h5>
@@ -220,7 +220,7 @@
           <div class="container">
           <div class="row">
           <div class="card" style="width: 18rem;">
-          <img src="img/dengueee.png" class="card-img-top" alt="...">
+          <img src="img/rep2.png" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text">Utilize repelente</p>
