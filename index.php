@@ -45,7 +45,7 @@
     </button>
   </div>
 
-  <div class="container">
+  <div class="noticia">
     <h1>Notícias</h1>
   </div>
 
@@ -79,7 +79,7 @@
   </div>
 
 
-  <div class="container text-center">
+  <div class="noticia">
     <h1>Assista!</h1>
   </div>
 
@@ -111,6 +111,12 @@
 </div>
 
 
+<div class="container">
+  <div class="index">
+  <h1>Unidades Próximas</h1>
+    </div>
+  </div>
+
   <div class="container">
     <div class="card text-center">
       <div class="card-header">
@@ -132,30 +138,24 @@
       <ul class="list-group text-center custom-list-group">
           <li class="list-group-item mb-3">
               <i class="fas fa-notes-medical mr-2"></i>
-              <a href="info_doenças.php">Info doenças</a>
+              <a href="info.php">Info doenças</a>
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-capsules mr-2"></i>
-              <a href="farmacia.php">Farmácia</a>
+              <a href="farm.php">Farmácia</a>
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-clinic-medical mr-2"></i>
               <a href="postao.php">Unidades Próximas</a>
           </li>
-          <li class="list-group-item">
-              <i class="fas fa-user-md mr-2"></i>
-              <a href="med.php">Médicos</a>
-          </li>
+          
       </ul>
   </div>
 
 
-
-
-
-  <?php
-  include("rodape.php")
-  ?>
+      <div class="bloco2">
+      </div>
+      
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 

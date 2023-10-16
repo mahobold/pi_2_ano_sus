@@ -1,37 +1,45 @@
 html{
 
 
-  --body-color:#fffcfc ;
+  --body-color:#132f5f ;
 
-  --header-color:#b0cfff;
+  --header-color:#90d8ff;
 
-  --header-button:#b0cfff;
+  --header-button:#d0eeff;
 
-  --color-weekdays: rgb(255, 255, 255);
+  --color-weekdays: white;
   
-  --box-shadow: #000000;
+  --box-shadow: #CBD4C2;
 
   --hover: #e8faed;
 
-  --current-day:#ffffff;
+  --current-day:#d0eeff;
 
-  --event-color: #b0cfff;
+  --event-color: #58bae4;
 
   --modal-event: #e8f4fa;
 
 
- --color-day:rgb(251, 251, 251); /* Mudar o quadrados */
+ --color-day:white;
   
 
 }
 
+#dados {
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+#consulta {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 body {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-  background-color: #132f5f;
+  background-color: var(--body-color);
 }
 button {
   width: 75px;
@@ -41,7 +49,7 @@ button {
   outline: none;
   padding: 5px;
   border-radius: 5px;
-  color: rgb(4, 253, 79); /* Voltar / Proximo  */
+  color: white;
 }
 
 #header {
@@ -79,7 +87,7 @@ button {
   height: 100px;
   cursor: pointer;
   box-sizing: border-box;
-  background-color:(--color-day);
+  background-color: var(--color-day);
   margin: 5px;
   box-shadow: 0px 0px 3px var(--box-shadow);
   display: flex;
@@ -88,18 +96,16 @@ button {
   border-radius: 15%;
 }
 .day:hover {
-  background-color: rgb(206, 255, 206);
+  background-color: rgb(212, 250, 255);
 }
 
 .day + #currentDay {
-  background-color:#b0cfff;
+  background-color:var(--current-day);
 }
-
-
 .event {
   font-size: 10px;
   padding: 3px;
-  background-color: #b0cfff;
+  background-color: var(--event-color);
   color: white;
   border-radius: 5px;
   max-height: 55px;
@@ -114,7 +120,7 @@ button {
   display: none;
   z-index: 20;
   padding: 25px;
-  background-color: var(--modal-event);
+  background-color: #d0eeff;
   box-shadow: 0px 0px 3px black;
   border-radius: 5px;
   width: 350px;
@@ -134,16 +140,13 @@ button {
   box-shadow: 0px 0px 3px gray;
 }
 #eventTitleInput.error {
-  border: 2px solid rgb(255, 0, 195);
+  border: 2px solid red;
 }
 #cancelButton, #deleteButton {
-  background-color: rgb(240, 125, 125);
+  background-color: #132f5f;
 }
 #saveButton, #closeButton {
-  background-color: rgb(169, 240, 169);
-}
-#resetButton {
-  background-color: #8ccfe9fa;
+  background-color: rgb(170, 210, 255);
 }
 #eventText {
   font-size: 14px;
@@ -156,23 +159,16 @@ button {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-color: rgba(251, 6, 182, 0.8); /* Cor de fundo cadastro */
-}
-.dayy:hover {
-  background-color: rgb(236, 92, 92);
+  background-color: rgba(0,0,0,0.8);
 }
 
-.dayy{
-  width: 100px;
-  padding: 10px;
-  height: 100px;
-  cursor: pointer;
-  box-sizing: border-box;
-  background-color: var(--color-day);
-  margin: 5px;
-  box-shadow: 0px 0px 3px var(--box-shadow);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 15%;
+#eventText {
+  color: white;
+}
+
+#voltarparapagina {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  
 }

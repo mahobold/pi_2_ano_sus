@@ -178,7 +178,7 @@ svg{
   color: rgb(29, 182, 29);
 }
 .far{
-  margin-left: 515px;
+ 
   color: #054f77;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -225,7 +225,7 @@ nav{
   margin-top: 30px;
 }
 .img{
-  margin-left: 190px;
+  margin-left: 100px;
 }
 .hr{
   color: #054f77;
@@ -365,7 +365,7 @@ nav{
 
 
 .index{
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -381,7 +381,7 @@ nav{
   font-size: 15px;
 }
 .card-title{
-  color: #132f5f;
+  color: black;
 }
 .card-text{
   color: #132f5f;
@@ -398,7 +398,7 @@ nav{
   color: #ffffff;
 }
 .card-header{
-  background-color: #132f5f;
+  background-color: white;
   color: #ffffff;
   border-radius: 40px;
 }
@@ -567,7 +567,7 @@ nav{
 }
 p{
   font-size: 20px;
-  margin-left: 80px;
+  
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
@@ -589,6 +589,82 @@ p{
 .texto{
   margin-left: 200px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vermelidao{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+}
+.icon{
+ margin-bottom: 5px;
+}
+
+
+/* TORNAR RESPONSÍVEL */
+@media screen and (max-width: 600px){
+  #atendimentos{
+    margin-top: 0px;
+    margin-left: -10px;
+  }
+}
+.bloco2 {
+  color: #132f5f;
+  margin-top: 10px;
+  background-color: #132f5f;
+  height: 200px;
+
+}
+
+td{
+  font-size: 20px;
+}
+
+th{
+  font-size: 20px;
+}
+
+
+.iconeconsulta{
+  width: 130px;
+}
+
+.consulta{
+  margin-left: 140px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.btconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.row{
+  margin-bottom: 40px;
+}
+
+.consultatitulo{
+  text-align: center;
+  color: #132f5f;
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btvltconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 900px;
 }
 
 
