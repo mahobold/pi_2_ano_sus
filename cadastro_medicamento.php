@@ -13,6 +13,53 @@
     die ($mysqli->error);
     }
 ?>
+<?php
+include("conexao.php");
+
+if (isset($_POST['nome'])) {
+    if (isset($_FILES['imagem'])) {
+        $arquivo = $_FILES['imagem'];
+        if ($arquivo['size'] > 15000000) {
+            die("Arquivo muito grande!! Max: 15MB");
+        }
+        if ($arquivo['error']) {
+            die("Falha ao enviar arquivo");
+        }
+    }
+
+    var_dump($arquivo);
+
+    $nome = $_POST['nome'];
+
+    $pasta = "recebidosmed/";
+    $nome_arquivo = $arquivo['imagem'];
+    $novo_nome_arquivo = uniqid();
+    $extensao = strtolower(pathinfo($nome_arquivo, PATHINFO_EXTENSION));
+
+
+
+    $caminho = $pasta . $novo_nome_arquivo . "."  . $extensao;
+
+
+    /*
+        if($extensao != "jpg"){
+            die("Tipo de arquivo não aceito");
+        }
+        */
+
+    $nome = $_POST['nome'];
+    $miligramagem = $_POST['miligramagem'];
+    $disponibilidade = $_POST['disponibilidade'];
+
+    $deucerto = move_uploaded_file($arquivo["imagem"], $caminho);
+
+    if ($deucerto) {
+        $mysqli->query("INSERT INTO medicamentos (nome, miligramagem, caminho, disponibilidade) 
+                values ('$nome', '$miligramagem','$caminho', '$disponibilidade')") or die($mysqli->error);
+    }
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -32,7 +79,7 @@
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome do medicamento:" required>
       <input type="text" name="miligramagem" placeholder="Miligramagem:" required>
-      <input type="text" name="imagem" placeholder="Imagem do Produto:" required>
+      <input type="file" name="imagem" placeholder="Imagem do Produto:" required>
       <input type="text" name="disponibilidade" placeholder="Disponibilidade:" required>
       
       <input type="submit" value="Adicionar" onclick="return validateFields()">
@@ -46,10 +93,6 @@
   </div>
 
 
-
-<?php
-  include("rodape.php");
-  ?>
 
 </body>
 
