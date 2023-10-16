@@ -9,7 +9,7 @@
         $telefone = $_POST['telefone'];
         $especialidade = $_POST['especialidade'];
         $mysqli->query("INSERT INTO cadastro_medico (nomemedico, idade, crm, endereco, telefone, especialidade)
-        values ('$nomemedico', '$idade', '$crm', '$endereco, '$telefone', '$especialidade')")
+        values ('$nomemedico', '$idade', '$crm', '$endereco', '$telefone', '$especialidade')")
         or die($mysqli->error);
 
     }
