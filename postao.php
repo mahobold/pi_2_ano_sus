@@ -18,9 +18,10 @@
   
     <h1 id="postos">Postos de Saúde</h1>
 
-  <div class="container">
+  <div id="responsivel" class="container">
+  <img class="img-fluid"  src="" class="img-fluid" alt="">
     <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
-    <img class="img-fluid" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/550000/Inauguracao-faz-parte-das-comemoracoes-do-60-anive-00559432-0-202111190625.jpg?xid=493491" class="img-fluid" alt="">
+    <img class="img-fluid" src="" class="img-fluid" alt="">
     
     <h3 class="hr"> Horarios de Atendimento</h3>
     <table id="atendimentos" class="table">
@@ -171,10 +172,10 @@
     </div>  <!-- FIM do ROW -->
 
     <!-- adsnflndf -->
-    <div class="container">
+    <div id="responsivel" class="container">
 
       <h2 class="saude">POSTO DE SAÚDE UBS MONTE CASTELO</h2>
-      <img class="img" src="https://cdn.tnonline.com.br/img/Artigo-Destaque/510000/Artigo-Destaque_00511386_00.jpg?xid=327763" class="img-fluid" alt="">
+      <img class="img" src="" class="img-fluid" alt="">
       
       <h3 class="hr"> Horários de Atendimento</h3>
       <table class="table">
@@ -325,9 +326,9 @@
     </div>
 
 
-    <div class="container">
+    <div id="responsivel" class="container">
       <h2 class="saude">CENTRO DE SAÚDE</h2>
-      <img id="img" src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IPORQbiQjWg4Z9UdBo7dxg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=134.83238&pitch=0&thumbfov=100" class="img-fluid" alt="">
+      <img id="img" src="" class="img-fluid" alt="">
       
       <h3 class="hr"> Horários de Atendimento</h3>
       <table class="table">
@@ -476,7 +477,7 @@
     </div>  <!-- FIM do ROW -->
     </div>
 
-    <div class="bloco2">
+    <div id="responsivel" class="bloco2">
       </div>
 
 
