@@ -13,18 +13,6 @@
         $result = $stmt->get_result();
         $usuario = $result->fetch_assoc();
 
-        //var_dump($usuario);
-       
-        
-        // Verificar se o usuário existe
-        /*
-         if (!$usuario) {
-            echo "<script>alert('login ou senha incorreto!!');</script>";
-            header("Location: login.php");
-            exit();
-        }
-        */
-   
         
     
         // Verificar a senha
@@ -46,15 +34,18 @@
 <head>
 <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="cadas_login.css">
+    <link rel="stylesheet" href="css/dieimes.css">
 
     <title>Página de Login</title>
 </head>
 <body>
- 
-    <div class="login">
+    <?php
+        include("menu.php");
+    ?>
+    <div class="login-container">
         <div class="icon">
-        <img  width="35px" src="img/logo2.png"><h2>Login</h2>
+        <img  width="35px" src="img/logo2.png"><div id="Login">LOGIN</div>
         </div>
         <form action="" method="post">
             <input id="cpfInput" type="text" name="cpf" placeholder="Acesse com seu CPF" oninput="formatarCPF()" maxlength="14" required>

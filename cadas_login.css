@@ -1,3 +1,4 @@
+/*
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -8,7 +9,8 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+*/
+/*
 .login-container a {
   display: inline-block;
   background-color: #FFF;
@@ -21,18 +23,28 @@ body {
   text-align: center;
 }
 
+*/
+
+
 .login-container {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 300px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: 100px;
+  height: 450px;
 }
 
+/*
 .login-container h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+
+*/
 
 .login-container input[type="text"],
 .login-container input[type="password"] {
@@ -54,9 +66,13 @@ body {
   cursor: pointer;
 }
 
+#Login{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #2054a8;
+  font-size: 35px;
+}
 
-
-
+/*
 .card {
   width: 300px;
   border: 1px solid #ccc;
@@ -90,34 +106,44 @@ body {
   text-align: center;
 }
 
+*/
+
 .login-container input[type="submit"]:hover {
   background-color: #3668b8;
 }
   
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+/*
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+*/
+
   .signup-container {
     background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    padding: 80px;
-    width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: 100px;
+  height: 850px;
   }
   
+  /*
   .signup-container h2 {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 10px;
   }
+  */
   
   .signup-container input[type="text"],
   .signup-container input[type="email"],
@@ -144,10 +170,12 @@ body {
     background-color: #3668b8;
   }
   
+  /*
   .signup-container p {
     text-align: center;
     margin-top: 10px;
   }
+  */
 .icon{
   margin-bottom: 30px;
 }
