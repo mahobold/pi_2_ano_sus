@@ -91,7 +91,7 @@ function load (){
       if(i - paddinDays === day && nav === 0){
         dayS.id = 'currentDay'
       }
-   
+
 
       if(eventDay){
         const eventDiv = document.createElement('div')

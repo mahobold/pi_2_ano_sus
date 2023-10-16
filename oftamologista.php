@@ -17,6 +17,7 @@
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,9 +25,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="projeto.css">
-    <title>oftamologista</title>
+    <link rel="stylesheet" href="css/projeto.css">
+    <title>Oftamologista</title>
 </head>
 <body>
 <?php
@@ -48,7 +48,7 @@
   </div>
 </div>
 
-    <div class="oftalmo-container">
+    <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome Completo" required>
@@ -58,10 +58,14 @@
       <input type="text" name="ocular" placeholder="Teve dores oculares?" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    <p><a href="consultaa.php">Voltar</a></p>
   </div>
     
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+ 
+ <div class="bloco2">
+      </div>
+
 </body>
 </html>

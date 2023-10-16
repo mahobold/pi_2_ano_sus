@@ -178,7 +178,7 @@ svg{
   color: rgb(29, 182, 29);
 }
 .far{
-  margin-left: 515px;
+ 
   color: #054f77;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -225,7 +225,7 @@ nav{
   margin-top: 30px;
 }
 .img{
-  margin-left: 190px;
+  margin-left: 100px;
 }
 .hr{
   color: #054f77;
@@ -273,66 +273,16 @@ nav{
 
 /*aaa*/
 
-.neuro-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -780px;
-  margin-bottom: 150px;
-}
-
-.neuro-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.neuro-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
 
 
-.neuro-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.neuro-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.neuro-container p {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.consultar{
-  color: #054f77;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
 .neu{
   width: 700px;
   margin-left: 450px;
 }
 .text-bg-dark{
   width: 480px;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: 60px;
+  margin-left: 250px;
   margin-bottom: 200px;
   
 
@@ -348,107 +298,19 @@ nav{
 
 
 
-.nefro-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -650px;
-  margin-bottom: 150px;
-}
 
-.nefro-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.nefro-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.nefro-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.nefro-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.nefro-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 .consultar{
   color: #054f77;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 
 
-.oftalmo-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -600px;
-  margin-bottom: 150px;
-}
-
-.oftalmo-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.oftalmo-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.oftalmo-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.oftalmo-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.oftalmo-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 
 
@@ -460,7 +322,7 @@ nav{
   padding: 30px;
   width: 600px;
   margin-left: 1000px;
-  margin-top: -650px;
+  margin-top: -625px;
   margin-bottom: 150px;
 }
 
@@ -500,55 +362,10 @@ nav{
 }
 
 
-.dentista-container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  width: 600px;
-  margin-left: 1000px;
-  margin-top: -700px;
-  margin-bottom: 150px;
-}
-
-.dentista-container h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
-
-.dentista-container input[type="text"]{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-
-.dentista-container input[type="submit"] {
-  width: 100%;
-  background-color: #054f77;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.dentista-container input[type="submit"]:hover {
-  background-color: #3668b8;
-}
-
-.dentista-container p {
-  text-align: center;
-  margin-top: 10px;
-}
 
 
 .index{
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -559,14 +376,12 @@ nav{
   font-size: 20px;
   text-align: center;
 }
-.video{
-  text-align: center;
-}
+
 .título_card{
   font-size: 15px;
 }
 .card-title{
-  color: #132f5f;
+  color: black;
 }
 .card-text{
   color: #132f5f;
@@ -583,7 +398,7 @@ nav{
   color: #ffffff;
 }
 .card-header{
-  background-color: #132f5f;
+  background-color: white;
   color: #ffffff;
   border-radius: 40px;
 }
@@ -730,3 +545,126 @@ nav{
   color: #054f77;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.doenca{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #054f77;
+  margin-bottom: 25px;
+}
+.container{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sintomas{
+  margin-left: 300px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #054f77;
+  margin-bottom: 30px;
+  margin-top: 60px;
+
+}
+p{
+  font-size: 20px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.previnir{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #132f5f;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.ima{
+  text-align: center;
+}
+.card-text{
+  color: black;
+  margin-right: 40px;
+}
+.texto{
+  margin-left: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vermelidao{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+}
+.icon{
+ margin-bottom: 5px;
+}
+
+
+/* TORNAR RESPONSÍVEL */
+@media screen and (max-width: 600px){
+  #atendimentos{
+    margin-top: 0px;
+    margin-left: -10px;
+  }
+}
+.bloco2 {
+  color: #132f5f;
+  margin-top: 10px;
+  background-color: #132f5f;
+  height: 200px;
+
+}
+
+td{
+  font-size: 20px;
+}
+
+th{
+  font-size: 20px;
+}
+
+
+.iconeconsulta{
+  width: 130px;
+}
+
+.consulta{
+  margin-left: 140px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.btconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.row{
+  margin-bottom: 40px;
+}
+
+.consultatitulo{
+  text-align: center;
+  color: #132f5f;
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btvltconsulta{
+  border: 2px solid #132f5f;
+  color: aliceblue;
+  background-color: #132f5f;
+  padding: 9px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 900px;
+}
+
+

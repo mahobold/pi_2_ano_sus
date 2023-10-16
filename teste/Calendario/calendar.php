@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- arquivos style -->
-  <link href="style.css" rel="stylesheet">
-  <link href="darkMode.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/darkMode.css" rel="stylesheet">
 
   <title>Calendario</title>
 </head>
@@ -28,12 +28,13 @@
         <div>
           <button id="backButton">Voltar</button>
           <button id="nextButton">Próximo</button>
+          <button><a  id="voltarparapagina" href="pi_2_ano_sus/consulta.php">Voltar para página anterior</a></button>
         </div>
           
       </div>
 
       <div id="weekdays">
-        <div class="domingo">Domingo</div>
+        <div>Domingo</div>
         <div>Segunda-feira</div>
         <div>Terça-feira</div>
         <div>Quarta-feira</div>
@@ -50,32 +51,40 @@
   </div>
 
   <div id="newEventModal">
-    <h2>Agende seu horário</h2>
+    <div id="dados">
+    <h2>Insira seus dados, para marcar a consulta:</h2>
+    </div>
 
-    <input id="eventTitleInput" placeholder="Nome Completo"/>
-    <input id="eventTitleInput" placeholder="CPF"/>
+    <input id="eventTitleInput" placeholder="Nome completo:"/>
     <input id="eventTitleInput" placeholder="Data de nascimento"/>
+    <input id="eventTitleInput" placeholder="CPF"/>
+    <input id="eventTitleInput" placeholder="Endereço:"/>
+    <input id="eventTitleInput" placeholder="N° do cartão do SUS"/>
 
     <button id="saveButton"> Salvar</button>
     <button id="cancelButton">Cancelar</button>
-    <button id="resetButton">Limpar</button>
   </div>
 
   <div id="deleteEventModal">
-    <h2>Cancelar consulta</h2>
+
+    <div id="consulta">
+    <h2>Deseja cancelar sua consulta?</h2>
+    </div>
 
     <div id="eventText"></div><br>
 
 
-    <button id="deleteButton">Cancelar</button>
-    <button id="closeButton">Fechar</button>
+    <button id="deleteButton">Sim</button>
+    <button id="closeButton">Não</button>
   </div>
 
   <div id="modalBackDrop"></div>
 
+ 
 
-  <script src="darkMode.js"></script>
-  <script src="main.js"></script>
+
+  <script src="scripts/darkMode.js"></script>
+  <script src="./scripts/main.js"></script>
   
 </body>
 </html>

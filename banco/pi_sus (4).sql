@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 24-Ago-2023 às 14:21
+-- Tempo de geração: 05-Out-2023 às 11:18
 -- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
@@ -91,6 +91,19 @@ INSERT INTO `dentista` (`id_pessoadent`, `nome`, `idade`, `ida`, `motivo`, `apar
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `ft`
+--
+
+DROP TABLE IF EXISTS `ft`;
+CREATE TABLE IF NOT EXISTS `ft` (
+  `id_pessoa` int(11) NOT NULL AUTO_INCREMENT,
+  `camimg` varchar(300) NOT NULL,
+  PRIMARY KEY (`id_pessoa`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `ginecol`
 --
 
@@ -111,29 +124,6 @@ CREATE TABLE IF NOT EXISTS `ginecol` (
 
 INSERT INTO `ginecol` (`id_pessoaginecol`, `nome`, `idade`, `preventivo`, `diu`, `ativa`) VALUES
 (1, 'rw', 'g43', 'rb', 'b', 'r');
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `medicamentos`
---
-
-DROP TABLE IF EXISTS `medicamentos`;
-CREATE TABLE IF NOT EXISTS `medicamentos` (
-  `id_medicamento` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(100) NOT NULL,
-  `miligramagem` varchar(100) NOT NULL,
-  `imagem` varchar(350) NOT NULL,
-  `disponibilidade` varchar(100) NOT NULL,
-  PRIMARY KEY (`id_medicamento`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-
---
--- Extraindo dados da tabela `medicamentos`
---
-
-INSERT INTO `medicamentos` (`id_medicamento`, `nome`, `miligramagem`, `imagem`, `disponibilidade`) VALUES
-(1, 'Dieimes 3', 'fddf', 'dsfdsf', 'dsfdsf');
 
 -- --------------------------------------------------------
 
@@ -254,7 +244,7 @@ CREATE TABLE IF NOT EXISTS `pessoas` (
   `senha` varchar(300) NOT NULL,
   `camimg` varchar(300) NOT NULL,
   PRIMARY KEY (`id_pessoa`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `pessoas`
@@ -263,7 +253,8 @@ CREATE TABLE IF NOT EXISTS `pessoas` (
 INSERT INTO `pessoas` (`id_pessoa`, `nome`, `sobrenome`, `telefone`, `endereco`, `cpf`, `datanasc`, `email`, `numerocartaosus`, `senha`, `camimg`) VALUES
 (5, 'maria', 'oi', '190', 'sesc', '09929717994', '0132007', 'rrjq4jj@gmail.com', '0999993821', '$2y$10$H2JGiTnvCUqSmOBOobIn..MFvBMr6TfTehISF1TP91.zt14mnoZL6', ''),
 (4, 'Dieimes', '', '43988179995', 'Av. Brasil 123', '1111111111', '31022023', 'dlnfldfl@fdsgfg', '1111', '$2y$10$wf7.xDYQujKKinpVm5M1vuNr5N31BrYEDdwLfGD7UtSJM/tq2ez3y', ''),
-(6, 'bre', 'h', 'H', '3', 'ERW', 'hr', 'HR', 'h', '$2y$10$zcMPJHiPNaaiaO7KSE6W3.0aQeZ/zJyC21Eiaml6MV3gmWcfubttO', '');
+(6, 'bre', 'h', 'H', '3', 'ERW', 'hr', 'HR', 'h', '$2y$10$zcMPJHiPNaaiaO7KSE6W3.0aQeZ/zJyC21Eiaml6MV3gmWcfubttO', ''),
+(7, 'maria', ',ko', 'dsfdsf', 'dsdf', '09929717994', 'qqqqc', 'rrjq4jj@gmail.com', 'ws1d', '$2y$10$ODK7UTxqcPxJSQO7mK/kTOI.Y6DLQaxnRkq2GjM0D5Ltb8W89ZEXy', '');
 
 -- --------------------------------------------------------
 

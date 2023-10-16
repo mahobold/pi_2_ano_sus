@@ -34,12 +34,12 @@
             header("Location: minhaconta.php");
            exit();
         } else {
-            echo "Usuário não autenticado";
+            echo "Login ou senha incorretos";
         }
     }
 ?>
 
-
+ 
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -51,10 +51,13 @@
     <title>Página de Login</title>
 </head>
 <body>
+ 
     <div class="login-container">
-        <h2>Login</h2>
+        <div class="icon">
+        <img  width="35px" src="img/logo2.png"><h2>Login</h2>
+        </div>
         <form action="" method="post">
-            <input type="text" name="cpf" placeholder="Acesse com seu CPF" required>
+            <input id="cpfInput" type="text" name="cpf" placeholder="Acesse com seu CPF" oninput="formatarCPF()" maxlength="14" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Entrar">
         </form>
@@ -62,8 +65,12 @@
         <p><a href="index.php">Voltar</a></p>
     </div>
 
-  
+    
+
+     
+
 </body>
+<script src="cpf.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </html>
