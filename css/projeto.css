@@ -244,6 +244,7 @@ nav{
 }
 .row{
   margin-left: 90px;
+
 }
 .details{
   margin-left: 110px;
@@ -665,6 +666,30 @@ th{
   border-radius: 20px;
   text-decoration: none;
   margin-left: 900px;
+}
+
+/* RESPONSIBILIDADE */
+
+@media (min-width: 300px) and (max-width: 400px){
+  #responsivel{
+   width: 280%;
+   height: 100%;
+   padding: 20px;
+  }
+}
+
+img {
+  max-width: 500%;
+  height: auto;
+}
+
+@media (min-width: 401px) and (max-width:500px){
+  #respondivel{
+    max-width: 100%;
+  height: auto;
+
+   
+  }
 }
 
 
