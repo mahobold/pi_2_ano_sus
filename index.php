@@ -138,32 +138,19 @@
       <ul class="list-group text-center custom-list-group">
           <li class="list-group-item mb-3">
               <i class="fas fa-notes-medical mr-2"></i>
-              <a href="info_doenças.php">Info doenças</a>
+              <a href="info.php">Info doenças</a>
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-capsules mr-2"></i>
-              <a href="farmacia.php">Farmácia</a>
+              <a href="farm.php">Farmácia</a>
           </li>
           <li class="list-group-item mb-3">
               <i class="fas fa-clinic-medical mr-2"></i>
               <a href="postao.php">Unidades Próximas</a>
           </li>
-          <li class="list-group-item">
-              <i class="fas fa-user-md mr-2"></i>
-              <a href="med.php">Médicos</a>
-          </li>
+          
       </ul>
   </div>
-<div class="bloco">
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
-      </div>
-
-
 
 
       <div class="bloco2">
