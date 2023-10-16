@@ -46,13 +46,13 @@
 <head>
 <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="cadas_login.css">
+    <link rel="stylesheet" href="projeto.css">
 
     <title>Página de Login</title>
 </head>
 <body>
  
-    <div class="login-container">
+    <div class="login">
         <div class="icon">
         <img  width="35px" src="img/logo2.png"><h2>Login</h2>
         </div>
@@ -64,10 +64,6 @@
         <p><a href="cadastroo.php">Faça cadastro</a></p>
         <p><a href="index.php">Voltar</a></p>
     </div>
-
-    
-
-     
 
 </body>
 <script src="cpf.js"></script>
