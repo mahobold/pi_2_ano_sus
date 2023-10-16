@@ -28,7 +28,7 @@
         <div>
           <button id="backButton">Voltar</button>
           <button id="nextButton">Próximo</button>
-          <button><a  id="voltarparapagina" href="../consulta.php">Voltar para página anterior</a></button>
+          <button><a  id="voltarparapagina" href="pi_2_ano_sus/consulta.php">Voltar para página anterior</a></button>
         </div>
           
       </div>
