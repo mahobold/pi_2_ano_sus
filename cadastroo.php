@@ -94,8 +94,11 @@
 
   -->
 
- 
+  <?php
+  include("rodape2.php");
+  ?>
 
 </body>
+
 <script src="cpf.js"></script>
 </html>
