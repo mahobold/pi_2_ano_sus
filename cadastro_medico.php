@@ -27,6 +27,9 @@
     <title>Cadastro - Médico</title>
 </head>
 <body>
+    <?php
+        include("menu.php");
+    ?>
 <form action="" method="post">
       <input type="text" name="nomemedico" placeholder="Nome do médico" required>
       <input type="text" name="idade" placeholder="Idade" required>
@@ -37,6 +40,11 @@
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
+    <div class="bloco2">
+      </div>
+    <?php
+        include("rodape2.php");
+    ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
