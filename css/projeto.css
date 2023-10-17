@@ -244,6 +244,7 @@ nav{
 }
 .row{
   margin-left: 90px;
+
 }
 .details{
   margin-left: 110px;
@@ -667,4 +668,35 @@ th{
   margin-left: 900px;
 }
 
+/* RESPONSIBILIDADE */
 
+@media (min-width: 300px) and (max-width: 400px){
+  #responsivel{
+   width: 280%;
+   height: 100%;
+   padding: 20px;
+  }
+}
+
+img {
+  max-width: 500%;
+  height: auto;
+}
+
+@media (min-width: 401px) and (max-width:500px){
+  #respondivel{
+    max-width: 100%;
+  height: auto;
+
+   
+  }
+}
+
+
+.login{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 300px;
+}

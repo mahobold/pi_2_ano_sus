@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="img/logo2.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -115,6 +116,68 @@
 
 
 
+<<<<<<< HEAD
+=======
+      <h1 class= "sintomas">Sintomas: </h1>
+
+   <div class="texto">
+  <p >Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
+  <p>Febre, aparecimento de gânglios;</p>
+  <p>crescimento do baço e do fígado;</p>
+  <p>Alterações elétricas do coração e/ou inflamação das meninges nos casos graves;</p>
+  <p>Quadros de diarreia frequentes;</p>
+  <p>Sinusite;</p>
+  <p>Pneumonia;</p>
+  <p>Quadros de herpes simples (boca).</p>
+    </div>
+
+
+
+  <h1 class="previnir">Como previnir:</h1>
+
+      <div class="container">
+                <div class="row">
+                <div class="card" style="width: 18rem;">
+                <img src="img/pre2.png" class="card-img-top" alt="...">
+               
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Usar preservativos nas relações sexuais</p>
+
+            </div>
+          </div>
+
+      
+            
+          <div class="card" style="width: 18rem;">
+            <img src="img/hiv3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Ter cuidado no uso de materiais cortantes.</p>
+
+            </div>
+          </div>
+
+              
+          <div class="card" style="width: 18rem;">
+            <img src="img/hivv4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Evitar o compartilhamento de seringas e agulhas.</p>
+
+            </div>
+          </div>
+            
+          <div class="card" style="width: 18rem;">
+            <img src="img/hiv6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Prevenir a transmissão vertical.</p>
+              </div>
+            </div>
+</div>
+    </div>
+>>>>>>> aa0847c4914b59045af1209cb06b09fc97cf939b
 
 
 
@@ -206,6 +269,7 @@
 
   <h1 class="previnir">Como previnir</h1>
 
+<<<<<<< HEAD
 
   <div class="row">
     <div class="card" style="width: 18rem;">
@@ -213,6 +277,15 @@
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Utilize repelente</p>
+=======
+          <div class="container">
+          <div class="row">
+          <div class="card" style="width: 18rem;">
+          <img src="img/rep2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Utilize repelente</p>
+>>>>>>> aa0847c4914b59045af1209cb06b09fc97cf939b
 
       </div>
     </div>

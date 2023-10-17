@@ -49,9 +49,9 @@
     <h1>Notícias</h1>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="card-group">
-      <div class="card">
+      <div  class="card">
         <img src="img/turvo4.jpg" class="card-img-top">
         <div class="card-body">
           <p class="card-text">SECRETARIA DA SAÚDE</p>

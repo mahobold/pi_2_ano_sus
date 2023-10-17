@@ -54,7 +54,7 @@
           </li>
       
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="farmacia.php">Farmácia</a>
+            <a class="nav-link active" aria-current="page" href="farm.php">Farmácia</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="info.php">Info doenças</a>
