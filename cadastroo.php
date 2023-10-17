@@ -26,17 +26,20 @@
 <html lang="pt-br">
 
 <head>
+<link rel="icon" href="img/logo2.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="cadas_login.css">
+  <link rel="stylesheet" href="css/dieimes.css">
   <title>Tela de Cadastro</title>
 </head>
 
-
-
-
 <body>
+<?php
+        include("menu.php");
+    ?>
   <div class="signup-container">
     <div class="iconi">
-  <img height="30px" src="img/logo2.png"><h2>Cadastro</h2>
+  <img height="30px" src="img/logo2.png"><div id="Login">CADASTRO</div>
   </div>
     <form action="" method="post">
       <input type="text" name="nome" placeholder="Nome" required>
@@ -54,6 +57,7 @@
     <p><a href="login.php">Faça login</a></p>
   </div>
 
+<<<<<<< HEAD
   <!--
   <script>
     function validateFields() {
@@ -97,8 +101,13 @@
   <?php
   include("rodape2.php");
   ?>
+=======
+ 
+ 
+>>>>>>> Ana
 
 </body>
 
 <script src="cpf.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
