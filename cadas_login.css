@@ -115,13 +115,13 @@ body {
 }
 */
 
-  .signup-container {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    padding: 80px;
-    width: 300px;
-  }
+.signup-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 80px;
+  width: 300px;
+}
   
   .signup-container h2 {
     text-align: center;
