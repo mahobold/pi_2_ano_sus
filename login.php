@@ -22,7 +22,7 @@
             header("Location: minhaconta.php");
            exit();
         } else {
-            echo "Usuário não autenticado";
+            echo "Login ou senha incorretos";
         }
     }
 ?>
@@ -45,7 +45,7 @@
     ?>
     <div class="login-container">
         <div class="icon">
-        <img  width="35px" src="img/logo2.png"><h2>Login</h2>
+        <img  width="35px" src="img/logo2.png"><div id="Login">LOGIN</div>
         </div>
         <form action="" method="post">
             <input id="cpfInput" type="text" name="cpf" placeholder="Acesse com seu CPF" oninput="formatarCPF()" maxlength="14" required>
@@ -55,10 +55,6 @@
         <p><a href="cadastroo.php">Faça cadastro</a></p>
         <p><a href="index.php">Voltar</a></p>
     </div>
-
-    
-
-     
 
 </body>
 <script src="cpf.js"></script>
