@@ -33,6 +33,7 @@ if (isset($_POST['especialidade'])) {
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
+    <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
     <div class="bloco2">
       </div>
     <?php
