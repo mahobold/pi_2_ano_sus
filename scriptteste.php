@@ -68,3 +68,64 @@
 <script src="cpf.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+                // Manipule o evento de envio do formulário
+                $('#cadastro').on('submit', function(e) {
+                    e.preventDefault(); // Impede o envio padrão do formulário
+
+                    // Coleta os dados do formulário
+                    var formData = $(this).serialize();
+
+                    // Faça uma solicitação AJAX para enviar os dados ao servidor
+                    $.ajax({
+                        type: 'POST',
+                        url: 'cadastroo.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
+                        data: formData,
+                        success: function(response) {
+                            if (response === 'success') {
+                                // Redirecione para a página de login após o cadastro bem-sucedido
+                                Swal.fire({
+                                    title: 'Erro',
+                                    text: 'Erro no cadastro!',
+                                    icon: 'error',
+                                    confirmButtonText: 'OK'
+                                })
+                            } else {
+                                Swal.fire({
+                                    title: 'Sucesso',
+                                    text: 'Cadastro criado com sucesso!',
+                                    icon: 'success',
+                                    confirmButtonText: 'OK'
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        // Redirecione para a página de login após o cadastro bem-sucedido
+                                        window.location.href = 'login.php'; // Substitua 'login.php' pela página desejada
+                                    }
+                                });
+                            }
+                        },
+                        error: function() {
+                            Swal.fire({
+                                title: 'Erro',
+                                text: 'Erro na comunicação com o servidor.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    });
+                });
+            </script>
