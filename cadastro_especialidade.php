@@ -33,8 +33,6 @@ if (isset($_POST['especialidade'])) {
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
-    <div class="bloco2">
-      </div>
     <?php
         include("rodape2.php");
     ?>

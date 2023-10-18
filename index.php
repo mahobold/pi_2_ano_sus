@@ -153,8 +153,6 @@
   </div>
 
 
-      <div class="bloco2">
-      </div>
 
   <?php
   include("rodape2.php");
