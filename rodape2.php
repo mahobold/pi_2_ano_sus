@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="css/projeto.css">
     <title>Página Rodapé</title>
 </head>
 <body>
 
-    <footer style="background-color: #132f5f; color: #ffffff; text-align: center; padding: 10px;">
-        Desenvolvido por: 
-        Maria Vitória Magalhães Hobold, <br>
-        Ana Beatriz Ferreira Passos, <br>
-        Letícia Fernanda Pereira, <br>
-        Marcela Luíza Ramos Reis, <br>
-        Luiz Eduardo Rosaeski Bonfim & <br>
+    <div class="rodape">
+        <div class="nomes">Desenvolvido por: 
+        Maria Vitória Magalhães Hobold,
+        Ana Beatriz Ferreira Passos, 
+        Letícia Fernanda Pereira, 
+        Marcela Luíza Ramos Reis, 
+        Luiz Eduardo Rosaeski Bonfim & 
         Matheus Wagatuma Spadrizani.
-        <br>
-        <br>
-        Orientado por: Dieimes Nunes de Souza
-    </footer>
+        </div>
+        <div class="nome">Orientado por: Dieimes Nunes de Souza
+        </div>
+    </div>
 </body>
 </html>

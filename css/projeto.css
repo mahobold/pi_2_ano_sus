@@ -691,12 +691,20 @@ img {
    
   }
 }
-
-
 .login{
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   padding: 30px;
   width: 300px;
+}
+.rodape{
+  background-color: #132f5f;
+}
+.nomes{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: -150px;
+  color: #ffffff;
+  margin-left: 150px;
 }
