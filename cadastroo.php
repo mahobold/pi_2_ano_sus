@@ -25,12 +25,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-<link rel="icon" href="img/logo2.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="cadas_login.css">
-  <link rel="stylesheet" href="css/dieimes.css">
-  <title>Tela de Cadastro</title>
+      <head>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+        <link rel="icon" href="img/logo2.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="cadas_login.css">
+        <link rel="stylesheet" href="css/dieimes.css">
+        <title>Tela de Cadastro</title>
 </head>
 
 <body>
@@ -41,7 +44,7 @@
     <div class="iconi">
   <img height="30px" src="img/logo2.png"><div id="Login">CADASTRO</div>
   </div>
-    <form action="" method="post">
+    <form id="cadastro"  action="" method="post">
       <input type="text" name="nome" placeholder="Nome" required>
       <input type="text" name="sobrenome" placeholder="Sobrenome" required>
       <input id="telefoneInput" type="text" name="telefone" placeholder="Telefone" oninput="formatarTelefone()" maxlength="15" required>
@@ -55,7 +58,54 @@
 
     </form>
 
-    
+    <script>
+                // Manipule o evento de envio do formulário
+                $('#cadastro').on('submit', function(e) {
+                    e.preventDefault(); // Impede o envio padrão do formulário
+
+                    // Coleta os dados do formulário
+                    var formData = $(this).serialize();
+
+                    // Faça uma solicitação AJAX para enviar os dados ao servidor
+                    $.ajax({
+                        type: 'POST',
+                        url: 'cadastro.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
+                        data: formData,
+                        success: function(response) {
+                            if (response === 'success') {
+                                // Redirecione para a página de login após o cadastro bem-sucedido
+                                Swal.fire({
+                                    title: 'Erro',
+                                    text: 'Erro no cadastro!',
+                                    icon: 'error',
+                                    confirmButtonText: 'OK'
+                                })
+                            } else {
+                                Swal.fire({
+                                    title: 'Sucesso',
+                                    text: 'Cadastro criado com sucesso!',
+                                    icon: 'success',
+                                    confirmButtonText: 'OK'
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        // Redirecione para a página de login após o cadastro bem-sucedido
+                                        window.location.href = 'login.php'; // Substitua 'login.php' pela página desejada
+                                    }
+                                });
+                            }
+                        },
+                        error: function() {
+                            Swal.fire({
+                                title: 'Erro',
+                                text: 'Erro na comunicação com o servidor.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    });
+                });
+            </script>
+            
 
     <p><a href="login.php">Faça login</a></p>
   </div>
