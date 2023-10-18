@@ -40,9 +40,13 @@
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
+<<<<<<< HEAD
     <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
     <div class="bloco2">
       </div>
+=======
+
+>>>>>>> Matheus
     <?php
         include("rodape2.php");
     ?>
