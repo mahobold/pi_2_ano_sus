@@ -21,7 +21,7 @@
   <div id="responsivel" class="container">
   <img class="img-fluid"  src="" class="img-fluid" alt="">
     <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
-    <img class="img-fluid" src="" class="img-fluid" alt="">
+    <img class="img-fluid" src="img/postojacutinga" class="img-fluid" alt="">
     
     <h3 class="hr"> Horarios de Atendimento</h3>
     <table id="atendimentos" class="table">
@@ -175,7 +175,7 @@
     <div id="responsivel" class="container">
 
       <h2 class="saude">POSTO DE SAÚDE UBS MONTE CASTELO</h2>
-      <img class="img" src="" class="img-fluid" alt="">
+      <img class="img" src="img/montecastelo" class="img-fluid" alt="">
       
       <h3 class="hr"> Horários de Atendimento</h3>
       <table class="table">
@@ -328,7 +328,7 @@
 
     <div id="responsivel" class="container">
       <h2 class="saude">CENTRO DE SAÚDE</h2>
-      <img id="img" src="" class="img-fluid" alt="">
+      <img id="img" src="img/centrodesaudeivaipora" class="img-fluid" alt="">
       
       <h3 class="hr"> Horários de Atendimento</h3>
       <table class="table">
