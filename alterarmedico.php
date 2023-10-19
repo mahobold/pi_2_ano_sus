@@ -59,20 +59,18 @@ if (isset($_POST['nomemedico'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revisão - Cadastrar</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="img/logo2.png">
+    <title>Alterar - Médico</title>
+    <link rel="stylesheet" href="css/projeto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 </head>
 
 <body>
+    <?php
+        include("menu.php");
+    ?>
     <div class="container">
-                <form action="" method="post">
-                        <label class="form-label" for="">Digite o ID do médico para alteração:</label>
-                        <input class="form-control" type="text" name="id_medico">
-                    <input class="btn btn-success" type="submit" value="Consultar">
-                    
-                </form>
                 <form action="" method="post">
                         <h1 class="text-center">Alterar - Médico</h1>
                         <label class="form-label" for="">Nome</label>

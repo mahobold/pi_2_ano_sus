@@ -41,6 +41,9 @@
     </head>
 
     <body>
+    <?php
+        include("menu.php");
+    ?>
         <div class="container">
             <h1>Tela de exclusão de especialidades</h1>
             <h1>ID da especialidade: <?php echo $especialidades['id_especialidade']?></h1>
