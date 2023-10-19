@@ -36,61 +36,8 @@ if (isset($_POST['especialidade'])) {
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
-=======
-    <script>
-                // Manipule o evento de envio do formulário
-                $('#cadastro').on('submit', function(e) {
-                    e.preventDefault(); // Impede o envio padrão do formulário
-
-                    // Coleta os dados do formulário
-                    var formData = $(this).serialize();
-
-                    // Faça uma solicitação AJAX para enviar os dados ao servidor
-                    $.ajax({
-                        type: 'POST',
-                        url: 'cadastro_especialidade.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
-                        data: formData,
-                        success: function(response) {
-                            if (response === 'success') {
-                                Swal.fire({
-                                    title: 'Erro',
-                                    text: 'Erro no cadastro!',
-                                    icon: 'error',
-                                    confirmButtonText: 'OK'
-                                })
-                            } else {
-                                Swal.fire({
-                                    title: 'Sucesso',
-                                    text: 'Cadastro criado com sucesso!',
-                                    icon: 'success',
-                                    confirmButtonText: 'OK'
-                                }).then((result) => {
-                                   
-                                });
-                            }
-                        },
-                        error: function() {
-                            Swal.fire({
-                                title: 'Erro',
-                                text: 'Erro na comunicação com o servidor.',
-                                icon: 'error',
-                                confirmButtonText: 'OK'
-                            });
-                        }
-                    });
-                });
-            </script>
-            
-
->>>>>>> Le_Fernanda
-=======
     <a class="btn btn-primary" href="index.php">Voltar</a>
     <a class="btn btn-primary" href="lista_cadasespecial.php">Ver lista</a>
->>>>>>> Maria
     <div class="bloco2">
       </div>
 =======
