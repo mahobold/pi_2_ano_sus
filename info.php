@@ -112,89 +112,6 @@
     </p>
   </div>
 
-
-
-
-
-      <h1 class= "sintomas">Sintomas: </h1>
-
-   <div class="texto">
-  <p >Em muitos casos, a condição é assintomática, ou seja, não apresenta sintomas; </p>
-  <p>Febre, aparecimento de gânglios;</p>
-  <p>crescimento do baço e do fígado;</p>
-  <p>Alterações elétricas do coração e/ou inflamação das meninges nos casos graves;</p>
-  <p>Quadros de diarreia frequentes;</p>
-  <p>Sinusite;</p>
-  <p>Pneumonia;</p>
-  <p>Quadros de herpes simples (boca).</p>
-    </div>
-
-
-
-  <h1 class="previnir">Como previnir:</h1>
-
-      <div class="container">
-                <div class="row">
-                <div class="card" style="width: 18rem;">
-                <img src="img/pre2.png" class="card-img-top" alt="...">
-               
-                <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Usar preservativos nas relações sexuais</p>
-
-            </div>
-          </div>
-
-      
-            
-          <div class="card" style="width: 18rem;">
-            <img src="img/hiv3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Ter cuidado no uso de materiais cortantes.</p>
-
-            </div>
-          </div>
-
-              
-          <div class="card" style="width: 18rem;">
-            <img src="img/hivv4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Evitar o compartilhamento de seringas e agulhas.</p>
-
-            </div>
-          </div>
-            
-          <div class="card" style="width: 18rem;">
-            <img src="img/hiv6.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Prevenir a transmissão vertical.</p>
-              </div>
-            </div>
-</div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-      <h1 class="doenca">COVID-19</h1>
-
-      <div class="container">
-          <p>É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2.
-            Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
-            O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.
-              Transmissão:
-            Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
-    </p>
-</div>
   
   
 
@@ -264,6 +181,7 @@
 
   <h1 class="doenca">Dengue</h1>
 
+  <div class="container">
   <p>A dengue é uma doença febril aguda, sistêmica e dinâmica, variando desde casos assintomáticos a quadros graves, inclusive óbitos. Nos casos sintomáticos pode apresentar três fases clínicas: febril, crítica e de recuperação.
 
     A primeira manifestação é a febre, geralmente acima de 38ºC, de início súbito e duração de 02 a 07 dias, associada à cefaléia, cansaço, mialgia, artralgia, dor retro-orbitária ou exantema. Com o declínio da febre (entre o 3º e 7º dia do início dos sintomas), grande parte dos pacientes recupera-se gradativamente. No entanto, alguns podem evoluir para a fase
@@ -271,9 +189,11 @@
 
     A dengue pode evoluir para remissão dos sintomas, ou pode agravar-se, exigindo constante reavaliação e observação, para que as intervenções sejam oportunas e os óbitos não ocorram.
   </p>
+  </div>
 
-  <div class="sintomas">
-    <h1>Sintomas:</h1>
+  
+    <h1 class="sintomas">Sintomas:</h1>
+    <div class="texto">
     <p>Febre alta > 38.5ºC;</p>
     <p>Dores musculares intensas;</p>
     <p>Dor ao movimentar os olhos;</p>
@@ -330,17 +250,18 @@
 
 
   <h1 class="doenca">Gripe</h1>
-
+  <div class="container">
   <p>Uma infecção viral comum que pode ser fatal, especialmente em grupos de alto risco.
     A gripe ataca os pulmões, o nariz e a garganta. Crianças pequenas, idosos, gestantes e pessoas com doenças crônicas ou imunidade baixa correm alto risco.
   </p>
+  </div>
 
 
 
 
-
-  <div class="sintomas">
-    <h1>Sintomas:</h1>
+  
+    <h1 class="sintomas">Sintomas:</h1>
+    <div class="texto">
     <p>Dor de garganta;</p>
     <p>Tosse;</p>
     <p>Dor no corpo;</p>
@@ -349,7 +270,7 @@
   </div>
 
   <h1 class="previnir">Como previnir</h1>
-
+ <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/gripee1.jpg" class="card-img-top" alt="...">
@@ -388,21 +309,22 @@
     </div>
 
   </div>
+  </div>
 
 
 
 
 
+  <h1  class="doenca"> Câncer</h1>
 
-  <h1> Câncer</h1>
-
-
+ <div class="container">
   <p>O câncer é uma doença onde acontece um crescimento desordenado (maligno) de células que invadem os tecidos e órgãos, podendo espalhar-se para outras regiões do corpo (metástase), sendo também conhecida como neoplasia maligna.
   </p>
+  </div>
 
-
-
-  <h1>Sintomas:</h1>
+ 
+  <h1 class="sintomas">Sintomas:</h1>
+  <div class="texto">
   <p> Os sintomas variam muito ou podem não ocorrer. Alguns pacientes têm inchaços anormais, febres inexplicáveis, sudorese noturna ou perda de peso involuntária.</p>
   <p>Cansaço inexplicável e perda de energia.</p>
   <p> Hematomas frequentes.</p>
@@ -413,11 +335,11 @@
   <p> Alterações na visão ou mudanças repentinas de comportamento.</p>
   <p>Perda de apetite ou perda de peso não planejada. </p>
   <p> Aparecimento de pintas novas ou manchas na pele, que mudam de tamanho, forma ou cor. </p>
+  </div>
 
+  <h1 class="previnir">Como previnir</h1>
 
-  <h1>Como previnir</h1>
-
-
+ <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/avccc.png" class="card-img-top" alt="...">
@@ -456,13 +378,13 @@
     </div>
 
   </div>
+  </div>
 
 
 
 
-
-  <h1> Diabetes </h1>
-
+  <h1  class="doenca"> Diabetes </h1>
+ <div class="container">
   <p>Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade e/ou falta de insulina exercer adequadamente os seus efeitos, caracterizando altas taxa de açúcar no sangue ( hiperglicemia) de forma permanente.
     Tipos de Diabetes:
     Diabetes tipo 1: é menos comum e surge desde o nascimento, sendo considerada uma doença autoimune, já que o próprio organismo ataca as células do pâncreas responsáveis por produzir a insulina. Assim, a insulina não é produzida, a glicose não é transportada para as células e acaba se acumulando no sangue;
@@ -470,8 +392,12 @@
     Diabetes gestacional:é um tipo de diabetes que acontece apenas durante a gestação e que está relacionado com a produção, pela placenta, de outros hormônios que bloqueiam a ação da insulina;
     Pré-diabetes: acontece quando o nível de açúcar no sangue está aumentado, mas ainda não é o suficiente para fazer o diagnóstico de diabetes.
   </p>
+  </div>
 
-  <h1>Sintomas</h1>
+
+  
+  <h1 class="sintomas">Sintomas</h1>
+  <div class="texto">
   <p>Fome frequente;</p>
   <p>Sede constante ;</p>
   <p>Vontade de urinar diversas vezes ao dia ;</p>
@@ -480,10 +406,10 @@
   <p>Fadiga;</p>
   <p> Mudanças de humor ;</p>
   <p>Náusea e Vômito. </p>
+  </div>
 
-
-  <h1>Como previnir</h1>
-
+  <h1  class="previnir">Como previnir</h1>
+ <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/avccc.png" class="card-img-top" alt="...">
@@ -522,16 +448,17 @@
       </div>
     </div>
   </div>
+  </div>
 
-
-  <h1> Hipertensão </h1>
-
+  <h1  class="doenca"> Hipertensão </h1>
+  <div class="container">
   <p> O aumento da pressão arterial é um dos problemas mais comuns entre os brasileiros, estando também entre as principais causas de alterações como o AVC (acidente vascular cerebral) e o glaucoma, entre outros.
   </p>
+  </div>
 
-
-
-  <h1>Sintomas </h1>
+ 
+  <h1 class="sintomas">Sintomas </h1>
+  <div class="texto">
   <p> Dores de cabeça;</p>
   <p>Alterações visuais; </p>
   <p>Zumbido no ouvido;</p>
@@ -539,11 +466,11 @@
   <p>Fraqueza ;</p>
   <p> Dores no peito ;</p>
   <p>Ânsia e vômitos,entre outros.</p>
+  </div>
 
+  <h1  class="previnir">Como previnir</h1>
 
-  <h1>Como previnir</h1>
-
-
+  <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/hipertensaoo5.jpg" class="card-img-top" alt="...">
@@ -582,26 +509,28 @@
       </div>
     </div>
   </div>
+  </div>
 
 
-
-  <h1> Asma </h1>
-
+  <h1  class="doenca"> Asma </h1>
+ <div class="container">
   <p> das doenças comuns é a asma, que afeta o sistema respiratório. O seu foco está nos brônquios, estruturas que fazem parte dos pulmões e permitem que a troca gasosa aconteça de forma adequada nesse órgão. Por conta das alterações, há uma produção exagerada de muco, que dificulta a respiração.
   </p>
+  </div>
 
-
-  <h1>Sintomas </h1>
+  
+  <h1 class="sintomas">Sintomas </h1>
+  <div class="texto">
   <p>Tosse, especialmente durante a noite ou após a realização de algum esforço físico;</p>
   <p>Dificuldade para respirar;</p>
   <p>Dores pelo tórax e pelas costas;</p>
   <p>Cansaço;</p>
   <p>Chiado, entre outros.</p>
+  </div>
 
 
-
-  <h1>Como previnir</h1>
-
+  <h1  class="previnir">Como previnir</h1>
+   <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/asmaa1.png" class="card-img-top" alt="...">
@@ -640,18 +569,20 @@
       </div>
     </div>
   </div>
+  </div>
 
 
 
-
-  '
-  <h1> Alzheimer </h1>
-
+ 
+  <h1 class="doenca"> Alzheimer </h1>
+  <div class="container">
   <p> A doença de Alzheimer é um problema que afeta as habilidades cognitivas, ou seja, aspectos como a fala, a memória e a coordenação. Essa é uma doença degenerativa e que, infelizmente, não tem cura até o presente momento.
   </p>
+  </div>
 
-
-  <h1>Sintomas </h1>
+  
+  <h1 class="sintomas">Sintomas </h1>
+  <div class="texto">
   <p>Problemas com memorização; </p>
   <p>Esquecimento de palavras;</p>
   <p>Esquecer como fazer tarefas do dia a dia;</p>
@@ -660,11 +591,11 @@
   <p>Perda de interesse por tarefas que antes eram apaixonantes;</p>
   <p>Contrações musculares involuntárias;</p>
   <p>Alterações no padrão de apetite e/ou sono, entre outros.</p>
+  </div>
 
+  <h1  class="previnir">Como previnir</h1>
 
-  <h1>Como previnir</h1>
-
-
+ <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/alzheimer1.png" class="card-img-top" alt="...">
@@ -702,24 +633,26 @@
       </div>
     </div>
   </div>
+  </div>
 
-
-  <h1> Acidente Vascular Cerebral(AVC)</h1>
-
+  <h1  class="doenca"> Acidente Vascular Cerebral(AVC)</h1>
+ <div class="container">
   <p>O AVC, como é popularmente conhecido, é uma das doenças comuns e uma das principais causas de óbito no Brasil. Ele é caracterizado por uma interrupção no fluxo sanguíneo dos vasos que levam sangue ao cérebro, interrompendo a oxigenação deste órgão.
   </p>
+  </div>
 
-
-  <h1>Sintomas </h1>
+  
+  <h1 class="sintomas">Sintomas </h1>
+  <div class="texto">
   <p>Perda súbita de habilidades, como a fala ou o ato de caminhar;</p>
   <p>Que pode ser em um só lado ou em ambos;</p>
   <p>Inquietação;</p>
   <p>Perda da visão; </p>
   <p>Formigamento nos membros, entre outros.</p>
+  </div>
 
-
-  <h1>Como previnir</h1>
-
+  <h1  class="previnir">Como previnir</h1>
+ <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
       <img src="img/avc1.png" class="card-img-top" alt="...">
@@ -758,7 +691,7 @@
       </div>
     </div>
   </div>
-
+  </div>
   <?php
   include("rodape2.php");
   ?>
