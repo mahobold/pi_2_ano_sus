@@ -50,32 +50,9 @@
   </div>
 
   <div class="container-fluid">
-    <div class="card-group">
-      <div  class="card">
-        <img src="img/turvo4.jpg" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text">SECRETARIA DA SAÚDE</p>
-          <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Com-apoio-de-Estado-municipio-de-Turvo-promove-acoes-sobre-saude-do-homem" class="card-title">Com apoio de Estado, município de Turvo promove ações sobre a saúde do homem</a>
-          <p class="card-text"><small class="text-body-secondary">08/08/2023 - 12:22</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="img/londrina.jpg" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text">SECRETARIA DA SAÚDE</p>
-          <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Estado-libera-R-379-milhoes-para-implementacao-da-maternidade-do-HU-de-Londrina" class="card_title">Estado libera R$ 3,79 milhões para implementação da maternidade do HU de Londrina</a>
-          <p class="card-text"><small class="text-body-secondary">03/08/2023 - 14:28</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="img/orgaos4.jpg" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text">SECRETARIA DA SAÚDE</p>
-          <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Saude-capacita-profissionais-sobre-doacao-de-orgaos-e-tecidos-para-transplante" class="card_title">Saúde capacita profissionais sobre doação de órgãos e tecidos para transplante</a>
-          <p class="card-text"><small class="text-body-secondary">03/08/2023 - 11:47</small></p>
-        </div>
-      </div>
-    </div>
+    
+      
+     
   </div>
 
 
@@ -156,9 +133,7 @@
       <div class="bloco2">
       </div>
 
-  <?php
-  include("rodape2.php");
-  ?>
+ 
       
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
