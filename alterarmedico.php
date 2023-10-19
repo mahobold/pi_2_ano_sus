@@ -21,11 +21,11 @@ if (isset($_POST['nomemedico'])) {
 
     $sql_alterar = "UPDATE cadastro_medico
     SET nomemedico = '$nomemedico', 
-    idade = '$idade'
-    crm = '$crm'
-    endereco = '$endereco'
-    telefone = '$telefone'
-    especialidade = '$especialidade'
+    idade = '$idade',
+    crm = '$crm',
+    endereco = '$endereco',
+    telefone = '$telefone',
+    especialidade = '$especialidade',
     WHERE id_medico = '$id_medico'";
 
     $mysqli_alterar = $mysqli->query($sql_alterar) or die($mysqli->error);
