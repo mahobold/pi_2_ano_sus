@@ -147,6 +147,10 @@
 }
 
 /* Fim minha conta */
+
+
+
+
 .noticia{
   color: #132f5f;
   text-align: center;
@@ -155,28 +159,19 @@
   margin-bottom: 30px;
   font-size: 30px;
 }
-.bloco{
-  background-color: #132f5f;
-  margin-top: 10px;
-  color: #132f5f;
-  margin-bottom: -5px;
-}
 
-
-.bloco2 {
-  color: #132f5f;
-  margin-top: 10px;
-  background-color: #132f5f;
-  height: 200px;
-
-}
 
 .card-group .card{
   margin: 20px;
+  width: 20px;
 }
 
 #acesse{
   color: #132f5f;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+  margin-right: 20px;
 }
 
