@@ -202,12 +202,7 @@
 
         </div>
       </div>
-<<<<<<< HEAD
-
-
-=======
      
->>>>>>> Marcela
       <div class="card" style="width: 18rem;">
         <img src="img/covidd1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -267,15 +262,6 @@
 
   <h1 class="previnir">Como previnir</h1>
 
-<<<<<<< HEAD
-
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="img/dengueee.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text">Utilize repelente</p>
-=======
           <div class="container">
           <div class="row">
           <div class="card" style="width: 18rem;">
@@ -283,7 +269,6 @@
             <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text">Utilize repelente</p>
->>>>>>> aa0847c4914b59045af1209cb06b09fc97cf939b
 
       </div>
     </div>
