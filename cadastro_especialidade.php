@@ -38,6 +38,7 @@ if (isset($_POST['especialidade'])) {
     </form>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
 =======
     <script>
@@ -86,6 +87,10 @@ if (isset($_POST['especialidade'])) {
             
 
 >>>>>>> Le_Fernanda
+=======
+    <a class="btn btn-primary" href="index.php">Voltar</a>
+    <a class="btn btn-primary" href="lista_cadasespecial.php">Ver lista</a>
+>>>>>>> Maria
     <div class="bloco2">
       </div>
 =======

@@ -41,6 +41,9 @@
     </head>
 
     <body>
+    <?php
+        include("menu.php");
+    ?>
         <div class="container">
             <h1>Tela de exclusão de medico</h1>
             <h1>ID do medico: <?php echo $medico['id_medico']?></h1>

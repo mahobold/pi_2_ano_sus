@@ -41,7 +41,12 @@
 
     </form>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
+=======
+    <a class="btn btn-primary" href="index.php">Voltar</a>
+    <a class="btn btn-primary" href="lista_cadasmedico.php">Ver lista</a>
+>>>>>>> Maria
     <div class="bloco2">
       </div>
 =======

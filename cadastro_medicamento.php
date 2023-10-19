@@ -86,7 +86,7 @@ if (isset($_POST['nome'])) {
       <input type="reset" value="Limpar" onclick="return validateFields()">
 
     </form>
-
+            <a class="btn btn-primary" href="cadastro_especialidade.php">Voltar</a>
     <div class="cadasmed">
     <p><a href="farmacia.php">Voltar</a></p>
     </div>
