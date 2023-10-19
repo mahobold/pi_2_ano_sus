@@ -1,12 +1,26 @@
 <?php
 include("conexao.php");
-if (isset($_POST['id_medico'])) {
-    $id_medico = $_POST['id_medico'];
+
+
+
+if (isset($_GET['id_medico'])) {
+    $id_medico = $_GET['id_medico'];
     $sql_consultar = "SELECT * FROM cadastro_medico WHERE id_medico= '$id_medico'";
     $mysqli_consultar = $mysqli->query($sql_consultar) or die($mysqli->error);
     $consultar = $mysqli_consultar->fetch_assoc();
     
 }
+
+/*
+if (isset($_GET['id_medico'])) {
+    $id_medico = $_GET['id_medico'];
+    $sql_consultar = "SELECT * FROM cadastro_medico WHERE id_medico= '$id_medico'";
+    $mysqli_consultar = $mysqli->query($sql_consultar) or die($mysqli->error);
+    $consultar = $mysqli_consultar->fetch_assoc();
+    
+}
+
+*/
 
 if (isset($_POST['nomemedico'])) {
 
@@ -132,6 +146,7 @@ if (isset($_POST['nomemedico'])) {
 
 
                     <input class="btn btn-success" type="submit" value="Alterar">
+                    <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
                 </form>
 
     </div>
