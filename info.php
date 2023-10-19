@@ -178,6 +178,7 @@
 
 
 
+<<<<<<< HEAD
   <h1 class="sintomas">Sintomas:</h1>
   <div class="texto">
   <p>Febre ;</p>
@@ -188,6 +189,42 @@
   <p>Diarreia;</p>
   <p>Cansaço;</p>
   <p>Dor de cabeça;</p>
+=======
+
+
+
+
+
+
+
+      <h1 class="doenca">COVID-19</h1>
+
+      <div class="container">
+          <p>É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2.
+            Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
+            O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.
+              Transmissão:
+            Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
+    </p>
+</div>
+  
+  
+
+
+
+    
+      <h1 class="sintomas">Sintomas:</h1>
+
+        <div class="texto">
+          <p><img src="img/febrezada.png" alt="">Febre.</p>
+          <p><img src="img/malestar" alt="">Mal estar e Dores no corpo.</p>
+          <p><img src="img/arzada.png" alt="">Falta de ar.</p>
+          <p><img src="img/garganta.png" alt="">Dor de garganta.</p>
+          <p><img src="img/corizada.png" alt="">Coriza ou nariz entupido.</p>
+          <p> <img src="img/diarreia" alt="">Diarreia.</p>
+          <p><img src="img/cançç" alt="">Cansaço.</p>
+          <p><img src="img/dorr.png" alt="">Dor de cabeça.</p>
+>>>>>>> Luiz
   </div>
 
 
