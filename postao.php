@@ -22,59 +22,62 @@
   <img class="img-fluid"  src="" class="img-fluid" alt="">
     <h2 class="saude">POSTO DE SAÚDE DE JACUTINGA</h2>
     <img class="img-fluid" src="img/postojacutinga" class="img-fluid" alt="">
-    
-    <h3 class="hr"> Horarios de Atendimento</h3>
-    <table id="atendimentos" class="table">
-      <thead>
-        <tr>
-          <th scope="col"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
-              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-            </svg></th>
-          <th scope="col">Dias</th>
-          <th scope="col">Horário/Manhã</th>
-          <th scope="col">Horário/Tarde</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
 
-          <th scope="row">1</th>
-          <td>Segunda-Feira</td>
-          <td>07:30 às 11:30</td>
-          <td>13:00 às 17:00</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Terça-feira</td>
-          <td>07:30 às 11:30</td>
-          <td>13:00 às 17:00</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Quarta-feira</td>
-          <td>07:30 às 11:30</td>
-          <td>13:00 às 17:00</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>Quinta-feira</td>
-          <td>07:30 às 11:30</td>
-          <td>13:00 às 17:00</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>Sexta-feira</td>
-          <td>07:30 às 11:30</td>
-          <td>13:00 às 17:00</td>
-        </tr>
-      </tbody>
-    </table>
+    <h3 class="hr"> Horários de Atendimento</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              </svg></th>
+            <th scope="col">Dias</th>
+            <th scope="col">Horário/Manhã</th>
+            <th scope="col">Horário/Tarde</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Segunda-feira</td> <!--colocar a tabela menor-->
+            <td>07:30 às 11:30</td>
+            <td>13:00 às 17:00</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Terça-feira</td>
+            <td>07:30 às 11:30</td>
+            <td>13:00 às 17:00</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Quarta-feira</td>
+            <td>07:30 às 11:30</td>
+            <td>13:00 às 17:00</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Quinta-feira</td>
+            <td>07:30 às 11:30</td>
+            <td>13:00 às 17:00</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Sexta-feira</td>
+            <td>07:30 às 11:30</td>
+            <td>13:00 às 17:00</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+  
+    
 
     <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="img\Alex_Gonçalvesluiz.png" class="card-img-top" alt="...">
+        <img class="img-fluid" src="img/Alex_Gonçalvesluiz.png" class="img-fluid" alt="">
         <div class="card-body">
           <h5 class="titulo">Medico plantão do dia</h5>
           <p class="card-text">
@@ -98,7 +101,7 @@
       
       <!-- ################################ Card Pediatra plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="https://blog.ipog.edu.br/wp-content/uploads/2017/10/m%C3%A9dico.jpg" class="card-img-top" alt="...">
+      <img class="img-fluid" src="https://blog.ipog.edu.br/wp-content/uploads/2017/10/m%C3%A9dico.jpg" class="img-fluid" alt="">
         <div class="card-body">
           <h5 class="card-title">Pediatra plantão do dia</h5>
           <p class="card-text">
@@ -125,7 +128,7 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjS7tUIkxv7AN4zVpCYl2hFTejq87RIXaVREPJuFy-vWwkDescQCOFGyx7i21EvW13Lm4&usqp=CAU" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjS7tUIkxv7AN4zVpCYl2hFTejq87RIXaVREPJuFy-vWwkDescQCOFGyx7i21EvW13Lm4&usqp=CAU" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ortopedista plantão do dia</h5>
           <p class="card-text">
@@ -151,7 +154,7 @@
      
       <!-- ################################ Card Posto Jacutinga ##################################################  -->    
       <div class="card" style="width: 18rem;">
-        <img src="https://cedro.ce.gov.br/fotos/319/Img0_600x400.jpg " class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://cedro.ce.gov.br/fotos/319/Img0_600x400.jpg " class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Posto de Jacutinga</h5>
           <p class="card-text">
@@ -227,7 +230,7 @@
       <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXW7l1Zbh5hieH7jHF1m3jJ5H8fiO1Rpv3Knq1LfCgLbGBxCLwEEeDIhIpBitq39MeFWA&usqp=CAU" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXW7l1Zbh5hieH7jHF1m3jJ5H8fiO1Rpv3Knq1LfCgLbGBxCLwEEeDIhIpBitq39MeFWA&usqp=CAU" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Médico plantão do dia</h5>
           <p class="card-text">
@@ -251,7 +254,7 @@
       
       <!-- ################################ Card Pediatra plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="https://clinicaimed.com.br/wp-content/uploads/2021/07/Qual-medico-e-indicado-para-o-tratamento-da-covid-imed.jpg" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://clinicaimed.com.br/wp-content/uploads/2021/07/Qual-medico-e-indicado-para-o-tratamento-da-covid-imed.jpg" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pediatra plantão do dia</h5>
           <p class="card-text">
@@ -278,7 +281,7 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="img/esveraldo.jpg" class="card-img-top" alt="...">
+        <img class="img-fluid" src="img/esveraldo.jpg" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ortopedista plantão do dia.</h5>
            <p class="card-text">
@@ -304,7 +307,7 @@
      
       <!-- ################################ Card Posto M. Castelo ##################################################  -->    
       <div class="card" style="width: 18rem;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVGilm5qA6Io1h05YDmIoKO5mpRjGOLdw6xOh-odpHdUPz46MtX9JaG1w19072tqzXWs&usqp=CAU" class="card-img-top" alt="...">
+        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVGilm5qA6Io1h05YDmIoKO5mpRjGOLdw6xOh-odpHdUPz46MtX9JaG1w19072tqzXWs&usqp=CAU" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Posto Posto M. Castelo</h5>
           <p class="card-text">
@@ -379,7 +382,7 @@
       <div class="row">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
-        <img src="img\luiz_passosluiz.png" class="card-img-top" alt="...">
+        <img class="img-fluid" src="img\luiz_passosluiz.png" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Médico plantão do dia</h5>
           <p class="card-text">
@@ -403,7 +406,7 @@
       
       <!-- ################################ Card Pediatra plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="img/medico6.jpg" class="card-img-top" alt="...">
+        <img class="img-fluid" src="img/medico18" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pediatra plantão do dia</h5>
           <p class="card-text">
@@ -430,7 +433,7 @@
 
           <!-- ################################ Card Ortopedista plantão do dia ##################################################  --> 
       <div class="card" style="width: 18rem;"> 
-        <img src="img/Maria_Araújo.jpg" class="card-img-top" alt="...">
+        <img class="img-fluid" src="img/Maria_Araújo.jpg" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ortopedista plantão do dia</h5>
           <p class="card-text">
@@ -456,7 +459,7 @@
      
       <!-- ################################ Card Posto Jacutinga ##################################################  -->    
       <div class="card" style="width: 18rem;">
-        <img src="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/03/postos-de-saude-podem-atender-90-dos-casos-de-coronavirus/secretaria-caroline-martins-foto-ascom-ms.jpeg/@@images/4506e132-fd29-40cd-a770-954c41255d7c.jpeg  " alt="...">
+        <img class="img-fluid" src="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/03/postos-de-saude-podem-atender-90-dos-casos-de-coronavirus/secretaria-caroline-martins-foto-ascom-ms.jpeg/@@images/4506e132-fd29-40cd-a770-954c41255d7c.jpeg  " alt="...">
         <div class="card-body">
           <h5 class="card-title">Posto Centro de saúde</h5>
           <p class="card-text">
