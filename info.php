@@ -53,7 +53,7 @@
   <div class="container">
     <div class="row">
       <div class="card" style="width: 18rem;">
-        <img src="img/hivvv.png" class="card-img-top" alt="...">
+        <img src="img/pre2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Usar preservativos nas relações sexuais</p>
@@ -116,8 +116,6 @@
 
 
 
-<<<<<<< HEAD
-=======
       <h1 class= "sintomas">Sintomas: </h1>
 
    <div class="texto">
@@ -177,7 +175,6 @@
             </div>
 </div>
     </div>
->>>>>>> aa0847c4914b59045af1209cb06b09fc97cf939b
 
 
 
