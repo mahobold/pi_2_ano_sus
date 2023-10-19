@@ -39,6 +39,7 @@
                 <tr>
                    <td><?php echo $especialidades['id_especialidade']; ?></td>
                    <td><?php echo $especialidades['especialidade']; ?></td>
+                   <th><a class="btn btn-primary" href="alterarmedico.php">Alterar</a></th>
                    <th><a class="btn btn-danger" href="deletarespecial.php?codigo_especialidade=<?php echo $especialidades['id_especialidade'];?>">Deletar</a></th>
                 </tr>
                 <?php
@@ -46,7 +47,7 @@
                     ?>
 
             </table>
-            <a class="btn btn-primary" href="lista_pedidos.php">Voltar</a>
+            <a class="btn btn-primary" href="cadastro_especialidade.php">Voltar</a>
         </div>
     </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

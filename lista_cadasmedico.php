@@ -34,7 +34,8 @@
                     <th>Endereço:</th>
                     <th>Telefone:</th>
                     <th>Especialidade:</th>
-                    <th>Funçôes:</th>
+                    <th>Alterar</th>
+                    <th>Deletar</th>
                 </tr>
                     <?php
                         while($medico = $retorno_consulta -> fetch_assoc()){
@@ -49,6 +50,7 @@
                    <td><?php echo $medico['endereco']; ?></td>
                    <td><?php echo $medico['telefone']; ?></td>
                    <td><?php echo $medico['especialidade']; ?></td>
+                   <th><a class="btn btn-primary" href="alterarmedico.php">Alterar</a></th>
                    <th><a class="btn btn-danger" href="deletarmedico.php?codigo_medico=<?php echo $medico['id_medico'];?>">Deletar</a></th>
                 </tr>
                 <?php
