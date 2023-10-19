@@ -178,18 +178,6 @@
 
 
 
-<<<<<<< HEAD
-  <h1 class="sintomas">Sintomas:</h1>
-  <div class="texto">
-  <p>Febre ;</p>
-  <p>Mal estar e Dores no corpo;</p>
-  <p>Falta de ar;</p>
-  <p>Dor de garganta;</p>
-  <p>Coriza ou nariz entupido;</p>
-  <p>Diarreia;</p>
-  <p>Cansaço;</p>
-  <p>Dor de cabeça;</p>
-=======
 
 
 
@@ -224,7 +212,6 @@
           <p> <img src="img/diarreia" alt="">Diarreia.</p>
           <p><img src="img/cançç" alt="">Cansaço.</p>
           <p><img src="img/dorr.png" alt="">Dor de cabeça.</p>
->>>>>>> Luiz
   </div>
 
 
