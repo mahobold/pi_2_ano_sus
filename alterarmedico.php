@@ -1,4 +1,5 @@
 <?php
+/*
 include("conexao.php");
 
 
@@ -8,22 +9,43 @@ if (isset($_GET['id_medico'])) {
     $sql_consultar = "SELECT * FROM cadastro_medico WHERE id_medico= '$id_medico'";
     $mysqli_consultar = $mysqli->query($sql_consultar) or die($mysqli->error);
     $consultar = $mysqli_consultar->fetch_assoc();
-    
-}
 
-/*
-if (isset($_GET['id_medico'])) {
-    $id_medico = $_GET['id_medico'];
-    $sql_consultar = "SELECT * FROM cadastro_medico WHERE id_medico= '$id_medico'";
-    $mysqli_consultar = $mysqli->query($sql_consultar) or die($mysqli->error);
-    $consultar = $mysqli_consultar->fetch_assoc();
+    
+
+    if (isset($_POST['id_medico'])) {
+
+
+        $id_medico = $_POST['id_medico'];
+        $nomemedico = $_POST['nomemedico'];
+        $idade = $_POST['idade'];
+        $crm = $_POST['crm'];
+        $endereco = $_POST['endereco'];
+        $telefone = $_POST['telefone'];
+        $especialidade = $_POST['especialidade'];
+    
+        $sql_alterar = "UPDATE cadastro_medico
+        SET nomemedico = '$nomemedico', 
+        idade = '$idade',
+        crm = '$crm',
+        endereco = '$endereco',
+        telefone = '$telefone',
+        especialidade = '$especialidade'
+        WHERE id_medico = '$id_medico'";
+    
+        $mysqli_alterar = $mysqli->query($sql_alterar) or die($mysqli->error);
+    
+        //var_dump($mysqli_alterar);
+    }
     
 }
 
 */
 
-if (isset($_POST['nomemedico'])) {
 
+include("conexao.php");
+
+// Primeiro, verifique se o formulário foi enviado e, em caso afirmativo, processe a submissão
+if (isset($_POST['id_medico'])) {
 
     $id_medico = $_POST['id_medico'];
     $nomemedico = $_POST['nomemedico'];
@@ -39,11 +61,22 @@ if (isset($_POST['nomemedico'])) {
     crm = '$crm',
     endereco = '$endereco',
     telefone = '$telefone',
-    especialidade = '$especialidade',
+    especialidade = '$especialidade'
     WHERE id_medico = '$id_medico'";
 
     $mysqli_alterar = $mysqli->query($sql_alterar) or die($mysqli->error);
+
+    // Você pode querer redirecionar ou dar uma mensagem de sucesso aqui
 }
+
+// Depois, se um ID foi passado via GET, busque os detalhes desse médico para exibição
+if (isset($_GET['id_medico'])) {
+    $id_medico = $_GET['id_medico'];
+    $sql_consultar = "SELECT * FROM cadastro_medico WHERE id_medico= '$id_medico'";
+    $mysqli_consultar = $mysqli->query($sql_consultar) or die($mysqli->error);
+    $consultar = $mysqli_consultar->fetch_assoc();
+}
+
 
 
 
@@ -74,7 +107,7 @@ if (isset($_POST['nomemedico'])) {
                 <form action="" method="post">
                         <h1 class="text-center">Alterar - Médico</h1>
                         <label class="form-label" for="">Nome</label>
-                        <input type="hidden" name="nomemedico" value="
+                        <input type="hidden" name="id_medico" value="
                             <?php
                             if(isset($consultar['id_medico'])){
                                 echo $consultar['id_medico']; 
