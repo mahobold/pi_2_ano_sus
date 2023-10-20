@@ -227,7 +227,7 @@
         </tbody>
       </table>
       </div>
-      <div class="row">
+      <div class="row-fluid">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
         <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXW7l1Zbh5hieH7jHF1m3jJ5H8fiO1Rpv3Knq1LfCgLbGBxCLwEEeDIhIpBitq39MeFWA&usqp=CAU" class="img-fluid" alt="...">
@@ -379,7 +379,7 @@
           </tr>
       </table>
 
-      <div class="row">
+      <div class="row-fluid">
       <!-- ##################################################################################  -->
       <div class="card" style="width: 18rem;"> <!-- Card Medico plantão do dia -->
         <img class="img-fluid" src="img\luiz_passosluiz.png" class="img-fluid" alt="...">
