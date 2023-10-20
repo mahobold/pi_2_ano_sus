@@ -697,3 +697,8 @@ td{
  border-top-right-radius: 20px;
  border-top-left-radius: 20px;
 }
+
+.linha{
+  height: 15px;
+  background-color: #132f5f;
+}
