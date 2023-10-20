@@ -53,7 +53,7 @@
   <div class="container">
     <div class="row">
       <div class="card" style="width: 18rem;">
-        <img src="img/hivvv.png" class="card-img-top" alt="...">
+        <img src="img/pre2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Usar preservativos nas relações sexuais</p>
@@ -116,8 +116,6 @@
 
 
 
-<<<<<<< HEAD
-=======
       <h1 class= "sintomas">Sintomas: </h1>
 
    <div class="texto">
@@ -177,20 +175,43 @@
             </div>
 </div>
     </div>
->>>>>>> aa0847c4914b59045af1209cb06b09fc97cf939b
 
 
 
-  <h1 class="sintomas">Sintomas:</h1>
-  <div class="texto">
-  <p>Febre ;</p>
-  <p>Mal estar e Dores no corpo;</p>
-  <p>Falta de ar;</p>
-  <p>Dor de garganta;</p>
-  <p>Coriza ou nariz entupido;</p>
-  <p>Diarreia;</p>
-  <p>Cansaço;</p>
-  <p>Dor de cabeça;</p>
+
+
+
+
+
+
+
+      <h1 class="doenca">COVID-19</h1>
+
+      <div class="container">
+          <p>É uma doença causada pelo novo tipo de coronavírus identificado neste ano, que leva o nome de SARS-CoV-2.
+            Ele pertence à família de vírus de mesmo nome que causa infecções respiratórias.
+            O vírus tem esse nome porque seu formato, quando observado em microscópio, se assemelha a uma coroa.
+              Transmissão:
+            Tosse; Catarro; Contato pessoal próximo, como toque ou aperto de mão; Contato com objetos ou superfícies contaminadas, seguido de contato com a boca, nariz ou olhos.
+    </p>
+</div>
+  
+  
+
+
+
+    
+      <h1 class="sintomas">Sintomas:</h1>
+
+        <div class="texto">
+          <p><img src="img/febrezada.png" alt="">Febre.</p>
+          <p><img src="img/malestar" alt="">Mal estar e Dores no corpo.</p>
+          <p><img src="img/arzada.png" alt="">Falta de ar.</p>
+          <p><img src="img/garganta.png" alt="">Dor de garganta.</p>
+          <p><img src="img/corizada.png" alt="">Coriza ou nariz entupido.</p>
+          <p> <img src="img/diarreia" alt="">Diarreia.</p>
+          <p><img src="img/cançç" alt="">Cansaço.</p>
+          <p><img src="img/dorr.png" alt="">Dor de cabeça.</p>
   </div>
 
 
@@ -205,18 +226,14 @@
 
         </div>
       </div>
-
-
+     
       <div class="card" style="width: 18rem;">
         <img src="img/covidd1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Evite contato próximo</p>
-
         </div>
       </div>
-
-
       <div class="card" style="width: 18rem;">
         <img src="img/covid3.jfif" class="card-img-top" alt="...">
         <div class="card-body">
@@ -269,15 +286,6 @@
 
   <h1 class="previnir">Como previnir</h1>
 
-<<<<<<< HEAD
-
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="img/dengueee.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text">Utilize repelente</p>
-=======
           <div class="container">
           <div class="row">
           <div class="card" style="width: 18rem;">
@@ -285,7 +293,6 @@
             <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text">Utilize repelente</p>
->>>>>>> aa0847c4914b59045af1209cb06b09fc97cf939b
 
       </div>
     </div>

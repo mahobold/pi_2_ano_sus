@@ -40,8 +40,7 @@
     <p><a href="consultaa.php">Voltar</a></p>
   </div>
   
-  <div class="bloco2">
-      </div>S
+
 
   <?php
   include("rodape2.php");
