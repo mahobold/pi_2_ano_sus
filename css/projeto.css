@@ -700,3 +700,22 @@ img {
   padding: 30px;
   width: 300px;
 }
+
+
+th{
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+}
+
+.hratd{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+ margin-bottom: 0px;
+ padding: 5px;
+ border-top-right-radius: 20px;
+ border-top-left-radius: 20px;
+}

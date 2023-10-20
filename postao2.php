@@ -26,7 +26,7 @@
        
 </head>
     <div class="container">
-        <h2 class="hratd">Horários de Atendimento</h2>
+        <h2 class="hratd">Horários de Atendimento - Posto de Jacutinga</h2>
         <table class="table">
             <thead>
                 <tr>
@@ -86,15 +86,15 @@
         <div class="container d-flex justify-content-center">
         <div class="card" style="width: 18rem;">
   <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d48940.23825270508!2d-51.62136776438729!3d-24.259086811726885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-24.2478959!2d-51.560446299999995!4m5!1s0x94ec1106bd5d81df%3A0x8809fe0d9f6101c1!2sR.%20Ivaipora%2C%20330%20-%20Jacutinga%2C%20Ivaipor%C3%A3%20-%20PR%2C%2086870-000!3m2!1d-24.247448499999997!2d-51.5590689!5e0!3m2!1spt-BR!2sbr!4v1697797701767!5m2!1spt-BR!2sbr" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="card-img-top" alt="..."></iframe>
-  <div class="card-body">
+    <div class="card-body">
     <h5 class="card-title">Posto de Jacutinga</h5>
-    <p class="card-text">Rua Ivaiporâ, 330.</p>
+    <p class="card-text">Rua Ivaiporã, 330.</p>
     <a href="https://www.google.com/maps/dir//R.+Ivaipora,+330+-+Jacutinga,+Ivaipor%C3%A3+-+PR,+86870-000/@-24.2474263,-51.6414705,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ec1106bd5d81df:0x8809fe0d9f6101c1!2m2!1d-51.5590689!2d-24.2474485?entry=ttu" class="btn btn-primary">Localize-se</a>
   </div>
 </div>
 </div>
-
-
+  </div>
+<div class="linha"></div>
 
  
 
