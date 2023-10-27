@@ -1,19 +1,3 @@
-<!doctype html>
-<html lang="pt-br" data-bs-theme="auto">
-  <head><script src="../assets/js/color-modes.js"></script>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.118.2">
-    <title>Rodapé</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 
@@ -29,8 +13,9 @@
       <li class="nav-item"><a href="https://www.instagram.com/marcelaluizareis/" class="nav-link px-2 text-body-secondary">Marcela</a></li>
       <li class="nav-item"><a href="https://www.instagram.com/bonfim_xt/" class="nav-link px-2 text-body-secondary">Luiz</a></li>
       <li class="nav-item"><a href="https://www.instagram.com/w_matheuso/" class="nav-link px-2 text-body-secondary">Matheus</a></li>
-
+      <br>
       <p>ORIENTADO POR:</p>
+      <br>
       <li class="nav-item"><a href="https://www.instagram.com/dieimes.nunes/" class="nav-link px-2 text-body-secondary">Dieimes</a></li>
 
 
@@ -39,9 +24,3 @@
   </footer>
 </div>
 
-
-
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>

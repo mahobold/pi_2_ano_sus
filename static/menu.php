@@ -47,17 +47,17 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">Página Principal</a>
+            <a class="nav-link active" aria-current="page" href="../index.php">Página Principal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="postao2.php">Unidades próximas</a>
+            <a class="nav-link active" aria-current="page" href="page\posto.php">Unidades próximas</a>
           </li>
       
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="farm.php">Farmácia</a>
+            <a class="nav-link active" aria-current="page" href="page\farmacia.php">Farmácia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="info.php">Info doenças</a>
+            <a class="nav-link active" aria-current="page" href="page\info_doencas.php">Info doenças</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="minhaconta.php">Minha conta</a>
