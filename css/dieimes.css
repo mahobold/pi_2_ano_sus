@@ -70,7 +70,7 @@
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #132f5f;
-    margin-top: 30px;
+    
   }
 
 
@@ -161,9 +161,10 @@
 }
 
 
-.card-group .card{
-  margin: 20px;
-  width: 20px;
+.card-group{
+  padding-left: 300px;
+  padding-right: 300px;
+  flex-flow: row wrap;
 }
 
 #acesse{
