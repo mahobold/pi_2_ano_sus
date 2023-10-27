@@ -1,5 +1,5 @@
 <?php
-include("conexao.php");
+include("../conexao.php");
 
 if (isset($_GET['id_medico'])) {
     $id_medico = $_GET['id_medico'];
@@ -29,8 +29,6 @@ if (isset($_POST['id_medico'])) {
     WHERE id_medico = '$id_medico'";
 
     $mysqli_alterar = $mysqli->query($sql_alterar) or die($mysqli->error);
-
-
 }
 
 
@@ -55,7 +53,7 @@ if (isset($_POST['id_medico'])) {
 
 <body>
     <?php
-    include("menu.php");
+    include("../../static/menu.php");
     ?>
     <div class="container">
         <form action="" method="post">
@@ -131,7 +129,7 @@ if (isset($_POST['id_medico'])) {
 
 
             <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
+            <a class="btn btn-primary" href="../index.php">Voltar</a>
         </form>
 
     </div>
