@@ -239,9 +239,7 @@ nav{
   width: 850px;
   margin-left: 190px;
 }
-.table{
-  margin-left: 90px;
-}
+
 .row{
   margin-left: 90px;
 
@@ -271,6 +269,14 @@ nav{
   margin-bottom: 10px;
 }
 
+
+
+.card{
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  display: flex;
+}
 
 /*aaa*/
 
@@ -398,6 +404,7 @@ nav{
 #card{
   color: #ffffff;
 }
+
 .card-header{
   background-color: white;
   color: #ffffff;
@@ -585,7 +592,6 @@ p{
 }
 .card-text{
   color: black;
-  margin-right: 40px;
 }
 .texto{
   margin-left: 200px;
@@ -604,13 +610,7 @@ p{
 }
 
 
-/* TORNAR RESPONSÍVEL */
-@media screen and (max-width: 600px){
-  #atendimentos{
-    margin-top: 0px;
-    margin-left: -10px;
-  }
-}
+
 .bloco2 {
   color: #132f5f;
   margin-top: 10px;
@@ -699,4 +699,23 @@ img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   padding: 30px;
   width: 300px;
+}
+
+
+th{
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+}
+
+.hratd{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+ margin-bottom: 0px;
+ padding: 5px;
+ border-top-right-radius: 20px;
+ border-top-left-radius: 20px;
 }

@@ -50,7 +50,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">Página Principal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="postao.php">Unidades próximas</a>
+            <a class="nav-link active" aria-current="page" href="postao2.php">Unidades próximas</a>
           </li>
       
           <li class="nav-item">

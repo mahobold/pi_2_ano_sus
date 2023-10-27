@@ -69,7 +69,7 @@
                     // Faça uma solicitação AJAX para enviar os dados ao servidor
                     $.ajax({
                         type: 'POST',
-                        url: 'cadastro.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
+                        url: 'cadastroo.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
                         data: formData,
                         success: function(response) {
                             if (response === 'success') {
