@@ -133,7 +133,7 @@
           <p><img src="img/corizada.png" alt="">Coriza ou nariz entupido.</p>
           <p> <img src="img/diarreia" alt="">Diarreia.</p>
           <p><img src="img/cançç" alt="">Cansaço.</p>
-          <p><img src="img/dorr.png" alt="">Dor de cabeça.</p>
+          <p><img src="img/dorr.png" alt="   Y U V IC DGC VGHTY">Dor de cabeça.</p>
   </div>
 
 
