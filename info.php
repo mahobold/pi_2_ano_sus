@@ -17,7 +17,59 @@
   include("menu.php");
   ?>
 
+<style>
+   
+   @media  (max-width: 1000px){
+    .texto
+    {
+        margin: auto;
+        position: relative;
+        height: 60%;
+        width: 90%;
+        margin: 10%;
+        }
+        
+    }
+    @media (max-width: 1000px){
+    .sintomas
+    {
+        margin: auto;
+        position: relative;
+        height: 35px;
+        width: 90%;
+        margin: 10%;
+        }
+        
+    }
+    @media (max-width: 1000px){
+    .doenca
+    {
+        margin: auto;
+        position: relative;
+        height: 60px;
+        width: 90%;
+        margin: auto; 
+        
+        }
+        
+    }
 
+
+    @media (max-width: 1000px){
+    .row 
+    {
+        margin: auto;
+        position: relative;
+        height: 30%;
+        width: 90%;
+        padding: 40px;
+        justify-content: center;
+        margin:9%;
+        }
+        
+    }
+
+</style>
 
 
 
@@ -245,7 +297,7 @@
     </div>
 
   </div>
-
+ </div>
 
 
 
