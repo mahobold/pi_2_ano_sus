@@ -1,23 +1,23 @@
 <?php
-    include("conexao.php");
+include("conexao.php");
 
-    if (isset($_POST['nomemedico'])) {
-        $nomemedico = $_POST['nomemedico'];
-        $idade = $_POST['idade'];
-        $crm = $_POST['crm'];
-        $endereco = $_POST['endereco'];
-        $telefone = $_POST['telefone'];
-        $especialidade = $_POST['especialidade'];
-        $mysqli->query("INSERT INTO cadastro_medico (nomemedico, idade, crm, endereco, telefone, especialidade)
+if (isset($_POST['nomemedico'])) {
+    $nomemedico = $_POST['nomemedico'];
+    $idade = $_POST['idade'];
+    $crm = $_POST['crm'];
+    $endereco = $_POST['endereco'];
+    $telefone = $_POST['telefone'];
+    $especialidade = $_POST['especialidade'];
+    $mysqli->query("INSERT INTO cadastro_medico (nomemedico, idade, crm, endereco, telefone, especialidade)
         values ('$nomemedico', '$idade', '$crm', '$endereco', '$telefone', '$especialidade')")
         or die($mysqli->error);
-
-    }
+}
 
 
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,30 +26,35 @@
     <link rel="stylesheet" href="css/projeto.css">
     <title>Cadastro - Médico</title>
 </head>
+
 <body>
     <?php
-        include("menu.php");
+    include("menu.php");
     ?>
-<form action="" method="post">
-      <input type="text" name="nomemedico" placeholder="Nome do médico" required>
-      <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="crm" placeholder="CRM" required>
-      <input type="text" name="endereco" placeholder="Endereço" required>
-      <input type="text" name="telefone" placeholder="Telefone" required>
-      <input type="text" name="especialidade" placeholder="Especialidade" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+    <div class="container">
 
-    </form>
-    <a class="btn btn-primary" href="index.php">Voltar</a>
-    <a class="btn btn-primary" href="lista_cadasmedico.php">Ver lista</a>
-    <div class="bloco2">
-      </div>
-=======
+        <div class="caadas">
+            <p>CADASTRO DE MEDICOS</p>
+        </div>
 
->>>>>>> Matheus
-    <?php
-        include("rodape2.php");
-    ?>
+        <div class="maria">
+        <form action="" method="post">
+            <input type="text" name="nomemedico" placeholder="Nome do médico" required>
+            <input type="text" name="idade" placeholder="Idade" required>
+            <input type="text" name="crm" placeholder="CRM" required>
+            <input type="text" name="endereco" placeholder="Endereço" required>
+            <input type="text" name="telefone" placeholder="Telefone" required>
+            <input type="text" name="especialidade" placeholder="Especialidade" required>
+            <input type="submit" value="Cadastrar" onclick="return validateFields()">
+        </div>
+
+        </form>
+        <a class="btn btn-primary" href="index.php">Voltar</a>
+        <a class="btn btn-primary" href="lista_cadasmedico.php">Ver lista</a>
+
+    </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </html>
