@@ -14,6 +14,9 @@ if (isset($_POST['especialidade'])) {
 <html lang="pt-br">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo2.png">
@@ -28,7 +31,7 @@ if (isset($_POST['especialidade'])) {
     ?>
 
     
-    <form action="" method="post">
+    <form id="cadastro" action="" method="post">
         <input type="text" name="especialidade" placeholder="Especialidade" required>
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
@@ -37,6 +40,8 @@ if (isset($_POST['especialidade'])) {
     <a class="btn btn-primary" href="lista_cadasespecial.php">Ver lista</a>
     <div class="bloco2">
       </div>
+=======
+>>>>>>> Matheus
     <?php
         include("rodape2.php");
     ?>

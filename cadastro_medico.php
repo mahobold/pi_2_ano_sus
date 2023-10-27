@@ -44,6 +44,9 @@
     <a class="btn btn-primary" href="lista_cadasmedico.php">Ver lista</a>
     <div class="bloco2">
       </div>
+=======
+
+>>>>>>> Matheus
     <?php
         include("rodape2.php");
     ?>
