@@ -162,7 +162,7 @@
 
  
   <?php
-  include("rodape2.php");
+  include("static/rodape.php");
   ?>
       
 </body>
