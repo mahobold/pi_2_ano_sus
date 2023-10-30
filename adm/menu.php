@@ -6,7 +6,7 @@
 
 <div class="container1">
   <div class="image-wrapper">
-  <a href="index.php"><img src="../img/logo.png" alt="Logotipo"></a>
+  <a href="index.php"><img src="../img/logot.png" alt="Logotipo"></a>
   
   </div>
   <div class="image-wrapper">
