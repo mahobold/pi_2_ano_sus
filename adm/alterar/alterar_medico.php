@@ -3,6 +3,12 @@ include("../conexao.php");
 /* require("autenticacao.php"); Falta fazer */
 
 if (isset($_GET["id_medico"])) {
+
+    $id_cadastro = $_GET["id_medico"];
+    $sql_consultar = "SELECT * FROM cadastro_medico WHERE id_medico = '$id_cadastro'";
+    $mysqli_consultar = $mysqli->query($sql_consultar) or die($mysqli->error);
+    $consultar = $mysqli_consultar->fetch_assoc();
+
 } else {
     
 }

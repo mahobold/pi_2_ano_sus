@@ -50,8 +50,8 @@
                    <td><?php echo $medico['endereco']; ?></td>
                    <td><?php echo $medico['telefone']; ?></td>
                    <td><?php echo $medico['especialidade']; ?></td>
-                   <th><a class="btn btn-primary" href="../alterar/alterarmedico.php?id_medico=<?php echo $medico['id_medico'];?>">Alterar</a></th>
-                   <th><a class="btn btn-danger" href="../deletar/deletarmedico.php?codigo_medico=<?php echo $medico['id_medico'];?>">Deletar</a></th>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_medico.php?id_medico=<?php echo $medico['id_medico'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_medico.php?codigo_medico=<?php echo $medico['id_medico'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }
