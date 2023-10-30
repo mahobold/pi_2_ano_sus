@@ -1,7 +1,7 @@
 <?php
     include ("../conexao.php");
 
-    $consultar_banco = "SELECT * FROM cadastro_medico";
+    $consultar_banco = "SELECT * FROM medico";
     $retorno_consulta = $mysqli->query( $consultar_banco) or die($mysqli->error);
     $qntd= $retorno_consulta->num_rows; //retornar quantidade de linhas
 
@@ -44,7 +44,7 @@
 
                 <tr>
                    <td><?php echo $medico['id_medico']; ?></td>
-                   <td><?php echo $medico['nomemedico']; ?></td>
+                   <td><?php echo $medico['nome']; ?></td>
                    <td><?php echo $medico['idade']; ?></td>
                    <td><?php echo $medico['crm']; ?></td>
                    <td><?php echo $medico['endereco']; ?></td>
