@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         <title>Área Administrativa</title>
@@ -48,6 +49,18 @@
   ?>
         <h1 class="index3">Área Adminstrativa</h1>
         
+=======
+        <link rel="icon" href="../img/logo2.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/dieimes.css">
+        <title>Área Administrativa</title>
+    </head>
+    <body>
+        <?php include("menu.php"); ?>
+        <h1>Área Adminstrativa</h1>
+        <p>Professor está arrumando</p>
+>>>>>>> d3bcbfc9a8e3a5425a2e60361584ca7d0d0db554
 
 
   <div class="container text-center">
