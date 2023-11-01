@@ -1,7 +1,7 @@
 <?php
-include("conexao.php");
+include("../adm/conexao.php");
 
-require("autenticacao.php");
+require("../static/autenticacao.php");
 
 /* teste do professor */
 
@@ -38,7 +38,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
     }
 
     // Defina o local para salvar a imagem
-    $diretorioUpload = "Imagens_recebidos/";
+    $diretorioUpload = "img/Imagens_recebidos/";
     $novoNomeArquivo = uniqid() . "." . $extensaoArquivo;
     $caminhoFinal = $diretorioUpload . $novoNomeArquivo;
 
@@ -79,21 +79,21 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../img/logo2.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/dieimes.css">
+    <link rel="stylesheet" href="../css/dieimes.css">
 
     <title>Minha Conta</title>
 </head>
 
 <body>
-    <?php include("menu.php"); ?>
+    <?php include("../static/menu.php"); ?>
 
     <div class="container profile-container">
         <div class="text-center mb-4">
             <?php
-            $imgPath = isset($usuario["camimg"]) && !empty($usuario["camimg"]) ? $usuario["camimg"] : 'imagens_recebidos/foto_teste.png';
+            $imgPath = isset($usuario["camimg"]) && !empty($usuario["camimg"]) ? $usuario["camimg"] : 'img/imagens_recebidos/foto_teste.png';
             //echo "Caminho da imagem: " . $imgPath . "<br>";
 
             //var_dump($imgPath);
@@ -101,7 +101,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
             if (file_exists($imgPath)) {
                 echo "<img class='profile-picture' src='$imgPath' alt='Foto de perfil'>";
             } else {
-                echo "<img class='profile-picture' src='imagens_recebidos/foto_teste.png' alt='Foto de perfil'>";
+                echo "<img class='profile-picture' src='img/imagens_recebidos/foto_teste.png' alt='Foto de perfil'>";
                 echo "O arquivo $imgPath não foi encontrado."; // isso é apenas para depuração
             }
 
@@ -124,12 +124,15 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
         <p><span class="info-title">Telefone:</span> <?php echo $usuario["telefone"]; ?></p>
         <p><span class="info-title">Endereço:</span> <?php echo $usuario["endereco"]; ?></p>
         <p><span class="info-title">CPF:</span> <?php echo $usuario["cpf"]; ?></p>
+        <p><span class="info-title">Data de nascimento:</span> <?php echo $usuario["datanasc"]; ?></p>
         <p><span class="info-title">Email:</span> <?php echo $usuario["email"]; ?></p>
         <p><span class="info-title">Número do Cartão Sus:</span> <?php echo $usuario["numerocartaosus"]; ?></p>
+        <th><a class="btn btn-primary" href="alterar_minhaconta.php?id_pessoa=<?php echo $usuario['id_pessoa'];?>">Alterar</a></th>
+        <th><a class="btn btn-danger" href="deletar_minhaconta.php?id_pessoa=<?php echo $usuario['id_pessoa'];?>">Deletar</a></th>
 
         <div class="text-center mt-5">
-            <a href="consultaa.php" class="btn btn-success mb-2">Marque sua Consulta</a>
-            <p><a href="sair.php" class="btn btn-danger">Sair</a></p>
+            <a href="../page/consulta.php" class="btn btn-success mb-2">Marque sua Consulta</a>
+            <p><a href="../static/sair.php" class="btn btn-danger">Sair</a></p>
         </div>
     </div>
 
