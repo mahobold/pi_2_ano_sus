@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");
+    include("../conexao.php");
 
     if (isset($_POST['nomemedico'])) {
         $nomemedico = $_POST['nomemedico'];
@@ -28,7 +28,7 @@
 </head>
 <body>
     <?php
-        include("menu.php");
+        include("menu.php"); /* 2 erro*/
     ?>
 <form action="" method="post">
       <input type="text" name="nomemedico" placeholder="Nome do médico" required>
@@ -46,7 +46,7 @@
       </div>
 
     <?php
-        include("static/rodape.php");
+        include("static/rodape.php"); /*2 erro*/
     ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

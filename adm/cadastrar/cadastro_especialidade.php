@@ -1,10 +1,10 @@
 <?php
-include("conexao.php");
+include("../conexao.php");
 
 if (isset($_POST['especialidade'])) {
     $especialidade = $_POST['especialidade'];
     $mysqli->query("INSERT INTO cadastro_especialidade (especialidade)
-        values ('$especialidade')")
+        values ('$especialidade')") /*erro*/
         or die($mysqli->error);
 }
 
@@ -27,7 +27,7 @@ if (isset($_POST['especialidade'])) {
 
 <body>
     <?php
-        include("menu.php");
+        include("menu.php"); /*erros 2*/
     ?>
 
     
@@ -40,10 +40,9 @@ if (isset($_POST['especialidade'])) {
     <a class="btn btn-primary" href="lista_cadasespecial.php">Ver lista</a>
     <div class="bloco2">
       </div>
-=======
->>>>>>> Matheus
+
     <?php
-        include("static/rodape.php");
+        include("static/rodape.php"); /*erros 2*/
     ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
