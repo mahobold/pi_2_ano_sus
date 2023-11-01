@@ -52,15 +52,13 @@
             text-decoration: none;
         }
 
-        hr {
-            background-color: #054f77;
-        }
+        
     </style>
     <?php
     include("menu.php");
     ?>
-    <hr>
-    <h1 class="index3">Área Adminstrativa</h1>
+   
+    <h1 class="index3">Área Administrativa</h1>
 
 
 
@@ -89,7 +87,7 @@
 
         </div>
     </div>
-    <hr>
+  
     <?php
     include("rodape2.php");
     ?>
