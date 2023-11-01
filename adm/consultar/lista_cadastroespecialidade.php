@@ -26,6 +26,7 @@
         <div class="container">
             <div class="especialidade">
           <h1>Lista - Especialidades</h1>
+            </div>
           
             <table class="table table-striped">
                 <tr>
