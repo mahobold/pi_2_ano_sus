@@ -1,6 +1,6 @@
 <?php
     $hostname = "localhost";
-    $banco = "pi_sus";
+    $banco = "projeto_sus";
     $usuario = "root";
     $senha = "";
 
