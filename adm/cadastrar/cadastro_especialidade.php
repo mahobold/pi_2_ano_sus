@@ -27,7 +27,7 @@ if (isset($_POST['especialidade'])) {
 
 <body>
     <?php
-        include("menu.php"); /*erros 2*/
+        include("../../static/menu.php"); /*erros 2*/
     ?>
 
     
@@ -42,9 +42,9 @@ if (isset($_POST['especialidade'])) {
       </div>
 
     <?php
-        include("static/rodape.php"); /*erros 2*/
+        include("../../static/rodape.php"); /*erros 2*/
     ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-</html>
+</html>-------+++++++++++++++++++-++++++++++++-+
