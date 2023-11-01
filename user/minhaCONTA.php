@@ -1,7 +1,7 @@
 <?php
 include("../adm/conexao.php");
 
-require("../static/autenticacao.php");
+
 
 /* teste do professor */
 
@@ -146,7 +146,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
 
     
     <?php
-  include("rodape2.php");
+  include("../static/rodape.php");
   ?>
 
 
