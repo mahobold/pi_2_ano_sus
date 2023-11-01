@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");
+    include("../adm/conexao.php");
 
     if (isset($_POST['nome'])) {
         $nome = $_POST['nome'];
@@ -30,7 +30,7 @@
 </head>
 <body>
 <?php
-    include("menu.php");
+    include("../static/menu.php");
     ?>
     
     <div class="consultar">
@@ -66,7 +66,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
   <?php
-  include("rodape2.php");
+  include("../static/rodape.php");
   ?>
 
 </body>
