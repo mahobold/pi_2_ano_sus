@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");
+    include("../adm/conexao.php");
 
     if (isset($_POST['nome'])) {
         $colica = $_POST['colica'];
@@ -22,14 +22,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../css/projeto.css">
     <title>Nefrologista</title>
 </head>
 <body>
     <?php
-    include("menu.php");
+    include("../menu.php");
     ?>
     
     <div class="consultar">
@@ -37,7 +37,7 @@
    </div>
     
     <div class="card text-bg-dark">
-  <img src="img\medico9lef.png" id="card-img" alt="...">
+  <img src="../img/medico9lef.png" id="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
@@ -64,7 +64,11 @@
 
      
   <?php
+<<<<<<< HEAD
   include("rodape.php");
+=======
+  include("../static/rodape.php");
+>>>>>>> main
   ?>      
 
 </body>

@@ -4,17 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="img/logo2.png">
+  <link rel="icon" href="../img/logo2.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/logo2.png">
+  <link rel="icon" href="../img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/projeto.css">
+  <link rel="stylesheet" href="../css/projeto.css">
   <title>Info Doenças</title>
 </head>
 
 <body>
   <?php
-  include("menu.php");
+  include("../menu.php");
   ?>
 
 <style>
@@ -105,7 +105,7 @@
   <div class="container">
     <div class="row">
       <div class="card" style="width: 18rem;">
-        <img src="img/pre2.png" class="card-img-top" alt="...">
+        <img src="../img/pre2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Usar preservativos nas relações sexuais</p>
@@ -115,7 +115,7 @@
 
 
       <div class="card" style="width: 18rem;">
-        <img src="img/hiv3.jpg" class="card-img-top" alt="...">
+        <img src="../img/hiv3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Ter cuidado no uso de materiais cortantes.</p>
@@ -124,7 +124,7 @@
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="img/hivv4.jpg" class="card-img-top" alt="...">
+        <img src="../img/hivv4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Evitar o compartilhamento de seringas e agulhas.</p>
@@ -133,7 +133,7 @@
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="img/hiv6.png" class="card-img-top" alt="...">
+        <img src="../img/hiv6.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Prevenir a transmissão vertical.</p>
@@ -173,14 +173,14 @@
       <h1 class="sintomas">Sintomas:</h1>
 
         <div class="texto">
-          <p><img src="img/febrezada.png" alt="">Febre.</p>
-          <p><img src="img/malestar" alt="">Mal estar e Dores no corpo.</p>
-          <p><img src="img/arzada.png" alt="">Falta de ar.</p>
-          <p><img src="img/garganta.png" alt="">Dor de garganta.</p>
-          <p><img src="img/corizada.png" alt="">Coriza ou nariz entupido.</p>
-          <p> <img src="img/diarreia" alt="">Diarreia.</p>
-          <p><img src="img/cançç" alt="">Cansaço.</p>
-          <p><img src="img/dorr.png" alt="">Dor de cabeça.</p>
+          <p><img src="../img/febrezada.png" alt="">Febre.</p>
+          <p><img src="../img/malestar" alt="">Mal estar e Dores no corpo.</p>
+          <p><img src="../img/arzada.png" alt="">Falta de ar.</p>
+          <p><img src="../img/garganta.png" alt="">Dor de garganta.</p>
+          <p><img src="../img/corizada.png" alt="">Coriza ou nariz entupido.</p>
+          <p> <img src="../img/diarreia" alt="">Diarreia.</p>
+          <p><img src="../img/cançç" alt="">Cansaço.</p>
+          <p><img src="../img/dorr.png" alt="">Dor de cabeça.</p>
   </div>
 
 
@@ -188,7 +188,7 @@
   <div class="container">
     <div class="row">
       <div class="card" style="width: 18rem;">
-        <img src="img/covidd2.jpg" class="card-img-top" alt="...">
+        <img src="../img/covidd2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Lave as mãos frequentemente</p>
@@ -197,14 +197,14 @@
       </div>
      
       <div class="card" style="width: 18rem;">
-        <img src="img/covidd1.jpg" class="card-img-top" alt="...">
+        <img src="../img/covidd1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Evite contato próximo</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="img/covid3.jfif" class="card-img-top" alt="...">
+        <img src="../img/covid3.jfif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Use máscaras</p>
@@ -213,7 +213,7 @@
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="img/covid4.png" class="card-img-top" alt="...">
+        <img src="../img/covid4.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text">Cubra tosses e espirros </p>
@@ -261,7 +261,7 @@
           <div class="container">
           <div class="row">
           <div class="card" style="width: 18rem;">
-          <img src="img/rep2.png" class="card-img-top" alt="...">
+          <img src="../img/rep2.png" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text">Utilize repelente</p>
@@ -270,7 +270,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/denguee2.jpg" class="card-img-top" alt="...">
+      <img src="../img/denguee2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Elimine focos de água parada</p>
@@ -279,7 +279,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/dengue5.jpeg" class="card-img-top" alt="...">
+      <img src="../img/dengue5.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Coloque telas em janelas e portas</p>
@@ -288,7 +288,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/denguee3.jpg" class="card-img-top" alt="...">
+      <img src="../img/denguee3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Aplique inseticidas e larvicidas</p>
@@ -325,7 +325,7 @@
  <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/gripee1.jpg" class="card-img-top" alt="...">
+      <img src="../img/gripee1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evite abraços e apertos de mão.</p>
@@ -334,7 +334,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/gripe2.jfif" class="card-img-top" alt="...">
+      <img src="../img/gripe2.jfif" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Fique em casa se estiver doente e se precisar, peça ao seu médico um atestado.</p>
@@ -343,7 +343,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/gripee2.jpg" class="card-img-top" alt="...">
+      <img src="../img/gripee2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Por favor, não compartilhe os seus objetos pessoais.</p>
@@ -352,7 +352,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/gripe5.jpg" class="card-img-top" alt="...">
+      <img src="../img/gripe5.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Vacine-se contra a gripe.</p>
@@ -394,7 +394,7 @@
  <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/avccc.png" class="card-img-top" alt="...">
+      <img src="../img/avccc.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Não fume.</p>
@@ -403,7 +403,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/cancerrr.png" class="card-img-top" alt="...">
+      <img src="../img/cancerrr.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Alimentação saudável protege contra o câncer.</p>
@@ -412,7 +412,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/cancerr4.png" class="card-img-top" alt="...">
+      <img src="../img/cancerr4.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evite a ingestão de bebidas alcoólicas.</p>
@@ -421,7 +421,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/cancer5.jpg" class="card-img-top" alt="...">
+      <img src="../img/cancer5.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Pratique atividades físicas diariamente.</p>
@@ -464,7 +464,7 @@
  <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/avccc.png" class="card-img-top" alt="...">
+      <img src="../img/avccc.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Não fume.</p>
@@ -473,7 +473,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/diabetes1.jpg" class="card-img-top" alt="...">
+      <img src="../img/diabetes1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Manter o peso normal.</p>
@@ -482,7 +482,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/diabetess2.png" class="card-img-top" alt="...">
+      <img src="../img/diabetess2.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Controlar a pressão arterial.</p>
@@ -492,7 +492,7 @@
 
 
     <div class="card" style="width: 18rem;">
-      <img src="img/diabetes3.jpg" class="card-img-top" alt="...">
+      <img src="../img/diabetes3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evitar medicamentos que potencialmente possam agredir o pâncreas.</p>
@@ -525,7 +525,7 @@
   <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/hipertensaoo5.jpg" class="card-img-top" alt="...">
+      <img src="../img/hipertensaoo5.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Não abusar do sal (utilize outros temperos que ressaltam o sabor dos alimentos).</p>
@@ -534,7 +534,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/hipertensaoo1.png" class="card-img-top" alt="...">
+      <img src="../img/hipertensaoo1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Mantenha exames em dia.</p>
@@ -544,7 +544,7 @@
 
 
     <div class="card" style="width: 18rem;">
-      <img src="img/hipertensaoo6.jpg" class="card-img-top" alt="...">
+      <img src="../img/hipertensaoo6.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evitar alimentos gordurosos.</p>
@@ -553,7 +553,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/hipertensaoo4.png" class="card-img-top" alt="...">
+      <img src="../img/hipertensaoo4.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Elimine o estresse.</p>
@@ -585,7 +585,7 @@
    <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/asmaa1.png" class="card-img-top" alt="...">
+      <img src="../img/asmaa1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Mantenha o ambiente limpo.</p>
@@ -594,7 +594,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/asma2.webp" class="card-img-top" alt="...">
+      <img src="../img/asma2.webp" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evite acúmulo de sujeira ou poeira.</p>
@@ -604,7 +604,7 @@
 
 
     <div class="card" style="width: 18rem;">
-      <img src="img/asmaaa.png" class="card-img-top" alt="...">
+      <img src="../img/asmaaa.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Evite cheiros fortes.</p>
@@ -613,7 +613,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/asma4.webp" class="card-img-top" alt="...">
+      <img src="../img/asma4.webp" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Tome a vacina da gripe.</p>
@@ -650,7 +650,7 @@
  <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/alzheimer1.png" class="card-img-top" alt="...">
+      <img src="../img/alzheimer1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Manter a mente ativa.</p>
@@ -659,7 +659,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/alzheimerr1.png" class="card-img-top" alt="...">
+      <img src="../img/alzheimerr1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Boa vida social.</p>
@@ -668,7 +668,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/alzheimer3.jpg" class="card-img-top" alt="...">
+      <img src="../img/alzheimer3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Bons hábitos alimentares e atividade física regular.</p>
@@ -677,7 +677,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/alzheimer4.jpeg" class="card-img-top" alt="...">
+      <img src="../img/alzheimer4.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Controle colesterol e diabetes.</p>
@@ -707,7 +707,7 @@
  <div class="container">
   <div class="row">
     <div class="card" style="width: 18rem;">
-      <img src="img/avc1.png" class="card-img-top" alt="...">
+      <img src="../img/avc1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Não fazer uso de drogas ilícitas.</p>
@@ -716,7 +716,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/avc4.png" class="card-img-top" alt="...">
+      <img src="../img/avc4.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Manter alimentação saudável.</p>
@@ -725,7 +725,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/avc5.jpg" class="card-img-top" alt="...">
+      <img src="../img/avc5.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Manter a pressão sob controle.</p>
@@ -735,7 +735,7 @@
 
 
     <div class="card" style="width: 18rem;">
-      <img src="img/avccc.png" class="card-img-top" alt="...">
+      <img src="../img/avccc.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text"> Não fumar.</p>
@@ -745,7 +745,7 @@
   </div>
   </div>
   <?php
-  include("rodape2.php");
+  include("../static/rodape.php");
   ?>
 
 </body>
