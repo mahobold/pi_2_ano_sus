@@ -45,10 +45,10 @@
     <p class="card-text"><small></small></p>
   </div>
 </div>
-
+<div class="signup-container">
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
-    <form action="" method="post">
+    <form id="cardilogista" action="" method="post">
       <input type="text" name="fadiga" placeholder="Teve fadiga?" required>
       <input type="text" name="peito" placeholder="Teve Dores no peito?" required>
       <input type="text" name="exame" placeholder="Fez exame?" required>
@@ -58,6 +58,54 @@
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
+
+  <script>
+                // Manipule o evento de envio do formulário
+                $('#cardiologista').on('submit', function(e) {
+                    e.preventDefault(); // Impede o envio padrão do formulário
+
+                    // Coleta os dados do formulário
+                    var formData = $(this).serialize();
+
+                    // Faça uma solicitação AJAX para enviar os dados ao servidor
+                    $.ajax({
+                        type: 'POST',
+                        url: 'cardiologista.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
+                        data: formData,
+                        success: function(response) {
+                            if (response === 'success'){
+                                // Redirecione para a página de login após o cadastro bem-sucedido
+                                Swal.fire({
+                                    title: 'Erro',
+                                    text: 'Erro no marcar sua consulta!',
+                                    icon: 'error',
+                                    confirmButtonText: 'OK'
+                                })
+                            } else {
+                                Swal.fire({
+                                    title: 'Sucesso',
+                                    text: 'Consulta marcada  com sucesso!',
+                                    icon: 'success',
+                                    confirmButtonText: 'OK'
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        // Redirecione para a página de login após o cadastro bem-sucedido
+                                        window.location.href = 'consulta.php'; // Substitua 'login.php' pela página desejada
+                                    }
+                                });
+                            }
+                        },
+                        error: function() {
+                            Swal.fire({
+                                title: 'Erro',
+                                text: 'Erro na comunicação com o servidor.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    });
+                });
+            </script>
 
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
