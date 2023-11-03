@@ -35,7 +35,7 @@
                     <th>Horário escolhido:</th>
                 </tr>
                     <?php
-                        while($consultas_otorrinolaringologista = $retorno_consulta -> fetch_assoc()){
+                        while($consultas_pneumologista = $retorno_consulta -> fetch_assoc()){
                         
                     ?>
 
