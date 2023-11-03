@@ -1,15 +1,16 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
+    if (isset($_POST['ouvido'])) {
+       
         $ouvido = $_POST['ouvido'];
         $rinite= $_POST['rinite'];
         $audicao = $_POST['audicao'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO otorrino (nome, idade, ouvido, rinite, audicao)
-        values ('$nome', '$idade', '$ouvido', '$rinite', '$audicao')")
+        $mysqli->query("INSERT INTO otorrino ( ouvido, rinite, audicao, data, hora)
+        values ( '$ouvido', '$rinite', '$audicao', '$data', '$hora')")
         or die($mysqli->error);
 
     }

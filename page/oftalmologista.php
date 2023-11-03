@@ -1,15 +1,16 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
+    if (isset($_POST['oculos'])) {
+       
         $oculos = $_POST['oculos'];
         $cabeca = $_POST['cabeca'];
         $ocular = $_POST['ocular'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO oftal (nome, idade, oculos, cabeca, ocular)
-        values ('$nome', '$idade', '$oculos', '$cabeca', '$ocular')")
+        $mysqli->query("INSERT INTO oftal ( oculos, cabeca, ocular , data, hora)
+        values ( '$oculos', '$cabeca', '$ocular' ,'$data', '$hora',)")
         or die($mysqli->error);
 
     }
