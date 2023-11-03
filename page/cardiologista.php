@@ -50,7 +50,7 @@
     <h2 class="add">Questionário base</h2>
     <form id="cardilogista" action="" method="post">
       <input type="text" name="fadiga" placeholder="Teve fadiga?" required>
-      <input type="text" name="peito" placeholder="Teve Dores no peito?" required>
+      <input type="text" name="peito" placeholder="Teve dores no peito?" required>
       <input type="text" name="exame" placeholder="Fez exame?" required>
       <input type="date" name="data" placeholder="Escolha uma data" required>
       <input type="time" name="hora" placeholder="Escolha um horário" required>
