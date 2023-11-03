@@ -1,6 +1,3 @@
-
-
-
 <div class="container">
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -30,7 +27,6 @@
       </div>
 
     </ul>
-    <a href="https://www.senac.br/" target="_blank"> <img src="../img/333.jpg"></a>
+    <a href="https://www.senac.br/" target="_blank"> <img src="img/333.jpg"></a>
   </footer>
 </div>
-

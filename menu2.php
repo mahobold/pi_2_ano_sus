@@ -6,11 +6,11 @@
 
 <div class="container1">
   <div class="image-wrapper">
-  <a href="/index.php"><img src="/img/logo.png" alt="Logotipo"></a>
+  <a href="../index.php"><img src="img/logot.png" alt="Logotipo"></a>
   
   </div>
   <div class="image-wrapper">
-    <img src="/static/img/brasill.png" alt="Bandeira do Brasil">
+    <img src="img/brasill.png" alt="Bandeira do Brasil">
   </div>
 </div>
 
@@ -48,20 +48,20 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.php">Página Principal</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Página Principal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../page/posto.php">Unidades próximas</a>
+            <a class="nav-link active" aria-current="page" href="page/posto.php">Unidades próximas</a>
           </li>
       
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../page/farmacia.php">Farmácia</a>
+            <a class="nav-link active" aria-current="page" href="page/farmacia.php">Farmácia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../page/info_doencas.php">Info doenças</a>
+            <a class="nav-link active" aria-current="page" href="page/info_doencas.php">Info doenças</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../user/minhaconta.php">Minha conta</a>
+            <a class="nav-link active" aria-current="page" href="user/minhaconta.php">Minha conta</a>
           </li>
         </ul>
       </div>
