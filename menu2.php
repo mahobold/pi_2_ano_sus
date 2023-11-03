@@ -6,7 +6,7 @@
 
 <div class="container1">
   <div class="image-wrapper">
-  <a href="../index.php"><img src="img/logot.png" alt="Logotipo"></a>
+  <a href="index.php"><img src="img/logot.png" alt="Logotipo"></a>
   
   </div>
   <div class="image-wrapper">
@@ -39,7 +39,7 @@
     </button>
     <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-      <img class="b" src="../img/logot.png" alt="Logo" width="155" class="d-inline-block">
+      <img class="b" src="img/logot.png" alt="Logo" width="155" class="d-inline-block">
          <div class="container">
     
   </div>
