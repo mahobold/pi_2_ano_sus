@@ -49,21 +49,22 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
+      
       <input type="text" name="ouvido" placeholder="Teve dores no ouvido?" required>
       <input type="text" name="rinite" placeholder="Tem rinite?" required>
       <input type="text" name="audicao" placeholder="Tem boa audição?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    <p><a href="consultaa.php">Voltar</a></p>
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
   
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
       
   <?php
-  include("rodape2.php");
+  include("rodape.php");
   ?>
 
 </body>

@@ -51,14 +51,15 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
+      
       <input type="text" name="oculos" placeholder="Usa óculos?" required>
       <input type="text" name="cabeca" placeholder="Teve dores de cabeça?" required>
       <input type="text" name="ocular" placeholder="Teve dores oculares?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consultaa.php">Voltar</a></p>
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
     
 
@@ -67,7 +68,7 @@
 
 
   <?php
-  include("rodape2.php");
+  include("rodape.php");
   ?>
 
 </body>
