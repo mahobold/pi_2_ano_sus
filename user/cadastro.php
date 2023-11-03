@@ -12,7 +12,7 @@
         
         $numerocartaosus = $_POST['numerocartaosus'];
         $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
-        $camimg = "Imagens_recebidos/foto_teste.png";
+        $camimg = "img/Imagens_recebidos/foto_teste.png";
 
         $mysqli->query("INSERT INTO pessoas (nome, sobrenome, telefone, endereco, cpf, datanasc, email, numerocartaosus, senha, camimg)
         values ('$nome', '$sobrenome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha' , '$camimg')")
@@ -69,7 +69,7 @@
                     // Faça uma solicitação AJAX para enviar os dados ao servidor
                     $.ajax({
                         type: 'POST',
-                        url: 'cadastroo.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
+                        url: 'cadastro.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
                         data: formData,
                         success: function(response) {
                             if (response === 'success') {
