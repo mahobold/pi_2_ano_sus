@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");
+    include("../adm/conexao.php");
 
     if (isset($_POST['nome'])) {
         $nome = $_POST['nome'];
@@ -22,14 +22,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../css/projeto.css">
     <title>Ginecologista</title>
 </head>
 <body>
 <?php
-    include("menu.php");
+    include("../menu.php");
     ?>
     <div class="consultar">
    <h1> Agende sua consulta com o ginecologista aqui: </h1>
@@ -37,7 +37,7 @@
 
     
     <div class="card text-bg-dark">
-  <img src="img/medico2lef.png" class="card-img" alt="...">
+  <img src="../img/medico2lef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
@@ -55,7 +55,7 @@
       <input type="text" name="ativa" placeholder="Já possui vida sexual ativa?" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consultaa.php">Voltar</a></p>
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
 
 
@@ -63,7 +63,7 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
  <?php
-  include("rodape2.php");
+  include("../static/rodape.php");
   ?>
 
 </body>
