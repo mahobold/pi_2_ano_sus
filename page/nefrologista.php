@@ -1,15 +1,15 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
+    if (isset($_POST['colica'])) {
         $colica = $_POST['colica'];
         $urina = $_POST['urina'];
         $agua = $_POST['agua'];
-        $nome = $_POST['data'];
-        $idade = $_POST['hora'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
         $mysqli->query("INSERT INTO nefro ( colica, urina, agua , data, hora)
-        values ('$nome', '$idade', '$colica', '$urina', '$agua')")
+        values ( '$colica', '$urina', '$agua' , '$data', '$hora')")
         or die($mysqli->error);
 
     }
@@ -64,11 +64,7 @@
 
      
   <?php
-<<<<<<< HEAD
-  include("rodape.php");
-=======
   include("../static/rodape.php");
->>>>>>> main
   ?>      
 
 </body>

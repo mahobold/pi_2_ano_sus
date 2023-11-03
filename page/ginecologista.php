@@ -1,15 +1,15 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
+    if (isset($_POST['preventivo'])) {
         $preventivo = $_POST['preventivo'];
         $diu = $_POST['diu'];
         $ativa = $_POST['ativa'];
-        $nome = $_POST['data'];
-        $idade = $_POST['hora'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
         $mysqli->query("INSERT INTO ginecol ( preventivo, diu, ativa , data, hora)
-        values ('$nome', '$idade', '$preventivo', '$diu', '$ativa')")
+        values ( '$preventivo', '$diu', '$ativa' , '$data', '$hora')")
         or die($mysqli->error);
 
     }
@@ -63,11 +63,7 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
  <?php
-<<<<<<< HEAD
-  include("rodape.php");
-=======
   include("../static/rodape.php");
->>>>>>> main
   ?>
 
 </body>

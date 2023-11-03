@@ -1,15 +1,15 @@
 <?php
 include("../adm/conexao.php");
 
-if (isset($_POST['nome'])) {
+if (isset($_POST['ida'])) {
   $ida = $_POST['ida'];
   $motivo = $_POST['motivo'];
   $aparelho = $_POST['aparelho'];
-  $nome = $_POST['data'];
-  $idade = $_POST['hora'];
+  $data = $_POST['data'];
+  $hora = $_POST['hora'];
 
   $mysqli->query("INSERT INTO dentista (ida, motivo, aparelho , data, hora)
-        values ('$nome', '$idade', '$ida', '$motivo', '$aparelho')")
+        values ( '$ida', '$motivo', '$aparelho' , '$data', '$hora')")
     or die($mysqli->error);
 }
 

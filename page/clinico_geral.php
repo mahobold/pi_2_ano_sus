@@ -1,15 +1,15 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
+    if (isset($_POST['febre'])) {
         $febre = $_POST['febre'];
         $vomito = $_POST['vomito'];
         $nausea = $_POST['nausea'];
-        $nome = $_POST['data'];
-        $idade = $_POST['hora'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
         $mysqli->query("INSERT INTO cliger (febre, vomito, nausea, data, hora )
-        values ('$nome', '$idade', '$febre', '$vomito', '$nausea')")
+        values ( '$febre', '$vomito', '$nausea' , '$data', '$hora')")
         or die($mysqli->error);
 
     }
