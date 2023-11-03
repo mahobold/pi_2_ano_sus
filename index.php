@@ -8,7 +8,6 @@
   <link rel="icon" href="img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/dieimes.css"> -->
   <link rel="stylesheet" href="css/dieimes.css">
   <!-- <link rel="stylesheet" href="css/projeto.css"> -->
   <title>Página - Principal</title>
@@ -16,8 +15,9 @@
 
 <body>
   <?php
-  include("menu.php");
+  include("menu2.php");
   ?>
+
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,7 +57,7 @@
           <img src="img/turvo4.jpg" class="card-img-top">
           <div class="card-body">
             <p class="card-text">SECRETARIA DA SAÚDE</p>
-            <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Com-apoio-de-Estado-municipio-de-Turvo-promove-acoes-sobre-saude-do-homem" class="card-title">Com apoio de Estado, município de Turvo promove ações sobre a saúde do homem</a>
+            <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Com-apoio-de-Estado-municipio-de-Turvo-promove-acoes-sobre-saude-do-homem" target="_blank" class="card-title">Com apoio de Estado, município de Turvo promove ações sobre a saúde do homem</a>
             <p class="card-text"><small class="text-body-secondary">08/08/2023 - 12:22</small></p>
           </div>
         </div>
@@ -66,7 +66,7 @@
           <img src="img/londrina.jpg" class="card-img-top">
           <div class="card-body">
             <p class="card-text">SECRETARIA DA SAÚDE</p>
-            <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Estado-libera-R-379-milhoes-para-implementacao-da-maternidade-do-HU-de-Londrina" class="card_title">Estado libera R$ 3,79 milhões para implementação da maternidade do HU de Londrina</a>
+            <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Estado-libera-R-379-milhoes-para-implementacao-da-maternidade-do-HU-de-Londrina" target="_blank" class="card_title">Estado libera R$ 3,79 milhões para implementação da maternidade do HU de Londrina</a>
             <p class="card-text"><small class="text-body-secondary">03/08/2023 - 14:28</small></p>
           </div>
         </div>
@@ -75,7 +75,7 @@
           <img src="img/orgaos4.jpg" class="card-img-top">
           <div class="card-body">
             <p class="card-text">SECRETARIA DA SAÚDE</p>
-            <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Saude-capacita-profissionais-sobre-doacao-de-orgaos-e-tecidos-para-transplante" class="card_title">Saúde capacita profissionais sobre doação de órgãos e tecidos para transplante</a>
+            <a class="título_card" href="https://www.saude.pr.gov.br/Noticia/Saude-capacita-profissionais-sobre-doacao-de-orgaos-e-tecidos-para-transplante" target="_blank" class="card_title">Saúde capacita profissionais sobre doação de órgãos e tecidos para transplante</a>
             <p class="card-text"><small class="text-body-secondary">03/08/2023 - 11:47</small></p>
           </div>
         </div>
@@ -89,32 +89,34 @@
           <h1 id="acesse">Assista!</h1>
         </div>
 
-        <div class="container mt-4">
+        <div class="container mt-4 d-flex justify-content-center">
           <div class="row">
             <div class="col-md-4 mb-4">
               <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/GXwl3NqVnMg?si=ua8pxclK-B0VLcFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/GXwl3NqVnMg?si=ua8pxclK-B0VLcFP" target="_blank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
 
             <div class="col-md-4 mb-4">
               <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/EYHpSWm1A1Q?si=bbtBslg7-RpkGILR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/EYHpSWm1A1Q?si=bbtBslg7-RpkGILR" target="_blank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
 
             <div class="col-md-4 mb-4">
               <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/uAB627iLydA?si=yjbdJW08SnUP0htk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/uAB627iLydA?si=yjbdJW08SnUP0htk" target="_blank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
+          
 
 
           <div class="d-flex justify-content-center mt-3">
-            <a href="https://youtube.com/@MinSaudeBR" class="btn btn-outline-danger btn-lg">Conheça o canal Ministério da Saúde no YouTube</a>
+            <a href="https://youtube.com/@MinSaudeBR" target="_blank" class="btn btn-outline-danger btn-lg">Conheça o canal Ministério da Saúde no YouTube</a>
           </div>
         </div>
+
 
         <div class="container">
           <div class="index">
@@ -122,11 +124,7 @@
           </div>
         </div>
 
-
-
-
-
-
+        <div class="container d-flex justify-content-center">
         <div class="card text-center">
           <div class="card-header">
             Google Maps
@@ -134,8 +132,9 @@
           <div class="card-body">
             <h5 class="card-title">Localize-se</h5>
             <p class="card-text">Descobra qual a localização do posto de saúde mais próximo de você.</p>
-            <a href="https://www.google.com/maps/search/posto+de+sa%C3%BAde+mais+pr%C3%B3ximo/@-25.4181597,-49.2575947,13z/data=!3m1!4b1?entry=ttu" class="btn btn-primary">Descubra Já!</a>
+            <a href="https://www.google.com/maps/search/posto+de+sa%C3%BAde+mais+pr%C3%B3ximo/@-25.4181597,-49.2575947,13z/data=!3m1!4b1?entry=ttu" target="_blank" class="btn btn-primary">Descubra Já!</a>
           </div>
+        </div>
         </div>
 
         <div class="container text-center">
@@ -145,15 +144,15 @@
           <ul class="list-group text-center custom-list-group">
             <li class="list-group-item mb-3">
               <i class="fas fa-notes-medical mr-2"></i>
-              <a href="info.php">Info doenças</a>
+              <a href="page/info_doencas.php">Info doenças</a>
             </li>
             <li class="list-group-item mb-3">
               <i class="fas fa-capsules mr-2"></i>
-              <a href="farm.php">Farmácia</a>
+              <a href="page/farmacia.php">Farmácia</a>
             </li>
             <li class="list-group-item mb-3">
               <i class="fas fa-clinic-medical mr-2"></i>
-              <a href="postao.php">Unidades Próximas</a>
+              <a href="page/posto.php">Unidades Próximas</a>
             </li>
 
           </ul>
@@ -162,7 +161,7 @@
 
  
   <?php
-  include("static/rodape.php");
+  include("static/rodape2.php");
   ?>
       
 </body>

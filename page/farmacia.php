@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/logo2.png">
+  <link rel="icon" href="../img/logo2.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-  <link rel="stylesheet" href="css/projeto.css">
+  <link rel="stylesheet" href="../css/projeto.css">
  
   
   <title>Farmácia</title>
@@ -19,7 +19,7 @@
 
 
   <?php
-  include("menu.php");
+  include("../menu.php");
   ?>
 
 
@@ -31,7 +31,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/alendronato.png" class="card-img-top">
+            <img src="../img/img_farmacia/alendronato.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Alendronato 70mg</h5>
             </div>
@@ -42,7 +42,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/captopril.png" class="card-img-top">
+            <img src="../img/img_farmacia/captopril.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Captopril 25mg</h5>
             </div>
@@ -53,7 +53,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/etanolol.png" class="card-img-top">
+            <img src="../img/img_farmacia/etanolol.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Etanolol 25mg</h5>
             </div>
@@ -64,7 +64,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/glibenclamida.png" class="card-img-top">
+            <img src="../img/img_farmacia/glibenclamida.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Glibenclamida 5mg</h5>
             </div>
@@ -75,7 +75,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/hidroclorotiazida.png" class="card-img-top">
+            <img src="../img/img_farmacia/hidroclorotiazida.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">hidroclorotiazida 25mg</h5>
             </div>
@@ -86,7 +86,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/losartana.png" class="card-img-top">
+            <img src="../img/img_farmacia/losartana.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Losartana 50mg</h5>
             </div>
@@ -103,7 +103,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/maleato.png" class="card-img-top">
+            <img src="../img/img_farmacia/maleato.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Maleato 5mg</h5>
 
@@ -115,7 +115,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/metformina.png" class="card-img-top">
+            <img src="../img/img_farmacia/metformina.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Metformina 850mg</h5>
             </div>
@@ -126,7 +126,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/paracetamol.png" class="card-img-top">
+            <img src="../img/img_farmacia/paracetamol.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Parecetamol 500mg</h5>
             </div>
@@ -137,7 +137,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/salbutamol.png" class="card-img-top">
+            <img src="../img/img_farmacia/salbutamol.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Salbutamol 2,5mg</h5>
             </div>
@@ -148,7 +148,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/sinvastatina.png" class="card-img-top">
+            <img src="../img/img_farmacia/sinvastatina.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Sinvastatina 25mg</h5>
             </div>
@@ -159,7 +159,7 @@
       <div class="col-md-12">
         <div class="detail">
           <div class="card" style="width: 18rem;">
-            <img src="img_farmacia/ciclobenzaprina.png" class="card-img-top">
+            <img src="../img/img_farmacia/ciclobenzaprina.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">ciclobenzaprina 5mg</h5>
             </div>
@@ -212,7 +212,7 @@
 
 
   <?php
-  include("rodape2.php");
+  include("../static/rodape.php");
   ?>
 
 </body>
