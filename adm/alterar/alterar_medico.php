@@ -71,6 +71,9 @@ if (isset($_GET["id_medico"])) {
 </head>
 
 <body>
+
+
+
     <?php
     include("../../static/menu.php");
     ?>

@@ -1,15 +1,15 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
+    if (isset($_POST['fadiga'])) {
         $fadiga = $_POST['fadiga'];
         $peito = $_POST['peito'];
         $exame = $_POST['exame'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO cardio (nome, idade, fadiga, peito, exame)
-        values ('$nome', '$idade', '$fadiga', '$peito', '$exame')")
+        $mysqli->query("INSERT INTO cardio ( fadiga, peito, exame , data, hora)
+        values ( '$fadiga', '$peito', '$exame' , '$data', '$hora')")
         or die($mysqli->error);
 
     }
@@ -49,11 +49,11 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
       <input type="text" name="fadiga" placeholder="Teve fadiga?" required>
       <input type="text" name="peito" placeholder="Teve Dores no peito?" required>
       <input type="text" name="exame" placeholder="Fez exame?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
