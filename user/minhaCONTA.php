@@ -1,7 +1,7 @@
 <?php
 include("../adm/conexao.php");
 
-
+require("../static/autenticacao.php");
 
 /* teste do professor */
 
@@ -38,7 +38,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
     }
 
     // Defina o local para salvar a imagem
-    $diretorioUpload = "img/Imagens_recebidos/";
+    $diretorioUpload = "../img/Imagens_recebidos/";
     $novoNomeArquivo = uniqid() . "." . $extensaoArquivo;
     $caminhoFinal = $diretorioUpload . $novoNomeArquivo;
 
@@ -88,7 +88,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
 </head>
 
 <body>
-    <?php include("../static/menu.php"); ?>
+    <?php include("../menu.php"); ?>
 
     <div class="container profile-container">
         <div class="text-center mb-4">

@@ -13,11 +13,10 @@ if (isset($_POST['id_pessoa'])) {
     $cpf = $_POST['cpf'];
     $datanasc = $_POST ['datanasc'];
     $email = $_POST['email'];
-    $numerocartaosus = $_POST['numerocartaosus'];
 
     // Usando prepared statements para atualizar os dados
-    $stmt = $mysqli->prepare("UPDATE pessoas SET nome = ?, sobrenome = ?, telefone = ?, endereco = ?, cpf = ?, datanasc = ?, email = ?, numerocartaosus = ? WHERE id_pessoa = ?");
-    $stmt->bind_param('sssssssss', $nome, $sobrenome, $telefone, $endereco, $cpf, $datanasc, $email, $numerocartaosus, $id_pessoa);
+    $stmt = $mysqli->prepare("UPDATE pessoas SET nome = ?, sobrenome = ?, telefone = ?, endereco = ?, cpf = ?, datanasc = ?, email = ? WHERE id_pessoa = ?");
+    $stmt->bind_param('ssssssss', $nome, $sobrenome, $telefone, $endereco, $cpf, $datanasc, $email, $id_pessoa);
     
     if ($stmt->execute()) {
         $mensagem_sucesso =  "Dados atualizados com sucesso!";
@@ -74,7 +73,7 @@ if (isset($_GET["id_pessoa"])) {
 
 <body>
     <?php
-    include("../../static/menu.php");
+    include("../menu.php");
     ?>
     <div class="container">
         <form action="" method="post">

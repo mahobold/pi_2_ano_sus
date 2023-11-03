@@ -23,10 +23,6 @@
 
 ?>
 
-<?php
-    include ("../menu.php")
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -46,7 +42,7 @@
     ?>
         <div class="container">
             <h1>Deseja excluir sua conta?</h1>
-            <h1>ID do usuário: <?php echo $usuario['id_pessoa']?></h1>
+            <h3>ID do usuário: <?php echo $usuario['id_pessoa']?></h3>
             <p>Nome: <?php echo $usuario['nome']?></p> 
             <form action="" method="post">
                 <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
