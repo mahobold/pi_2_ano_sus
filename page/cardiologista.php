@@ -2,13 +2,13 @@
     include("conexao.php");
 
     if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
         $fadiga = $_POST['fadiga'];
         $peito = $_POST['peito'];
         $exame = $_POST['exame'];
+        $nome = $_POST['data'];
+        $idade = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO cardio (nome, idade, fadiga, peito, exame)
+        $mysqli->query("INSERT INTO cardio ( fadiga, peito, exame , data, hora)
         values ('$nome', '$idade', '$fadiga', '$peito', '$exame')")
         or die($mysqli->error);
 
@@ -49,21 +49,21 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
       <input type="text" name="fadiga" placeholder="Teve fadiga?" required>
       <input type="text" name="peito" placeholder="Teve Dores no peito?" required>
       <input type="text" name="exame" placeholder="Fez exame?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consultaa.php">Voltar</a></p>
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
 
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
   <?php
-  include("rodape2.php");
+  include("rodape.php");
   ?>
 
   </body>

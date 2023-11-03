@@ -2,13 +2,13 @@
     include("../adm/conexao.php");
 
     if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
         $febre = $_POST['febre'];
         $vomito = $_POST['vomito'];
         $nausea = $_POST['nausea'];
+        $nome = $_POST['data'];
+        $idade = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO cliger (nome, idade, febre, vomito, nausea)
+        $mysqli->query("INSERT INTO cliger (febre, vomito, nausea, data, hora )
         values ('$nome', '$idade', '$febre', '$vomito', '$nausea')")
         or die($mysqli->error);
 
@@ -51,14 +51,14 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
       <input type="text" name="febre" placeholder="Teve febre?" required>
       <input type="text" name="vomito" placeholder="Teve vômito?" required>
       <input type="text" name="nausea" placeholder="Teve náuseas?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    <p><a href="consultaa.php">Voltar</a></p>
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
 
 

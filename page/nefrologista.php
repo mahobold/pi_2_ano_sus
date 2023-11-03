@@ -2,13 +2,13 @@
     include("conexao.php");
 
     if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
         $colica = $_POST['colica'];
         $urina = $_POST['urina'];
         $agua = $_POST['agua'];
+        $nome = $_POST['data'];
+        $idade = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO nefro (nome, idade, colica, urina, agua)
+        $mysqli->query("INSERT INTO nefro ( colica, urina, agua , data, hora)
         values ('$nome', '$idade', '$colica', '$urina', '$agua')")
         or die($mysqli->error);
 
@@ -48,14 +48,14 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
       <input type="text" name="colica" placeholder="Teve cólica renal?" required>
       <input type="text" name="urina" placeholder="Possui dificuldade para urinar ou urinou sangue?" required>
       <input type="text" name="agua" placeholder="Tem o hábito de beber muita água?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    <p><a href="consultaa.php">Voltar</a></p>
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
     
 
@@ -64,7 +64,7 @@
 
      
   <?php
-  include("rodape2.php");
+  include("rodape.php");
   ?>      
 
 </body>
