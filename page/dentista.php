@@ -1,15 +1,15 @@
 <?php
 include("../adm/conexao.php");
 
-if (isset($_POST['nome'])) {
-  $nome = $_POST['nome'];
-  $idade = $_POST['idade'];
+if (isset($_POST['ida'])) {
   $ida = $_POST['ida'];
   $motivo = $_POST['motivo'];
   $aparelho = $_POST['aparelho'];
+  $data = $_POST['data'];
+  $hora = $_POST['hora'];
 
-  $mysqli->query("INSERT INTO dentista (nome, idade, ida, motivo, aparelho)
-        values ('$nome', '$idade', '$ida', '$motivo', '$aparelho')")
+  $mysqli->query("INSERT INTO dentista (ida, motivo, aparelho , data, hora)
+        values ( '$ida', '$motivo', '$aparelho' , '$data', '$hora')")
     or die($mysqli->error);
 }
 
@@ -49,11 +49,12 @@ if (isset($_POST['nome'])) {
   <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
+      
       <input type="text" name="ida" placeholder="Quando foi a última ida ao dentista?" required>
       <input type="text" name="motivo" placeholder="Veio por motivo estético ou de saúde?" required>
       <input type="text" name="aparelho" placeholder="Já usou aparelho?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
