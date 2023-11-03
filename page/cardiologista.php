@@ -45,7 +45,7 @@
     <p class="card-text"><small></small></p>
   </div>
 </div>
-<div class="signup-container">
+
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form id="cardilogista" action="" method="post">
@@ -56,7 +56,7 @@
       <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
-    <p><a href="consulta.php">Voltar</a></p>
+    
   </div>
 
   <script>
@@ -106,6 +106,8 @@
                     });
                 });
             </script>
+
+      <p><a href="consulta.php">Voltar</a></p>
 
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
