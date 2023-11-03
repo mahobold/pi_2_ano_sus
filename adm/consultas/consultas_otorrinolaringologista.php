@@ -1,7 +1,7 @@
 <?php
     include ("../conexao.php");
 
-    $consultar_banco = "SELECT * FROM cardio";
+    $consultar_banco = "SELECT * FROM otorrino";
     $retorno_consulta = $mysqli->query( $consultar_banco) or die($mysqli->error);
     $qntd= $retorno_consulta->num_rows; //retornar quantidade de linhas
 
@@ -16,7 +16,7 @@
         <link rel="icon" href="../../img/logo2.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="../../css/dieimes.css">
-        <title>Consultas - Cardiologista</title>
+        <title>Consultas - Otorrinolaringologista</title>
     </head>
 
     <body>
@@ -24,28 +24,28 @@
             include("../menu.php");
     ?>
         <div class="container">
-          <h1>Consultas - Cardiologista</h1>
+          <h1>Consultas - Otorrinolaringologista</h1>
             <table class="table table-striped">
                 <tr>
                     <th>Id Paciente:</th>
-                    <th>Teve fadiga?</th>
-                    <th>Teve dores no peito?</th>
-                    <th>Fez exame?</th>
+                    <th>Teve dores no ouvido?</th>
+                    <th>Tem rinite?</th>
+                    <th>Tem boa audição?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
                 </tr>
                     <?php
-                        while($consultas_cardio = $retorno_consulta -> fetch_assoc()){
+                        while($consultas_otorrinolaringologista = $retorno_consulta -> fetch_assoc()){
                         
                     ?>
 
                 <tr>
-                   <td><?php echo $consultas_cardio['id_pessoacardio']; ?></td>
-                   <td><?php echo $consultas_cardio['fadiga']; ?></td>
-                   <td><?php echo $consultas_cardio['peito']; ?></td>
-                   <td><?php echo $consultas_cardio['exame']; ?></td>
-                   <td><?php echo $consultas_cardio['data']; ?></td>
-                   <td><?php echo $consultas_cardio['hora']; ?></td>
+                   <td><?php echo $consultas_otorrinolaringologista['id_pessoaotorrino']; ?></td>
+                   <td><?php echo $consultas_otorrinolaringologista['ouvido']; ?></td>
+                   <td><?php echo $consultas_otorrinolaringologista['rinite']; ?></td>
+                   <td><?php echo $consultas_otorrinolaringologista['audicao']; ?></td>
+                   <td><?php echo $consultas_otorrinolaringologista['data']; ?></td>
+                   <td><?php echo $consultas_otorrinolaringologista['hora']; ?></td>
                 </tr>
                 <?php
                         }
