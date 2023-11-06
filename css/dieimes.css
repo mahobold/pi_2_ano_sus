@@ -183,3 +183,15 @@
   margin-bottom: 30px;
   margin-top: 20px;
 }
+.form-label{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #132f5f;
+}
+#boto{
+  background-color: #132f5f;
+  
+}
+#botom{
+  background-color: #22698f;
+}
