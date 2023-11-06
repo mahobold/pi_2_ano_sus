@@ -1,21 +1,22 @@
 <?php
-include("../conexao.php");
+include("../adm/conexao.php");
 
 
 // Se os dados do médico forem enviados via POST
-if (isset($_POST['id_medico'])) {
+if (isset($_POST['id_pessoa'])) {
     // Recupere os dados do POST
-    $id_medico = $_POST['id_medico'];
-    $nomemedico = $_POST['nomemedico'];
-    $idade = $_POST['idade'];
-    $crm = $_POST['crm'];
-    $endereco = $_POST['endereco'];
+    $id_pessoa = $_POST['id_pessoa'];
+    $nome = $_POST['nome'];
+    $sobrenome = $_POST['sobrenome'];
     $telefone = $_POST['telefone'];
-    $especialidade = $_POST['especialidade'];
+    $endereco = $_POST['endereco'];
+    $cpf = $_POST['cpf'];
+    $datanasc = $_POST ['datanasc'];
+    $email = $_POST['email'];
 
     // Usando prepared statements para atualizar os dados
-    $stmt = $mysqli->prepare("UPDATE medico SET nome = ?, idade = ?, crm = ?, endereco = ?, telefone = ?, especialidade = ? WHERE id_medico = ?");
-    $stmt->bind_param('sssssss', $nomemedico, $idade, $crm, $endereco, $telefone, $especialidade, $id_medico);
+    $stmt = $mysqli->prepare("UPDATE pessoas SET nome = ?, sobrenome = ?, telefone = ?, endereco = ?, cpf = ?, datanasc = ?, email = ? WHERE id_pessoa = ?");
+    $stmt->bind_param('ssssssss', $nome, $sobrenome, $telefone, $endereco, $cpf, $datanasc, $email, $id_pessoa);
     
     if ($stmt->execute()) {
         $mensagem_sucesso =  "Dados atualizados com sucesso!";
@@ -33,12 +34,12 @@ if (isset($_POST['id_medico'])) {
 
 
 // Se o ID do médico for enviado via GET
-if (isset($_GET["id_medico"])) {
-    $id_medico = $_GET["id_medico"];
+if (isset($_GET["id_pessoa"])) {
+    $id_pessoa = $_GET["id_pessoa"];
 
     // Usando prepared statements para consultar os dados
-    $stmt = $mysqli->prepare("SELECT * FROM medico WHERE id_medico = ?");
-    $stmt->bind_param('s', $id_medico);
+    $stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE id_pessoa = ?");
+    $stmt->bind_param('s', $id_pessoa);
     $stmt->execute();
 
     $result = $stmt->get_result();
@@ -59,9 +60,9 @@ if (isset($_GET["id_medico"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../img/logo2.png">
     <title>Alterar - Médico</title>
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../css/projeto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- SweetAlert2 CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
@@ -71,18 +72,15 @@ if (isset($_GET["id_medico"])) {
 </head>
 
 <body>
-
-
-
     <?php
-    include("../../static/menu.php");
+    include("../menu.php");
     ?>
     <div class="container">
         <form action="" method="post">
-            <h1 class="text-center">Alterar - Médico</h1>
+            <h1 class="text-center">Alterar - Minha Conta</h1>
             <label class="form-label" for="">Nome</label>
-            <input type="hidden" name="id_medico" value="<?php if (isset($consultar['id_medico'])){echo $consultar['id_medico'];}?>">
-            <input class="form-control" type="text" name="nomemedico" value="<?php
+            <input type="hidden" name="id_pessoa" value="<?php if (isset($consultar['id_pessoa'])){echo $consultar['id_pessoa'];}?>">
+            <input class="form-control" type="text" name="nome" value="<?php
                                                                                 if (isset($consultar['nome'])) {
                                                                                     echo $consultar['nome'];
                                                                                 } else {
@@ -91,20 +89,21 @@ if (isset($_GET["id_medico"])) {
 
                                                                                 ?>">
 
-            <label class="form-label" for="">Idade</label>
-            <input class="form-control" type="text" name="idade" value="<?php
-                                                                        if (isset($consultar['idade'])) {
-                                                                            echo $consultar['idade'];
+            <label class="form-label" for="">Sobrenome</label>
+            <input class="form-control" type="text" name="sobrenome" value="<?php
+                                                                        if (isset($consultar['sobrenome'])) {
+                                                                            echo $consultar['sobrenome'];
                                                                         } else {
                                                                             echo "Sem valor";
                                                                         }
 
                                                                         ?>">
+                                             
 
-            <label class="form-label" for="">CRM</label>
-            <input class="form-control" type="text" name="crm" value="<?php
-                                                                        if (isset($consultar['crm'])) {
-                                                                            echo $consultar['crm'];
+            <label class="form-label" for="">Telefone</label>
+            <input class="form-control" type="text" name="telefone" value="<?php
+                                                                        if (isset($consultar['telefone'])) {
+                                                                            echo $consultar['telefone'];
                                                                         } else {
                                                                             echo "Sem valor";
                                                                         }
@@ -113,35 +112,46 @@ if (isset($_GET["id_medico"])) {
 
             <label class="form-label" for="">Endereço</label>
             <input class="form-control" type="text" name="endereco" value="<?php
-                                                                            if (isset($consultar['endereco'])) {
-                                                                                echo $consultar['endereco'];
+                                                                        if (isset($consultar['endereco'])) {
+                                                                            echo $consultar['endereco'];
+                                                                        } else {
+                                                                            echo "Sem valor";
+                                                                        }
+
+                                                                        ?>">
+
+            <label class="form-label" for="">CPF</label>
+            <input class="form-control" type="text" name="cpf" value="<?php
+                                                                            if (isset($consultar['cpf'])) {
+                                                                                echo $consultar['cpf'];
                                                                             } else {
                                                                                 echo "Sem valor";
                                                                             }
 
                                                                             ?>">
 
-            <label class="form-label" for="">Telefone</label>
-            <input class="form-control" type="text" name="telefone" value="<?php
-                                                                            if (isset($consultar['telefone'])) {
-                                                                                echo $consultar['telefone'];
+            <label class="form-label" for="">Data de Nascimento</label>
+            <input class="form-control" type="text" name="datanasc" value="<?php
+                                                                            if (isset($consultar['datanasc'])) {
+                                                                                echo $consultar['datanasc'];
                                                                             } else {
                                                                                 echo "Sem valor";
                                                                             }
 
                                                                             ?>">
 
-            <label class="form-label" for="">Especialidade</label>
-            <input class="form-control" type="text" name="especialidade" value="<?php
-                                                                                if (isset($consultar['especialidade'])) {
-                                                                                    echo $consultar['especialidade'];
+            <label class="form-label" for="">Email</label>
+            <input class="form-control" type="text" name="email" value="<?php
+                                                                                if (isset($consultar['email'])) {
+                                                                                    echo $consultar['email'];
                                                                                 } else {
                                                                                     echo "Sem valor";
                                                                                 }
 
+
                                                                                 ?>">
             <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="../consultar/medico.php">Voltar</a>
+            <a class="btn btn-primary" href="minhaconta.php">Voltar</a>
         </form>
     </div>
 </body>
@@ -159,7 +169,7 @@ if (isset($_GET["id_medico"])) {
         confirmButtonText: 'Ok'
     }).then((result) => {
         if (result.isConfirmed) {
-            window.location.href = "../consultar/medico.php";  // Redirecione para a página desejada após o usuário clicar em "Ok"
+            window.location.href = "minhaconta.php";  // Redirecione para a página desejada após o usuário clicar em "Ok"
         }
     })
 </script>

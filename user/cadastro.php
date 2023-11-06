@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");
+    include("../adm/conexao.php");
 
     if (isset($_POST['nome'])) {
         $nome = $_POST['nome'];
@@ -12,7 +12,7 @@
         
         $numerocartaosus = $_POST['numerocartaosus'];
         $senha = password_hash ($_POST['senha'], PASSWORD_DEFAULT);
-        $camimg = "Imagens_recebidos/foto_teste.png";
+        $camimg = "../img/Imagens_recebidos/foto_teste.png";
 
         $mysqli->query("INSERT INTO pessoas (nome, sobrenome, telefone, endereco, cpf, datanasc, email, numerocartaosus, senha, camimg)
         values ('$nome', '$sobrenome', '$telefone', '$endereco', '$cpf', '$datanasc', '$email', '$numerocartaosus', '$senha' , '$camimg')")
@@ -31,18 +31,18 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
         <link rel="icon" href="img/logo2.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="cadas_login.css">
-        <link rel="stylesheet" href="css/dieimes.css">
+        <link rel="stylesheet" href="../css/cadas_login.css">
+        <link rel="stylesheet" href="../css/dieimes.css">
         <title>Tela de Cadastro</title>
 </head>
 
 <body>
 <?php
-        include("menu.php");
+        include("../static/menu.php");
     ?>
   <div class="signup-container">
     <div class="iconi">
-  <img height="30px" src="img/logo2.png"><div id="Login">CADASTRO</div>
+  <img height="30px" src="../img/logo2.png"><div id="Login">CADASTRO</div>
   </div>
     <form id="cadastro"  action="" method="post">
       <input type="text" name="nome" placeholder="Nome" required>
@@ -69,7 +69,7 @@
                     // Faça uma solicitação AJAX para enviar os dados ao servidor
                     $.ajax({
                         type: 'POST',
-                        url: 'cadastroo.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
+                        url: 'cadastro.php', // Substitua 'processa_cadastro.php' pelo nome do arquivo de processamento real
                         data: formData,
                         success: function(response) {
                             if (response === 'success') {
@@ -115,6 +115,6 @@
 
 </body>
 
-<script src="cpf.js"></script>
+<script src="../js/cpf.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
