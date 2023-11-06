@@ -20,7 +20,7 @@
                     <img class="iconeconsulta" src="../img/icone/estetoscopio.png">
                     <a class="btconsulta" href="clinico_geral.php">Clínico Geral</a>
                 </div>
-</div>
+
             
                 <div class="col">
                     <img class="iconeconsulta" src="../img/icone/cardiologia.png">
@@ -34,7 +34,7 @@
                     <a class="btconsulta" href="dentista.php">Dentista</a>
                 </div>
             
-            
+</div> 
 
            
             <div class="row">
@@ -42,8 +42,7 @@
                     <img class="iconeconsulta" src="../img/icone/utero.png">
                     <a class="btconsulta" href="ginecologista.php">Ginecologista</a>
                 </div>
-            </div>
-        
+
 
        
                 <div class="col">
@@ -56,14 +55,14 @@
                     <img class="iconeconsulta" src="../img/icone/cerebro.png">
                     <a class="btconsulta" href="neurologista.php">Neurologista</a>
                 </div>
-            
+</div>
 
             <div class="row">
                 <div class="col">
                     <img class="iconeconsulta" src="../img/icone/olho.png">
                     <a class="btconsulta" href="oftalmologista.php">Oftalmologista</a>
                 </div>
-            </div>
+
 
                 <div class="col">
                     <img class="iconeconsulta" src="../img/icone/otorrinolaringologia.png">
@@ -75,7 +74,8 @@
                     <a class="btconsulta" href="pneumologista.php">Pneumologista</a>
                 </div>
             </div>
-        </div> 
+</div>
+
         <p><a class="btvltconsulta" href="../index.php">Voltar</a></p>
 
 
