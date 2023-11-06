@@ -40,7 +40,7 @@
                     ?>
 
                 <tr>
-                   <td><?php echo $consultas_pneumologista['id_pessoaotorrino']; ?></td>
+                   <td><?php echo $consultas_pneumologista['id_pessoapneu']; ?></td>
                    <td><?php echo $consultas_pneumologista['asma']; ?></td>
                    <td><?php echo $consultas_pneumologista['fuma']; ?></td>
                    <td><?php echo $consultas_pneumologista['fadiga']; ?></td>
