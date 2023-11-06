@@ -161,20 +161,13 @@
 }
 
 
-.card-group{
-  padding-left: 300px;
-  padding-right: 300px;
-  flex-flow: row wrap;
-}
+
 
 #acesse{
   color: #132f5f;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.card{
-  margin-right: 20px;
-}
 
 .especialidade{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

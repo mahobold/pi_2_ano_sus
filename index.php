@@ -11,7 +11,7 @@
 
 <body>
   <?php
-    include("menu.php");
+    include("menu2.php");
   ?>
   <?php
     include("carrossel.php");
@@ -30,7 +30,7 @@
   ?>
 
   <?php
-  include("static/rodape.php");
+  include("static/rodape2.php");
   ?>
       
 </body>
