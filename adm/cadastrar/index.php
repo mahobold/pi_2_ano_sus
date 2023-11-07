@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <title>Área Administrativa</title>
+    <title>Cadastrar-index</title>
 </head>
 
 <body>
@@ -30,12 +30,6 @@
 
         .index2 {
             font-size: 35px;
-            color: #054f77;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-        }
-        .index4 {
-            font-size: 27px;
             color: #054f77;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -64,7 +58,7 @@
     include("menu.php");
     ?>
    
-    <h1 class="index3">Área Administrativa</h1>
+    <h1 class="index3">Cadastrar</h1>
 
 
 
@@ -72,29 +66,15 @@
         <div class="row align-items-start">
             <div class="col">
                 <div class="borda">
-                    <i class="bi bi-person-fill-gear"></i> <a class="index2" href="alterar/"> Alterações</a>
+                <i class="bi bi-person-vcard"></i> <a class="index2" href="cadastro_medico.php">Médicos</a>
                 </div>
             </div>
             <div class="col">
                 <div class="borda">
-                    <i class="bi bi-search"></i> <a class="index2" href="consultar/"> Consultar</a>
+                <i class="bi bi-card-list"></i><a class="index2" href="cadastro_especialidade.php"> Especialidades</a>
                 </div>
             </div>
-            <div class="col">
-                <div class="borda">
-                    <i class="bi bi-person-x-fill"></i> <a class="index2" href="deletar/"> Deletar</a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="borda">
-                    <i class="bi bi-person-circle"></i> <a class="index2" href="cadastrar/"> Cadastrar</a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="borda">
-                   <a class="index4" href="visualizar_consultas.php"> Visualizar consulta</a>
-                </div>
-            </div>
+           
 
         </div>
     </div>

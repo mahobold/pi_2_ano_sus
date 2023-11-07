@@ -9,6 +9,6 @@ $_SESSION = array();
 // Destrói a sessão completamente
 session_destroy();
 
-header("location: login.php");
+header("location: ../user/login.php");
 exit();
 ?>

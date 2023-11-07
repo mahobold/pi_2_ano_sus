@@ -1,3 +1,24 @@
+<?php
+    include("../adm/conexao.php");
+
+    if (isset($_POST['cabeca'])) {
+       
+        $cabeca = $_POST['cabeca'];
+        $tontura= $_POST['tontura'];
+        $convulsao = $_POST['convulsao'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
+
+        $mysqli->query("INSERT INTO neuro ( cabeca, tontura, convulsao , data, hora)
+        values ( '$cabeca', '$tontura', '$convulsao' ,'$data', '$hora')")
+        or die($mysqli->error);
+
+    }
+
+
+    
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -30,11 +51,12 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
-      <input type="text" name="colica" placeholder="Teve cólica renal?" required>
-      <input type="text" name="urina" placeholder="Possui dificuldade para urinar ou urinou sangue?" required>
-      <input type="text" name="agua" placeholder="Tem o hábito de beber muita água?" required>
+     
+      <input type="text" name="cabeca" placeholder="Possui dor de cabeça frequente?" required>
+      <input type="text" name="tontura" placeholder="Sente tontura?" required>
+      <input type="text" name="convulsao" placeholder="Já teve convulsões?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>

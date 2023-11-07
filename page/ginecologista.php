@@ -1,15 +1,15 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
+    if (isset($_POST['preventivo'])) {
         $preventivo = $_POST['preventivo'];
         $diu = $_POST['diu'];
         $ativa = $_POST['ativa'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO ginecol (nome, idade, preventivo, diu, ativa)
-        values ('$nome', '$idade', '$preventivo', '$diu', '$ativa')")
+        $mysqli->query("INSERT INTO ginecol ( preventivo, diu, ativa , data, hora)
+        values ( '$preventivo', '$diu', '$ativa' , '$data', '$hora')")
         or die($mysqli->error);
 
     }
@@ -48,11 +48,11 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
       <input type="text" name="preventivo" placeholder="Qual foi a última vez que fez preventivo?" required>
       <input type="text" name="diu" placeholder="Usa DIU?" required>
       <input type="text" name="ativa" placeholder="Já possui vida sexual ativa?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>

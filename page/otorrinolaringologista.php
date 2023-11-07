@@ -1,15 +1,16 @@
 <?php
     include("../adm/conexao.php");
 
-    if (isset($_POST['nome'])) {
-        $nome = $_POST['nome'];
-        $idade = $_POST['idade'];
+    if (isset($_POST['ouvido'])) {
+       
         $ouvido = $_POST['ouvido'];
         $rinite= $_POST['rinite'];
         $audicao = $_POST['audicao'];
+        $data = $_POST['data'];
+        $hora = $_POST['hora'];
 
-        $mysqli->query("INSERT INTO otorrino (nome, idade, ouvido, rinite, audicao)
-        values ('$nome', '$idade', '$ouvido', '$rinite', '$audicao')")
+        $mysqli->query("INSERT INTO otorrino ( ouvido, rinite, audicao, data, hora)
+        values ( '$ouvido', '$rinite', '$audicao', '$data', '$hora')")
         or die($mysqli->error);
 
     }
@@ -49,11 +50,12 @@
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
     <form action="" method="post">
-      <input type="text" name="nome" placeholder="Nome Completo" required>
-      <input type="text" name="idade" placeholder="Idade" required>
+      
       <input type="text" name="ouvido" placeholder="Teve dores no ouvido?" required>
       <input type="text" name="rinite" placeholder="Tem rinite?" required>
       <input type="text" name="audicao" placeholder="Tem boa audição?" required>
+      <input type="date" name="data" placeholder="Escolha uma data" required>
+      <input type="time" name="hora" placeholder="Escolha um horário" required>
       <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
