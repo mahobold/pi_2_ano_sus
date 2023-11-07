@@ -22,10 +22,35 @@
   include("../menu.php");
   ?>
 
+<style>
+  @media (max-widht: 1000px){
+    .detail
+    {
+      margin: auto;
+      position: relative;
+      height: 60%;
+      width: 90%;
+      margin: 10%;
+      justify-content: center;
+    }
+  }
+
+  @media (max-widht: 1000px){
+    .
+    {
+      margin: auto;
+      position: relative; 
+      height: 80%;
+      width: 90%;
+      margin: 10%;
+      justify-content: center;
+    }
+  }   
+
+ </style>
 
 
-
-  <div class="container">
+  <div class="container my-5">
     <h1 class="far">Medicamentos</h1>
     <div class="row slider">
       <div class="col-md-12">
