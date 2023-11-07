@@ -34,6 +34,12 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
         }
+        .index4 {
+            font-size: 27px;
+            color: #054f77;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
 
         .borda {
             background: white;
@@ -82,6 +88,11 @@
             <div class="col">
                 <div class="borda">
                     <i class="bi bi-person-circle"></i> <a class="index2" href="cadastrar/"> Cadastrar</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="borda">
+                   <a class="index4" href="visualizar_consultas.php"> Visualizar consulta</a>
                 </div>
             </div>
 

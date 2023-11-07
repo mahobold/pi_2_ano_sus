@@ -40,7 +40,7 @@
                     ?>
 
                 <tr>
-                   <td><?php echo $consultas_nefrologista['id_pessoanefro']; ?></td>
+                   <td><?php echo $consultas_nefrologista['id_nefro']; ?></td>
                    <td><?php echo $consultas_nefrologista['colica']; ?></td>
                    <td><?php echo $consultas_nefrologista['urina']; ?></td>
                    <td><?php echo $consultas_nefrologista['agua']; ?></td>
