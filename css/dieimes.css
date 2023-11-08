@@ -234,4 +234,11 @@
         a {
             text-decoration: none;
         }
-        
+      
+        .mb-3{
+          color: #132f5f;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .conta{
+          border-radius: 10px;
+        }

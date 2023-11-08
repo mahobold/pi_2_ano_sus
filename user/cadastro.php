@@ -31,14 +31,14 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
         <link rel="icon" href="img/logo2.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/cadas_login.css">
+        <link rel="stylesheet" href="../css/cadastro_login.css">
         <link rel="stylesheet" href="../css/dieimes.css">
         <title>Tela de Cadastro</title>
 </head>
 
 <body>
 <?php
-        include("../static/menu.php");
+        include("../menu.php");
     ?>
   <div class="signup-container">
     <div class="iconi">
@@ -111,7 +111,9 @@
   </div>
 
  
- 
+  <?php
+  include("../static/rodape.php");
+  ?>
 
 </body>
 
