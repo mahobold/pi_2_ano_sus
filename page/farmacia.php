@@ -24,19 +24,20 @@
 
 
 
-  <div class="container my-5">
-    <h1 class="far  text-center mb-5">Medicamentos</h1>
+  <div class="container">
+    <h1 class="far  text-center ">Medicamentos</h1>
     
     <div class="row slider">
-      <div class="col-md-4 mb-4 ">
+      <div class="col-md-4 col-sm-6 mb-4 ">
         <div class="detail d-flex justify-content-center">
           <div class="card d-flex justify-content-center" style="width: 18rem;">
-            <img src="../img/img_farmacia/alendronato.png" class="card-img-top">
+            <img src="../img/img_farmacia/alendronato.png" class="card-img-top" style="width: rem;">
             <div class="card-body">
               <h5 class="card-title ">Alendronato 70mg</h5>
+              <h6 class="d ">Disponível</h6>
             </div>
           </div>
-          <h6 class="d">Disponível</h6>
+        
         </div>
       </div>
 
@@ -44,57 +45,62 @@
 
       <div class="col-md-12">
         <div class="detail d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card d-flex justify-content-center " style="width: 18rem;">
             <img src="../img/img_farmacia/captopril.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Captopril 25mg</h5>
+              <h6 class="d">Disponível</h6>
             </div>
           </div>
-          <h6 class="d">Disponível</h6>
+          
         </div>
       </div>
       <div class="col-md-12">
         <div class="detail d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/etanolol.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Etanolol 25mg</h5>
+              <h6 class="d">Disponível</h6>
             </div>
           </div>
-          <h6 class="d">Disponível</h6>
+        
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/glibenclamida.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Glibenclamida 5mg</h5>
+              <h6 class="i">Indisponível</h6>
             </div>
           </div>
-          <h6 class="i">Indisponível</h6>
+         
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/hidroclorotiazida.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">hidroclorotiazida 25mg</h5>
+              <h6 class="i">Indisponível</h6>
             </div>
           </div>
-          <h6 class="i">Indisponível</h6>
+         
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/losartana.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Losartana 50mg</h5>
+              <h6 class="i">Indisponível</h6>
             </div>
           </div>
-          <h6 class="i">Indisponível</h6>
+          
         </div>
       </div>
     </div>
@@ -106,70 +112,76 @@
 
     <div class="row slider">
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/maleato.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Maleato 5mg</h5>
+              <h6 class="d">Disponível</h6>
 
             </div>
           </div>
-          <h6 class="d">Disponível</h6>
+          
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/metformina.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Metformina 850mg</h5>
+              <h6 class="d">Disponível</h6>
             </div>
           </div>
-          <h6 class="d">Disponível</h6>
+         
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/paracetamol.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Parecetamol 500mg</h5>
+              <h6 class="d">Disponível</h6>
             </div>
           </div>
-          <h6 class="d">Disponível</h6>
+         
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/salbutamol.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Salbutamol 2,5mg</h5>
+              <h6 class="i">Indisponível</h6>
             </div>
           </div>
-          <h6 class="i">Indisponível</h6>
+         
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/sinvastatina.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Sinvastatina 25mg</h5>
+              <h6 class="i">Indisponível</h6>
             </div>
           </div>
-          <h6 class="i">Indisponível</h6>
+          
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/ciclobenzaprina.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">ciclobenzaprina 5mg</h5>
+              <h6 class="i">Indisponível</h6>
             </div>
           </div>
-          <h6 class="i">Indisponível</h6>
+          
         </div>
       </div>
     </div>
