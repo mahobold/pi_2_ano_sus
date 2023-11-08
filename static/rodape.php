@@ -5,6 +5,13 @@
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
 
+
+    <div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-top pb-3 mb-3">
+
+
+    
       <div class="container d-flex justify-content-center">
       <li>DESENVOLVIDO POR:</li>
       </div>
