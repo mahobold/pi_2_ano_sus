@@ -71,6 +71,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #132f5f;
     margin-top: 30px;
+    margin-bottom: 20px;
+    
   }
 
 
@@ -166,6 +168,70 @@
 #acesse{
   color: #132f5f;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
 }
 
 
+.especialidade{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #132f5f;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.form-label{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #132f5f;
+}
+#boto{
+  background-color: #132f5f;
+  
+}
+#botom{
+  background-color: #22698f;
+}
+.border-top{
+  margin: 30px;
+}
+
+        .index3 {
+            text-align: center;
+            color: #054f77;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .col {
+            font-size: 35px;
+            color: #054f77;
+            margin-bottom: 300px;
+            justify-content: center;
+
+        }
+
+        .index2 {
+            font-size: 35px;
+            color: #054f77;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .borda {
+            background: white;
+            border: 3px solid #054f77;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            text-align: center;
+            display: block;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
