@@ -26,5 +26,5 @@
 </div>
 
 <div class="d-flex justify-content-center mt-3">
-    <a href="https://youtube.com/@MinSaudeBR" class="btn btn-outline-danger btn-lg">Conheça o canal Ministério da Saúde no YouTube</a>
+    <a href="https://youtube.com/@MinSaudeBR" target="_blank" class="btn btn-outline-danger btn-lg">Conheça o canal Ministério da Saúde no YouTube</a>
 </div>
