@@ -22,50 +22,28 @@
   include("../menu.php");
   ?>
 
-<style>
-  @media (max-widht: 1000px){
-    .detail
-    {
-      margin: auto;
-      position: relative;
-      height: 60%;
-      width: 90%;
-      margin: 10%;
-      justify-content: center;
-    }
-  }
-
-  @media (max-widht: 1000px){
-    .
-    {
-      margin: auto;
-      position: relative; 
-      height: 80%;
-      width: 90%;
-      margin: 10%;
-      justify-content: center;
-    }
-  }   
-
- </style>
 
 
   <div class="container my-5">
-    <h1 class="far">Medicamentos</h1>
+    <h1 class="far  text-center mb-5">Medicamentos</h1>
+    
     <div class="row slider">
-      <div class="col-md-12">
-        <div class="detail">
-          <div class="card" style="width: 18rem;">
+      <div class="col-md-4 mb-4 ">
+        <div class="detail d-flex justify-content-center">
+          <div class="card d-flex justify-content-center" style="width: 18rem;">
             <img src="../img/img_farmacia/alendronato.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Alendronato 70mg</h5>
+              <h5 class="card-title ">Alendronato 70mg</h5>
             </div>
           </div>
           <h6 class="d">Disponível</h6>
         </div>
       </div>
+
+     
+
       <div class="col-md-12">
-        <div class="detail">
+        <div class="detail d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img src="../img/img_farmacia/captopril.png" class="card-img-top">
             <div class="card-body">
@@ -76,7 +54,7 @@
         </div>
       </div>
       <div class="col-md-12">
-        <div class="detail">
+        <div class="detail d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img src="../img/img_farmacia/etanolol.png" class="card-img-top">
             <div class="card-body">
@@ -121,6 +99,8 @@
       </div>
     </div>
   </div>
+
+ 
 
   <div class="container">
 
