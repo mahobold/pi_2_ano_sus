@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");  // Arquivo php referente ao banco de dados   
+    include("../conexao.php");  // Arquivo php referente ao banco de dados   
     
     if(isset($_GET['codigo_medico'])){
         $id_medico = $_GET['codigo_medico'];

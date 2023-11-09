@@ -61,7 +61,7 @@ if (isset($_GET["id_medico"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../../img/logo2.png">
     <title>Alterar - Médico</title>
     <link rel="stylesheet" href="../../css/dieimes.css">
 

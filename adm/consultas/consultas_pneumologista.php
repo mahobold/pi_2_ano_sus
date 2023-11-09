@@ -33,6 +33,8 @@
                     <th>Tem muita fadiga?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_pneumologista = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_pneumologista['fadiga']; ?></td>
                    <td><?php echo $consultas_pneumologista['data']; ?></td>
                    <td><?php echo $consultas_pneumologista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_pneumologista.php?id_pessoapneu=<?php echo $consultas_pneumologista['id_pessoapneu'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_pneumologista.php?id_pessoapneu=<?php echo $consultas_pneumologista['id_pessoapneu'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }

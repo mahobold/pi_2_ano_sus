@@ -41,8 +41,9 @@
 </head>
 <body>
     <?php
-        include("../static/menu.php");
+        include("../menu.php");
     ?>
+    <div class="container d-flex justify-content-center">
     <div class="login-container">
         <div class="icon">
         <img  width="35px" src="../img/logo2.png"><div id="Login">LOGIN</div>
@@ -55,7 +56,7 @@
         <p><a href="cadastro.php">Faça cadastro</a></p>
         <p><a href="../index.php">Voltar</a></p>
     </div>
-
+    </div>
     
 
      

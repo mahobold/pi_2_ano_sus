@@ -33,6 +33,8 @@
                     <th>Teve náuseas?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_cliger = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_cliger['nausea']; ?></td>
                    <td><?php echo $consultas_cliger['data']; ?></td>
                    <td><?php echo $consultas_cliger['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_clinicogeral.php?id_pessoacliger=<?php echo $consultas_cliger['id_pessoacliger'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_clinicogeral.php?id_pessoacliger=<?php echo $consultas_cliger['id_pessoacliger'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }
