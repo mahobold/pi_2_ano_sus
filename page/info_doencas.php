@@ -102,7 +102,7 @@
 
   <h1 class="previnir">Como previnir</h1>
 
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="card" style="width: 18rem;">
         <img src="../img/pre2.png" class="card-img-top" alt="...">
@@ -173,15 +173,21 @@
       <h1 class="sintomas">Sintomas:</h1>
 
         <div class="texto">
+          <div class="row">
           <p><img src="../img/febrezada.png" alt="">Febre.</p>
           <p><img src="../img/malestar" alt="">Mal estar e Dores no corpo.</p>
           <p><img src="../img/arzada.png" alt="">Falta de ar.</p>
           <p><img src="../img/garganta.png" alt="">Dor de garganta.</p>
+          
+          
           <p><img src="../img/corizada.png" alt="">Coriza ou nariz entupido.</p>
           <p> <img src="../img/diarreia" alt="">Diarreia.</p>
           <p><img src="../img/cançç" alt="">Cansaço.</p>
           <p><img src="../img/dorr.png" alt="">Dor de cabeça.</p>
-  </div>
+          </div>
+        </div>
+
+        
 
 
   <h1 class="previnir">Como previnir</h1>

@@ -10,7 +10,7 @@
         $hora = $_POST['hora'];
 
         $mysqli->query("INSERT INTO oftal ( oculos, cabeca, ocular , data, hora)
-        values ( '$oculos', '$cabeca', '$ocular' ,'$data', '$hora',)")
+        values ( '$oculos', '$cabeca', '$ocular' ,'$data', '$hora')")
         or die($mysqli->error);
 
     }

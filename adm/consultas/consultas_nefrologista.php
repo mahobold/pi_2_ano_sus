@@ -33,6 +33,8 @@
                     <th>Tem o hábito de beber muita água?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_nefrologista = $retorno_consulta -> fetch_assoc()){
@@ -40,12 +42,14 @@
                     ?>
 
                 <tr>
-                   <td><?php echo $consultas_nefrologista['id_pessoanefro']; ?></td>
+                   <td><?php echo $consultas_nefrologista['id_nefro']; ?></td>
                    <td><?php echo $consultas_nefrologista['colica']; ?></td>
                    <td><?php echo $consultas_nefrologista['urina']; ?></td>
                    <td><?php echo $consultas_nefrologista['agua']; ?></td>
                    <td><?php echo $consultas_nefrologista['data']; ?></td>
                    <td><?php echo $consultas_nefrologista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_nefrologista.php?id_nefro=<?php echo $consultas_nefrologista['id_nefro'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_nefrologista.php?id_nefro=<?php echo $consultas_nefrologista['id_nefro'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }
