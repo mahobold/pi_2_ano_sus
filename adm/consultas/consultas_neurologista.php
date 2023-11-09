@@ -33,6 +33,8 @@
                     <th>Já teve convulsões?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_neurologista = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_neurologista['convulsao']; ?></td>
                    <td><?php echo $consultas_neurologista['data']; ?></td>
                    <td><?php echo $consultas_neurologista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_neurologista.php?id_pessoaneuro=<?php echo $consultas_neurologista['id_pessoaneuro'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_neurologista.php?id_pessoaneuro=<?php echo $consultas_neurologista['id_pessoaneuro'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }

@@ -21,7 +21,7 @@
 
     <body>
     <?php
-            include("../../static/menu.php");
+            include("../menu.php");
     ?>
         <div class="container">
           <h1>Lista - Médicos</h1>

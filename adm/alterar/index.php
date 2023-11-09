@@ -55,7 +55,7 @@
         
     </style>
     <?php
-    include("menu.php");
+    include("../menu.php");
     ?>
    
     <h1 class="index3">Alterar</h1>

@@ -33,6 +33,8 @@
                     <th>Fez exame?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_cardio = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_cardio['exame']; ?></td>
                    <td><?php echo $consultas_cardio['data']; ?></td>
                    <td><?php echo $consultas_cardio['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_cardiologista.php?id_pessoacardio=<?php echo $consultas_cardio['id_pessoacardio'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_cardiologista.php?id_pessoacardio=<?php echo $consultas_cardio['id_pessoacardio'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }
