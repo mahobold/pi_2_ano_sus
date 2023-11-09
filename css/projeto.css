@@ -556,7 +556,7 @@ nav{
 }
 .container{
 
-  font-size: 30px;
+  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .sintomas{
@@ -736,4 +736,7 @@ td{
 .otorrino-container input[type="time"] {
   padding: 15px;
   margin-bottom: 10px;
+}
+.text-body-secondary{
+  color: #132f5f;
 }

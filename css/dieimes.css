@@ -240,5 +240,15 @@
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         .conta{
-          border-radius: 10px;
+          border-radius: 30px;
+          border: 1px solid #132f5f;
+          padding: 50px;
+        }
+        
+        .btn-outline-info{
+          margin-bottom: 10px;
+        }
+        
+        .mt-3{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
