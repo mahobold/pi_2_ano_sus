@@ -17,10 +17,22 @@
             
            // var_dump($mysqli);
         }
-    }else{
-        echo "Código de consulta indisponível";
+        $stmt = $mysqli->prepare("UPDATE cardio SET data = ?, hora = ? WHERE id_pessoacardio = ?");
+        $stmt->bind_param('sss', $data, $hora, $id_pessoacardio);
+        
+        if ($stmt->execute()) {
+            $mensagem_aviso =  "Se você fizer isso sua conta será apagada permanentemente";
+            
+    
+        } else {
+            echo "Erro ao atualizar: " . $stmt->error;
+        }
+       
+       
+        
+        $stmt->close();
+        
     }
-
 ?>
 
 <!DOCTYPE html>
@@ -33,6 +45,8 @@
         <link rel="icon" href="../img/logo2.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/projeto.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        
         <title>Deletar Conta</title>
     </head>
 
@@ -44,12 +58,48 @@
             <h1>Deseja excluir sua conta?</h1>
             <h3>ID do usuário: <?php echo $usuario['id_pessoa']?></h3>
             <p>Nome: <?php echo $usuario['nome']?></p> 
-            <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
+            <form action="" method="post" onsubmit="return validateFields()">
+                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar" onclick="return validateFields()">
                 <a class="btn btn-primary" href="minhaconta.php">Voltar</a>
+
+               
             </form>
+
+           
             
         </div>
+
+       
     </body>
+    
+    
+
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <?php if(isset($mensagem_aviso)): ?>
+<script>
+     
+        function validateFields() {
+    Swal.fire({
+        icon: 'warning',
+        title: 'Atenção!',
+        text: '<?php echo $mensagem_aviso; ?>',
+        showCancelButton: true,
+        cancelButtonColor: "#DD6B55",
+        cancelButtonText: "Cancelar",
+        confirmButtonColor: '#3085d6',
+        confirmButtonText: 'Apagar mesmo assim'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.location.href = "../index";  // Redirecione para a página desejada após o usuário clicar em "Ok"
+        }
+    })
+}
+    return false; // Evita o envio do formulário
+</script>
+<?php endif; ?>
+    
 </html>

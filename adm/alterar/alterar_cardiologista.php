@@ -115,7 +115,7 @@ if (isset($_GET["id_pessoacardio"])) {
         confirmButtonText: 'Ok'
     }).then((result) => {
         if (result.isConfirmed) {
-            window.location.href = "../consultas/consulta_cardiologista.php";  // Redirecione para a página desejada após o usuário clicar em "Ok"
+            window.location.href = "../consultas/consultas_cardiologista.php";  // Redirecione para a página desejada após o usuário clicar em "Ok"
         }
     })
 </script>
