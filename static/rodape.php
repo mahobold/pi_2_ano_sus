@@ -37,7 +37,9 @@
       </div>
 
     </ul>
+    <div class="container d-flex justify-content-center">
     <a href="https://www.senac.br/" target="_blank"> <img src="../img/333.jpg"></a>
+    </div>
   </footer>
 </div>
 
