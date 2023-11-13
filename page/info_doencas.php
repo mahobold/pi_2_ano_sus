@@ -102,7 +102,7 @@
 
   <h1 class="previnir">Como previnir</h1>
 
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="card" style="width: 18rem;">
         <img src="../img/pre2.png" class="card-img-top" alt="...">
@@ -174,59 +174,20 @@
 
         <div class="texto">
           <div class="row">
+          <p><img src="../img/febrezada.png" alt="">Febre.</p>
+          <p><img src="../img/malestar" alt="">Mal estar e Dores no corpo.</p>
+          <p><img src="../img/arzada.png" alt="">Falta de ar.</p>
+          <p><img src="../img/garganta.png" alt="">Dor de garganta.</p>
           
-         
           
-          
-          
-          <p><img src="../img/corizada.png" alt=""></p>
-          <p> <img src="" alt=""></p>
-          <p><img src="" alt=""></p>
+          <p><img src="../img/corizada.png" alt="">Coriza ou nariz entupido.</p>
+          <p> <img src="../img/diarreia" alt="">Diarreia.</p>
+          <p><img src="../img/cançç" alt="">Cansaço.</p>
           <p><img src="../img/dorr.png" alt="">Dor de cabeça.</p>
           </div>
         </div>
 
-
-        <div class="row justify-content-around">
-    <div class="col-4">
-    <img src="../img/febrezada.png" alt="">
-    Febre.
-    </div>
-    <div class="col-4">
-    <img src="../img/malestar" alt="">
-    Mal estar e Dores no corpo.
-    </div>
-
-    <div class="row justify-content-around">
-    <div class="col-4">
-    <img src="../img/arzada.png" alt="">
-    Falta de ar.
-    </div>
-    <div class="col-4">
-    <img src="../img/garganta.png" alt="">
-    Dor de garganta.
-    </div>
-
-    <div class="row justify-content-around">
-    <div class="col-4">
-    <img src="../img/corizada.png" alt="">
-    Coriza ou nariz entupido.
-    </div>
-    <div class="col-4">
-    <img src="../img/diarreia" alt="">
-    Diarreia.
-    </div>
-
-    <div class="row justify-content-around">
-    <div class="col-4">
-    <img src="../img/cançç" alt="">
-    Cansaço.
-    </div>
-    <div class="col-4">
-    <img src="../img/dorr.png" alt="">
-    Dor de cabeça.
-    </div>
-
+        
 
 
   <h1 class="previnir">Como previnir</h1>

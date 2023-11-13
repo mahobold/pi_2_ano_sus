@@ -33,6 +33,8 @@
                     <th>Já usou aparelho?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_dentista = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_dentista['aparelho']; ?></td>
                    <td><?php echo $consultas_dentista['data']; ?></td>
                    <td><?php echo $consultas_dentista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_dentista.php?id_pessoadentista=<?php echo $consultas_dentista['id_pessoadentista'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_dentista.php?id_pessoadentista=<?php echo $consultas_dentista['id_pessoadentista'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }

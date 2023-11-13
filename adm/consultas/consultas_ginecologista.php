@@ -33,6 +33,8 @@
                     <th>Já possui vida sexual ativa?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_ginecologista = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_ginecologista['ativa']; ?></td>
                    <td><?php echo $consultas_ginecologista['data']; ?></td>
                    <td><?php echo $consultas_ginecologista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_ginecologista.php?id_pessoaginecol=<?php echo $consultas_ginecologista['id_pessoaginecol'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_ginecologista.php?id_pessoaginecol=<?php echo $consultas_ginecologista['id_pessoaginecol'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }

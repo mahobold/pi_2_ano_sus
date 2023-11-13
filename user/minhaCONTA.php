@@ -109,7 +109,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
             ?>
             <h1 class="mt-3">Olá <?php echo $usuario["nome"]; ?></h1>
         </div>
-
+        
         <form action="minhaCONTA.php" method="post" enctype="multipart/form-data" class="mb-4">
             <div class="mb-3">
                 <input type="file" name="foto" class="form-control" placeholder="Mudar foto de perfil" required>
@@ -119,6 +119,8 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
             </div>
         </form>
 
+
+        <div class="conta">
         <h2 class="mb-3">Minhas informações:</h2>
         <p><span class="info-title">Nome:</span> <?php echo $usuario["nome"]; ?> <?php echo $usuario["sobrenome"]; ?></p>
         <p><span class="info-title">Telefone:</span> <?php echo $usuario["telefone"]; ?></p>
@@ -127,12 +129,13 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
         <p><span class="info-title">Data de nascimento:</span> <?php echo $usuario["datanasc"]; ?></p>
         <p><span class="info-title">Email:</span> <?php echo $usuario["email"]; ?></p>
         <p><span class="info-title">Número do Cartão Sus:</span> <?php echo $usuario["numerocartaosus"]; ?></p>
-        <th><a class="btn btn-primary" href="alterar_minhaconta.php?id_pessoa=<?php echo $usuario['id_pessoa'];?>">Alterar</a></th>
-        <th><a class="btn btn-danger" href="deletar_minhaconta.php?id_pessoa=<?php echo $usuario['id_pessoa'];?>">Deletar</a></th>
+        <th><a class="btn btn-outline-primary" href="alterar_minhaconta.php?id_pessoa=<?php echo $usuario['id_pessoa'];?>">Alterar</a></th>
+        <th><a class="btn btn-outline-danger" href="deletar_minhaconta.php?id_pessoa=<?php echo $usuario['id_pessoa'];?>">Deletar</a></th>
+        </div>
 
         <div class="text-center mt-5">
-            <a href="../page/consulta.php" class="btn btn-success mb-2">Marque sua Consulta</a>
-            <p><a href="../static/sair.php" class="btn btn-danger">Sair</a></p>
+            <a href="../page/consulta.php" class="btn btn-outline-info">Marque sua Consulta</a>
+            <p><a href="../static/sair.php" class="btn btn-outline-danger">Sair</a></p>
         </div>
     </div>
 

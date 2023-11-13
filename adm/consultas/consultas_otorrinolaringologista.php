@@ -33,6 +33,8 @@
                     <th>Tem boa audição?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_otorrinolaringologista = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,9 @@
                    <td><?php echo $consultas_otorrinolaringologista['audicao']; ?></td>
                    <td><?php echo $consultas_otorrinolaringologista['data']; ?></td>
                    <td><?php echo $consultas_otorrinolaringologista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_otorrinolaringologista.php?id_pessoaotorrino=<?php echo $consultas_otorrinolaringologista['id_pessoaotorrino'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_otorrinolaringologista.php?id_pessoaotorrino=<?php echo $consultas_otorrinolaringologista['id_pessoaotorrino'];?>">Deletar</a></th>
+                   
                 </tr>
                 <?php
                         }

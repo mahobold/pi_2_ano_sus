@@ -33,6 +33,8 @@
                     <th>Teve dores oculares?</th>
                     <th>Data escolhida:</th>
                     <th>Horário escolhido:</th>
+                    <th>Alterar data/horário:</th>
+                    <th>Deletar:</th>
                 </tr>
                     <?php
                         while($consultas_oftalmologista = $retorno_consulta -> fetch_assoc()){
@@ -46,6 +48,8 @@
                    <td><?php echo $consultas_oftalmologista['ocular']; ?></td>
                    <td><?php echo $consultas_oftalmologista['data']; ?></td>
                    <td><?php echo $consultas_oftalmologista['hora']; ?></td>
+                   <th><a class="btn btn-primary" href="../alterar/alterar_oftalmologista.php?id_pessoaoftal=<?php echo $consultas_oftalmologista['id_pessoaoftal'];?>">Alterar</a></th>
+                   <th><a class="btn btn-danger" href="../deletar/deletar_oftalmologista.php?id_pessoaoftal=<?php echo $consultas_oftalmologista['id_pessoaoftal'];?>">Deletar</a></th>
                 </tr>
                 <?php
                         }
