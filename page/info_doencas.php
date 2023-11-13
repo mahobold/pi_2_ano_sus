@@ -102,7 +102,7 @@
 
   <h1 class="previnir">Como previnir</h1>
 
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="card" style="width: 18rem;">
         <img src="../img/pre2.png" class="card-img-top" alt="...">
