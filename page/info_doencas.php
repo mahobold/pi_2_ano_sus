@@ -84,7 +84,7 @@
       O vírus HIV é transmitido por meio de relações sexuais (vaginal, anal ou oral) desprotegidas (sem camisinha)
       com pessoa soropositiva, ou seja, que já tem o vírus HIV, pelo compartilhamento de objetos perfuro cortantes
       contaminados, como agulhas, alicates, etc., de mãe soropositiva, sem tratamento, para o filho durante a
-      gestação, parto ou amamentação
+      gestação, parto ou amamentação.
     </p>
   </div>
 
@@ -108,7 +108,7 @@
         <img src="../img/pre2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text">Usar preservativos nas relações sexuais</p>
+          <p class="card-text">Usar preservativos nas relações sexuais.</p>
 
         </div>
       </div>
@@ -174,16 +174,14 @@
 
         <div class="texto">
           <div class="row">
-          <p><img src="../img/febrezada.png" alt="">Febre.</p>
-          <p><img src="../img/malestar" alt="">Mal estar e Dores no corpo.</p>
-          <p><img src="../img/arzada.png" alt="">Falta de ar.</p>
-          <p><img src="../img/garganta.png" alt="">Dor de garganta.</p>
-          
-          
-          <p><img src="../img/corizada.png" alt="">Coriza ou nariz entupido.</p>
-          <p> <img src="../img/diarreia" alt="">Diarreia.</p>
-          <p><img src="../img/cançç" alt="">Cansaço.</p>
-          <p><img src="../img/dorr.png" alt="">Dor de cabeça.</p>
+          <p>Febre.</p>
+          <p>Mal estar e Dores no corpo.</p>
+          <p>Falta de ar.</p>
+          <p>Dor de garganta.</p>
+          <p>Coriza ou nariz entupido.</p>
+          <p>Diarreia.</p>
+          <p>Cansaço.</p>
+          <p>Dor de cabeça.</p>
           </div>
         </div>
 
@@ -197,7 +195,7 @@
         <img src="../img/covidd2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text">Lave as mãos frequentemente</p>
+          <p class="card-text">Lave as mãos frequentemente.</p>
 
         </div>
       </div>
@@ -206,14 +204,14 @@
         <img src="../img/covidd1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text">Evite contato próximo</p>
+          <p class="card-text">Evite contato próximo.</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="../img/covid3.jfif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text">Use máscaras</p>
+          <p class="card-text">Use máscaras.</p>
 
         </div>
       </div>
@@ -222,7 +220,7 @@
         <img src="../img/covid4.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text">Cubra tosses e espirros </p>
+          <p class="card-text">Cubra tosses e espirros. </p>
         </div>
       </div>
     </div>
@@ -270,7 +268,7 @@
           <img src="../img/rep2.png" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title"></h5>
-            <p class="card-text">Utilize repelente</p>
+            <p class="card-text">Utilize repelente.</p>
 
       </div>
     </div>
@@ -279,7 +277,7 @@
       <img src="../img/denguee2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <p class="card-text">Elimine focos de água parada</p>
+        <p class="card-text">Elimine focos de água parada.</p>
 
       </div>
     </div>
@@ -288,7 +286,7 @@
       <img src="../img/dengue5.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <p class="card-text">Coloque telas em janelas e portas</p>
+        <p class="card-text">Coloque telas em janelas e portas.</p>
 
       </div>
     </div>
@@ -297,7 +295,7 @@
       <img src="../img/denguee3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"></h5>
-        <p class="card-text">Aplique inseticidas e larvicidas</p>
+        <p class="card-text">Aplique inseticidas e larvicidas.</p>
 
       </div>
     </div>
