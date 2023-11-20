@@ -31,7 +31,7 @@
       </div>
 
       <div class="container d-flex justify-content-center">
-      <li class="nav-"><a href="https://www.instagram.com/dieimes.nunes/" target="_blank" class="nav-link px-2 text-body-secondary">Dieimes</a></li>
+      <li class="nav-"><a href="https://www.instagram.com/dieimes.nunes/" target="_blank" class="nav-link px-2 text-body-secondary">Dieimes Nunes de Souza</a></li>
       </div>
       
     </ul>
