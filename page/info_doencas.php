@@ -64,7 +64,7 @@
         width: 90%;
         padding: 40px;
         justify-content: center;
-        margin: 10px%;
+        margin: 10%;
         }
         
     }
