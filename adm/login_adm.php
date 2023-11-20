@@ -52,4 +52,7 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
         <input type="submit" value="Entrar">
       </form>
 </body>
+<?php
+        include("rodape.php");
+    ?>
 </html>
