@@ -41,10 +41,9 @@ if (isset($_POST['nomemedico'])) {
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
-    <a class="btn btn-primary" href="index.php">Voltar</a>
-    <a class="btn btn-primary" href="../consultar/medico.php">Ver lista</a>
-    <div class="bloco2">
-    </div>
+    <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
+<button type="button" class="btn btn-outline-secondary" href="../consultar/medico.php">Ver lista</button>
+   
     <?php
     include("../../static/rodape.php");
     ?>

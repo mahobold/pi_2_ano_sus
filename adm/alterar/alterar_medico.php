@@ -145,8 +145,10 @@ if (isset($_GET["id_medico"])) {
                                                                                 }
 
                                                                                 ?>">
-            <input id="boto" class="btn btn-success" type="submit" value="Alterar">
-            <a id="botom" class="btn btn-primary" href="../consultar/medico.php">Voltar</a>
+
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultar/medico.php">Voltar</button>
+        
         </form>
     </div>
     <?php
