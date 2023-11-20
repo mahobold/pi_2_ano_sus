@@ -621,6 +621,22 @@ th{
 .iconeconsulta{
   width: 130px;
 }
+/*
+@media (max-width: 1000px){
+.col-4{
+  margin: auto;
+  position: relative;
+  height: 20%;
+  width: 80%;
+  padding: 20px;
+  justify-content: center;
+  margin: 0%;
+ 
+}
+}
+*/
+  
+
 
 .consulta{
   margin-left: 140px;

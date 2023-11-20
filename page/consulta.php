@@ -16,20 +16,20 @@
         <div class="consulta">
             <div class="row">
             
-                <div class="col">
-                    <img class="iconeconsulta" src="../img/icone/estetoscopio.png">
+                <div class="col-4">
+                    <img class="iconeconsulta"  src="../img/icone/estetoscopio.png">
                     <a class="btconsulta" href="clinico_geral.php">Clínico Geral</a>
                 </div>
 
             
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/cardiologia.png">
                     <a class="btconsulta" href="cardiologista.php">Cardiologista</a>
                 </div>
                 
 
                 
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/dente.png">
                     <a class="btconsulta" href="dentista.php">Dentista</a>
                 </div>
@@ -38,38 +38,38 @@
 
            
             <div class="row">
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/utero.png">
                     <a class="btconsulta" href="ginecologista.php">Ginecologista</a>
                 </div>
 
 
        
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/nefrologista.png">
                     <a class="btconsulta" href="nefrologista.php">Nefrologista</a>
                 </div>
 
                
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/cerebro.png">
                     <a class="btconsulta" href="neurologista.php">Neurologista</a>
                 </div>
 </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/olho.png">
                     <a class="btconsulta" href="oftalmologista.php">Oftalmologista</a>
                 </div>
 
 
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/otorrinolaringologia.png">
                     <a class="btconsulta" href="otorrinolaringologista.php">Otorrinolaringologista</a>
                 </div>
 
-                <div class="col">
+                <div class="col-4">
                     <img class="iconeconsulta" src="../img/icone/pulmoes.png">
                     <a class="btconsulta" href="pneumologista.php">Pneumologista</a>
                 </div>

@@ -64,7 +64,7 @@
         width: 90%;
         padding: 40px;
         justify-content: center;
-        margin:9%;
+        margin: 10px%;
         }
         
     }
@@ -173,7 +173,6 @@
       <h1 class="sintomas">Sintomas:</h1>
 
         <div class="texto">
-          <div class="row">
           <p>Febre.</p>
           <p>Mal estar e Dores no corpo.</p>
           <p>Falta de ar.</p>
@@ -182,7 +181,7 @@
           <p>Diarreia.</p>
           <p>Cansaço.</p>
           <p>Dor de cabeça.</p>
-          </div>
+          
         </div>
 
         
