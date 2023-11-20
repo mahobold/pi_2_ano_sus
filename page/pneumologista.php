@@ -56,7 +56,7 @@
       <input type="text" name="fadiga" placeholder="Tem muita fadiga?" required>
       <input type="date" name="data" placeholder="Escolha uma data" required>
       <input type="time" name="hora" placeholder="Escolha um horário" required>
-      <input type="submit" value="Cadastrar" onclick="return validateFields()">
+      <input type="submit" value="Enviar" onclick="return validateFields()">
     </form>
     <p><a href="consulta.php">Voltar</a></p>
   </div>
