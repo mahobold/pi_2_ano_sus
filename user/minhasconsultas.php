@@ -13,28 +13,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../img/logo2.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<<<<<<< HEAD:adm/consultar/tabela_exibir.php
         <link rel="stylesheet" href="../../css/dieimes.css">
-=======
-        <link rel="stylesheet" href="../css/dieimes.css">
->>>>>>> main:user/minhasconsultas.php
         <title>Lista de usuários</title>
     </head>
 
     <body>
     <?php include("../menu.php"); ?>
         <div class="container">
-<<<<<<< HEAD:adm/consultar/tabela_exibir.php
             <div class="especialidade">
           <h1>Lista - Usuários</h1>
           </div>
           <a href="../../index.php">Voltar</a>
             <table class="table table-striped">
-=======
-          <h1>Minhas consultas</h1>
-          <a href="../index.php">Voltar</a>
-            <table class="table table-striped d-flex justify-content-center">
->>>>>>> main:user/minhasconsultas.php
                 <tr>
                     <th>Id Pessoa:</th>
                     <th>Nome Completo:</th>
