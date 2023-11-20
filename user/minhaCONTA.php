@@ -134,7 +134,7 @@ if (isset($_FILES["foto"]) && $_FILES["foto"]["error"] == 0) {
         </div>
 
         <div class="text-center mt-5">
-            <a href="../page/consulta.php" class="btn btn-outline-info">Marque sua consulta</a>
+            <a href="../page/consulta.php" class="btn btn-outline-info">Marque sua consultas</a>
             <a href="minhasconsultas.php" class="btn btn-outline-info">Minhas consulta</a>
             <p><a href="../static/sair.php" class="btn btn-outline-danger">Sair</a></p>
         </div>
