@@ -63,6 +63,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="user/minhaconta.php">Minha conta</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="adm/login_adm.php">Área de administração</a>
+          </li>
         </ul>
       </div>
     </div>

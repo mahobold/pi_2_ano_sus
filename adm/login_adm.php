@@ -43,7 +43,7 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
 </head>
 <body>
 <?php
-    include("menu.php");
+    include("menu_adm.php");
     ?>
 <form id="cadastro" action="index.php" method="post">
         <h1>Login de Administrador</h1>
@@ -51,5 +51,9 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
         <input type="password" name="senha" placeholder="Senha de Administrador" required>
         <input type="submit" value="Entrar">
       </form>
+    <?php
+    include("rodape_adm.php");
+    ?>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
