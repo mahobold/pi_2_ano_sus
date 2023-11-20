@@ -12,6 +12,9 @@
         <?php
         include("../menu.php")
         ?>
+
+
+
         <h1 class="consultatitulo" >Com qual médico você gostaria de consultar?</h1>
         <div class="consulta">
             <div class="row">
@@ -76,9 +79,9 @@
             </div>
 </div>
 
-        <p><a class="btvltconsulta" href="../index.php">Voltar</a></p>
+        <p><a class="btvltconsulta d-flex justify-content-center" href="../index.php">Voltar</a></p>
 
-
+</div>
 
 
 <?php

@@ -35,8 +35,6 @@
     <h1> Agende sua consulta com o cardiologista aqui:</h1>
     </div>
    
-    
-
     <div class="card text-bg-dark">
   <img src="../img/luiz_passoslef.png" class="card-img" alt="...">
   <div class="card-img-overlay">
@@ -48,17 +46,18 @@
 
     <div class="otorrino-container">
     <h2 class="add">Questionário base</h2>
-    <form id="cardilogista" action="" method="post">
+    <form action="" method="post">
       <input type="text" name="fadiga" placeholder="Teve fadiga?" required>
       <input type="text" name="peito" placeholder="Teve dores no peito?" required>
       <input type="text" name="exame" placeholder="Fez exame?" required>
       <input type="date" name="data" placeholder="Escolha uma data" required>
       <input type="time" name="hora" placeholder="Escolha um horário" required>
-      <input type="submit" value="Enviar" onclick="return validateFields()">
-      <p><a href="consulta.php">Voltar</a></p>
+      <input type="submit" value="Cadastrar" onclick="return validateFields()">
     </form>
-    
+    <p><a href="consulta.php">Voltar</a></p>
   </div>
+
+
 
   <script>
                 // Manipule o evento de envio do formulário
