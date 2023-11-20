@@ -24,7 +24,9 @@
             include("../menu.php");
     ?>
         <div class="container">
+        <div class="especialidade">
           <h1>Consultas - Nefrologista</h1>
+        </div>
             <table class="table table-striped">
                 <tr>
                     <th>Id Paciente:</th>

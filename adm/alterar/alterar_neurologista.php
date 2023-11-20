@@ -77,8 +77,10 @@ if (isset($_GET["id_pessoaneuro"])) {
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="alterar">
             <h1 class="text-center">Alterar - Consulta</h1>
             <label class="form-label" for="">Data</label>
+            </div>
             <input type="hidden" name="id_pessoaneuro" value="<?php if (isset($consultar['id_pessoaneuro'])){echo $consultar['id_pessoaneuro'];}?>">
             <input class="form-control" type="text" name="data" value="<?php
                                                                                 if (isset($consultar['data'])) {
@@ -88,8 +90,9 @@ if (isset($_GET["id_pessoaneuro"])) {
                                                                                 }
 
                                                                                 ?>">
-
+            <div class="alterar">
             <label class="form-label" for="">Hora</label>
+            </div>
             <input class="form-control" type="text" name="hora" value="<?php
                                                                         if (isset($consultar['hora'])) {
                                                                             echo $consultar['hora'];
@@ -100,8 +103,10 @@ if (isset($_GET["id_pessoaneuro"])) {
                                                                         ?>">
 
            
-            <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="../consultas/consultas_neurologista.php">Voltar</a>
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultas/consultas_neurologista.php">Voltar</button>
+            
+            
         </form>
     </div>
 </body>

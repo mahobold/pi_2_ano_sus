@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 06-Nov-2023 às 11:16
+-- Tempo de geração: 16-Nov-2023 às 14:36
 -- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
@@ -22,6 +22,29 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `pi_sus` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `pi_sus`;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `cadastro_adm`
+--
+
+DROP TABLE IF EXISTS `cadastro_adm`;
+CREATE TABLE IF NOT EXISTS `cadastro_adm` (
+  `id_adm` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) NOT NULL,
+  `cod_login` varchar(100) NOT NULL,
+  `senha` varchar(100) NOT NULL,
+  `cam_img` varchar(300) NOT NULL,
+  PRIMARY KEY (`id_adm`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `cadastro_adm`
+--
+
+INSERT INTO `cadastro_adm` (`id_adm`, `nome`, `cod_login`, `senha`, `cam_img`) VALUES
+(1, 'Maria', '12345678', '1234', '../img/Imagens_recebidos/foto_teste.png');
 
 -- --------------------------------------------------------
 
@@ -90,7 +113,16 @@ CREATE TABLE IF NOT EXISTS `cardio` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_pessoacardio`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `cardio`
+--
+
+INSERT INTO `cardio` (`id_pessoacardio`, `fadiga`, `peito`, `exame`, `data`, `hora`) VALUES
+(3, 'erv', 'wg', 'grw', '2023-11-22', '14:04'),
+(4, 'WGv', 'wG', 'H2q', '2023-11-11', '15:04'),
+(5, 'wbh', 'h3', '3', '2023-11-18', '12:04');
 
 -- --------------------------------------------------------
 
@@ -107,14 +139,14 @@ CREATE TABLE IF NOT EXISTS `cliger` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_pessoacliger`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `cliger`
 --
 
 INSERT INTO `cliger` (`id_pessoacliger`, `febre`, `vomito`, `nausea`, `data`, `hora`) VALUES
-(1, '13f', 'g24', '2', '2023-11-04', '15:14');
+(2, '11', '11', 'cq', '2023-11-08', '12:50');
 
 -- --------------------------------------------------------
 
@@ -131,7 +163,7 @@ CREATE TABLE IF NOT EXISTS `dentista` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(100) NOT NULL,
   PRIMARY KEY (`id_pessoadentista`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -148,7 +180,7 @@ CREATE TABLE IF NOT EXISTS `ginecol` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(100) NOT NULL,
   PRIMARY KEY (`id_pessoaginecol`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -165,7 +197,7 @@ CREATE TABLE IF NOT EXISTS `nefro` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_nefro`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -182,7 +214,7 @@ CREATE TABLE IF NOT EXISTS `neuro` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_pessoaneuro`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -199,7 +231,14 @@ CREATE TABLE IF NOT EXISTS `oftal` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_pessoaoftal`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `oftal`
+--
+
+INSERT INTO `oftal` (`id_pessoaoftal`, `oculos`, `cabeca`, `ocular`, `data`, `hora`) VALUES
+(1, '11', '11', '11', '2023-10-20', '12:53');
 
 -- --------------------------------------------------------
 
@@ -216,7 +255,7 @@ CREATE TABLE IF NOT EXISTS `otorrino` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_pessoaotorrino`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -238,15 +277,15 @@ CREATE TABLE IF NOT EXISTS `pessoas` (
   `senha` varchar(300) NOT NULL,
   `camimg` varchar(300) NOT NULL,
   PRIMARY KEY (`id_pessoa`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `pessoas`
 --
 
 INSERT INTO `pessoas` (`id_pessoa`, `nome`, `sobrenome`, `telefone`, `endereco`, `cpf`, `datanasc`, `email`, `numerocartaosus`, `senha`, `camimg`) VALUES
-(1, 'maria', 'vitÃ³ria', '(11) 11111-1111', 'oi', '111.111.111-11', '11/11/1111', 'hhhh@gmail.com', '111111111111111', '$2y$10$Be2oolNbAjkZx6f2tXRaveMQR0E8xd6aoZ4GXr1Y6IeDVBPUW3TqO', 'Imagens_recebidos/foto_teste.png'),
-(2, 'maria', 'h', '65', 'HEAH', '111.111.111-11', '55/55/55', '5555', '555', '$2y$10$s8Zrzv8RoSAe3vqCR7dqDuwqODAPEL0lIdR6ebnCzF8X4P5My3e8a', 'img/Imagens_recebidos/foto_teste.png');
+(2, 'maria', 'h', '65', 'HEAH', '111.111.111-11', '55/55/55', '5555', '555', '$2y$10$s8Zrzv8RoSAe3vqCR7dqDuwqODAPEL0lIdR6ebnCzF8X4P5My3e8a', 'img/Imagens_recebidos/foto_teste.png'),
+(4, '44444444444', '444', '(44) 44444-4444', '4444', '444.444.444-44', '44', '44', '44', '$2y$10$qRw67dyS7Ouc53DloLeXCul07HDhyYcy4lfcupQ7DptU1eG87UNSi', '../img/Imagens_recebidos/foto_teste.png');
 
 -- --------------------------------------------------------
 
@@ -263,7 +302,7 @@ CREATE TABLE IF NOT EXISTS `pneu` (
   `data` varchar(100) NOT NULL,
   `hora` varchar(50) NOT NULL,
   PRIMARY KEY (`id_pessoapneu`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
