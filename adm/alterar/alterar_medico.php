@@ -78,7 +78,7 @@ if (isset($_GET["id_medico"])) {
 
 
     <?php
-    include("../../static/menu.php");
+    include("../menu.php");
     ?>
     <div class="container">
         <form action="" method="post">
