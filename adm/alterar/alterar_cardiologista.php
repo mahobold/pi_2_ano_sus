@@ -70,7 +70,7 @@ if (isset($_GET["id_pessoacardio"])) {
 
 
     <?php
-    include("../menu.php");
+    include("../menu_adm.php");
     ?>
     <div class="container">
         <form action="" method="post">
@@ -126,5 +126,7 @@ if (isset($_GET["id_pessoacardio"])) {
     })
 </script>
 <?php endif; ?>
+
+
 
 </html>

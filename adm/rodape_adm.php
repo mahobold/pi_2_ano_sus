@@ -34,7 +34,7 @@
       </div>
 
     </ul>
-    <a href="https://www.senac.br/" target="_blank"> <img src="../../img/333.jpg"></a>
+    <a href="https://www.senac.br/" target="_blank"> <img src="../img/333.jpg"></a>
   </footer>
 </div>
 
