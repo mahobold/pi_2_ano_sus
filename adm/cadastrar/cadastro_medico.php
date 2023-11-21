@@ -23,7 +23,7 @@ if (isset($_POST['nomemedico'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../../css/projeto.css">
     <title>Cadastro - Médico</title>
 </head>
 
@@ -31,6 +31,7 @@ if (isset($_POST['nomemedico'])) {
     <?php
     include("../../static/menu.php");
     ?>
+    <div class="alt">
     <form action="" method="post">
         <input type="text" name="nomemedico" placeholder="Nome do médico" required>
         <input type="text" name="idade" placeholder="Idade" required>
@@ -39,11 +40,14 @@ if (isset($_POST['nomemedico'])) {
         <input type="text" name="telefone" placeholder="Telefone" required>
         <input type="text" name="especialidade" placeholder="Especialidade" required>
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
-
+       
     </form>
+    <div class="d-flex justify-content-center">
     <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
 <button type="button" class="btn btn-outline-secondary" href="../consultar/medico.php">Ver lista</button>
-   
+</div>
+</div>
+
     <?php
     include("../../static/rodape.php");
     ?>

@@ -782,3 +782,22 @@ td{
   text-align: center;
   color: #132f5f;
 }
+.alt input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+}
+.alt input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+  
+}
