@@ -76,6 +76,7 @@ if (isset($_GET["id_pessoa"])) {
     include("../menu.php");
     ?>
     <div class="container">
+        <div class="alterar">
         <form action="" method="post">
             <h1 class="text-center">Alterar - Minha Conta</h1>
             <label class="form-label" for="">Nome</label>
@@ -150,6 +151,7 @@ if (isset($_GET["id_pessoa"])) {
 
 
                                                                                 ?>">
+                                                                                </div>
             <input class="btn btn-success" type="submit" value="Alterar">
             <a class="btn btn-primary" href="minhaconta.php">Voltar</a>
         </form>

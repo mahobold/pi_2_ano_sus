@@ -738,7 +738,7 @@ td{
 }
 .alterar{
   color: #03549a;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 .botomm{
   color: #54a1cb;
@@ -781,4 +781,23 @@ td{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   color: #132f5f;
+}
+.alt input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+}
+.alt input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+  
 }

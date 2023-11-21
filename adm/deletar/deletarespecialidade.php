@@ -36,7 +36,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="img/logo2.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/projeto.css">
+        <link rel="stylesheet" href="../../css/projeto.css">
         <title>Deletar - Especialidades</title>
     </head>
 
@@ -51,10 +51,9 @@
             <p>Nome: <?php echo $especialidades['especialidade']?></p> 
             </div>
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="">Voltar</a>
+              
 
-                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar"></button>
+                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar">Deletar</button>
 <button type="button" class="btn btn-outline-primary"  href="lista_cadasespecial.php">Voltar</button>
             </form>
             
