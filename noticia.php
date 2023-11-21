@@ -2,7 +2,7 @@
     <h1>Notícias</h1>
 </div>
 
-<div class="container text-center">
+<div class="container">
     <div class="row d-flex justify-content-center"> <!-- Deixa o card centralizado -->
 
     <div class="row">

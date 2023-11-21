@@ -33,11 +33,13 @@
       </div>
 
       <div class="container d-flex justify-content-center">
-      <li class="nav-"><a href="https://www.instagram.com/dieimes.nunes/" target="_blank" class="nav-link px-2 text-body-secondary">Dieimes</a></li>
+      <li class="nav-"><a href="https://www.instagram.com/dieimes.nunes/" target="_blank" class="nav-link px-2 text-body-secondary">Dieimes Nunes de Souza</a></li>
       </div>
 
     </ul>
+    <div class="container d-flex justify-content-center">
     <a href="https://www.senac.br/" target="_blank"> <img src="../img/333.jpg"></a>
+    </div>
   </footer>
 </div>
 
