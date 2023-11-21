@@ -20,6 +20,7 @@
     <body>
     <?php include("../menu.php"); ?>
         <div class="container">
+            <div class="especialidade">
           <h1>Lista - Usuários</h1>
           <a href="../index.php">Voltar</a>
             <table class="table table-striped d-flex justify-content-center">
@@ -36,6 +37,7 @@
                     <th>Alterar:</th>
                     <th>Deletar:</th>
                 </tr>
+                </div>
                     <?php
                         while($usuario = $retorno_consulta -> fetch_assoc()){
                         
