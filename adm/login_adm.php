@@ -45,11 +45,16 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
 <?php
     include("menu.php");
     ?>
-<form id="cadastro" action="index.php" method="post">
+    <div class="d-flex justify-content-center">
+<form id="cadastro-text" action="index.php" method="post">
         <h1>Login de Administrador</h1>
+       </div>
+        <div class="cadastrar">
         <input type="text" name="cod_login" placeholder="Código de acesso" required>
         <input type="password" name="senha" placeholder="Senha de Administrador" required>
         <input type="submit" value="Entrar">
+        </div>
       </form>
+   </div>
 </body>
 </html>

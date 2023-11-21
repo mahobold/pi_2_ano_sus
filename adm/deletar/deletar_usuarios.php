@@ -42,6 +42,7 @@
         include("../menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Você deseja mesmo deletar essa consulta?</h1>
             <h1>ID: <?php echo $usuario['id_pessoa']?></h1>
             <p>Nome: <?php echo $usuario['nome']?> <?php echo $usuario['sobrenome']?></p>
@@ -52,10 +53,13 @@
             <p>E-mail: <?php echo $usuario['email']?></p>
             <p>N° do cartão do SUS: <?php echo $usuario['numerocartaosus']?></p>
             <p>Senha: <?php echo $usuario['senha']?></p>
+            </div>
 
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="../consultar/usuarios.php">Voltar</a>
+            
+
+                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar"></button>
+<button type="button" class="btn btn-outline-primary"  href="../consultar/usuarios.php">Voltar</button>
             </form>
             
         </div>
