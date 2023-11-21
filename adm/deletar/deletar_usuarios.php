@@ -42,6 +42,7 @@
         include("../menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Você deseja mesmo deletar essa consulta?</h1>
             <h1>ID: <?php echo $usuario['id_pessoa']?></h1>
             <p>Nome: <?php echo $usuario['nome']?> <?php echo $usuario['sobrenome']?></p>
@@ -52,13 +53,19 @@
             <p>E-mail: <?php echo $usuario['email']?></p>
             <p>N° do cartão do SUS: <?php echo $usuario['numerocartaosus']?></p>
             <p>Senha: <?php echo $usuario['senha']?></p>
+            </div>
 
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="../consultar/usuarios.php">Voltar</a>
+            
+
+                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar"></button>
+<button type="button" class="btn btn-outline-primary"  href="../consultar/usuarios.php">Voltar</button>
             </form>
             
         </div>
+        <?php
+        include("../rodape.php");
+    ?>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>

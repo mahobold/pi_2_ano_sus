@@ -45,15 +45,22 @@
         include("menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Tela de exclusão de medico</h1>
             <h1>ID do medico: <?php echo $medico['id_medico']?></h1>
             <p>Nome do médico: <?php echo $medico['nomemedico']?></p> 
+            </div>
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="lista_cadasmedico.php">Voltar</a>
+            <button type="button" class="btn btn-outline-success" type="submit" value="Deletar"></button>
+<button type="button" class="btn btn-outline-primary"  href="lista_cadasmedico.php">Voltar</button>
+
+             
             </form>
             
         </div>
+        <?php
+        include("../rodape.php");
+    ?>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>

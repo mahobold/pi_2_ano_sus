@@ -45,15 +45,18 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
 <?php
     include("menu_adm.php");
     ?>
-<form id="cadastro" action="index.php" method="post">
+    <div class="d-flex justify-content-center">
+<form id="cadastro-text" action="index.php" method="post">
         <h1>Login de Administrador</h1>
+       </div>
+        <div class="cadastrar">
         <input type="text" name="cod_login" placeholder="Código de acesso" required>
         <input type="password" name="senha" placeholder="Senha de Administrador" required>
         <input type="submit" value="Entrar">
+        </div>
       </form>
     <?php
     include("rodape_adm.php");
     ?>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>

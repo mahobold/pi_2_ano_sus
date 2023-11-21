@@ -78,7 +78,7 @@ if (isset($_GET["id_medico"])) {
 
 
     <?php
-    include("../../static/menu.php");
+    include("../menu.php");
     ?>
     <div class="container">
         <form action="" method="post">
@@ -145,10 +145,15 @@ if (isset($_GET["id_medico"])) {
                                                                                 }
 
                                                                                 ?>">
-            <input id="boto" class="btn btn-success" type="submit" value="Alterar">
-            <a id="botom" class="btn btn-primary" href="../consultar/medico.php">Voltar</a>
+
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultar/medico.php">Voltar</button>
+        
         </form>
     </div>
+    <?php
+    include("../rodape.php");
+    ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <!-- SweetAlert2 JS -->

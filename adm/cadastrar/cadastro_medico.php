@@ -29,7 +29,7 @@ if (isset($_POST['nomemedico'])) {
 
 <body>
     <?php
-    include("../../static/menu.php");
+    include("../menu.php");
     ?>
     <form action="" method="post">
         <input type="text" name="nomemedico" placeholder="Nome do médico" required>
@@ -41,12 +41,11 @@ if (isset($_POST['nomemedico'])) {
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
-    <a class="btn btn-primary" href="index.php">Voltar</a>
-    <a class="btn btn-primary" href="../consultar/medico.php">Ver lista</a>
-    <div class="bloco2">
-    </div>
+    <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
+<button type="button" class="btn btn-outline-secondary" href="../consultar/medico.php">Ver lista</button>
+   
     <?php
-    include("../../static/rodape.php");
+    include("../rodape.php");
     ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

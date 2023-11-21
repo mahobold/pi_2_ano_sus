@@ -77,8 +77,11 @@ if (isset($_GET["id_pessoacliger"])) {
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="alterar">
             <h1 class="text-center">Alterar - Consulta</h1>
+            
             <label class="form-label" for="">Data</label>
+            </div>
             <input type="hidden" name="id_pessoacliger" value="<?php if (isset($consultar['id_pessoacliger'])){echo $consultar['id_pessoacliger'];}?>">
             <input class="form-control" type="text" name="data" value="<?php
                                                                                 if (isset($consultar['data'])) {
@@ -88,8 +91,9 @@ if (isset($_GET["id_pessoacliger"])) {
                                                                                 }
 
                                                                                 ?>">
-
+            <div class="alterar">
             <label class="form-label" for="">Hora</label>
+            </div>
             <input class="form-control" type="text" name="hora" value="<?php
                                                                         if (isset($consultar['hora'])) {
                                                                             echo $consultar['hora'];
@@ -99,11 +103,15 @@ if (isset($_GET["id_pessoacliger"])) {
 
                                                                         ?>">
 
-           
-            <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="../consultas/consultas_clinicogeral.php">Voltar</a>
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultas/consultas_clinicogeral.php">Voltar</button>
+
+            
         </form>
     </div>
+    <?php
+    include("../rodape.php");
+    ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
