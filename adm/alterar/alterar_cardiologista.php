@@ -70,12 +70,14 @@ if (isset($_GET["id_pessoacardio"])) {
 
 
     <?php
-    include("../menu.php");
+    include("../menu_adm.php");
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="alterar">
             <h1 class="text-center">Alterar - Consulta</h1>
             <label class="form-label" for="">Data</label>
+            </div>
             <input type="hidden" name="id_pessoacardio" value="<?php if (isset($consultar['id_pessoacardio'])){echo $consultar['id_pessoacardio'];}?>">
             <input class="form-control" type="text" name="data" value="<?php
                                                                                 if (isset($consultar['data'])) {
@@ -85,8 +87,9 @@ if (isset($_GET["id_pessoacardio"])) {
                                                                                 }
 
                                                                                 ?>">
-
+            <div class="alterar">
             <label class="form-label" for="">Hora</label>
+            </div>
             <input class="form-control" type="text" name="hora" value="<?php
                                                                         if (isset($consultar['hora'])) {
                                                                             echo $consultar['hora'];
@@ -96,11 +99,14 @@ if (isset($_GET["id_pessoacardio"])) {
 
                                                                         ?>">
 
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultas/consultas_cardiologista.php">Voltar</button>
            
-            <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="../consultas/consultas_cardiologista.php">Voltar</a>
         </form>
     </div>
+    <?php
+  include("../static/rodape.php");
+  ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -120,5 +126,7 @@ if (isset($_GET["id_pessoacardio"])) {
     })
 </script>
 <?php endif; ?>
+
+
 
 </html>
