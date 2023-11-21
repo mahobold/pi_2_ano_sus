@@ -71,14 +71,14 @@
                  <a class="index2" href="consultas_cardiologista.php">Cardiologista</a>
                 </div>
             </div>
-            <div class="col">
+            <div class="col ">
                 <div class="borda">
-               <a class="index2" href="consultas_clinicogeral.php"> Clínico Geral</a>
+               <a class="index2" href="consultas_clinicogeral.php"> Clínico     Geral </a>
                 </div>
             </div>
             <div class="col">
                 <div class="borda">
-               <a class="index2" href="consultas_dentista.php">Dentista</a>
+               <a class="index2" href="consultas_dentista.php">Dentista       </a>
                 </div>
             </div>
            
