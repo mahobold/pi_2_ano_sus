@@ -42,6 +42,7 @@
         include("../menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Você deseja mesmo deletar essa consulta?</h1>
             <h1>ID: <?php echo $nefrologista['id_nefro']?></h1>
             <p>R1: <?php echo $nefrologista['colica']?></p>
@@ -49,10 +50,13 @@
             <p>R3: <?php echo $nefrologista['agua']?></p>
             <p>Data: <?php echo $nefrologista['data']?></p>
             <p>Hora: <?php echo $nefrologista['hora']?></p>
+            </div>
 
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="../consultas/consultas_nefrologista.php">Voltar</a>
+               
+
+                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar"></button>
+<button type="button" class="btn btn-outline-primary"  href="../consultas/consultas_nefrologista.php">Voltar</button>
             </form>
             
         </div>

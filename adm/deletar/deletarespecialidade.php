@@ -45,12 +45,17 @@
         include("menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Tela de exclusão de especialidades</h1>
             <h1>ID da especialidade: <?php echo $especialidades['id_especialidade']?></h1>
             <p>Nome: <?php echo $especialidades['especialidade']?></p> 
+            </div>
             <form action="" method="post">
                 <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="lista_cadasespecial.php">Voltar</a>
+                <a class="btn btn-primary" href="">Voltar</a>
+
+                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar"></button>
+<button type="button" class="btn btn-outline-primary"  href="lista_cadasespecial.php">Voltar</button>
             </form>
             
         </div>

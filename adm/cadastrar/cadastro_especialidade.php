@@ -30,22 +30,27 @@ if (isset($_POST['especialidade'])) {
         include("../menu.php");
     ?>
 
-            <div class="alterar">
-            <h1 class="text-center">Cadastrar - Especialidade</h1>
-            </div>
+          
+        <div class="novo">
+          Cadastrar - Especialidade
+          </div>
+          <div class="cadastrar">
     <form  action="" method="post">
-        <div class="espe">
-        <div class="input-group mb-3">
+   
+           
   
         <input type="text" name="especialidade" placeholder="Especialidade" required>
-        </div>
+        
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
-
+        </div>
     </form>
+    
+    <div class="d-flex justify-content-center">
+
     <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
 <button type="button" class="btn btn-outline-secondary" href="lista_cadasespecial.php">Ver lista</button>
-  
-    
+</div>
+
     <?php
         include("rodape2.php");
     ?>
