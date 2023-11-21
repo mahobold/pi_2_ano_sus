@@ -6,11 +6,11 @@
 
 <div class="container1">
   <div class="image-wrapper">
-  <a href="../index.php"><img src="../img/logot.png" alt="Logotipo"></a>
+  <a href="../index.php"><img src="../../img/logot.png" alt="Logotipo"></a>
   
   </div>
   <div class="image-wrapper">
-    <img src="../img/brasill.png" alt="Bandeira do Brasil">
+    <img src="../../img/brasill.png" alt="Bandeira do Brasil">
   </div>
 </div>
 
