@@ -62,7 +62,7 @@
         
     </style>
     <?php
-    include("menu.php");
+    include("menu_adm.php");
     ?>
    
     <h1 class="index3">Área Administrativa</h1>

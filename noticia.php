@@ -2,11 +2,11 @@
     <h1>Notícias</h1>
 </div>
 
-<div class="container">
+<div class="container-md">
     <div class="row d-flex justify-content-center"> <!-- Deixa o card centralizado -->
 
-    <div class="row">
-
+    <div class="row align-items-center">
+    <span class="align-middle">
       <div class="card-group">
         <div class="card" style="width: 10rem; margin-right: 30px;">
           <img src="img/turvo4.jpg" class="card-img-top">
@@ -16,7 +16,6 @@
             <p class="card-text"><small class="text-body-secondary">08/08/2023 - 12:22</small></p>
           </div>
         </div>
-
         <div class="card" style="width: 10rem; margin-right: 30px;">
           <img src="img/londrina.jpg" class="card-img-top">
           <div class="card-body">
@@ -34,6 +33,7 @@
             <p class="card-text"><small class="text-body-secondary">03/08/2023 - 11:47</small></p>
           </div>
         </div>
+        </span>
 
     </div>
 </div>

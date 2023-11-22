@@ -738,8 +738,66 @@ td{
 }
 .alterar{
   color: #03549a;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 .botomm{
   color: #54a1cb;
+}
+.cadastrar input[type="text"] {
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.cadastrar input[type="password"] {
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+}
+.cadastrar input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+}
+#cadastro-text{
+ margin-top: 2%;
+  color: #132f5f;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.novo{
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #132f5f;
+}
+.alt input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+}
+.alt input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 25%;
+  
 }

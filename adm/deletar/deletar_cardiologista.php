@@ -34,7 +34,7 @@
         <link rel="icon" href="../../img/logo2.png">
         <title>Deletar - Consultas Cardiologista</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="stylesheet" href="../../css/dieimes.css">
+        <link rel="stylesheet" href="../../css/projeto.css">
     </head>
 
     <body>
@@ -42,6 +42,7 @@
         include("../menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Você deseja mesmo deletar essa consulta?</h1>
             <h1>ID: <?php echo $cardiologista['id_pessoacardio']?></h1>
             <p>R1: <?php echo $cardiologista['fadiga']?></p>
@@ -49,10 +50,12 @@
             <p>R3: <?php echo $cardiologista['exame']?></p>
             <p>Data: <?php echo $cardiologista['data']?></p>
             <p>Hora: <?php echo $cardiologista['hora']?></p>
+            </div>
 
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="../consultas/consultas_cardiologista.php">Voltar</a>
+            <button type="button" class="btn btn-outline-success" type="submit" value="Deletar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultas/consultas_cardiologista.php">Voltar</button>
+              
             </form>
             
         </div>
