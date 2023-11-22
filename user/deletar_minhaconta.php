@@ -41,6 +41,7 @@
         include("../menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Deseja excluir sua conta?</h1>
             <h3>ID do usuário: <?php echo $usuario['id_pessoa']?></h3>
             <p>Nome: <?php echo $usuario['nome']?></p> 
@@ -48,7 +49,7 @@
                 <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
                 <a class="btn btn-primary" href="minhaconta.php">Voltar</a>
             </form>
-            
+            </div>
         </div>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
