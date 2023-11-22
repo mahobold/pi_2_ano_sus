@@ -39,6 +39,7 @@ if (isset($_POST['nome'])) {
     <?php
     include("../menu.php");
     ?>
+    <div class="container d-flex justify-content-center">
     <div class="signup-container">
         <div class="iconi">
             <img height="30px" src="../img/logo2.png">
@@ -57,7 +58,8 @@ if (isset($_POST['nome'])) {
             <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
         </form>
-
+        <p><a href="login.php">Faça login</a></p>
+        </div>
         <script>
             // Manipule o evento de envio do formulário
             $('#cadastro').on('submit', function(e) {
@@ -107,14 +109,14 @@ if (isset($_POST['nome'])) {
         </script>
 
 
-        <p><a href="login.php">Faça login</a></p>
+        
     </div>
 
 
     <?php
     include("../static/rodape.php");
     ?>
-
+    
 </body>
 
 <script src="../js/cpf.js"></script>
