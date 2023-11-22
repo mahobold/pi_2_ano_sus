@@ -48,7 +48,7 @@
   padding: 20px;
   width: 400px;
   text-align: center;
- 
+ margin-top: 10%;
   height: 820px;
   margin-bottom: 50px;
 }
@@ -84,3 +84,11 @@
   margin-bottom: 30px;
 }
 
+/* Estilos específicos para telas entre 350px e 500px */
+@media screen and (max-width: 400px){
+  .signup-container {
+      width: 80%; /* ou qualquer valor desejado para telas nessa faixa */
+      margin: 20% auto;
+      margin-top: 40%;
+  }
+}
