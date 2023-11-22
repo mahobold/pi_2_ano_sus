@@ -250,3 +250,17 @@
         .mt-3{
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+
+        /* ALINHAR CARDS */
+
+        @media (min-width: 390px) and (max-width: 500px){
+          .align-middle{
+              margin-left: 25%;
+          }
+        }
+
+        @media (min-width: 501px) and (max-width: 575px){
+          .align-middle{
+              margin-left: 30%;
+          }
+        }
