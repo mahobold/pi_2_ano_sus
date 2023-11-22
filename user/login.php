@@ -42,11 +42,7 @@
 </head>
 <body>
     <?php
-<<<<<<< HEAD
-        include("../menu.php");
-=======
         include("../static/menu_page.php");
->>>>>>> Dieimes
     ?>
     <div class="container d-flex justify-content-center">
     <div class="login-container">
