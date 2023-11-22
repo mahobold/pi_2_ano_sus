@@ -1,5 +1,5 @@
 <?php
-include("conexao.php");
+include("../conexao.php");
 
 
 
@@ -51,19 +51,21 @@ if (isset($_POST['especialidade'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo2.png">
     <title>Alterar - Especialidade</title>
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../../css/projeto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 </head>
 
 <body>
     <?php
-        include("menu.php");
+        include("../menu.php");
     ?>
     <div class="container">
                 <form action="" method="post">
+                    <div class="alterar">
                         <h1 class="text-center">Alterar - Especialidade</h1>
                         <label class="form-label" for="">Nome da especialidade</label>
+                        </div>
                         <input type="hidden" name="especialidade" value="
                             <?php
                             if(isset($consultar['id_especialidade'])){
@@ -82,14 +84,16 @@ if (isset($_POST['especialidade'])) {
                         ?>">
 
 
-
-                    <input class="btn btn-success" type="submit" value="Alterar">
-                    <a class="btn btn-primary" href="lista_cadasespecial.php">Voltar</a>
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary" href="lista_cadasespecial.php">Voltar</button>
+                   
                 </form>
 
     </div>
 
-
+    <?php
+  include("../rodape.php");
+  ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 

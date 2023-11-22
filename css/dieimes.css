@@ -1,33 +1,33 @@
 /* Começa Estilo Menu */
 .container1 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .image-wrapper {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-wrapper img {
-    max-height: 100%;
-    max-width: 100%;
-    height: 150px;
-    /* Altura padrão para resoluções maiores */
-    margin-top: 20px;
+  max-height: 100%;
+  max-width: 100%;
+  height: 150px;
+  /* Altura padrão para resoluções maiores */
+  margin-top: 20px;
 }
 
 /* Media query para ajustar a altura das imagens em resoluções menores ou iguais a 768px */
 @media screen and (max-width: 768px) {
-    .image-wrapper img {
-        height: auto;
-        /* Altura automática para resoluções menores ou iguais a 768px */
-        margin-top: 10px;
-        /* Espaçamento menor para resoluções menores ou iguais a 768px */
-        margin-left: 30px;
-    }
+  .image-wrapper img {
+    height: auto;
+    /* Altura automática para resoluções menores ou iguais a 768px */
+    margin-top: 10px;
+    /* Espaçamento menor para resoluções menores ou iguais a 768px */
+    margin-left: 30px;
+  }
 }
 
 /* Fim Estilo Menu */
@@ -36,83 +36,86 @@
 /* Estilo menu escondido */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: #054f77;
-    margin-left: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #054f77;
+  margin-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* FIM - Estilo menu escondido */
 
 /* Estilo menu */
-.container-fluid{
-    background-color: #132f5f;
-    height: 50px;
-  }
+.container-fluid {
+  background-color: #132f5f;
+  height: 50px;
+}
 
-  svg{
-    width: 30px;
-    height: 30px;
-  }
+svg {
+  width: 30px;
+  height: 30px;
+}
 
-  .bi-person-check{
-    color: aliceblue;
-  }
+.bi-person-check {
+  color: aliceblue;
+}
 
-  .bi-person{
-    color: aliceblue;
-  }
+.bi-person {
+  color: aliceblue;
+}
 
 /* Fim menu */
 
 
 
-.index{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #132f5f;
-    margin-top: 30px;
-  }
+.index {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #132f5f;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
 
 
 /* Estilo para o vídeos Youtube */
 
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* Proporção 16:9 */
-    height: 0;
-    overflow: hidden;
-  }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* Proporção 16:9 */
+  height: 0;
+  overflow: hidden;
+}
 
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* FIM - Estilo para o vídeos Youtube */
 
 /* Estilo Acesse */
 .custom-list-group .list-group-item {
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    transition: all 0.3s;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
 }
 
 .custom-list-group .list-group-item:hover {
-    background-color: #f5f5f5;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  background-color: #f5f5f5;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .custom-list-group .list-group-item a {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
 .custom-list-group .list-group-item a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Fim estilo acesse */
@@ -120,9 +123,9 @@
 /* Rodapé */
 
 .faixaazul {
-    background-color: #132f5f;
-    margin-top: 30px;
-    padding: 2px;
+  background-color: #132f5f;
+  margin-top: 30px;
+  padding: 2px;
 }
 
 /* Fim Rodapé */
@@ -151,7 +154,7 @@
 
 
 
-.noticia{
+.noticia {
   color: #132f5f;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -161,17 +164,108 @@
 }
 
 
-.card-group .card{
-  margin: 20px;
-  width: 20px;
+
+
+#acesse {
+  color: #132f5f;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
 }
 
-#acesse{
+
+.especialidade {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
   color: #132f5f;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.form-label {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #132f5f;
+}
+
+#boto {
+  background-color: #132f5f;
+
+}
+
+#botom {
+  background-color: #22698f;
+}
+
+.border-top {
+  margin: 30px;
+}
+
+.index3 {
+  text-align: center;
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.col {
+  font-size: 35px;
+  color: #054f77;
+  margin-bottom: 300px;
+  justify-content: center;
+
+}
+
+.index2 {
+  font-size: 35px;
+  color: #054f77;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.borda {
+  background: white;
+  border: 3px solid #054f77;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.conta {
+  border-radius: 30px;
+  border: 1px solid #132f5f;
+  padding: 50px;
+}
+
+.btn-outline-info {
+  margin-bottom: 10px;
+}
+
+.mt-3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.card{
-  margin-right: 20px;
+/* ALINHAR CARDS */
+
+@media (min-width: 390px) and (max-width: 500px) {
+  .align-middle {
+    margin-left: 25%;
+  }
 }
 
+@media (min-width: 501px) and (max-width: 575px) {
+  .align-middle {
+    margin-left: 30%;
+  }
+}

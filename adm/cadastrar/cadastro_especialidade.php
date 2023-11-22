@@ -1,5 +1,5 @@
 <?php
-include("conexao.php");
+include("../conexao.php");
 
 if (isset($_POST['especialidade'])) {
     $especialidade = $_POST['especialidade'];
@@ -19,29 +19,33 @@ if (isset($_POST['especialidade'])) {
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../../img/logo2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../../css/projeto.css">
     <title>Cadastro - Especialidade</title>
 </head>
 
 <body>
     <?php
-        include("menu.php");
+        include("../menu.php");
     ?>
 
-    
-    <form id="cadastro" action="" method="post">
+            <div class="alterar">
+            <h1 class="text-center">Cadastrar - Especialidade</h1>
+            </div>
+    <form  action="" method="post">
+        <div class="espe">
+        <div class="input-group mb-3">
+  
         <input type="text" name="especialidade" placeholder="Especialidade" required>
+        </div>
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
 
     </form>
-    <a class="btn btn-primary" href="index.php">Voltar</a>
-    <a class="btn btn-primary" href="lista_cadasespecial.php">Ver lista</a>
-    <div class="bloco2">
-      </div>
-=======
->>>>>>> Matheus
+    <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
+<button type="button" class="btn btn-outline-secondary" href="lista_cadasespecial.php">Ver lista</button>
+  
+    
     <?php
         include("rodape2.php");
     ?>

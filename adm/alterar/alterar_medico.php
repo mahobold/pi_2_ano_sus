@@ -1,3 +1,5 @@
+
+
 <?php
 include("../conexao.php");
 
@@ -59,9 +61,10 @@ if (isset($_GET["id_medico"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo2.png">
+    <link rel="icon" href="../../img/logo2.png">
     <title>Alterar - Médico</title>
-    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="../../css/dieimes.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- SweetAlert2 CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
@@ -71,12 +74,17 @@ if (isset($_GET["id_medico"])) {
 </head>
 
 <body>
+
+
+
     <?php
-    include("../../static/menu.php");
+    include("../menu.php");
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="especialidade">
             <h1 class="text-center">Alterar - Médico</h1>
+            </div>
             <label class="form-label" for="">Nome</label>
             <input type="hidden" name="id_medico" value="<?php if (isset($consultar['id_medico'])){echo $consultar['id_medico'];}?>">
             <input class="form-control" type="text" name="nomemedico" value="<?php
@@ -137,10 +145,15 @@ if (isset($_GET["id_medico"])) {
                                                                                 }
 
                                                                                 ?>">
-            <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="../consultar/medico.php">Voltar</a>
+
+<button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultar/medico.php">Voltar</button>
+        
         </form>
     </div>
+    <?php
+    include("../rodape.php");
+    ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <!-- SweetAlert2 JS -->
