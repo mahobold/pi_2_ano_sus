@@ -1,13 +1,15 @@
 <?php
-    $hostname = "localhost";
-    $banco = "pi_sus";
-    $usuario = "root";
-    $senha = "";
+    $host="localhost";
+    $user="root";
+    $pass="";
+    $banco="meucod21_aluno_postar";
+    
+    $mysqli = new mysqli($host, $user, $pass, $banco);
 
-    $mysqli = new mysqli ($hostname, $usuario, $senha, $banco);
 
-    if($mysqli->connect_errno){
-         echo "Falha ao conectar: (" . $mysqli->connect_errno . ") " . $mysqli->connect_errno;
+    if ($mysqli->connect_errno){
+        echo "Connect faliled: " . $mysqli->connect_error;
+        exit();
     }
-
+ 
 ?>
