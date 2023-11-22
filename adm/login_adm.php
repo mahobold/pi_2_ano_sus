@@ -43,6 +43,7 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
 </head>
 <body>
 <?php
+<<<<<<< HEAD
     include("menu.php");
     ?>
     <div class="d-flex justify-content-center">
@@ -56,5 +57,18 @@ if (isset($_POST['cod_login']) && isset($_POST['senha'])) {
         </div>
       </form>
    </div>
+=======
+    include("menu_adm.php");
+    ?>
+<form id="cadastro" action="index.php" method="post">
+        <h1>Login de Administrador</h1>
+        <input type="text" name="cod_login" placeholder="Código de acesso" required>
+        <input type="password" name="senha" placeholder="Senha de Administrador" required>
+        <input type="submit" value="Entrar">
+      </form>
+    <?php
+    include("rodape_adm.php");
+    ?>
+>>>>>>> Dieimes
 </body>
 </html>

@@ -14,7 +14,11 @@
 
 <body>
   <?php
+<<<<<<< HEAD
   include("../menu.php");
+=======
+  include("../static/menu_page.php")
+>>>>>>> Dieimes
   ?>
 
 <style>

@@ -15,7 +15,7 @@ if (isset($_POST['id_pessoa'])) {
     $email = $_POST['email'];
 
     // Usando prepared statements para atualizar os dados
-    $stmt = $mysqli->prepare("UPDATE pessoas SET nome = ?, sobrenome = ?, telefone = ?, endereco = ?, cpf = ?, datanasc = ?, email = ? WHERE id_pessoa = ?");
+    $stmt = $mysqli->prepare("UPDATE pi_2023_sus_pessoas SET nome = ?, sobrenome = ?, telefone = ?, endereco = ?, cpf = ?, datanasc = ?, email = ? WHERE id_pessoa = ?");
     $stmt->bind_param('ssssssss', $nome, $sobrenome, $telefone, $endereco, $cpf, $datanasc, $email, $id_pessoa);
     
     if ($stmt->execute()) {
@@ -38,7 +38,7 @@ if (isset($_GET["id_pessoa"])) {
     $id_pessoa = $_GET["id_pessoa"];
 
     // Usando prepared statements para consultar os dados
-    $stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE id_pessoa = ?");
+    $stmt = $mysqli->prepare("SELECT * FROM pi_2023_sus_pessoas WHERE id_pessoa = ?");
     $stmt->bind_param('s', $id_pessoa);
     $stmt->execute();
 
@@ -73,14 +73,12 @@ if (isset($_GET["id_pessoa"])) {
 
 <body>
     <?php
-    include("../menu.php");
+    include("../static/menu_page.php");
     ?>
     <div class="container">
-        <div class="alterar">
         <form action="" method="post">
             <h1 class="text-center">Alterar - Minha Conta</h1>
             <label class="form-label" for="">Nome</label>
-            </div>
             <input type="hidden" name="id_pessoa" value="<?php if (isset($consultar['id_pessoa'])){echo $consultar['id_pessoa'];}?>">
             <input class="form-control" type="text" name="nome" value="<?php
                                                                                 if (isset($consultar['nome'])) {
@@ -181,7 +179,7 @@ if (isset($_GET["id_pessoa"])) {
         confirmButtonText: 'Ok'
     }).then((result) => {
         if (result.isConfirmed) {
-            window.location.href = "minhaconta.php";  // Redirecione para a página desejada após o usuário clicar em "Ok"
+            window.location.href = "minha_conta.php";  // Redirecione para a página desejada após o usuário clicar em "Ok"
         }
     })
 </script>

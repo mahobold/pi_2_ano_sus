@@ -42,7 +42,10 @@
         include("../menu.php");
     ?>
         <div class="container">
+<<<<<<< HEAD
             <div class="alterar">
+=======
+>>>>>>> Dieimes
             <h1>Você deseja mesmo deletar essa consulta?</h1>
             <h1>ID: <?php echo $ginecologista['id_pessoaginecol']?></h1>
             <p>R1: <?php echo $ginecologista['preventivo']?></p>
@@ -50,6 +53,7 @@
             <p>R3: <?php echo $ginecologista['ativa']?></p>
             <p>Data: <?php echo $ginecologista['data']?></p>
             <p>Hora: <?php echo $ginecologista['hora']?></p>
+<<<<<<< HEAD
             </div>
 
             <form action="" method="post">
@@ -60,6 +64,18 @@
             </form>
             
         </div>
+=======
+
+            <form action="" method="post">
+                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
+                <a class="btn btn-primary" href="../consultas/consultas_ginecologista.php">Voltar</a>
+            </form>
+            
+        </div>
+        <?php
+        include("../rodape.php");
+    ?>
+>>>>>>> Dieimes
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>

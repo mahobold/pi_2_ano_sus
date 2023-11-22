@@ -7,7 +7,7 @@
         $senha = $_POST['senha'];
     
         // Usando prepared statements para evitar SQL Injection
-        $stmt = $mysqli->prepare("SELECT * FROM pessoas WHERE cpf = ? LIMIT 1");
+        $stmt = $mysqli->prepare("SELECT * FROM pi_2023_sus_pessoas WHERE cpf = ? LIMIT 1");
         $stmt->bind_param("s", $login);
         $stmt->execute();
         $result = $stmt->get_result();
@@ -18,8 +18,9 @@
         // Verificar a senha
         if (password_verify($senha, $usuario['senha'])) {
             $_SESSION['login_nome'] = $usuario['id_pessoa'];
+            $_SESSION['nome'] = $usuario['nome'];
             //var_dump( $usuario);
-            header("Location: minhaconta.php");
+            header("Location: minha_conta.php");
            exit();
         } else {
             echo "Login ou senha incorretos";
@@ -41,7 +42,11 @@
 </head>
 <body>
     <?php
+<<<<<<< HEAD
         include("../menu.php");
+=======
+        include("../static/menu_page.php");
+>>>>>>> Dieimes
     ?>
     <div class="container d-flex justify-content-center">
     <div class="login-container">

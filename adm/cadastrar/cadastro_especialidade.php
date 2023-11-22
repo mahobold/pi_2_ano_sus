@@ -30,6 +30,7 @@ if (isset($_POST['especialidade'])) {
         include("../menu.php");
     ?>
 
+<<<<<<< HEAD
           
         <div class="novo">
           Cadastrar - Especialidade
@@ -41,9 +42,21 @@ if (isset($_POST['especialidade'])) {
   
         <input type="text" name="especialidade" placeholder="Especialidade" required>
         
+=======
+            <div class="alterar">
+            <h1 class="text-center">Cadastrar - Especialidade</h1>
+            </div>
+    <form  action="" method="post">
+        <div class="espe">
+        <div class="input-group mb-3">
+  
+        <input type="text" name="especialidade" placeholder="Especialidade" required>
+        </div>
+>>>>>>> Dieimes
         <input type="submit" value="Cadastrar" onclick="return validateFields()">
         </div>
     </form>
+<<<<<<< HEAD
     
     <div class="d-flex justify-content-center">
 
@@ -51,6 +64,12 @@ if (isset($_POST['especialidade'])) {
 <button type="button" class="btn btn-outline-secondary" href="lista_cadasespecial.php">Ver lista</button>
 </div>
 
+=======
+    <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
+<button type="button" class="btn btn-outline-secondary" href="lista_cadasespecial.php">Ver lista</button>
+  
+    
+>>>>>>> Dieimes
     <?php
         include("rodape2.php");
     ?>

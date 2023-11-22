@@ -29,7 +29,11 @@
 </head>
 <body>
 <?php
+<<<<<<< HEAD
     include("../menu.php");
+=======
+    include("../static/menu_page.php")
+>>>>>>> Dieimes
     ?>
     <div class="consultar">
    <h1> Agende sua consulta com o ginecologista aqui: </h1>

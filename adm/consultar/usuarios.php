@@ -20,7 +20,10 @@
     <body>
     <?php include("../menu.php"); ?>
         <div class="container">
+<<<<<<< HEAD
             <div class="especialidade">
+=======
+>>>>>>> Dieimes
           <h1>Lista - Usuários</h1>
           <a href="../index.php">Voltar</a>
             <table class="table table-striped d-flex justify-content-center">
@@ -37,7 +40,10 @@
                     <th>Alterar:</th>
                     <th>Deletar:</th>
                 </tr>
+<<<<<<< HEAD
                 </div>
+=======
+>>>>>>> Dieimes
                     <?php
                         while($usuario = $retorno_consulta -> fetch_assoc()){
                         
@@ -63,6 +69,12 @@
                     ?>
             </table>
         </div>
+<<<<<<< HEAD
+=======
+        <?php
+        include("../rodape.php");
+    ?>
+>>>>>>> Dieimes
     </body>
 <script src="cpf.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

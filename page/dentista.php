@@ -31,7 +31,11 @@ if (isset($_POST['ida'])) {
 <body>
 
   <?php
+<<<<<<< HEAD
   include("../menu.php");
+=======
+    include("../static/menu_page.php")
+>>>>>>> Dieimes
   ?>
 
   <div class="consultar">

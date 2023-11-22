@@ -34,10 +34,9 @@ if (isset($_POST['nome'])) {
     <link rel="stylesheet" href="../css/dieimes.css">
     <title>Tela de Cadastro</title>
 </head>
-
 <body>
     <?php
-    include("../menu.php");
+    include("../static/menu_page.php");
     ?>
     <div class="container d-flex justify-content-center">
     <div class="signup-container">
@@ -118,8 +117,11 @@ if (isset($_POST['nome'])) {
     ?>
     
 </body>
-
-<script src="../js/cpf.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+<script src="../js/validacao.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </html>

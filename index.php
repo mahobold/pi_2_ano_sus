@@ -11,22 +11,22 @@
 
 <body>
   <?php
-    include("menu2.php");
+    include("static/menu_index.php");
   ?>
   <?php
-    include("carrossel.php");
+    include("page/carrossel.php");
   ?>
   <?php
-    include("noticia.php");
+    include("page/noticia.php");
   ?>
   <?php
-    include("video.php");
+    include("page/video.php");
   ?>
   <?php
-    include("unidades.php");
+    include("page/unidades.php");
   ?>
   <?php
-    include("acesse.php");
+    include("page/acesse.php");
   ?>
 
   <?php

@@ -10,7 +10,11 @@
     </head>
     <body>
         <?php
+<<<<<<< HEAD
         include("../menu.php")
+=======
+        include("../static/menu_page.php")
+>>>>>>> Dieimes
         ?>
         <h1 class="consultatitulo" >Com qual médico você gostaria de consultar?</h1>
         <div class="consulta">
