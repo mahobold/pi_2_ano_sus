@@ -33,13 +33,6 @@
       </div>
 
       <div class="container d-flex justify-content-center">
-<<<<<<< HEAD
-      <li class="nav-"><a href="https://www.instagram.com/dieimes.nunes/" target="_blank" class="nav-link px-2 text-body-secondary">Dieimes</a></li>
-      </div>
-
-    </ul>
-    <a href="https://www.senac.br/" target="_blank"> <img src="../img/333.jpg"></a>
-=======
       <li class="nav-"><a href="https://www.instagram.com/dieimes.nunes/" target="_blank" class="nav-link px-2 text-body-secondary">Dieimes Nunes de Souza</a></li>
       </div>
 
@@ -47,7 +40,6 @@
     <div class="container d-flex justify-content-center">
     <a href="https://www.senac.br/" target="_blank"> <img src="../img/333.jpg"></a>
     </div>
->>>>>>> Dieimes
   </footer>
 </div>
 
