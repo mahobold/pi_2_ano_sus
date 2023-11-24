@@ -549,14 +549,12 @@ nav{
   text-align: center;
   margin-top: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ffffff;
+  color: #132f5f;
   margin-bottom: 25px;
-  background-color: #132f5f;
 }
 
 
 .sintomas{
-  margin-left: 300px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #2e7194;
   margin-bottom: 30px;
@@ -583,9 +581,23 @@ p{
 .card-text{
   color: black;
 }
-.texto{
-  margin-left: 200px;
+.sintomas{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.texto{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  border-top: none;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .vermelidao{
