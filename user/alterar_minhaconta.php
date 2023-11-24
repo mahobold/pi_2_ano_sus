@@ -77,8 +77,12 @@ if (isset($_GET["id_pessoa"])) {
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="alterar">
             <h1 class="text-center">Alterar - Minha Conta</h1>
+            </div>
+            <div class="alterar">
             <label class="form-label" for="">Nome</label>
+            </div>
             <input type="hidden" name="id_pessoa" value="<?php if (isset($consultar['id_pessoa'])){echo $consultar['id_pessoa'];}?>">
             <input class="form-control" type="text" name="nome" value="<?php
                                                                                 if (isset($consultar['nome'])) {

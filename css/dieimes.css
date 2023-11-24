@@ -335,3 +335,11 @@ a {
         .mt-3{
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+#oba{
+  margin-right: 90%;
+  margin-top: 0.75%;
+}
+#sair{
+  border-left: 1px solid aliceblue;
+  padding-left: 10px;
+}

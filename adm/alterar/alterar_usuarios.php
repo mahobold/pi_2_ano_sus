@@ -84,8 +84,10 @@ if (isset($_GET["id_pessoa"])) {
     ?>
     <div class="container">
         <form action="" method="post">
+            <div class="alterar">
             <h1 class="text-center">Alterar - Consulta</h1>
             <label class="form-label" for="">Nome</label>
+            </div>
             <input type="hidden" name="id_pessoa" value="<?php if (isset($consultar['id_pessoa'])){echo $consultar['id_pessoa'];}?>">
             <input class="form-control" type="text" name="nome" value="<?php
                                                                                 if (isset($consultar['nome'])) {
@@ -95,8 +97,10 @@ if (isset($_GET["id_pessoa"])) {
                                                                                 }
 
                                                                                 ?>">
-
+            
+            <div class="alterar">
             <label class="form-label" for="">Sobrenome</label>
+            </div>
             <input class="form-control" type="text" name="sobrenome" value="<?php
                                                                         if (isset($consultar['sobrenome'])) {
                                                                             echo $consultar['sobrenome'];
@@ -105,7 +109,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
+            <div class="alterar">
             <label class="form-label" for="">Telefone</label>
+            </div>
             <input class="form-control" type="text" name="telefone" value="<?php
                                                                         if (isset($consultar['telefone'])) {
                                                                             echo $consultar['telefone'];
@@ -114,7 +120,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
+            <div class="alterar">
             <label class="form-label" for="">Endereço</label>
+            </div>
             <input class="form-control" type="text" name="endereco" value="<?php
                                                                         if (isset($consultar['endereco'])) {
                                                                             echo $consultar['endereco'];
@@ -123,7 +131,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
+            <div class="alterar">
             <label class="form-label" for="">CPF</label>
+            </div>
             <input class="form-control" type="text" name="cpf" value="<?php
                                                                         if (isset($consultar['cpf'])) {
                                                                             echo $consultar['cpf'];
@@ -132,7 +142,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
+               <div class="alterar">                                                         
               <label class="form-label" for="">Data de nascimento:</label>
+              </div>
             <input class="form-control" type="text" name="datanasc" value="<?php
                                                                         if (isset($consultar['datanasc'])) {
                                                                             echo $consultar['datanasc'];
@@ -141,8 +153,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
-            
+            <div class="alterar">
             <label class="form-label" for="">E-mail:</label>
+            </div>
             <input class="form-control" type="text" name="email" value="<?php
                                                                         if (isset($consultar['email'])) {
                                                                             echo $consultar['email'];
@@ -151,8 +164,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
-            
+            <div class="alterar">
             <label class="form-label" for="">N° do Cartão SUS</label>
+            </div>
             <input class="form-control" type="text" name="numerocartaosus" value="<?php
                                                                         if (isset($consultar['numerocartaosus'])) {
                                                                             echo $consultar['numerocartaosus'];
@@ -161,8 +175,9 @@ if (isset($_GET["id_pessoa"])) {
                                                                         }
 
                                                                         ?>">
-            
+            <div class="alterar">
             <label class="form-label" for="">Senha</label>
+            </div>
             <input class="form-control" type="text" name="senha" value="<?php
                                                                         if (isset($consultar['senha'])) {
                                                                             echo $consultar['senha'];
@@ -174,17 +189,16 @@ if (isset($_GET["id_pessoa"])) {
             
 
 
-           
-            <input class="btn btn-success" type="submit" value="Alterar">
-            <a class="btn btn-primary" href="../consultar/usuarios.php">Voltar</a>
+            <button type="button" class="btn btn-outline-success" type="submit" value="Alterar">Alterar</button>
+<button type="button" class="btn btn-outline-primary" href="../consultar/usuarios.php">Voltar</button>
+            
         </form>
     </div>
-<<<<<<< HEAD
-=======
+
     <?php
   include("../rodape.php");
   ?>
->>>>>>> Dieimes
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
