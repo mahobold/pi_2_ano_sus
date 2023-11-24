@@ -57,7 +57,7 @@
         
     </style>
     <?php
-    include("../menu.php");
+    include("../menu_adm.php");
     ?>
    
     <h1 class="index3">Deletar</h1>
@@ -90,7 +90,7 @@
         </div>
     </div>
     <?php
-    include("../rodape.php");
+    include("../rodape_adm.php");
     ?>
 
 </body>

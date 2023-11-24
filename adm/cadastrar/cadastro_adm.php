@@ -37,11 +37,14 @@ if (isset($_POST['nome'])) {
         include("../menu.php");
     ?>
             <form id="cadastro" action="#" method="post">
+                
                 <h2 id="cadastro-text">Cadastro de Administradores</h2>
+                <div class="cadastrar">
                 <input type="text" name="nome" placeholder="Nome Completo" required>
                 <input type="text" name="cod_login" placeholder="Código de acesso:" required>
                 <input type="password" name="senha" placeholder="Senha" required>
                 <input type="submit" name="cadastrar" value="Cadastrar" onclick="return validateFields()">
+                </div>
             </form>
             <?php
   include("../rodape.php");

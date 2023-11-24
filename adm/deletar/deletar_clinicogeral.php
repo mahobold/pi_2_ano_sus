@@ -42,6 +42,7 @@
         include("../menu.php");
     ?>
         <div class="container">
+            <div class="alterar">
             <h1>Você deseja mesmo deletar essa consulta?</h1>
             <h1>ID: <?php echo $clinicogeral['id_pessoacliger']?></h1>
             <p>R1: <?php echo $clinicogeral['febre']?></p>
@@ -49,10 +50,12 @@
             <p>R3: <?php echo $clinicogeral['nausea']?></p>
             <p>Data: <?php echo $clinicogeral['data']?></p>
             <p>Hora: <?php echo $clinicogeral['hora']?></p>
+            </div>
 
             <form action="" method="post">
-                <input name="btn_deletar" class="btn btn-danger" type="submit" value="Deletar">
-                <a class="btn btn-primary" href="../consultas/consultas_clinicogeral.php">Voltar</a>
+               
+                <button type="button" class="btn btn-outline-success" type="submit" value="Deletar">Alterar</button>
+<button type="button" class="btn btn-outline-primary"  href="../consultas/consultas_clinicogeral.php">Voltar</button>
             </form>
             
         </div>

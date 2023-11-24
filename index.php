@@ -9,6 +9,8 @@
   <title>Páginia Inicial</title>
 </head>
 
+<!-- Pagina Pronta -->
+
 <body>
   <?php
     include("menu2.php");
