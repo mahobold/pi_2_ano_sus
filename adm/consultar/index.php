@@ -24,7 +24,7 @@
         .col {
             font-size: 35px;
             color: #054f77;
-            margin-bottom: 300px;
+          
             justify-content: center;
 
         }

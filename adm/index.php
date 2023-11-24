@@ -24,8 +24,8 @@
         .col {
             font-size: 35px;
             color: #054f77;
-            margin-bottom: 300px;
-            justify-content: center;
+            
+            
 
         }
 
@@ -45,9 +45,8 @@
         .borda {
             background: white;
             border: 3px solid #054f77;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding: 5px;
+           
+            padding: 10px;
             text-align: center;
             display: block;
             border-radius: 10px;

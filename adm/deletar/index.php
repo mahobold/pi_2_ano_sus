@@ -15,6 +15,7 @@
     <style>
         .index3 {
             text-align: center;
+            
             color: #054f77;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-top: 100px;
@@ -24,7 +25,7 @@
         .col {
             font-size: 35px;
             color: #054f77;
-            margin-bottom: 300px;
+           
             justify-content: center;
 
         }

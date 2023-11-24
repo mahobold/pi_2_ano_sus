@@ -16,6 +16,7 @@
     <style>
         .index3 {
             text-align: center;
+            font-size: 38px;
             color: #054f77;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-top: 100px;
@@ -25,13 +26,20 @@
         .col {
             font-size: 35px;
             color: #054f77;
-            margin-bottom: 50px;
+           
             justify-content: center;
 
         }
 
         .index2 {
-            font-size: 35px;
+            font-size: 38px;
+            color: #054f77;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .index5 {
+            font-size: 33px;
             color: #054f77;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -42,7 +50,7 @@
             border: 3px solid #054f77;
             margin-top: 10px;
             margin-bottom: 10px;
-            padding: 5px;
+            padding: 15px;
             text-align: center;
             display: block;
             border-radius: 10px;
@@ -73,12 +81,12 @@
             </div>
             <div class="col ">
                 <div class="borda">
-               <a class="index2" href="consultas_clinicogeral.php"> Clínico     Geral </a>
+               <a class="index2" href="consultas_clinicogeral.php"> Clínico Geral</a>
                 </div>
             </div>
             <div class="col">
                 <div class="borda">
-               <a class="index2" href="consultas_dentista.php">Dentista       </a>
+               <a class="index2" href="consultas_dentista.php">  Dentista</a>
                 </div>
             </div>
            
@@ -118,7 +126,7 @@
             </div>
             <div class="col">
                 <div class="borda">
-               <a class="index2" href="consultas_otorrinolaringologista.php"> Otorrinolaringologista</a>
+               <a class="index5" href="consultas_otorrinolaringologista.php"> Otorrinolaringologista</a>
                 </div>
             </div>
             <div class="col">
