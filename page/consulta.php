@@ -13,8 +13,9 @@
         include("../menu.php")
         ?>
         <h1 class="consultatitulo" >Com qual médico você gostaria de consultar?</h1>
-        <div class="consulta">
+        <div class="consulta d-flex justify-content-center">
             <div class="row">
+            
             
                 <div class="col">
                     <img class="iconeconsulta" src="../img/icone/estetoscopio.png">
@@ -34,7 +35,7 @@
                     <a class="btconsulta" href="dentista.php">Dentista</a>
                 </div>
             
-</div> 
+            </div>
 
            
             <div class="row">
@@ -42,6 +43,7 @@
                     <img class="iconeconsulta" src="../img/icone/utero.png">
                     <a class="btconsulta" href="ginecologista.php">Ginecologista</a>
                 </div>
+                
 
 
        
@@ -55,7 +57,7 @@
                     <img class="iconeconsulta" src="../img/icone/cerebro.png">
                     <a class="btconsulta" href="neurologista.php">Neurologista</a>
                 </div>
-</div>
+            </div>
 
             <div class="row">
                 <div class="col">
@@ -74,11 +76,11 @@
                     <a class="btconsulta" href="pneumologista.php">Pneumologista</a>
                 </div>
             </div>
-</div>
-
-        <p><a class="btvltconsulta" href="../index.php">Voltar</a></p>
 
 
+        <p><a class="btvltconsulta d-flex justify-content-center" href="../index.php">Voltar</a></p>
+
+    </div>
 
 
 <?php

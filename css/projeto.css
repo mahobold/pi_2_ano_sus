@@ -623,7 +623,6 @@ th{
 }
 
 .consulta{
-  margin-left: 140px;
   margin-top: 100px;
   margin-bottom: 70px;
 }
@@ -644,7 +643,7 @@ th{
 .consultatitulo{
   text-align: center;
   color: #132f5f;
-  margin-top: 15px;
+ 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -655,7 +654,7 @@ th{
   padding: 9px;
   border-radius: 20px;
   text-decoration: none;
-  margin-left: 900px;
+  
 }
 
 /* RESPONSIBILIDADE */
