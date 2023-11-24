@@ -47,7 +47,7 @@ if (isset($_POST['especialidade'])) {
     
     <div class="d-flex justify-content-center">
 
-    <button type="button" class="btn btn-outline-primary" href="index.php">Voltar</button>
+    <a type="button" class="btn btn-outline-primary" href="../index.php">Voltar</a>
 <button type="button" class="btn btn-outline-secondary" href="lista_cadasespecial.php">Ver lista</button>
 </div>
 
